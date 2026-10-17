@@ -4,8 +4,11 @@ import base64,hashlib,json,re,zipfile
 R=Path(__file__).resolve().parents[1];P=R/'public'
 def load(name,prefix):return json.loads((P/name).read_text().removeprefix(prefix).removesuffix(';'))
 D=load('catalog.js','window.FAMILI_DATA=');L=load('library.js','window.FAMILI_LIBRARY=')
-assert len(D['projects'])==102 and len(D['cases'])==76 and len(D['quotes'])==67
-assert len(D['docs'])==len(L)==749
+assert len(D['projects'])==26 and len(D['projectArchive'])==102 and len(D['cases'])==76 and len(D['quotes'])==67
+assert len(D['docs'])==len(L)==775
+assert len(D['families'])==6 and list(D['families'])==['advertising','automation','self-service','energy','ev-services','customer-outside']
+assert set(D['projectMapping'])==set(x for p in D['projects'] for x in p['variant_ids'])
+assert set(D['projectMapping'].values())==set(p['id'] for p in D['projects'])
 for key in ['projects','cases','quotes','sources']:
  assert len({x['id']for x in D[key]})==len(D[key]),key
 ids={s['id']for s in D['sources']};cases={c['id']for c in D['cases']};quotes={q['id']for q in D['quotes']}
@@ -16,6 +19,10 @@ for p in D['projects']:
   matches=[s['id'] for s in D['sources'] if s['id'].lower()==ref.lower() or s.get('key')==ref]
   assert matches and any(x in p['foreign'] for x in matches),(p['id'],ref)
  assert set(p['perspectives'])=={'management','employee','customer'}
+ for path in p['docs']:assert path in L,path
+for p in D['projectArchive']:
+ assert p['path']in L,p['id'];assert set(p['case_ids'])<=cases;assert set(p['quotes'])<=quotes
+ assert set(p['iran']+p['foreign'])<=ids
  for path in p['docs']:assert path in L,path
 for d in D['docs']:
  assert hashlib.sha256(L[d['path']]['raw'].encode()).hexdigest()==d['sha256'],d['path']
@@ -94,5 +101,5 @@ if corrections_file.exists():
   assert hashlib.sha256(derivative.read_bytes()).hexdigest()==edit['sha256']
   assert base64.b64decode(embedded_media[edit['corrected']].split(',',1)[1],validate=True)==derivative.read_bytes()
 
-report={'spelling_corrected_display_images':len(corrected),'spelling_corrections_embedded':bool(corrected),'brand_identity_originals_unchanged':True,'brand_identity_standalone_embedded':True,'status':'PASS' ,'projects':102,'cases':76,'quotes':67,'documents':len(L),'original_archive_files_byte_identical':count,'images_and_page_renders':len(media),'original_images_and_page_renders':len(original_media),'generated_concept_images_with_provenance':len(concept_media),'price_fields_unchanged':True,'reference_integrity':True,'markdown_sha256_verified':True,'wbs_arithmetic':True,'font_files_bundled':True,'font':{'family':'Vazirmatn','version':'33.003','file':font_path,'sha256':font_hash,'license':'SIL Open Font License 1.1','license_file':'fonts/OFL.txt','authors_file':'fonts/AUTHORS.txt','source':'https://github.com/rastikerdar/vazirmatn/tree/v33.003','standalone_byte_identical':True,'standalone_license_embedded':True,'standalone_font_network_requests_required':False}}
+report={'spelling_corrected_display_images':len(corrected),'spelling_corrections_embedded':bool(corrected),'brand_identity_originals_unchanged':True,'brand_identity_standalone_embedded':True,'status':'PASS' ,'projects':len(D['projects']),'archived_projects':len(D['projectArchive']),'families':len(D['families']),'cases':76,'quotes':67,'documents':len(L),'original_archive_files_byte_identical':count,'images_and_page_renders':len(media),'original_images_and_page_renders':len(original_media),'generated_concept_images_with_provenance':len(concept_media),'price_fields_unchanged':True,'reference_integrity':True,'markdown_sha256_verified':True,'wbs_arithmetic':True,'font_files_bundled':True,'font':{'family':'Vazirmatn','version':'33.003','file':font_path,'sha256':font_hash,'license':'SIL Open Font License 1.1','license_file':'fonts/OFL.txt','authors_file':'fonts/AUTHORS.txt','source':'https://github.com/rastikerdar/vazirmatn/tree/v33.003','standalone_byte_identical':True,'standalone_license_embedded':True,'standalone_font_network_requests_required':False}}
 (R/'docs/integrity.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))

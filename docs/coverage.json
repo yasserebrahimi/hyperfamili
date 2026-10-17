@@ -1,10 +1,11 @@
 {
   "base_files": 723,
-  "documents": 749,
-  "projects": 102,
+  "documents": 775,
+  "projects": 26,
   "cases": 76,
   "quotes": 67,
   "manager_pages": 34,
   "figures": 46,
-  "preservation": "all input archive bytes verified"
+  "preservation": "all input archive bytes verified",
+  "archived_projects": 102
 }

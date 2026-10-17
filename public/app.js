@@ -8,7 +8,7 @@ const own = (o, k) => Object.prototype.hasOwnProperty.call(o, k);
 const PP = index(projects), CC = index(cases), QQ = index(quotes), SS = index(D.sources), DD = D.docs.reduce((out, x) => { out[x.path] = x; return out; }, Object.create(null));
 const LENSES = { management: { label: 'مدیریت', icon: 'chart', color: '#a08450', text: 'هزینه، منابع و تصمیم‌های بهتر' }, employee: { label: 'کارکنان', icon: 'users', color: '#568299', text: 'بهره‌وری، آموزش و اجرای دقیق' }, customer: { label: 'مشتری نهایی', icon: 'heart', color: '#39876d', text: 'خرید آسان‌تر و تجربه بهتر' } };
 const STAGES = ['معرفی طرح', 'ارزش برای سه گروه', 'ایران و جهان', 'قیمت و دامنه', 'اجرا و ریسک', 'جمع‌بندی تصمیم'];
-const DEFAULT_AGENDA = ['BP038', 'BP027', 'BP013', 'BP024', 'BP046', 'BP030', 'BP049', 'BP048', 'BP047', 'BP016', 'BP066', 'BP067'];
+const DEFAULT_AGENDA = ['M07', 'M09', 'M06', 'M16', 'M19', 'M20', 'M22', 'M23', 'M24', 'M25', 'VEND'];
 const DECISIONS = { new: 'بررسی نشده', explore: 'نیازمند بررسی', pilot: 'نامزد پایلوت', later: 'بررسی در مرحله بعد', hold: 'توقف فعلی' };
 const fa = n => Number(n).toLocaleString('fa-IR');
 const norm = s => String(s || '').replace(/[يى]/g, 'ی').replace(/ك/g, 'ک').replace(/[۰-۹]/g, x => '۰۱۲۳۴۵۶۷۸۹'.indexOf(x)).replace(/[٠-٩]/g, x => '٠١٢٣٤٥٦٧٨٩'.indexOf(x)).replace(/\u200c/g, ' ').replace(/\s+/g, ' ').toLowerCase().trim();
@@ -79,18 +79,18 @@ function Lens({ a }) { return React.createElement("div", { className: "lenses", 
     React.createElement(I, { name: v.icon, size: 18 }),
     v.label))); }
 // Topic illustrations enrich unpictured dossiers without changing source evidence.
-const TOPIC_ART = { marketing: ['figure-04-02.webp', 4], store: ['figure-12-02.webp', 12], customer: ['figure-07-01.webp', 7], service: ['figure-16-02.webp', 16], operations: ['figure-21-01.webp', 21], employee: ['figure-12-02.webp', 12], management: ['figure-32-02.webp', 32], energy: ['figure-27-00.webp', 27], supply: ['figure-19-01.webp', 19], business: ['figure-06-01.webp', 6], future: ['figure-19-03.webp', 19], refill: ['figure-13-01.webp', 13], 'refill-products': ['figure-13-01.webp', 13], platform: ['figure-25-00.webp', 25] };
+const TOPIC_ART = { advertising: ['figure-04-02.webp', 4], automation: ['figure-21-01.webp', 21], 'self-service': ['figure-13-01.webp', 13], energy: ['figure-27-00.webp', 27], 'ev-services': ['figure-29-01.webp', 29], 'customer-outside': ['figure-31-01.webp', 31] };
 function BrandLogo({ className = '', decorative = false }) { return React.createElement("img", { className: cx('brand-logo', className), src: media('brand-logo.png'), alt: decorative ? '' : 'فروشگاه‌های زنجیره‌ای فامیلی', width: "300", height: "103" }); }
 function BrandStamp() { return React.createElement("span", { className: "brand-stamp", "aria-hidden": "true" },
     React.createElement(BrandLogo, { decorative: true })); }
 function Visual({ p, big = false, a }) {
-    let f = D.families[p.family], icon = ['popcorn', 'icecream', 'pizza'].includes(p.key) ? p.key : f.icon, topic = !p.image && TOPIC_ART[p.family], generated = !p.image && p.family === 'vending', photo = p.image || (topic && topic[0]) || (generated && 'brand-cafe.webp'), page = p.imagePage || (topic && topic[1]);
+    let f = D.families[p.family], icon = ['popcorn', 'icecream', 'pizza'].includes(p.key) ? p.key : f.icon, topic = !p.image && TOPIC_ART[p.family], generated = !p.image && (p.id === 'VEND' || p.key === 'vending'), photo = p.image || (topic && topic[0]) || (generated && 'brand-cafe.webp'), page = p.imagePage || (topic && topic[1]);
     return React.createElement("div", { className: cx('visual', big && 'big', !photo && 'concept', topic && 'topic-visual') },
-        photo ? React.createElement("img", { src: media(photo), loading: "lazy", alt: generated ? 'تصویر مفهومی کافهٔ خودخدمت ساخته‌شده با هوش مصنوعی' : (topic ? 'تصویر موضوعی مرتبط با ' + f.title : 'تصویر معرفی در سند مدیر برای ' + p.title) + '؛ صفحه ' + fa(page) }) : React.createElement("div", { className: "concept-art" },
+        photo ? React.createElement("img", { src: media(photo), loading: "lazy", alt: generated ? 'تصویر مفهومی وندینگ‌ماشین؛ مدل تجهیز انتخاب نشده' : (topic ? 'تصویر موضوعی مرتبط با ' + f.title : 'تصویر معرفی در سند مدیر برای ' + p.title) + '؛ صفحه ' + fa(page) }) : React.createElement("div", { className: "concept-art" },
             React.createElement("div", { className: "rings" }),
             React.createElement("span", null,
                 React.createElement(I, { name: icon, size: big ? 88 : 55 })),
-            React.createElement("strong", null, p.family === 'vending' ? p.title : f.title),
+            React.createElement("strong", null, generated ? p.title : f.title),
             React.createElement("small", null, "\u0646\u0645\u0627\u06CC \u0645\u0641\u0647\u0648\u0645\u06CC\u061B \u0645\u062F\u0644 \u062A\u062C\u0647\u06CC\u0632 \u0627\u0646\u062A\u062E\u0627\u0628 \u0646\u0634\u062F\u0647 \u0627\u0633\u062A")),
         photo && React.createElement(BrandStamp, null),
         (topic || generated) && React.createElement("span", { className: "visual-topic-icon" },
@@ -101,7 +101,7 @@ function Visual({ p, big = false, a }) {
             a && !generated && React.createElement("button", { "aria-label": "\u0628\u0632\u0631\u06AF\u200C\u0646\u0645\u0627\u06CC\u06CC \u062A\u0635\u0648\u06CC\u0631", onClick: () => a.modal({ type: 'image', image: photo, page }) },
                 React.createElement(I, { name: "fullscreen", size: 15 }))));
 }
-function Card({ p, a }) { let selected = a.state.agenda.includes(p.id); return React.createElement("article", { className: cx("card", "family-" + p.family) },
+function Card({ p, a }) { var _a, _b; let selected = a.state.agenda.includes(p.id), mergedCount = ((_a = p.variant_ids) === null || _a === void 0 ? void 0 : _a.length) || ((_b = p.children) === null || _b === void 0 ? void 0 : _b.length) || 0; return React.createElement("article", { className: cx("card", "family-" + p.family) },
     React.createElement("button", { className: "card-main", "aria-label": 'پرونده ' + p.title, onClick: () => a.project(p.id) },
         React.createElement(Visual, { p: p }),
         React.createElement("div", { className: "card-body" },
@@ -117,7 +117,11 @@ function Card({ p, a }) { let selected = a.state.agenda.includes(p.id); return R
                     " \u0646\u0645\u0648\u0646\u0647 \u067E\u0698\u0648\u0647\u0634"),
                 React.createElement("span", null,
                     React.createElement(I, { name: "wallet", size: 13 }),
-                    p.quotes.length ? 'شاهد قیمت دارد' : 'نیازمند استعلام')))),
+                    p.quotes.length ? 'شاهد قیمت دارد' : 'نیازمند استعلام'),
+                mergedCount > 1 && React.createElement("span", null,
+                    React.createElement(I, { name: "layers", size: 13 }),
+                    fa(mergedCount),
+                    " \u0648\u0627\u062D\u062F \u0627\u0648\u0644\u06CC\u0647")))),
     React.createElement("footer", null,
         React.createElement("button", { className: selected ? 'chosen' : '', onClick: () => a.toggle('agenda', p.id) },
             React.createElement(I, { name: selected ? 'check' : 'plus', size: 15 }),
@@ -169,7 +173,7 @@ function ThreeValues({ p, a }) { return React.createElement("div", { className: 
     React.createElement(I, { name: v.icon, size: 27 }),
     React.createElement("h3", null, v.label),
     React.createElement("p", null, p.perspectives[k])))); }
-function Flow({ p }) { let items = p.family === 'vending' ? ['انتخاب و پرداخت', 'تهیه کنترل‌شده', 'تأیید تحویل', 'شارژ و پشتیبانی'] : p.family.startsWith('refill') ? ['محصول و ظرف معتبر', 'سنجش مقدار', 'پرکردن و برچسب', 'تسویه و ردیابی'] : ['داده معتبر', 'مسئله مشخص', 'اقدام مسئول', 'سنجش نتیجه']; return React.createElement("div", { className: "flow" }, items.map((t, i) => React.createElement("div", { key: t },
+function Flow({ p }) { let items = (p.id === 'VEND' || p.key === 'vending') ? ['انتخاب و پرداخت', 'تهیه کنترل‌شده', 'تأیید تحویل', 'شارژ و پشتیبانی'] : p.id === 'M09' ? ['محصول و ظرف معتبر', 'سنجش مقدار', 'پرکردن و برچسب', 'تسویه و ردیابی'] : ['داده معتبر', 'مسئله مشخص', 'اقدام مسئول', 'سنجش نتیجه']; return React.createElement("div", { className: "flow" }, items.map((t, i) => React.createElement("div", { key: t },
     React.createElement("b", null, fa(i + 1)),
     React.createElement("span", null, t),
     i < 3 && React.createElement(I, { name: "arrow", size: 16 })))); }
@@ -260,7 +264,7 @@ function Markdown({ doc, a }) { return React.createElement("div", { className: "
 /* 10-views.jsx */
 function Home({ a }) {
     const perspectives = { management: { image: 'figure-21-01.webp', page: 21, title: 'تصمیم روشن‌تر.', caption: 'از داده تا تصمیم' }, employee: { image: 'figure-25-00.webp', page: 25, title: 'کار هوشمندتر.', caption: 'فناوری در کنار آدم‌ها' }, customer: { image: 'figure-07-01.webp', page: 7, title: 'خرید دلپذیرتر.', caption: 'تجربه‌ای که در خاطر می‌ماند' } };
-    const stories = [['BP014', 'figure-11-01.webp', 'خرید، به سبک فردا', 'ترولی هوشمند', 11], ['BP016', 'figure-13-01.webp', 'کمتر مصرف کنیم، بیشتر بسازیم', 'ایستگاه ریفیل', 13], ['BP022', 'figure-19-01.webp', 'همکار تازهٔ فروشگاه', 'ربات خدماتی', 19], ['BP033', 'figure-29-01.webp', 'انرژی برای ادامهٔ مسیر', 'شارژ و انرژی', 29]];
+    const stories = [['M07', 'figure-11-01.webp', 'خرید، به سبک فردا', 'ترولی هوشمند', 11], ['M09', 'figure-13-01.webp', 'کمتر مصرف کنیم، بیشتر بسازیم', 'ایستگاه ریفیل', 13], ['M15', 'figure-19-01.webp', 'همکار تازهٔ فروشگاه', 'ربات فروشگاهی', 19], ['M22', 'figure-29-01.webp', 'انرژی برای ادامهٔ مسیر', 'پارکینگ و شارژ برقی', 29]];
     return React.createElement("div", { className: "page home cinematic-home brand-home" },
         React.createElement("div", { className: "home-intro" },
             React.createElement("div", null,
@@ -359,9 +363,9 @@ function Home({ a }) {
                     React.createElement("span", null, "\u062D\u0627\u0644\u0650 \u062E\u0648\u0628.")),
                 React.createElement("p", null, "\u0627\u0632 \u0633\u0628\u062F \u0647\u0648\u0634\u0645\u0646\u062F \u062A\u0627 \u06CC\u06A9 \u0641\u0646\u062C\u0627\u0646 \u0642\u0647\u0648\u0647\u061B \u0627\u0645\u06A9\u0627\u0646\u200C\u0647\u0627\u06CC \u062A\u0627\u0632\u0647 \u0631\u0627 \u0628\u0627 \u0627\u0645\u0636\u0627\u06CC \u0641\u0627\u0645\u06CC\u0644\u06CC \u062A\u0635\u0648\u0631 \u06A9\u0646\u06CC\u0645."),
                 React.createElement("div", { className: "experience-links" },
-                    React.createElement("button", { onClick: () => a.project('BP038') },
+                    React.createElement("button", { onClick: () => a.project('M07') },
                         React.createElement("span", null, "\u06F0\u06F1"),
-                        React.createElement("strong", null, "\u0647\u0645\u0631\u0627\u0647 \u0647\u0648\u0634\u0645\u0646\u062F \u062E\u0631\u06CC\u062F"),
+                        React.createElement("strong", null, "\u062A\u0631\u0648\u0644\u06CC \u0647\u0648\u0634\u0645\u0646\u062F"),
                         React.createElement(I, { name: "arrow", size: 22 })),
                     React.createElement("button", { onClick: () => a.go('projects') },
                         React.createElement("span", null, "\u06F0\u06F2"),
@@ -403,7 +407,7 @@ function Home({ a }) {
                     "\u0647\u0645\u0647 ",
                     fa(projects.length),
                     " \u0637\u0631\u062D") }),
-            React.createElement("div", { className: "cards" }, ['BP038', 'BP024', 'BP016', 'BP066', 'BP049', 'BP047'].map(id => React.createElement(Card, { key: id, p: PP[id], a: a })))),
+            React.createElement("div", { className: "cards" }, ['M07', 'M16', 'M09', 'VEND', 'M15', 'M19'].map(id => React.createElement(Card, { key: id, p: PP[id], a: a })))),
         React.createElement("section", { className: "proof-band cinematic-proof" },
             React.createElement("div", { className: "proof-photo" },
                 React.createElement("img", { src: media('figure-06-01.webp'), alt: "\u062A\u0635\u0648\u06CC\u0631 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647 \u062F\u0631 \u0635\u0641\u062D\u0647 \u06F6 \u0633\u0646\u062F \u0645\u062F\u06CC\u0631", loading: "lazy" }),
@@ -447,10 +451,10 @@ function Home({ a }) {
 function Catalogue({ a }) { const s = a.state; const ps = projects.filter(p => (!s.query || norm(p.search).includes(norm(s.query))) && (!s.family || p.family === s.family) && (!s.onlyPrice || p.quotes.length) && (!s.onlyManager || p.original.some(x => x.startsWith('M'))) && (!s.onlyFav || s.favorites.includes(p.id)) && (!s.onlyLead || p.lead === s.lens)); return React.createElement("div", { className: "page" },
     React.createElement("div", { className: "page-heading" },
         React.createElement("div", null,
-            React.createElement("h1", null, "\u062A\u0645\u0627\u0645 \u0637\u0631\u062D\u200C\u0647\u0627\u060C \u06CC\u06A9\u200C\u062C\u0627."),
+            React.createElement("h1", null, "\u06A9\u0627\u062A\u0627\u0644\u0648\u06AF \u0627\u0635\u0644\u06CC\u060C \u06CC\u06A9\u200C\u062C\u0627."),
             React.createElement("p", null,
                 fa(projects.length),
-                " \u067E\u0631\u0648\u0646\u062F\u0647 \u0645\u0633\u062A\u0642\u0644\u061B \u0627\u06CC\u0631\u0627\u0646\u060C \u062C\u0647\u0627\u0646\u060C \u0642\u06CC\u0645\u062A \u0648 \u0645\u0633\u06CC\u0631 \u0627\u062C\u0631\u0627.")),
+                " \u067E\u0631\u0648\u0646\u062F\u0647\u0654 \u0627\u0635\u0644\u06CC \u0628\u0631 \u067E\u0627\u06CC\u0647\u0654 \u0634\u0634 \u062E\u0627\u0646\u0648\u0627\u062F\u0647\u0654 \u0633\u0646\u062F \u0645\u062F\u06CC\u0631\u061B \u062C\u0632\u0626\u06CC\u0627\u062A \u0648\u0627\u062D\u062F\u0647\u0627\u06CC \u0642\u0628\u0644\u06CC \u062F\u0631 \u0622\u0631\u0634\u06CC\u0648 \u0628\u0627\u0642\u06CC \u0627\u0633\u062A.")),
         React.createElement(Btn, { icon: "play", disabled: !ps.length, onClick: () => a.present(ps.map(p => p.id)) }, "\u0627\u0631\u0627\u0626\u0647 \u0627\u06CC\u0646 \u0641\u0647\u0631\u0633\u062A")),
     React.createElement("div", { className: "toolbar" },
         React.createElement("div", { className: "search" },
@@ -777,7 +781,7 @@ function Library({ a }) { let s = a.state, q = norm(s.docQuery), ds = D.docs.fil
         React.createElement("button", { onClick: () => a.doc('13-benchmarks-prices/all-projects.md') },
             React.createElement(I, { name: "layers", size: 29 }),
             React.createElement("div", null,
-                React.createElement("h3", null, "\u0641\u0647\u0631\u0633\u062A \u062A\u0645\u0627\u0645 \u06F1\u06F0\u06F2 \u0637\u0631\u062D"),
+                React.createElement("h3", null, "\u0622\u0631\u0634\u06CC\u0648 \u06F1\u06F0\u06F2 \u0648\u0627\u062D\u062F \u0627\u0648\u0644\u06CC\u0647"),
                 React.createElement("p", null, "\u0627\u0635\u0644 \u0646\u06AF\u0627\u0634\u062A \u0628\u062F\u0648\u0646 \u062A\u063A\u06CC\u06CC\u0631 \u062F\u0627\u062F\u0647")),
             React.createElement(I, { name: "arrow" })),
         React.createElement("button", { onClick: () => a.go('concepts') },
@@ -1168,7 +1172,10 @@ function Agenda({ a }) { let s = a.state, ids = s.agenda; return React.createEle
                 "\u0647\u06CC\u0686 \u0637\u0631\u062D\u06CC \u062E\u0648\u062F\u06A9\u0627\u0631 \u062A\u0635\u0648\u06CC\u0628 \u0646\u0645\u06CC\u200C\u0634\u0648\u062F."))),
     React.createElement("div", { className: "agenda-toolbar" },
         React.createElement(Btn, { small: true, kind: "ghost", icon: "plus", onClick: () => a.go('projects') }, "\u0627\u0641\u0632\u0648\u062F\u0646 \u0637\u0631\u062D"),
-        React.createElement(Btn, { small: true, kind: "ghost", icon: "layers", onClick: () => a.set({ agenda: projects.map(p => p.id) }, true) }, "\u0647\u0645\u0647 \u06F1\u06F0\u06F2 \u0637\u0631\u062D"),
+        React.createElement(Btn, { small: true, kind: "ghost", icon: "layers", onClick: () => a.set({ agenda: projects.map(p => p.id) }, true) },
+            "\u0647\u0645\u0647 ",
+            fa(projects.length),
+            " \u0637\u0631\u062D \u0627\u0635\u0644\u06CC"),
         React.createElement(Btn, { small: true, kind: "ghost", onClick: () => a.set({ agenda: DEFAULT_AGENDA.slice() }, true) }, "\u0645\u0633\u06CC\u0631 \u067E\u06CC\u0634\u0646\u0647\u0627\u062F\u06CC \u0622\u063A\u0627\u0632"),
         React.createElement("div", { className: "spacer" }),
         React.createElement(Btn, { small: true, kind: "ghost", icon: "download", onClick: () => a.exportSession() }, "\u062E\u0631\u0648\u062C\u06CC \u062C\u0644\u0633\u0647"),
@@ -1822,7 +1829,7 @@ class App extends React.Component {
         if (x)
             saved = validate(JSON.parse(x));
     }
-    catch { } this.state = { view: 'home', lens: 'management', id: 'BP038', tab: 'overview', query: '', family: '', onlyPrice: false, onlyManager: false, onlyFav: false, onlyLead: false, priceQuery: '', currency: '', market: '', caseQuery: '', region: '', maturity: '', docQuery: '', docType: '', docPage: 0, archives: false, fullText: false, libraryReady: !!window.FAMILI_LIBRARY, libraryError: '', globalQuery: '', modal: null, modalHistory: [], agenda: DEFAULT_AGENDA.slice(), favorites: [], compare: [], notes: {}, decisions: {}, scale: 1, systemReduceMotion: matchMedia('(prefers-reduced-motion: reduce)').matches, reduceMotion: matchMedia('(prefers-reduced-motion: reduce)').matches, presenting: false, deck: [], slide: 0, step: 0, presentMenu: false, mobileNav: false, toast: '', ...saved, ...route() }; this.key = e => this.keys(e); this.hash = () => this.setState(route()); this.promise = null; }
+    catch { } this.state = { view: 'home', lens: 'management', id: 'M07', tab: 'overview', query: '', family: '', onlyPrice: false, onlyManager: false, onlyFav: false, onlyLead: false, priceQuery: '', currency: '', market: '', caseQuery: '', region: '', maturity: '', docQuery: '', docType: '', docPage: 0, archives: false, fullText: false, libraryReady: !!window.FAMILI_LIBRARY, libraryError: '', globalQuery: '', modal: null, modalHistory: [], agenda: DEFAULT_AGENDA.slice(), favorites: [], compare: [], notes: {}, decisions: {}, scale: 1, systemReduceMotion: matchMedia('(prefers-reduced-motion: reduce)').matches, reduceMotion: matchMedia('(prefers-reduced-motion: reduce)').matches, presenting: false, deck: [], slide: 0, step: 0, presentMenu: false, mobileNav: false, toast: '', ...saved, ...route() }; this.key = e => this.keys(e); this.hash = () => this.setState(route()); this.promise = null; }
     componentDidMount() { window.addEventListener('keydown', this.key); window.addEventListener('hashchange', this.hash); this.preferences(); window.FamiliApp = this; document.title = 'فامیلی فردا | اتاق ارائه هیئت‌مدیره'; this.motion = new FamiliMotion(this); this.motion.start(); }
     componentWillUnmount() { var _a; (_a = this.motion) === null || _a === void 0 ? void 0 : _a.destroy(); window.removeEventListener('keydown', this.key); window.removeEventListener('hashchange', this.hash); clearTimeout(this.toastTimer); }
     componentDidUpdate(prevProps, p) { var _a, _b, _c; if (p.scale !== this.state.scale || p.reduceMotion !== this.state.reduceMotion || p.systemReduceMotion !== this.state.systemReduceMotion)

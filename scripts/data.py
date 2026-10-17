@@ -4,6 +4,7 @@ from PIL import Image
 from docx import Document
 from docx.table import Table
 from docx.text.paragraph import Paragraph
+from consolidation import consolidate_catalog
 A=Path(__file__).resolve().parents[1]; P=A/'public'; K=P/'knowledge'; K.mkdir(exist_ok=True)
 IN=Path(os.environ.get('FAMILI_INPUT_DIR',str(A/'inputs')))
 z=zipfile.ZipFile(IN/'HyperFamili_All_Projects_Benchmarks_2026-10-16.zip')
@@ -102,6 +103,7 @@ try:
   for poly in ([g]if g.geom_type=='Polygon'else g.geoms):paths.append('M'+'L'.join(f'{(x+180)/360*960:.1f},{(83-y)/143*410:.1f}'for x,y in poly.exterior.coords)+'Z')
 except Exception:pass
 D={'date':b['as_of'],'projects':b['projects'],'cases':a['cases'],'sources':a['sources']+b['sources'],'quotes':b['quotes'],'papers':b['papers'],'repos':b['repos'],'concepts':a['analyst_concepts'],'topics':a['manager_topics'],'models':b['effort_models'],'rates':b['illustrative_rates'],'families':F,'docs':docs,'pages':pages,'media':media,'worldPaths':paths,'baseFiles':base}
+D=consolidate_catalog(D,docs,lib,K)
 (P/'catalog.js').write_text('window.FAMILI_DATA='+json.dumps(D,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';')
 (P/'library.js').write_text('window.FAMILI_LIBRARY='+json.dumps(lib,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';')
 for f,n in [('HyperFamili_All_Projects_Benchmarks_2026-10-16.zip','research-original.zip'),('HyperFamili_Benchmark_Pricebook_2026-10-16.xlsx','pricebook.xlsx'),('هایپرفامیلی14050723(1).pdf','manager-original.pdf')]:shutil.copyfile(IN/f,P/'downloads'/n)
