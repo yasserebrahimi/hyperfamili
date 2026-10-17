@@ -1,0 +1,33 @@
+{
+  "asset": "brand-market.webp",
+  "type": "AI-generated branded photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Use case: compositing\nAsset type: panoramic website hero photograph for the HyperFamily future-retail concept presentation, 16:9 landscape.\nInput image 1 is the edit target supermarket concept. Input image 2 is the EXACT supplied Persian HyperFamily brand logo to insert. Input image 3 is the corporate turquoise color swatch.\nUpgrade image 1 into a stunning premium yet believable HyperFamily supermarket concept photograph. Preserve its architectural composition, camera angle, smart shopping cart on the LEFT foreground, abundance of fresh produce, wood slats, plants, tactile surfaces, warm natural sunlight from left, and empty wall on RIGHT for website headline. Make all painted forest-green architecture become elegant corporate TURQUOISE matching image 3; use muted deep turquoise for the right wall but still unmistakably blue-turquoise instead of green.\nAdd a tasteful WHITE horizontal suspended store fascia above the produce area in the upper LEFT/CENTER, with the EXACT image 2 logo visibly mounted on it as real physical store signage. Preserve the supplied logo's shapes, letterforms, red symbol at LEFT, turquoise Persian wordmark and gray small Persian line above. Copy the logo as a single reference graphic; do not rewrite, translate, rearrange, or invent lettering. Main Persian word must remain فامیلی. Add the same exact logo small on the cart's tablet screen on a clean white screen with no other text. Cart handle/panel may have a restrained turquoise accent matching swatch.\nComposition: no logo or subject on the rightmost 35% except the textured deep-turquoise wall and subtle warm shadows. Foreground cart sharp, rich realistic produce textures, pleasant warm wood and cool turquoise contrast, magazine-quality architectural retail photo, restrained atmospheric depth, refined premium lighting, no artificial neon, no holographic UI, no people, no watermarks. Maintain realistic object geometry. This is a branded CONCEPT illustration, not documentary evidence of an existing store. Full bleed photograph only, no webpage design and no borders.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a148ca-c736-7123-8b8c-f3e550e96fdb/exec-e602f2cc-ac7d-4358-bdc3-c55ae90da8a3.png",
+  "original_generated_sha256": "f4bb917d6168cb401f2369b877d54765036200dabf04a140656a7731630ebe57",
+  "references": [
+    {
+      "path": "public/media/vision-market.webp",
+      "bytes": 251336,
+      "sha256": "c962d32a9620a2bdedbad866815b0cedd2d27179c3b5afe633c12af9f02f2787"
+    },
+    {
+      "path": "/var/folders/j9/0v6h71rn08193f8ggv_x6cc00000gn/T/codex-clipboard-212a378c-1ee9-4f13-8c07-76f895d81db5.png",
+      "bytes": 15034,
+      "sha256": "ba2ac989a0b1837e3196e17703bbc9303dc962bdbe4fc999f578d08ab98ba41f"
+    },
+    {
+      "path": "/var/folders/j9/0v6h71rn08193f8ggv_x6cc00000gn/T/codex-clipboard-0e21e0ec-3bc1-47af-8d27-249efbf35d6c.png",
+      "bytes": 6378,
+      "sha256": "44a4ed9039e4fa3bed27302d0856b2664157c6628b6c6cf9b7c71d5a1c01a7a7"
+    }
+  ],
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1672,
+  "height": 941,
+  "sha256": "f8c59b8794ee71c3d6115734c147dcfa399a36f115fe49aec60c3024afbc0550",
+  "bytes": 264272,
+  "visual_review": "Logo reference applied as physical signage and secondary product branding; turquoise architecture, natural photographic light, Persian wordmark visually legible. Generated lettering is not a pixel-identical replacement for the original supplied logo, which must remain the UI identity asset."
+}

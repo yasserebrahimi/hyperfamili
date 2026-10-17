@@ -1,0 +1,4810 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 10244,
+      "sha256": "0399ef8efe0c3a97fbcaa27466e91a10f0173bd78c4b06082345852da447ed88"
+    },
+    {
+      "path": "Famili-Farda-CEO-Offline-2026-10-17.zip",
+      "bytes": 18954105,
+      "sha256": "c24140869cad959ca598abde3b833736c22711e2517f1a83ab5db8a6b0ffeea1"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 3807,
+      "sha256": "a6956f32021620e1ab03cb191ec9887d01e15be533b62fc54484674691d93a0b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14233,
+      "sha256": "c91ebd17bf1d74681afb0afaee81068fc5221c0bcbb27831040f3c08ec9ae19d"
+    },
+    {
+      "path": "START-HERE.html",
+      "bytes": 41013497,
+      "sha256": "a7213773ce74d6e5a424b0a588435d411f996eb6faf1f27b39c0b491b1b11522"
+    },
+    {
+      "path": "docs/BRAND-DESIGN.md",
+      "bytes": 5458,
+      "sha256": "c2d24bb3bf0eb4dd20d832d9ce584d1aa3873dfb3fe3a192f0e38119c813f077"
+    },
+    {
+      "path": "docs/CEO-PACKAGE.md",
+      "bytes": 978,
+      "sha256": "c6d5c55ef366322713c47498e6079b1ef4d1b8e3228637504e135c3af8fbc1dd"
+    },
+    {
+      "path": "docs/CINEMATIC-DESIGN.md",
+      "bytes": 5572,
+      "sha256": "45569ad0fff5f153cce735290754f2748bcc87f1d03452b183439136bbf99157"
+    },
+    {
+      "path": "docs/FAMILI-SPELLING.md",
+      "bytes": 2956,
+      "sha256": "718640c33aa5e13d79b88445a389aa26170589dbb74738a8d1955f1143cd443b"
+    },
+    {
+      "path": "docs/QA.md",
+      "bytes": 6890,
+      "sha256": "d64dffc51eadbc97be45ae98947b4602940c4829f458fe82f2e9342f941c607d"
+    },
+    {
+      "path": "docs/VISUAL-REFRESH.md",
+      "bytes": 4304,
+      "sha256": "000e23e2acf82ebb2c024ccf1eebb7c9b9224da4ae6659057baa67d35c32c63d"
+    },
+    {
+      "path": "docs/all-stages.json",
+      "bytes": 72,
+      "sha256": "486797b56af20193d2ecb5cc4ccd07e030bc0790bfe55baa9ea6a8ae836d8529"
+    },
+    {
+      "path": "docs/all-tabs.json",
+      "bytes": 72,
+      "sha256": "a3e8810f544abbe96eb86ee1ed6eaf8e1158e7ea992944905695b5152d18ada0"
+    },
+    {
+      "path": "docs/brand-functional-checks.json",
+      "bytes": 2608,
+      "sha256": "8f9e22541197ded407f5f63329b9a10fe742b38ea2582535c150ad311c21e5d9"
+    },
+    {
+      "path": "docs/brand-image-prompts.json",
+      "bytes": 4025,
+      "sha256": "2f09a5fa9f75c1e7f6aae527208b2af1f49a79839c69f9e97f7e362aa023f627"
+    },
+    {
+      "path": "docs/brand-image-provenance.json",
+      "bytes": 8155,
+      "sha256": "63f0c58557e584c17e85e8de2028a2f687a8e1d3bc632e4498e91423d8a800fb"
+    },
+    {
+      "path": "docs/brand-motion-checks.json",
+      "bytes": 2745,
+      "sha256": "a94ef3a0f921a5844ac8007148f8ac816967d2f477a15c307c1abda039c54d8f"
+    },
+    {
+      "path": "docs/brand-navigation-checks.json",
+      "bytes": 7946,
+      "sha256": "b22ad1185ab82105d96a056d614ae96cd75ca4c7182702db163ab596b1c0263c"
+    },
+    {
+      "path": "docs/brand-presentation-checks.json",
+      "bytes": 2759,
+      "sha256": "22f5750c2f3bd33e639c65c4628f7233c02f22e1959d331511f433becf573fd7"
+    },
+    {
+      "path": "docs/brand-responsive-checks.json",
+      "bytes": 7655,
+      "sha256": "337a656dfe9729b0dd49910291b91293a91e19c0447c813b8dc161a1e7948eb9"
+    },
+    {
+      "path": "docs/brand-text-scale-checks.json",
+      "bytes": 1040,
+      "sha256": "6b9fe5a2d9b656b073b4ee6f45aef581e84565909a477e14e4cba7d35ade5c29"
+    },
+    {
+      "path": "docs/cinematic-checks.json",
+      "bytes": 37065,
+      "sha256": "ed820665bc6dc24e86e5afcb7496b24a6d2eb239a5a94f816e6ce76ece6d2679"
+    },
+    {
+      "path": "docs/coverage.json",
+      "bytes": 187,
+      "sha256": "4140e6eb1c002b5f041ab4714d6a43876acf212d718ed73f36ab7ca7ec24d899"
+    },
+    {
+      "path": "docs/famili-spelling-browser-checks.json",
+      "bytes": 17463,
+      "sha256": "3954ac97140fc51c290e1407e47203437bdc506d601052244abc3fe3c9c318db"
+    },
+    {
+      "path": "docs/famili-spelling-figure-16-01-final.json",
+      "bytes": 577,
+      "sha256": "880665d7f51f39ed6a26abe95c0c3ea3b94c1ecef110c4c3cf235026eceabac0"
+    },
+    {
+      "path": "docs/famili-spelling-figure-16-02-final.json",
+      "bytes": 577,
+      "sha256": "f5ee398a0619dcfabf490beac5a9e38ba4de4c4061be68c8694b933b7e0962dd"
+    },
+    {
+      "path": "docs/famili-spelling-figure13-final.json",
+      "bytes": 1696,
+      "sha256": "9a73344bc3b02f40ec0463f9d843aeef4c553101d86ec81316e2c52e1bf36ce4"
+    },
+    {
+      "path": "docs/famili-spelling-figure17-final.json",
+      "bytes": 2107,
+      "sha256": "ee5bcd30188996acd9702470cbe424b13547788a5c6c071aecaebdd19eeed8d3"
+    },
+    {
+      "path": "docs/famili-spelling-figures-early.json",
+      "bytes": 6791,
+      "sha256": "d7cbbe8d9adcab432a4c758188c6ccce1484475e8a74c78a9e5c3285a5f7a4f0"
+    },
+    {
+      "path": "docs/famili-spelling-figures-late.json",
+      "bytes": 12181,
+      "sha256": "5147b7da6a98de2838ab6dfa7ae96b8cc5598985d8a7b287c644e27193e5f6ad"
+    },
+    {
+      "path": "docs/famili-spelling-ocr.json",
+      "bytes": 58107,
+      "sha256": "3cd30a34310ee0265d215681a53e0d678bcbf161c0c344717a1c52cb453f0dfa"
+    },
+    {
+      "path": "docs/famili-spelling-page13-final.json",
+      "bytes": 2853,
+      "sha256": "8bbd9e150884473ce2b5ef260cacccaa505b2ee7a5519b4f9660cd468a4f8de4"
+    },
+    {
+      "path": "docs/famili-spelling-pages-early.json",
+      "bytes": 25672,
+      "sha256": "06d8981d042fc9e18a788e1d3184910faea4cc2e4643776d59b788fcb5b1849e"
+    },
+    {
+      "path": "docs/famili-spelling-pages-late.json",
+      "bytes": 11948,
+      "sha256": "2c9e37ded2eb37a9a39fe4c9bfcbfe50a70b8dc3963c7d7fa88b330aaa885e74"
+    },
+    {
+      "path": "docs/famili-spelling-review.json",
+      "bytes": 28354,
+      "sha256": "beea97c55b0f5866c010bfb63415ed19f91c7c05de4f90fc9f24da34727ea41e"
+    },
+    {
+      "path": "docs/input-archives.json",
+      "bytes": 1723,
+      "sha256": "615df69ca45356543143a1760caa14976ddac9b1e340ad0ac4551fe2e96d58c1"
+    },
+    {
+      "path": "docs/integrity.json",
+      "bytes": 1113,
+      "sha256": "e9e0d6255a8f9caa0a593362dee790dc357ecfaf044cc328766c2b456e632d8c"
+    },
+    {
+      "path": "docs/interactions.json",
+      "bytes": 758,
+      "sha256": "0ce96af3a845d311790b078a4d94c173419de9f74ed85521fa14161cc5455126"
+    },
+    {
+      "path": "docs/media-library.json",
+      "bytes": 224,
+      "sha256": "c5eec41971c4bae5cb6654002b08d8b6f0ccfed90accfa201004f9b35e347e09"
+    },
+    {
+      "path": "docs/responsive-summary.json",
+      "bytes": 289,
+      "sha256": "d1297ff03820139a58870984a7e8309ff413652f883f993d305b8629fd722bb2"
+    },
+    {
+      "path": "docs/smoke.json",
+      "bytes": 187,
+      "sha256": "3c3c0bce1f2e17e3c7e45d4ff723109ce90605bab3b5276b29854b505a7c4f4e"
+    },
+    {
+      "path": "docs/visual-refresh-checks.json",
+      "bytes": 14444,
+      "sha256": "e2894d585570b3c89c6a41134f1661288e56fa2f05b504ed68ee730d53c3b6b7"
+    },
+    {
+      "path": "input-archives/HyperFamili_All_Projects_Benchmarks_2026-10-16.zip",
+      "bytes": 1664650,
+      "sha256": "47afd9556da26b9bbc44966f77701db7dd7e497f1573f107439dad869d999a15"
+    },
+    {
+      "path": "input-archives/HyperFamili_Global_Retail_Atlas_2026-10-16.zip",
+      "bytes": 1036281,
+      "sha256": "58ce4082a4685bafb9da87896dc93a79f6097d57da6d05f1ed9e4df64f8904af"
+    },
+    {
+      "path": "input-archives/HyperFamili_Global_Retail_Atlas_With_Refill_2026-10-16.zip",
+      "bytes": 1239626,
+      "sha256": "228162f51e8e3c9378621f7df9a9ad21f1eb89f5ec70494d08433e3110ab0219"
+    },
+    {
+      "path": "input-archives/HyperFamili_Global_Retail_Atlas_With_Vending_2026-10-16.zip",
+      "bytes": 1140085,
+      "sha256": "715b7a591cf8807fc81fa03d9dbf2105507e9dd32bd9104c59bb24a4c44bdeb7"
+    },
+    {
+      "path": "input-archives/HyperFamili_Innovation_Board_Pack_2026-10-07.zip",
+      "bytes": 126673,
+      "sha256": "249e23418a2a0eafd065432512fbc195aa6683ff4cffed7c15cc410c997edb4a"
+    },
+    {
+      "path": "input-archives/HyperFamili_Manager_PDF_Review_2026-10-16.zip",
+      "bytes": 58436,
+      "sha256": "b2f0648f0f8eaf9c63c7038fe6bb6e49fe23b24a546bde88f4ef8c5562137c02"
+    },
+    {
+      "path": "input-archives/HyperFamili_Markdown_Knowledge_Base_2026-10-07.zip",
+      "bytes": 497589,
+      "sha256": "6b3e01475f1f36e12e9059dd338f4d14a2ac7fab481a042c74a146b75095a407"
+    },
+    {
+      "path": "input-archives/HyperFamili_Three_Perspectives_2026-10-16.zip",
+      "bytes": 529451,
+      "sha256": "797a99191e8b583ede0cec4343e9be732db9c853660eec6c769cea3e62fe0f3d"
+    },
+    {
+      "path": "input-archives/ofogh_smart_warehouse_md_package.zip",
+      "bytes": 135016,
+      "sha256": "5ce7b8611f1b1996258dcfa38dae2055570426aa3c245f60fe44357e74143772"
+    },
+    {
+      "path": "input-archives/sources.zip",
+      "bytes": 132253,
+      "sha256": "be1867871f21a591580bc9f080ecd9bde09b3fd6128c1bec981706d7822abd75"
+    },
+    {
+      "path": "package.json",
+      "bytes": 339,
+      "sha256": "97abd7948a954f417f0e8eaf282fba2b3982b5e5824b5e30d8759bc1795381f4"
+    },
+    {
+      "path": "public/.DS_Store",
+      "bytes": 6148,
+      "sha256": "bce6190feb395de0522b76aec34d213d30895e8f75c59e6406a998deae1d69a6"
+    },
+    {
+      "path": "public/START-HERE.html",
+      "bytes": 957,
+      "sha256": "1a1b4365120c838d5f90677196fea8bf702042a52bb6ec4d6aa9207724ce2403"
+    },
+    {
+      "path": "public/app.css",
+      "bytes": 166464,
+      "sha256": "9605e1caa8711a8cd02960ea61b382aed10396ff02ae8fafa33b1ded541319c9"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 203140,
+      "sha256": "2a4955d40c1b89d6fd38cbc226ce9846704742bcfa0c33746aae5f7551f4c651"
+    },
+    {
+      "path": "public/catalog.js",
+      "bytes": 998005,
+      "sha256": "e38ca0528f1dff77abaf7018df4772d76f1add5ef54fc2ffb0377fd808c62353"
+    },
+    {
+      "path": "public/downloads/manager-original.pdf",
+      "bytes": 3756388,
+      "sha256": "093e73921abea1d548b444483c55636f4f2d02574d9772f1868ad6e90435b596"
+    },
+    {
+      "path": "public/downloads/pricebook.xlsx",
+      "bytes": 76863,
+      "sha256": "1924967a277cd79207e8ef500fb454162800fa24f88b136d3508959fe83f0128"
+    },
+    {
+      "path": "public/downloads/research-original.zip",
+      "bytes": 1664650,
+      "sha256": "47afd9556da26b9bbc44966f77701db7dd7e497f1573f107439dad869d999a15"
+    },
+    {
+      "path": "public/downloads/supporting-originals.zip",
+      "bytes": 19121703,
+      "sha256": "ed25d0b43a9e43aa47bca34df0932420ef83498fb4a4062171c6a244c768a761"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 20179,
+      "sha256": "90d3dbb8c69a0ed4ca958b86bc31b8635549de38c52cce57d311440e5970b76a"
+    },
+    {
+      "path": "public/fonts/AUTHORS.txt",
+      "bytes": 339,
+      "sha256": "b57746a5f7002c0974c76c32af74079ff7ef1aaf8f35495e9409cfa1eb11e1ca"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "bytes": 4391,
+      "sha256": "17e355067c8284f47743a1ee3b1ef7ff684ff0601eda357f9353b10b3016ab31"
+    },
+    {
+      "path": "public/fonts/README.md",
+      "bytes": 641,
+      "sha256": "1d027e29187680d3be864726ce1750649b2cafe9a95e34a91a7db668dfd72c70"
+    },
+    {
+      "path": "public/fonts/Vazirmatn.woff2",
+      "bytes": 111152,
+      "sha256": "4e3fa217d38fdafc1fea4414ceb58ca5e662cf0ab5fa735a8c8c20e8b42cad92"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 957,
+      "sha256": "1a1b4365120c838d5f90677196fea8bf702042a52bb6ec4d6aa9207724ce2403"
+    },
+    {
+      "path": "public/knowledge/.DS_Store",
+      "bytes": 10244,
+      "sha256": "7ce491e3091c0bc3b5063fa1c0ff58d9f44e50287bbfec47a2a151bca170e953"
+    },
+    {
+      "path": "public/knowledge/00-control/continuation.md",
+      "bytes": 1908,
+      "sha256": "10e844edf75ce966ba9abcd55cf14c1e662710fa0095234d99193c60ab070714"
+    },
+    {
+      "path": "public/knowledge/00-control/contradictions-and-corrections.md",
+      "bytes": 3136,
+      "sha256": "ff2f31e41699ec6fa60b4a42791cbbb3a51e440b76e9a4e44330b524319e2215"
+    },
+    {
+      "path": "public/knowledge/00-control/coverage-and-gaps.md",
+      "bytes": 3251,
+      "sha256": "6cd4c3374ae00ef6150ddc7d85af91560087294cbed03cadb5cecb9a0899b438"
+    },
+    {
+      "path": "public/knowledge/00-control/evidence-levels.md",
+      "bytes": 2141,
+      "sha256": "2645bdbd71399f0634c5e0ccaa3b95f09fd572089211389e6e13b6927d56f66e"
+    },
+    {
+      "path": "public/knowledge/00-control/legacy-priority.md",
+      "bytes": 1619,
+      "sha256": "a5cd5781b92511a5925ace19d08faa69867aece213df83aa92418e5b8fe8eeca"
+    },
+    {
+      "path": "public/knowledge/00-control/query-log.md",
+      "bytes": 3567,
+      "sha256": "f80cefbdcd22e1512fdc58ced50a8cac5bd61385e0f544ced867ce0f84606c25"
+    },
+    {
+      "path": "public/knowledge/00-control/scope-and-method.md",
+      "bytes": 2557,
+      "sha256": "07271ed0be0ddcc8b51bbd06e2d6319f62b13571d87400bdd0a13af8246b54f0"
+    },
+    {
+      "path": "public/knowledge/00-control/source-access-audit.md",
+      "bytes": 3932,
+      "sha256": "f477ff737d8f949607466da358305e837881e1a6a26a0adb3dbf2155ae6f0454"
+    },
+    {
+      "path": "public/knowledge/00-control/tool-audit.md",
+      "bytes": 2180,
+      "sha256": "2082ca63d98fc62ec65125c78cffa485ee833a9fc3dc80a23839f35957102f19"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR001-w-light.md",
+      "bytes": 3419,
+      "sha256": "a3446828b6e91d49b943a668e5efb13b6c9db0df963cba2cb4544444ca4f9946"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR002-w-work.md",
+      "bytes": 3453,
+      "sha256": "06869b1d0f66c96778fc93534044306e258ff9189e2d55da736b3d534eeab288"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR003-w-translate.md",
+      "bytes": 3240,
+      "sha256": "ac2affadf6d28aa023b54d7a4e0b02e122f87f35ed9dc05d764b02924b0ead7a"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR004-w-coach.md",
+      "bytes": 3334,
+      "sha256": "260efa815bd7b9221d26ac5bd2588b97728be858f85c9e6d51e1f8700b27247e"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR005-w-rfid.md",
+      "bytes": 3304,
+      "sha256": "2787d09ddb3c75e03e2e1d293fca8769fd603d1b7e6c4c51c74422b0d68dd7a7"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR006-target-help.md",
+      "bytes": 3342,
+      "sha256": "db263fba938b0e67b07d30ee9eb585cc07a33ceefc22aba99d6c97a8d1d20a94"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR007-amazon-pivot.md",
+      "bytes": 3441,
+      "sha256": "33d20e7c9fbbd15c4a479ec3d5982bb84679fb12e41eba74013cb95cc4aa1108"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR008-sams-exit.md",
+      "bytes": 3235,
+      "sha256": "ed3c7910d239a064a1848e5d82eeff5027f46ecc378d4560c92852224fc08d23"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR009-afresh-fresh.md",
+      "bytes": 3334,
+      "sha256": "e38892af581b96c076edccf576e8e3f05b7012fbdb957a95584617acd702af0c"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR010-simbe-tally.md",
+      "bytes": 3316,
+      "sha256": "1a7eabe4c2f05988ad1211b9dec0fa1cb4456c3a3467c84298d49bf70c8b3618"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR011-food-order.md",
+      "bytes": 3261,
+      "sha256": "b221e7154b101126f5983097501628e66e540e8dee564a0a1e8aa8a66621e06c"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR012-enable-rebates.md",
+      "bytes": 3227,
+      "sha256": "1e66cab2010bedad579f59493228cca4895f6abceb9fb7023fc1bc37fc390cb1"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR013-pactum-buy.md",
+      "bytes": 3285,
+      "sha256": "c383f359b029650e73ed3f9bd85f0c95bf1e6698d1f77e6233ed738ce944271b"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR014-lawson-store.md",
+      "bytes": 3289,
+      "sha256": "82f0e0c5c25037ce8ca9e6831f4c7ac4b26d244b648e2a73b32462c47e776c84"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR015-familymart-restock.md",
+      "bytes": 3329,
+      "sha256": "1eed6dc4d96be383a72f839c74d2d8b9914b9a624eddb3a47cb9793f50480660"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR016-lawson-rd.md",
+      "bytes": 3182,
+      "sha256": "dde102a61bd830dc47c3dec92abb2035887aae39c4a285d812896c631186e3eb"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR017-lawson-power.md",
+      "bytes": 3203,
+      "sha256": "185feaa36988ed12726ded984eaaedb6062f8c1783613da3419d22d96e5e6f44"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR018-aikata.md",
+      "bytes": 3206,
+      "sha256": "80cc55cc5ad2cc3f3c2427f6d148c2c0c2e646599024cf6b527cedca35bad61b"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR019-expo-remote.md",
+      "bytes": 3112,
+      "sha256": "66753ebb3f5a4781fc7b9c02e43894a278eecbedb03236f426dd143637d3dfda"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR020-jd-stream.md",
+      "bytes": 3397,
+      "sha256": "8ad1394337286309e54bfcf08083010533f98c662bff9709ca1d7d915f5afcdb"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR021-freshippo-dc.md",
+      "bytes": 3324,
+      "sha256": "d8f69a288bfe04de09f12f4ff8d7c94e9ba3a55f2685c92a140324f23bd6df1c"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR022-qwen-commerce.md",
+      "bytes": 3288,
+      "sha256": "feff2e8f8aa1626dc3716827356f624f8edd349639c53136488314b6dab216ac"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR023-meituan-air.md",
+      "bytes": 3255,
+      "sha256": "ab03d0868559a85e27372cf87538d620009b8864b82163332bca5cfed6d0e930"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR024-gs25-lab.md",
+      "bytes": 3249,
+      "sha256": "f0e5c84fa0c5300c1af936b23cf51a3242e66ea9b6af2981953438e42256bac5"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR025-fairprice-help.md",
+      "bytes": 3215,
+      "sha256": "47a551ebb1cffcdef87ab33538a2cdc400b589942355c1d8708506493d24ec43"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR026-jiomart-chat.md",
+      "bytes": 3287,
+      "sha256": "395285010f453202f5b85f8d88d6a232a7fba53cc2bc81ef355cc6f631ee9c6a"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR027-wool-cart.md",
+      "bytes": 3342,
+      "sha256": "a8cd10c5783578a5382c1793a74525c49319517223b9be05652a968a90310254"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR028-wool-vision.md",
+      "bytes": 3320,
+      "sha256": "8fbad4e26cb27a5330bb1ca846ccd2accbb670627c179cfb3b9162e1fb96a22a"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR029-rewe-hybrid.md",
+      "bytes": 3152,
+      "sha256": "1541326d248e7b4c15d633d4f772ea035545654464efbc6968a1a816f35249c2"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR030-jumbo-talk.md",
+      "bytes": 3223,
+      "sha256": "a02019f6beceeb5c10d0ff31287561d178149c6424b59f1cedbcf9f4fa59d5c7"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR031-ah-assistant.md",
+      "bytes": 3213,
+      "sha256": "d6b1b10ad6763992a4b3e1e1dda23b2af8793b3a9214877320b8e5377ad5b395"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR032-ah-meal.md",
+      "bytes": 3220,
+      "sha256": "9f6653ec4091b2b5fdd4612cc0567a091aa20f1b6ffea162fdf9a178e494f71c"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR033-asda-label.md",
+      "bytes": 3228,
+      "sha256": "b83d4e13ec412a4fc5eb0000fae2ac155e44fa7d013f69c6d3d2f660796c0e30"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR034-asda-refill.md",
+      "bytes": 3244,
+      "sha256": "4e6f192c8a6d32a2e64809003c28a0c8eba200d3457292db938b311afd7d816a"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR035-edeka-markdown.md",
+      "bytes": 3343,
+      "sha256": "5462169828462db05a15651b305dbcc2478ec6cda6d5240bfd1d8c97c3d34717"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR036-avocado-scan.md",
+      "bytes": 3181,
+      "sha256": "68840bfff42515a55c4ee46aeb0c525352b0ddb3baccb96902db1ab6bc83c853"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR037-bizerba-weigh.md",
+      "bytes": 3272,
+      "sha256": "505800740fda679e1f644abcb998269c22f26eebb2f74afb66f0037590ef5bd1"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR038-danfoss-energy.md",
+      "bytes": 3240,
+      "sha256": "315747e2dd51ecf28096eae45a6d4910487c2e5a8c4f3025c15513a3378cc646"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR039-tesco-charge.md",
+      "bytes": 3241,
+      "sha256": "bf3889fea53566845edb7dee0d9829e2e92f79f05d68cc378e345714e0f5f6bb"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR040-tesco-beev.md",
+      "bytes": 3272,
+      "sha256": "7fc175fe2f64e87bcf4a3d32843d1a625bb560a227ba69bd3da74cd7c34bc311"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR041-water.md",
+      "bytes": 3215,
+      "sha256": "92b57e985393258bcef6eea9a4b4d3d070e7333eef3a4c7bce4090a85a20cd6c"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR042-hologram.md",
+      "bytes": 3328,
+      "sha256": "883ac61abffb001893b9a779b5f77996b99a529efd66ba8523d5fefbc8e8bf75"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR043-scent-case.md",
+      "bytes": 3280,
+      "sha256": "080e232655cbaa28c8211d0acd7cae66e29c710ed90d366c01f1dca8e7f4063a"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR044-ikea-kreativ.md",
+      "bytes": 3261,
+      "sha256": "7b6804a7e0419b73bf8abb10ce96e2bdc4c18b5a209334f6c967b36c09b3a806"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR045-flashfood.md",
+      "bytes": 3575,
+      "sha256": "64a7f00ddd1a1dfbbdf5117f67f038c2976fd9a430bf524fa2764ce3661378c9"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR046-gatik.md",
+      "bytes": 3310,
+      "sha256": "387caf1ad2d34fe799210feb93e645d0183270d271f6a4dd66a9d6cb35a8cfff"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR047-sobeys-labels.md",
+      "bytes": 3238,
+      "sha256": "c35d790f30de4479b61163d65a93c6860f013b0810cb772987b115adfc84d9ea"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR048-cencosud-media.md",
+      "bytes": 3370,
+      "sha256": "f92ce9851cf38df30fb74db2cdeba7f34e6abd7a3f0fe6843d994b4580e34a61"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR049-falabella-stock.md",
+      "bytes": 3292,
+      "sha256": "3cee6eab3b66a2b472d363410e2abf7b0c6648f994ad0965d4b5f2e51a48617a"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR050-oxxo-store.md",
+      "bytes": 3218,
+      "sha256": "353f31e1d3676161dd128376884ab252668831ac48009c19061d2b061c5aebf7"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR051-oxxo-pay.md",
+      "bytes": 3328,
+      "sha256": "bdf3f0a81b1f153e52b2ac6edf06f14a786956386ebca6fee9e5087fdffd9e59"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR052-zaitt.md",
+      "bytes": 3268,
+      "sha256": "7b4b0f91f342585813af262cc66dd9738711b27f3cf39e9d0c799077352f0040"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR053-checkers-pixie.md",
+      "bytes": 3245,
+      "sha256": "ef36f8b8e2ac0f9c682487fe38c3a5974f03e9622b61544950b79b126946c010"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR054-checkers-hyper.md",
+      "bytes": 3299,
+      "sha256": "95c972514ada0dbb186bf5bf004ba1840055963980efdca7c9c40ef2e6210e2c"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR055-checkers-solar.md",
+      "bytes": 3132,
+      "sha256": "53b09339c9b1c1ed0544f56257004b55b12e77ac7ef84d19bcc6e9dce72a8f03"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR056-maf-media.md",
+      "bytes": 3270,
+      "sha256": "ddcb2c64446ad297ee41d1452cab912d63c8176545a81c820c5549b4fb6955c0"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR057-shahrvand.md",
+      "bytes": 3422,
+      "sha256": "48df9c7a583bb54d1edc026bf99690d8311d0c6eaf3baac81755effc4189599f"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR058-houpad-esl.md",
+      "bytes": 3187,
+      "sha256": "dfe9b1119c3d22315fa0fb638c1351a3bb171afce21c0a1575d360caf300aabd"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR059-avizhe-sabad.md",
+      "bytes": 3318,
+      "sha256": "fb06994297f5da11cef5c9a48b0d20bd52b156be60a34794b11cfa87a32b848a"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR060-c1-vending.md",
+      "bytes": 3119,
+      "sha256": "8fb9059da101be4b2363c2b9df4d7a91856bbd55c0ecb32ebe8b6aae84ab50a6"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR061-didbaan-flow.md",
+      "bytes": 3216,
+      "sha256": "1011509d661f8cc31b8a00b7c44cb27db45206a6e209354057d894b169295817"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR062-higi-health.md",
+      "bytes": 3309,
+      "sha256": "91cce36d79b10d95e1fc58d6f957180e77ba0c6a78b68fa79c384aad29ee0578"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR063-photobooth.md",
+      "bytes": 3220,
+      "sha256": "1de4cd70245d9c4c5aeefba692f165beb0883da1dafe638025d570fcfc93956e"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR064-charge-phone.md",
+      "bytes": 3185,
+      "sha256": "c733d5bd4ffc5b50f5d4c1f2a44e93a5bc9cd572ef20c59bcf59aa700e388e01"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR065-tomra-rvm.md",
+      "bytes": 3259,
+      "sha256": "1e5ea3f6d0e42aeaf2a06ab0b7a3c363f7d1231f361835704ece273a9faef0fd"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR066-activation.md",
+      "bytes": 3329,
+      "sha256": "ab61234471b38fb01a02d7cecfce09342af03945e3c763d7cc4361c0265aa479"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR067-gap-study.md",
+      "bytes": 3462,
+      "sha256": "3ecc630ab260abc0ac8fc873b39e017b86c6eab0a02d0e98de0ca88518314c43"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR068-genai-study.md",
+      "bytes": 3453,
+      "sha256": "3a7d80561246b95e7643062cca71f271b919e5de1073bb02bbfda38f9841128b"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR069-marketgen-rd.md",
+      "bytes": 3299,
+      "sha256": "e7925e226010cd5e774ce4d82d67a7c900edb266031fd1810c25e73a062c1738"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR070-retailbench-rd.md",
+      "bytes": 3559,
+      "sha256": "45a0b4230136323198107c86b297d42356f43c0abdb073a1a5475cf43bda124f"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR071-sari-rd.md",
+      "bytes": 3272,
+      "sha256": "d2be1c9e7b50d70d0321370164a6ac07f61c2184367fb3fb09bca719a3375f55"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR072-trajectory-rd.md",
+      "bytes": 3252,
+      "sha256": "4bf453e4bc02f173c8f1e4c9ae62320513dd2ab1d49fc5a7e897675173e20c79"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR073-kroger-pivot.md",
+      "bytes": 3393,
+      "sha256": "7153bedcfcd0ba02d12641b642a7afee607c76e7a46f5d1a400d0822769a642e"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR074-navilens.md",
+      "bytes": 3329,
+      "sha256": "8e687afeae7b17057e04a8b32447c59bdcf70ccab2dbbf40ff3d16ed8eb57efd"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR075-uniqlo-repair.md",
+      "bytes": 3253,
+      "sha256": "9ca86b066e06c1f342e839d3346f3c68381cc8f5cde33f9002d75ed0848f7ea7"
+    },
+    {
+      "path": "public/knowledge/01-cases/GR076-morrisons-caper.md",
+      "bytes": 3446,
+      "sha256": "a40ccfe0be3337a3fd7321dc968de001b44129f9afe002aff40d2b48a86dc28e"
+    },
+    {
+      "path": "public/knowledge/01-cases/INDEX.md",
+      "bytes": 14801,
+      "sha256": "8db768cc9f234197367b07446306302b60478e1cef45951fbdabf7e1e51f480d"
+    },
+    {
+      "path": "public/knowledge/02-sources/INDEX.md",
+      "bytes": 12964,
+      "sha256": "4b3118ef9725e14854ed258b3f10aa1edc7d6ab7940e745155482e7a521e79dd"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR001.md",
+      "bytes": 1416,
+      "sha256": "574e4b84995d828b9c5238394d886ed63c9b855822728a6b5e6aff3b0fbfa550"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR002.md",
+      "bytes": 1529,
+      "sha256": "a87cf0d1b96767a4bee93716a24e5f4ac44ac565c15b411d3017998d4ea8182a"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR003.md",
+      "bytes": 1560,
+      "sha256": "3edd1ae6e746eb3b5125cf144804e2b776cefe277751e819c86f751f4f170c1e"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR004.md",
+      "bytes": 1538,
+      "sha256": "975dd7d9cc676a78f2ebe08dbbc6e2399ef6ab6538cff78a21c52133c15ea190"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR005.md",
+      "bytes": 1443,
+      "sha256": "beba86c2eef2bf69d36d5f529f27fe13b32c56af17e22b45428cec3bb338be83"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR006.md",
+      "bytes": 1505,
+      "sha256": "320eb1d4a3013e803b33e8bee0d4a965495bda30da688beb9169e6097ce2e52c"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR007.md",
+      "bytes": 1492,
+      "sha256": "f8ba1910e60a6f1a2b554ddcdeb57442a06d57393a7f7f1a29acd0c96d99c9b3"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR008.md",
+      "bytes": 1516,
+      "sha256": "458cb2e25a052fe0c5631e3924684f0ec54f95d506a42d340ca92b6c84003965"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR009.md",
+      "bytes": 1482,
+      "sha256": "47895e2b3b49b0c302480f4af08ab0bed36e36464e20aecfebaf603e3dcda056"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR010.md",
+      "bytes": 1571,
+      "sha256": "25d39effcffeda60083888e7bf3617bb97bd1ce03a3fdb65306878a3f029752b"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR011.md",
+      "bytes": 1583,
+      "sha256": "949329efdcc7cc12064f67ba770098fe589d4b11e281e6a4052e648a8257bbf4"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR012.md",
+      "bytes": 1466,
+      "sha256": "83e3cb48291f34cd8b7ec3a633e4f959cdb7f760147638096267202d12d96a35"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR013.md",
+      "bytes": 1436,
+      "sha256": "069a5deb37a567615bb31f8234ac9aa457ac6ae08fbe9245db0b6665f3e698d2"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR014.md",
+      "bytes": 1451,
+      "sha256": "43bfa4d4878dc836d2ff874da2474aa47750cef397c6f9aa8cf3e2a542b462d0"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR015.md",
+      "bytes": 1369,
+      "sha256": "862ca888acc832c9c8787ba15174675d0b6fe84097f464de31140ec146a522d1"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR016.md",
+      "bytes": 1480,
+      "sha256": "dc2e498358ccf0d59f97e468572693c9c2ca395c0666e74660c8613d7a565329"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR017.md",
+      "bytes": 1444,
+      "sha256": "8bdc708a8acbafde76b43b569dbbd5ddaaec8059d43349f89f13b235f69e7243"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR018.md",
+      "bytes": 1414,
+      "sha256": "3eebf625902ae7650cddcf0bc7bcbcd71535914a2985b483b0c401f170ace11e"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR019.md",
+      "bytes": 1315,
+      "sha256": "495f9e7549750a5d330a83087535dc5565f947c1bf697b212d445cd93d62b03b"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR020.md",
+      "bytes": 1394,
+      "sha256": "2e397799ebe83e4ccf2a2f130ebb2c6134f5c47467ab6aff30c89503d1888975"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR021.md",
+      "bytes": 1384,
+      "sha256": "96e253d5651abfa6fb00f7a1cb6cd985ab7a1b545c3a3c80f628c693531c4d91"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR022.md",
+      "bytes": 1329,
+      "sha256": "3e6755ecf7d69b267f5ad37718268b65277749420dd295f9b4c49d5666c770ba"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR023.md",
+      "bytes": 1341,
+      "sha256": "60ca82661360e34a5fd32911cd77d1cb773c1195d58830b21b093882b35ddc27"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR024.md",
+      "bytes": 1333,
+      "sha256": "1338b1f8c01f7d49d7cbb6436fd4b76c5633aa38688f67150606873967e5b836"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR025.md",
+      "bytes": 1410,
+      "sha256": "e683f5d3bda60a8dd69594fbe63b72296a1d0bba5cb7623764fdbbc2134ae884"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR026.md",
+      "bytes": 1505,
+      "sha256": "af801b21b2952baf9b09e7e04cebf93e61d11fad6e223a610df05a9abdc1382e"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR027.md",
+      "bytes": 1460,
+      "sha256": "1c724322492b5bb85f34b601d30f2e890a133c447db254059657d19a77368801"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR028.md",
+      "bytes": 1582,
+      "sha256": "a668f6bbdc7ab6e73d4b7c92143226dfec15b9740edf13c3fbe93c8eb4e754dc"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR029.md",
+      "bytes": 1381,
+      "sha256": "8a1aba666468b577c52d4568b17f4c5145d1dbc9ad815b79acccc0fae103b741"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR030.md",
+      "bytes": 1527,
+      "sha256": "394420eb107e4fb88cf297d138c64c044bb1bd9b2bb211f20ecff600f61ad6ea"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR031.md",
+      "bytes": 1489,
+      "sha256": "fe0186268afe41bd3e098e75f36918a9ed39ca20abe5f8eb2863e3b80cf62749"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR032.md",
+      "bytes": 1458,
+      "sha256": "5988766edb2e6dd6534bb24b926a850c57722480e9db8bd7d220206790d14719"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR033.md",
+      "bytes": 1454,
+      "sha256": "f5cffde6e418b77c4ac590f16b15849e9f87a680347f45be563b3d3069dc3d3f"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR034.md",
+      "bytes": 1467,
+      "sha256": "cb18bc3d5c8b95fec721ae9f821aadd7687fbbb1eb7567a64432367c1e9fae6f"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR035.md",
+      "bytes": 1524,
+      "sha256": "1c38d13ef1228c1a4355dbd6be7320d25d2667730eac42989b8fbdf9172c7ca7"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR036.md",
+      "bytes": 1335,
+      "sha256": "e09192189d37c6850690b79a3dc215c79fa15e746a8e8f5af35f3bbb6ad5d9fa"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR037.md",
+      "bytes": 1475,
+      "sha256": "e3e88a2655eac42f5c890311e45678755c21dd5b8310bc85a8f8b78fb8556cb4"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR038.md",
+      "bytes": 1342,
+      "sha256": "f2d0907e20c9b990025ed3de4357224c0d48bcd65893229bb644c006cc7a2503"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR039.md",
+      "bytes": 1440,
+      "sha256": "e1598a09ff95826e7bf06d38cb9094dca2632c316c8526d1a607f4216258e58f"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR040.md",
+      "bytes": 1374,
+      "sha256": "deecc659064664d8af65088764d9692f27aacdc0bf2ac8b377a2e9895d66cfd2"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR041.md",
+      "bytes": 1527,
+      "sha256": "9121899a294f2ecbd5420ec7dcbce212a1e22453ad8a53339150e53cfa1cc803"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR042.md",
+      "bytes": 1423,
+      "sha256": "d47d2f0203ea0ebde2fa399867f558689d107d747247efc249def4a934a85ebf"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR043.md",
+      "bytes": 1386,
+      "sha256": "18bab5697ca0d32266c9850b8d90a493ff44dee67594c2db4e113e235967dcdb"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR044.md",
+      "bytes": 1430,
+      "sha256": "9e1299a5df65f34847d3faf3a392a711a0435500521e6e23f890ab9b08520683"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR045.md",
+      "bytes": 1466,
+      "sha256": "5f05a37c06175311f53d74e015b256dd81515bef54a0eaab56b5c5e4044b996c"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR046.md",
+      "bytes": 1420,
+      "sha256": "758645ee05c11c0b3e25e52881d5c43868a3dc85c086fe15ed0e618c83ea4b87"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR047.md",
+      "bytes": 1845,
+      "sha256": "47653ea003831816e660f800c6b5560d02370f82897f8ee73f778ed37167b79c"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR048.md",
+      "bytes": 1561,
+      "sha256": "5c883a22cdd8beab4cb223e10bf95a19c65f7282a968e7db7a8658a6de757ba8"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR049.md",
+      "bytes": 1517,
+      "sha256": "1fa11cb5cf20e6cfd36857c46f3c3e0801d9c0cc251d2d45c01d7b06b5b6b41b"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR050.md",
+      "bytes": 1400,
+      "sha256": "799e0aa7fbdf674bcd643dde30a34d6ec2514baea1dbaf20c58a9ffe7406d537"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR051.md",
+      "bytes": 1429,
+      "sha256": "7003b0fbb5d963fa220e54e1102f74b3082a8a7f64d194caeb6690225af2e4aa"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR052.md",
+      "bytes": 1551,
+      "sha256": "bd8ca50a4dbcf97be88db59dd70ecdc45b07901cdb620969181edce2e2887c98"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR053.md",
+      "bytes": 1570,
+      "sha256": "c1bb2000b8000357480c5f4de6e58173d0a7f8be69baf0541c98febd895ae033"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR054.md",
+      "bytes": 1501,
+      "sha256": "d014446ec5136a7a6a1a2afd39f318f3c06cf555e722cb7f24fe0b30f6da6741"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR055.md",
+      "bytes": 1379,
+      "sha256": "c5a8922219e47f19798e30e35a699a14c6c106092a04d582ebca19bf9ae9ff77"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR056.md",
+      "bytes": 1429,
+      "sha256": "829390dc40f77c5034439f862c72fcd9590fe0f9355313e1afb7513615220879"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR057.md",
+      "bytes": 1316,
+      "sha256": "e3b14e4b718ef2edd5b13ae5535ca22fcf932ee159f902d8c055cfa184dab9ac"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR058.md",
+      "bytes": 1592,
+      "sha256": "2e38c320ca61163fbc8002fa357666d560409744d096e0c61acd465c6185a7e8"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR059.md",
+      "bytes": 1464,
+      "sha256": "4099c2763343c88a6a63469820b41fc9d9f50b2618ec1b63166e1a81f93aff27"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR060.md",
+      "bytes": 1525,
+      "sha256": "9866ab7152946f8b0f62b2e2b7309aaf5638f7e72429b46aaa05f83dc77982d7"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR061.md",
+      "bytes": 1432,
+      "sha256": "005ef164a678a0c0e489b4dd20cae3cd4b88d918c45f71ed541f8c646e8ae86f"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR062.md",
+      "bytes": 1370,
+      "sha256": "0a4f2c2de98a121128e5fb313bdf5b192a72eafa044d063b637dd07df37e3d25"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR063.md",
+      "bytes": 1559,
+      "sha256": "83da2638b87f695d7478a7d3d6205457ebd76f8a579fbf27613ca8b754fbba97"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR064.md",
+      "bytes": 1587,
+      "sha256": "48f428c7804494ba1ed041bd8ffb907102faf31fd7b89d2d7898209e50a26d09"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR065.md",
+      "bytes": 1333,
+      "sha256": "2f4ba510fca759633c03725b4aca301812e704235dd3a0aa31c0e30d442219a0"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR066.md",
+      "bytes": 1405,
+      "sha256": "9d91f1c6476a720fd3313159d29977ad41c54e400d70608d86118c6c3fd95cc3"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR067.md",
+      "bytes": 1471,
+      "sha256": "52d5873883e58e87b3b50265bbad94f251caa5f9aa429cac2b3cfddd89fe39ef"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR068.md",
+      "bytes": 1438,
+      "sha256": "b9f58478e5874677d261c97a02feeaa0ae7f1a93b4105251c01ec57d861ee627"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR069.md",
+      "bytes": 1366,
+      "sha256": "b4e6a2b4eb7d56bb7de68c08cf06f0fa45679d2261b171bf1ee45666c4f1689d"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR070.md",
+      "bytes": 1438,
+      "sha256": "a1b9df87efd718740bdde02e8fbb4c73056510af4df49dcd9bd511ec0ab3654d"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR071.md",
+      "bytes": 1436,
+      "sha256": "06cfc09763fa7d3099214975bf1c2c2bcc0bb71e89c636b70a584a30922d96ff"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR072.md",
+      "bytes": 1807,
+      "sha256": "f04168f601cf32fea1d5e06230e129352618510ca47b827d3e8bbef919343191"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR073.md",
+      "bytes": 1288,
+      "sha256": "12de2383c9b4802a544797d699afb6db4061e86430628bcdbb598094c23241c3"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR074.md",
+      "bytes": 1436,
+      "sha256": "476d0df402a08be88adb2abc954ccd893960947a878f785c01e904f8c46a8cc4"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR075.md",
+      "bytes": 1547,
+      "sha256": "ec08f15c665d2f3bc15a2e8c9e589e34ab21af67746e71cbe54ad5756e3355aa"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR076.md",
+      "bytes": 1440,
+      "sha256": "d7a4790d6ead04f8d1a4ded19426b20e1c2f6a90eef85409ad483cc71e598605"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR077.md",
+      "bytes": 1457,
+      "sha256": "f29b4345d10c331b4656f6c6da2106a9ebf67942edf14cff830f8cc5faa97724"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR078.md",
+      "bytes": 1456,
+      "sha256": "5b028137235f60c50f51384d3a17b47465dcc20f530626ab1bfa844c4412d88d"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR079.md",
+      "bytes": 1546,
+      "sha256": "9d2b71b96cdcc3c3eb9426d7a56ce56675302c119cb134505591bde13f069301"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR080.md",
+      "bytes": 1434,
+      "sha256": "6f3f8605e0479a4af69366670ea162fad5ae7a5e849359a809d89d022fbd2f65"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR081.md",
+      "bytes": 1444,
+      "sha256": "a0af616fdd647398fd538bee65d330a256ef95774c1f5fe8111b9c7eb17b1d71"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR082.md",
+      "bytes": 1573,
+      "sha256": "a32a35f883e112a8823cf72f38ec92bf1e9b90eb1bb8ed5b5c88cdaefcb7944b"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR083.md",
+      "bytes": 1591,
+      "sha256": "51e7b5de6c3a6aa04d9c6fbd0f41c60a7a297e775f6780398342700f45eafa23"
+    },
+    {
+      "path": "public/knowledge/02-sources/SR084.md",
+      "bytes": 1564,
+      "sha256": "04f5112c49e72f08b644c8f5ac64c566318072b07096e297abc606643aefc518"
+    },
+    {
+      "path": "public/knowledge/03-regions/africa.md",
+      "bytes": 1211,
+      "sha256": "d8d4d9af1d2baa00afd8a10369963a8097ac4adc6a9132c6a45038a114a893d3"
+    },
+    {
+      "path": "public/knowledge/03-regions/canada.md",
+      "bytes": 1388,
+      "sha256": "a598f82aa7660b50fed128b3fd953b347e6ae0aa31eb488a80bbe8d4d623a770"
+    },
+    {
+      "path": "public/knowledge/03-regions/east-asia.md",
+      "bytes": 2744,
+      "sha256": "8f8f637177b092c85c7f14135e677adb38f87a3db1e7b56ab3680149326ba7a6"
+    },
+    {
+      "path": "public/knowledge/03-regions/europe.md",
+      "bytes": 3541,
+      "sha256": "eefb6cfdb67d665998e8383d658ac78ace08d8b4527db08f744fe97baa3dbe35"
+    },
+    {
+      "path": "public/knowledge/03-regions/global-products.md",
+      "bytes": 2454,
+      "sha256": "16971c8d15d739fc423e7bb2ef6227004c42db1ffcac314c59079368a80b1d35"
+    },
+    {
+      "path": "public/knowledge/03-regions/iran.md",
+      "bytes": 1542,
+      "sha256": "26416f4ba75f67c74ad946cd01210b82be424db21303412fd6d0d09cffc43f6a"
+    },
+    {
+      "path": "public/knowledge/03-regions/latin-north.md",
+      "bytes": 1140,
+      "sha256": "de91de2b5dad531cdd5b9ba9984edf26a2138820a327c9ed65a3806db83b8cbd"
+    },
+    {
+      "path": "public/knowledge/03-regions/middle-east.md",
+      "bytes": 820,
+      "sha256": "5ad10e6625bb538ce4025d02f4630c808a27640c9c04fcc4d3a6e3c498770e7b"
+    },
+    {
+      "path": "public/knowledge/03-regions/north-america.md",
+      "bytes": 3377,
+      "sha256": "258ff97205eb5c2d903da3fa207ff2771864787158e2353dd725cab1df086c29"
+    },
+    {
+      "path": "public/knowledge/03-regions/oceania.md",
+      "bytes": 1073,
+      "sha256": "78933b53139d514c2968594a541ea8ccf5198ade6ed0d40029a8259519ca8bbe"
+    },
+    {
+      "path": "public/knowledge/03-regions/research.md",
+      "bytes": 2122,
+      "sha256": "e540375deedad8827c711321d9f679b23b84bdde1632137b81792291023f6ef3"
+    },
+    {
+      "path": "public/knowledge/03-regions/south-america.md",
+      "bytes": 1314,
+      "sha256": "7d265cd40be6ab6ac7482077fecba92527deb382e90f379d7cdfae903875c71f"
+    },
+    {
+      "path": "public/knowledge/03-regions/south-asia.md",
+      "bytes": 818,
+      "sha256": "ac5005831d200c00cdbe60e65fd41b0516b6c19dfc3cb934dc90602763905b22"
+    },
+    {
+      "path": "public/knowledge/03-regions/southeast-asia.md",
+      "bytes": 841,
+      "sha256": "2394f1a0a59922e31c074ec07baf6d01a39a06c33b9c3dde68455e9861246d3b"
+    },
+    {
+      "path": "public/knowledge/04-themes/checkout.md",
+      "bytes": 3020,
+      "sha256": "8f6b418c823c45d43438378bbfd01172f6af9f3ba7e67cd9eb4849a7ab7b83fe"
+    },
+    {
+      "path": "public/knowledge/04-themes/commercial.md",
+      "bytes": 3111,
+      "sha256": "b99d42b9dfb5d3ecada391ad208d1a40725360385007308c2c4c53d6cdc1d81e"
+    },
+    {
+      "path": "public/knowledge/04-themes/energy.md",
+      "bytes": 1786,
+      "sha256": "45fdf6c8cbe9c4f3d06446b09836dc6a8b899a57000a5f69af8eb0b7fdef7092"
+    },
+    {
+      "path": "public/knowledge/04-themes/experience.md",
+      "bytes": 2856,
+      "sha256": "ead2891a0d7069c9a695b1443699cb58c81e8ffb857dd4bd78b95264974d72f6"
+    },
+    {
+      "path": "public/knowledge/04-themes/finance.md",
+      "bytes": 1553,
+      "sha256": "990b39551f190bdd19dc260efc929fe6a1a65dfad8af09fedcb5551420f497aa"
+    },
+    {
+      "path": "public/knowledge/04-themes/fresh.md",
+      "bytes": 2021,
+      "sha256": "93160364f602d7f60307f6f24895e929a3cd01eb6a26dd8f2f6383b8b35e7b8d"
+    },
+    {
+      "path": "public/knowledge/04-themes/logistics.md",
+      "bytes": 1998,
+      "sha256": "9f5d1aa904a7929e38b5833c33f36c63e23cf327e1afc28af0b1cdc63a90068b"
+    },
+    {
+      "path": "public/knowledge/04-themes/research.md",
+      "bytes": 2435,
+      "sha256": "ba41a9a980964527cfbc68335ba4814688899205fb0c30b372ec845cd7c021ca"
+    },
+    {
+      "path": "public/knowledge/04-themes/services.md",
+      "bytes": 2783,
+      "sha256": "ebb41ea439a131fcaa1fb98ab6375cd07b87e9398802f01aa47b8f927e96a378"
+    },
+    {
+      "path": "public/knowledge/04-themes/shelf.md",
+      "bytes": 2567,
+      "sha256": "ef860cdbe7bec6ba1440b45aa87adecbb34c74949d9fc7fce02e70fd132f0033"
+    },
+    {
+      "path": "public/knowledge/04-themes/workforce.md",
+      "bytes": 2327,
+      "sha256": "65d428b1473375b29c9fe91493b4e8b055eb8db04aa7f3c734643adeb891d9f6"
+    },
+    {
+      "path": "public/knowledge/05-perspectives/all-cases.md",
+      "bytes": 20307,
+      "sha256": "a1dd51a42ea0245f6233b07ca83220641c7feed00de19bd830203b388cb7adc7"
+    },
+    {
+      "path": "public/knowledge/05-perspectives/customer.md",
+      "bytes": 16105,
+      "sha256": "7997f4be76b5252788a33acb96fc0611dd4090da332c9ff20b495548a6f41b0a"
+    },
+    {
+      "path": "public/knowledge/05-perspectives/employee.md",
+      "bytes": 16395,
+      "sha256": "d4d16d12748589a63ead7b8f90498dd16d8eb697fd90ad69ae8533b5b8e00ecc"
+    },
+    {
+      "path": "public/knowledge/05-perspectives/management.md",
+      "bytes": 17228,
+      "sha256": "3bb9649b22326b80e84c5d003a0235f7e7b6266fc9a66aefbc9a2f9ce565a240"
+    },
+    {
+      "path": "public/knowledge/06-manager-mapping/all-25-topics.md",
+      "bytes": 19852,
+      "sha256": "6ea988e3447c16f95af582168cc86c5e1e1efac638e6d3fb95ec3664dadc1590"
+    },
+    {
+      "path": "public/knowledge/07-research/reading-guide.md",
+      "bytes": 2777,
+      "sha256": "86ec583b4358966c88c0787b8c1742d0b691aa36878f05746bb231519433a2df"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC01.md",
+      "bytes": 1211,
+      "sha256": "69762bce16462a609d84700b9c1a73ebf141c2e36257a6c75a8a01d58e598451"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC02.md",
+      "bytes": 1355,
+      "sha256": "1918c634d0a644ad4789bfa0bf5c349cbdda801af43df8b114a074210826e3b5"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC03.md",
+      "bytes": 1327,
+      "sha256": "e19ee44344ddc457489710f6572f551ce4ae779930b13c8f697405540a76136e"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC04.md",
+      "bytes": 1288,
+      "sha256": "ef51cb193809f7635e69f56cf5b994340c9f58025953acb73b42e7d666a646ce"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC05.md",
+      "bytes": 1290,
+      "sha256": "88edbd2a3cdf0012cddece9e17296540935afdbe0c83d25b85643d53bb3a3f9a"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC06.md",
+      "bytes": 1372,
+      "sha256": "be41a4154d519c69650637029c6c04d8d474b23f34335a92f9a07b956cb4bb63"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC07.md",
+      "bytes": 1348,
+      "sha256": "b1953ec0c3388887b4bb02eaf8646132c628483e443620279ebf33767e849a85"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC08.md",
+      "bytes": 1356,
+      "sha256": "2ef9bff74fd71bc38caaa7cab549db31f2cd6e73bb0dadea5522b4eb2fcfeb39"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC09.md",
+      "bytes": 1417,
+      "sha256": "9793a00dfadc5c16554b8921e6149b7fd9fbabd0be98340fff1c393c6190fba8"
+    },
+    {
+      "path": "public/knowledge/08-concepts/HC10.md",
+      "bytes": 1417,
+      "sha256": "a5fb9820ed23fea975cf71a97f249f09f065164408d6ced1cb4e66c554ce34fc"
+    },
+    {
+      "path": "public/knowledge/08-concepts/INDEX.md",
+      "bytes": 1233,
+      "sha256": "1c5e6368646228d5bdf84c45b9d547dee6c49be331831f11ceef57eac41b5fcd"
+    },
+    {
+      "path": "public/knowledge/09-decisions/build-buy-partner.md",
+      "bytes": 2154,
+      "sha256": "b64cda9c0bd6dbd4952c2ccd8eecf384f67c9cedc4c0353b8d5ed068a1dc7df6"
+    },
+    {
+      "path": "public/knowledge/09-decisions/economics.md",
+      "bytes": 2157,
+      "sha256": "88fc33895499ef3fbfe6a16541eec502dd9d6f681298ed2952b6303a81a75272"
+    },
+    {
+      "path": "public/knowledge/09-decisions/pilot-design.md",
+      "bytes": 2471,
+      "sha256": "0d58cd2209eb909ece45e88a84d04da5f1b037ef6318190b0d91cd45b03278cd"
+    },
+    {
+      "path": "public/knowledge/09-decisions/shortlist.md",
+      "bytes": 3967,
+      "sha256": "c9d65e2ee026988642cbc36995f5f7c6386c778647cee2672de6ebeaad40bb7a"
+    },
+    {
+      "path": "public/knowledge/10-discovery/media-and-discussions.md",
+      "bytes": 2230,
+      "sha256": "3042576a3d042a4c40a68516e5e21c4fda801cb45c72f903c3c8d81d68eee40c"
+    },
+    {
+      "path": "public/knowledge/10-discovery/product-hunt.md",
+      "bytes": 2685,
+      "sha256": "c77577be969f562b62d95a47df74a1782768efbc7cca543fb1eabfd2753af0cf"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/01-proposal-insert.md",
+      "bytes": 5030,
+      "sha256": "3437972c771e848749786098030327d974601150e930f91f086bfa8df4936aeb"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/02-taxonomy-and-priority.md",
+      "bytes": 3188,
+      "sha256": "b359a2e2f4f2cee1e960bdd17280100a22f9d189a9fc74f77dd9150214484813"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/03-three-perspectives.md",
+      "bytes": 2537,
+      "sha256": "45dbc614c578677af796e3c37bb6ae0da678f338424d7ead74cbd3ddedc1b57f"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/04-software-and-data.md",
+      "bytes": 4572,
+      "sha256": "bdd4cb4f1804815d42bfec949bdbc9d1dc296e46f7836cd3f74b84ca98590acc"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/05-site-and-equipment.md",
+      "bytes": 2989,
+      "sha256": "c8f3ba7317ef3224e3f375dd409dc0f11d5e49d10731742e8f326ce98f5afdb7"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/06-operating-and-quality.md",
+      "bytes": 3893,
+      "sha256": "46fa40592a01ac5fa6a38c91e012cc3a714b23fe6dca21a190f971b9e1aa4017"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/07-pilot.md",
+      "bytes": 4660,
+      "sha256": "ec8b4c24b14cf497fa0041551178e9f2853d3fcaf9305ae6db7566643843e49e"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/08-commercial-and-economics.md",
+      "bytes": 4634,
+      "sha256": "4bb2bbd420ff4ff509b56535126f01ec341babb0320bcd46893b41d84cb5661d"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/09-vendor-checklist.md",
+      "bytes": 3228,
+      "sha256": "a9e44022d482e71745a8e58216485d7f7d9b9198683b3c86ec0f424698abfcb3"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/10-board-copy.md",
+      "bytes": 2334,
+      "sha256": "e961768531bdb013267f2feb133724d09ff46b1d9f549ac1b9f39c981f9576ca"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/11-mapping-and-changes.md",
+      "bytes": 2998,
+      "sha256": "3e30fc8bf4ea3aac7886895c70403fa68d4353758abeb273b24439b16c75246f"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/12-research-limits.md",
+      "bytes": 3766,
+      "sha256": "0fd194095e57336be7fb03c39cccbe47ba197f45e67cb56363710277b83a0be9"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/99-quality.md",
+      "bytes": 2464,
+      "sha256": "e0c57e8c8412c63ce9ab045d5686e8124efb373c4373f0c022fcf82523c3f165"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/README.md",
+      "bytes": 3898,
+      "sha256": "b08b0fa5067e5e584bedd79fe947a28d605976d137e2875f55f144a4ae09ea9c"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF01-coffee.md",
+      "bytes": 3685,
+      "sha256": "871688e74e1484bde6588c5eeefa51afda6393303de3822060301bf9d2cc7765"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF02-popcorn.md",
+      "bytes": 3703,
+      "sha256": "60619b8e6c133b9492e572e07da7dc19999f2177a228b5396374092997aefa15"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF03-packaged-snacks.md",
+      "bytes": 3091,
+      "sha256": "f0e7a2f2baa816698a81d70609368860d7daf1e5a02306b18a8d2ada02140a5a"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF04-orange-juice.md",
+      "bytes": 2902,
+      "sha256": "1d7f718caa852c184074b9de905a6dd3e5a625d32f2758fc6df3e4d2696437f3"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF05-smoothie.md",
+      "bytes": 3096,
+      "sha256": "354cbfd95cd100d3734bdeb33fa384734dc3406692a2ed1aaaea40da64fa9ed5"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF06-ice-cream.md",
+      "bytes": 2942,
+      "sha256": "3f47b7f696bb2b6121c493b11fddaf85ad8f42b85ab8720ef1dcdc4bb69b8498"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF07-cotton-candy.md",
+      "bytes": 2817,
+      "sha256": "a6d9e423d3ace826f300ece10d9d75da9aec299d67f08f892cca2264b6102be2"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/devices/VF08-pizza-meals.md",
+      "bytes": 3433,
+      "sha256": "746e12f721a876d6a210193802a16aca6339888d18279c30531ecabf75aa33d4"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/INDEX.md",
+      "bytes": 4026,
+      "sha256": "e2d6bd67b6beb63ed4b182d1dc2b661edf8189c8723ee9875a715f878bb3b99c"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S01.md",
+      "bytes": 1677,
+      "sha256": "08b80264b98720fd7f1a8870cde270625dfdb8846ff7fb415b386a3557684087"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S02.md",
+      "bytes": 1780,
+      "sha256": "13f16c69e19e60694bfff9c0a5e495512557c1f211df7d3b87e51c29c091b8a3"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S03.md",
+      "bytes": 1739,
+      "sha256": "f5db54440351479cfd97e63ddccc680e41ff417abf83920e9cedb7f5c93baa65"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S04.md",
+      "bytes": 1679,
+      "sha256": "8d67779097c21ad9c71de5fb477a6d7ecee48fe0df30e34469c6ce80399df7df"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S05.md",
+      "bytes": 1844,
+      "sha256": "b68adec3c4434b4279ea3ab467764c30deddb08f11e9747fa4fee84d8c523f9b"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S06.md",
+      "bytes": 1600,
+      "sha256": "21f2cd9dfe5545835d76a615a6e7538666a67f286f630bb29f2752f60691209b"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S07.md",
+      "bytes": 1571,
+      "sha256": "36f8fdaac32b4daf5512655b6f262aafdff3683d3f1517a20b413579379f1e57"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S08.md",
+      "bytes": 1683,
+      "sha256": "67df23b5e737e07b437cdd85c1db35ddfa701dcf7f5d74cb03fe5ed7598111f4"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S09.md",
+      "bytes": 1612,
+      "sha256": "698bfa6e4142b97cac551ae4293dc6ca198c51f2d17cb963225c9085785d6b2d"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S10.md",
+      "bytes": 1467,
+      "sha256": "31d7a030fdc2a4b336e707045641ba1c3da5adefeb93af749da989ce2f9493cc"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S11.md",
+      "bytes": 1546,
+      "sha256": "2d6872d2aca20b32c4e88a0c8ec940ce8275db0d57762f6fd24dedc242945343"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S12.md",
+      "bytes": 1592,
+      "sha256": "8c9d3bb189963676a9c5186a27752e1d4a5a42c3d88582e89b324fc8c20e7fd0"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S13.md",
+      "bytes": 1479,
+      "sha256": "0d09d9f39f160408cb2a1381f414c612291dc8d0aa256b6a08df2b022d0fb940"
+    },
+    {
+      "path": "public/knowledge/11-vending-food-beverage/sources/VF-S14.md",
+      "bytes": 1629,
+      "sha256": "6033335d06e51f487a840bfed649939d9a584e38903412f22fd4997308689e7c"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/00-scope-method-and-tool-audit.md",
+      "bytes": 4323,
+      "sha256": "633d70c406bbbe96d750e932490f22a0d7a8b571393df1968ffaace32fcb851f"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/01-executive-plan.md",
+      "bytes": 4651,
+      "sha256": "5e38bd52b6ccd38bdbb5b0d712b66e202518cdfc2d40b5d2aee84588c4f91732"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/02-greenchi-evidence.md",
+      "bytes": 3733,
+      "sha256": "fe1ff11da351714faf44d1ee563f60a437b29188044d5c88482a8958ce85e95f"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/03-greenchi-catalogue.md",
+      "bytes": 2598,
+      "sha256": "127f9723ad76ef0ba434aa610570315bca308321ddb070643f2281745011b606"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/04-foreign-benchmarks.md",
+      "bytes": 3975,
+      "sha256": "50965eee9abcc851af501409c4d28eac21aaba6cf5b345466c2fc628f605f202"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/05-customer-product-portfolio.md",
+      "bytes": 6813,
+      "sha256": "3c40d08a01ad8cfe36a356a437d7162ab06f2d4b68e6b147044eb3312517a0cc"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/06-service-models-and-three-perspectives.md",
+      "bytes": 3270,
+      "sha256": "d2cb159c9596d6d74f462844b60378c1778a0929660d928a258c8858721d2a1b"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/07-customer-journey.md",
+      "bytes": 3874,
+      "sha256": "0594d356936442c11bcd07e2b2d626855528ee32370a1a168e0cc49a6e4f2332"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/08-container-label-and-traceability.md",
+      "bytes": 3368,
+      "sha256": "901ecaf1ce0fdeeba2f7531aa5cb6ac17d7bffb7991c4636c8853d2580d40f5c"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/09-hardware-site-and-metrology.md",
+      "bytes": 5776,
+      "sha256": "8097ca2c056e575149bd19e560003fb7a9be29c8835e875624b35e39560f5f61"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/10-operating-procedures.md",
+      "bytes": 4152,
+      "sha256": "63d3d28afec2e9ee3614c56e9bc9fb299936158188f52a45247e2555bac40926"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/11-software-architecture.md",
+      "bytes": 4030,
+      "sha256": "5e614a4bab4735656da6b48ed95918ce93704f7fff60a6402bb5175a303de8e2"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/12-data-contract-and-ai.md",
+      "bytes": 4167,
+      "sha256": "3db2b82a4bd787b7bd256215ad51c87c312d980527e36f6da41293bd9571a2d2"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/13-payment-and-idempotency.md",
+      "bytes": 3827,
+      "sha256": "9d262f646ee84dfcfeea91a54971d173c6a3561e52e63b9482f825c6dc41c384"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/14-quality-safety-regulatory.md",
+      "bytes": 4175,
+      "sha256": "b35f638bd520fdfff358a977a627442c6c35f66d6f2b2b8d545c3e883ada3936"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/15-unit-economics.md",
+      "bytes": 4265,
+      "sha256": "de6821e27defd9025d87a96f79b2d90b957d2a12bf87102374dcbbf8be604639"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/16-pilot-and-gates.md",
+      "bytes": 4554,
+      "sha256": "4e5cbbbf28c5ff62f5429015e490d1dd3f29559a3cebd305f5e06b6e479850a2"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/17-acceptance-tests.md",
+      "bytes": 6276,
+      "sha256": "52ff929b5c9887f5c724704719507340c69cecb4b7f626bcad943552903b77a1"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/18-governance-and-roles.md",
+      "bytes": 2801,
+      "sha256": "7d5816527e69050af4919f5361d2d3d5b8e38968df66f30e8412ebac7041d923"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/19-marketing-and-environmental-claims.md",
+      "bytes": 3469,
+      "sha256": "ce3f5436af2807404b967fb594edcbf699994ca8f79c18c907b80b4074a5c71c"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/20-build-buy-partner-and-contract.md",
+      "bytes": 3656,
+      "sha256": "6e062a0ff0664764cf1baeacd4e9876277f1e5805d940308c95392a13440413a"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/21-greenchi-and-vendor-rfi.md",
+      "bytes": 3889,
+      "sha256": "683439c6fdbddcdd480e7cff0c29d9495b204d99a0b2c1f80e029aa7cd78c9a8"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/22-implementation-gaps.md",
+      "bytes": 2812,
+      "sha256": "a06a3d36123d8df1b8a0b454d1c8624a96b7379b46c9bc0976707069ea5b09b9"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/23-manager-proposal-insert.md",
+      "bytes": 3281,
+      "sha256": "813126ba1988a281cd391440bb736bf01367dda82ba34676477a63263454518e"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/INDEX.md",
+      "bytes": 4985,
+      "sha256": "cc41079e81d63d596216642405dc9d5816f894ae3f341225c17fa09554ebf55f"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/README.md",
+      "bytes": 1530,
+      "sha256": "ab7dbf0fcd5ac643e265cee3c9a81fc797855d0ace44860c2b1be40bd4a3519f"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/quality/README.md",
+      "bytes": 539,
+      "sha256": "8d8d91da6ecae5d0b152b40d5f5b286021cf1418b4acb3efdc00380c49618dbb"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/quality/checksums.md",
+      "bytes": 66895,
+      "sha256": "1e5e10d2099c1641bb68944c2a3bfda352aedb9213bd7cfb79fe4f6b4200bb89"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/quality/manifest.md",
+      "bytes": 9332,
+      "sha256": "06497aab17adf37e3b98048d08d67002c9ff33ba443ce6ae5118a99b7dbdb61b"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/quality/verification.md",
+      "bytes": 2448,
+      "sha256": "74f7f54f615df9417bc5de1da6cf76e0850a1f8b1780150e34842cd5358d5ec2"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/README.md",
+      "bytes": 465,
+      "sha256": "18208c8dfd150e7405650346d935dedcbcec4d3d1c4d3c5864109469087281f1"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-local-manager.md",
+      "bytes": 1610,
+      "sha256": "cce4a5844b2090471f7d099b0df863b2efe1e66ffc8da20cf9af3eecea5439b5"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s001.md",
+      "bytes": 1353,
+      "sha256": "86a226c0548b304a3c2f13dc05ba208360e1dde633429cc1c2aa3d0ed99414ed"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s002.md",
+      "bytes": 1213,
+      "sha256": "3d884d3cc31b6a7e4b13792d48a82a8ae80f5e8dae0e455a0a01e85b14b8a9ca"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s003.md",
+      "bytes": 1237,
+      "sha256": "173b292caa4f8f2b428142de54ae047efb838ca20b2ad5632a533114128833c5"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s004.md",
+      "bytes": 1262,
+      "sha256": "ec6bb3f6d46f73b3fbcd6d04e478eb8b95172dd5ee9523cf82a7b976a567be31"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s005.md",
+      "bytes": 1299,
+      "sha256": "34120f2adcaad6e7ab7408b46e02e73c46e0783438f1f03632895d0e8f8e7fa8"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s006.md",
+      "bytes": 1311,
+      "sha256": "795522d98a0afc4bd9dc199fd032ebce9d3db66ea48d6591481f60ce98a7e97d"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s007.md",
+      "bytes": 1220,
+      "sha256": "5bde95a3c511391945b42e914b91a4253cdd4b9437b73504da97aab36705bdd3"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s008.md",
+      "bytes": 1317,
+      "sha256": "b45d0d4d62b2b1b6e029b3e874a5e978b25e7f3e0c570a98c69b3a9cc9323352"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s009.md",
+      "bytes": 1161,
+      "sha256": "7e45ad615ba44b486bae9d9e4f6b534106b5bbb968fb4466c99d3ce82068e0ab"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s010.md",
+      "bytes": 1323,
+      "sha256": "aeeeb5cddcc8614d5406e0902f314d176f718383150ca315d0fc2fc57e14e324"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s011.md",
+      "bytes": 1349,
+      "sha256": "62d63f9eb06fd366598b9ba65f10bb3a8f1a8ff48416e6edd5c45eb195066e89"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s012.md",
+      "bytes": 1147,
+      "sha256": "65d5067bed2a6139bbfa265f7fa322297f895c53ef6470257829cd0ade22f197"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s013.md",
+      "bytes": 1247,
+      "sha256": "c52bcefa5c949198ac03dc609d0cfec7e6729fa699f09c105ac6ac62c925767c"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s014.md",
+      "bytes": 1423,
+      "sha256": "1052cad0aa87c139ea674d474679ddba3cf2809a225e738c7ad19ab71b537ace"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s015.md",
+      "bytes": 1279,
+      "sha256": "06c79cd3cd65e6b89833ffb2b3c516d74a981a16d4b9ac370dcafcf61a923327"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s016.md",
+      "bytes": 1374,
+      "sha256": "7ecdc73cc45c7562ee1f06a45e5be9e68d301691c087d8923148e7b9ecd72000"
+    },
+    {
+      "path": "public/knowledge/12-refill-reuse/sources/rf-s017.md",
+      "bytes": 1178,
+      "sha256": "34eac9ab31cef0967fe515f9b6ff298e3e0cace97e75ea57682fbe849f56f1ad"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/MANIFEST.md",
+      "bytes": 27789,
+      "sha256": "d005bd2e36fefa58e2a8525429273050f44a588d957b4ff8f7272746d08a4c24"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/README.md",
+      "bytes": 1142,
+      "sha256": "194bd4582bc4b2b5c08fa3a82daa7815e2dc1261a23424e9eef21eebcd9e3e0c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/all-projects.md",
+      "bytes": 30145,
+      "sha256": "b186e1c5e6ee698d00a74320b2e77911c4ca644c381323b9d9dc2df55c904399"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/corrections.md",
+      "bytes": 2723,
+      "sha256": "a6d91e6aac963a2731a57f5fc008ade436f4f9eed55e3d20c5032d83e538e9d7"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/cost-model.md",
+      "bytes": 6468,
+      "sha256": "3d9f903d3363f83a16e5c3961bcb2fcb22ef64d4911233303e02dc026869d9ac"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/coverage-and-gaps.md",
+      "bytes": 2770,
+      "sha256": "c260b6de6d22ff91311c0f26c6e243af69cd2600550137d95a0ed29ca254c924"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/crosswalk.md",
+      "bytes": 12830,
+      "sha256": "10b6ac60f4f1957dda04ad98eae7eb6ed8ec8fdccff21fbae9565fcd44c9a766"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/excel-guide.md",
+      "bytes": 2294,
+      "sha256": "ddd22bb8e7c00ca111be9e0560d0eedfddd61acadc587be833bdb3065f176cbe"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/executive-brief.md",
+      "bytes": 4291,
+      "sha256": "0e8da7ddcad1a24551d2b6ae5806530495ccdafbd4483c89acedaa71e2f7a28f"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/global-cases-crosswalk.md",
+      "bytes": 16012,
+      "sha256": "ebb107fe9dd21c7276420e37a6913ac7f684a7645c8d7de658501a3ddc0ec6cd"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/literature-and-repos.md",
+      "bytes": 6989,
+      "sha256": "d883f9c948bf62d494e4edc477c1cc25cb6322777d33072db6ee52b3d6b9c86f"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/maintenance-and-next-evidence.md",
+      "bytes": 2054,
+      "sha256": "59af58cc4df64af69418fb73d643bad7272747526dbc593e1e9b4748e53a9d01"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA001.md",
+      "bytes": 1661,
+      "sha256": "3ed4e02ca71feefec2b7cef252b583f6edf0d65c96d0d0c45c583e8aa56e3e94"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA002.md",
+      "bytes": 1699,
+      "sha256": "91a3f226f18dd24758afb34e2403dbf901257dc7c816521b9335da91e9d6fd0d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA003.md",
+      "bytes": 1989,
+      "sha256": "e679b28622c5cedce9a5dc42d77fe17c0f959e0ab4ff164392812d55608634b5"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA004.md",
+      "bytes": 1497,
+      "sha256": "a05d50ac785e8c238d729ec24800300f0036a78f2543e202a3c04c21efefc19e"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA005.md",
+      "bytes": 1827,
+      "sha256": "c50017ed5b6ad417a56ed298592dcd38c4dc561a5159ba94706044d9d955b0e0"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA006.md",
+      "bytes": 1996,
+      "sha256": "345d508b03c10fc3272a6c5227c88a0f045ca623c8371970fa2c072b440e0d87"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA007.md",
+      "bytes": 1759,
+      "sha256": "899c1fef04cc418a36494255fc6848ed6ac3440f5c7bf606f2f37eb93a95ec6a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA008.md",
+      "bytes": 1975,
+      "sha256": "c468a49cdfc1c3cc8e4579e3567be465301ce1e8129cd0eb9f8416ec3e8858ca"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA009.md",
+      "bytes": 1733,
+      "sha256": "79a23a090816b2eafce261396a8521f4747224e03fdf8af9def18dd412334c9c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/PA010.md",
+      "bytes": 1746,
+      "sha256": "fe8cf3b29140538368c52ec6fe1550df6381614c7d6cdd2e8497d9728e95e9d8"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/papers/README.md",
+      "bytes": 1404,
+      "sha256": "420ae99aa92613e64e65fbf662679106424a5d066a52472cb6b4f8e72738bc05"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/pricing-evidence-status.md",
+      "bytes": 2773,
+      "sha256": "b311ddf5ad147a336ed508e260195305459d4119cab053074c44d9ed59e2d202"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP001-signage.md",
+      "bytes": 8385,
+      "sha256": "78e6d9002ebd857ade744a66e8ae35964f05cbe69946a1a73e540335b17b0512"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP002-screen.md",
+      "bytes": 6151,
+      "sha256": "40df63e1290ca6cb844d68e35d971e4adcdc1e71608288ffc2303e89a708c408"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP003-transparent.md",
+      "bytes": 5469,
+      "sha256": "608769bbe8070ef8ee59c58cb0845c349b83718d409f3e5a98d751e7ee297511"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP004-hologram.md",
+      "bytes": 4902,
+      "sha256": "8b5fd6bb17bb1d34bb24c951be897d09ad6ed9e3004b4f13050d579e5e8fcfa1"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP005-audio.md",
+      "bytes": 6125,
+      "sha256": "7e0f9106f11c9b4be61ec7ae2f7fd9fe0d622e221f843825213c40a2b0fc975d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP006-gobo.md",
+      "bytes": 5851,
+      "sha256": "24c055f0cfbd7ca57c3efff32a7096ee323f6da5ae0542d84972f5cf663c801e"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP007-scent.md",
+      "bytes": 5337,
+      "sha256": "1f50fe05dc55a2068a312cfef678038e465642cf856297551cec508bafca001e"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP008-interactive.md",
+      "bytes": 6589,
+      "sha256": "1d22d12bb92231da942ed4461119e269935f891a4487bad92ba23b45fcc8732c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP009-ar.md",
+      "bytes": 5021,
+      "sha256": "6f861f6e1ca05cac983647d44a4465fb03656eb9d87d6bc5a85bc4b54364b181"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP010-print.md",
+      "bytes": 4124,
+      "sha256": "66f69e9f98e28da1e2ef5fed532661dc7357b1cbe07e7175012bd2fdd09472e6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP011-influencer.md",
+      "bytes": 5004,
+      "sha256": "ff2ad38931d8d91e220b63fdcc2147ee08d07311ea11a3b25dc451bf7ffe15b5"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP012-campaign.md",
+      "bytes": 5511,
+      "sha256": "84458822632a43fae3111468f47fe3348a3178cbebcd4c4b1ca0ddaeb3afbdc9"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP013-esl.md",
+      "bytes": 7249,
+      "sha256": "737d02bc3843dcc83e1f44498989a56aabf0cb7756c3d3520a4177ea82a1867f"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP014-cart.md",
+      "bytes": 5500,
+      "sha256": "98c4d81da513847a9cc8f1771f50ce97462c65bafd0eb40e6d13ed8369af7f15"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP015-checkout.md",
+      "bytes": 6535,
+      "sha256": "7054f21fba628be95173d440ba214b607a385acf08e399f45b2c7ada66eaac93"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP016-refill.md",
+      "bytes": 6486,
+      "sha256": "c6df6c8656149bb0c9f35ab596069edbb55cc10a60843a9f7012626cc18bb15d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP017-pricechecker.md",
+      "bytes": 5526,
+      "sha256": "fb93f5cfa34f4528ff58eadf2bc5eee3841f335a39d7337f3f02e41728605d1c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP018-phonecharge.md",
+      "bytes": 4928,
+      "sha256": "ba6032255569ec9585d4ea01a4a12409052a6175ff637bd3c6e5e5e091bc0caa"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP019-photobooth.md",
+      "bytes": 4912,
+      "sha256": "295fba3620f9ccac4a13d1346ac71d6fba872c4ecef05cb0f104fbdaaeb0c3a6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP020-rvm.md",
+      "bytes": 5879,
+      "sha256": "d88d40c96ec15d71cebe417bcdb48bfdb32929232e1dbf9bbe0383e980561892"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP021-health.md",
+      "bytes": 4179,
+      "sha256": "5682203887a0b20e120d75dea5dc392791ee121c06f90dc5096842ce5f11cee2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP022-cleanrobot.md",
+      "bytes": 6543,
+      "sha256": "f1366f758a6f831eb3ec963b5797f72720969bd77e7402224f39f3aadc26c938"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP023-servicerobot.md",
+      "bytes": 5358,
+      "sha256": "0554f4438e4d01374af8c2114b58a1516248e7fbab01283c6bda3f7615f308f9"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP024-shelf.md",
+      "bytes": 5350,
+      "sha256": "5de8be54ab207852f7f6c06f686f3261537398f6c65790747f64345ba957b51a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP025-queue.md",
+      "bytes": 5220,
+      "sha256": "823dc45491562dc15a87e6494626b4451ebeb035bccf9fc6b922367d07181e56"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP026-safety.md",
+      "bytes": 4839,
+      "sha256": "1075cf502eaf366dbbb1a486ae8b74354878555b3727d3de8973471f300f52b8"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP027-indoor.md",
+      "bytes": 5595,
+      "sha256": "6cd48b5d294a7cd4fa7fc8915f8432f911a028a4c3f58c27f3e193d4fd6d557d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP028-payment.md",
+      "bytes": 5438,
+      "sha256": "71afccce7aaec1571f6a7794bfd326ca5f5b3206cfd47511b3059b97ee88f214"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP029-energy.md",
+      "bytes": 5311,
+      "sha256": "a02bcef4213d49a89c74d7f23fe7a41c95f789d638fbbc44198931f85db023b7"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP030-coldchain.md",
+      "bytes": 6389,
+      "sha256": "478f54206e72f6f62a74475947d79c98f0be27678af13c83e022346590572b48"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP031-solar.md",
+      "bytes": 4533,
+      "sha256": "65ca142955b0741cba0b6934a4105fb4880b8e364b6d3f6d53d0cc441cd57e4d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP032-ess.md",
+      "bytes": 4166,
+      "sha256": "87d58ff301f12bb76d11ace247ef07660a4a7605ee96cc1ab19800666dedd19d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP033-ev.md",
+      "bytes": 6668,
+      "sha256": "c98f21ffd114fdcab2db834762da730340c29a291e8aaa7fbe5d64492b3f65dc"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP034-bike.md",
+      "bytes": 4017,
+      "sha256": "296b559136d0c99da875e14d611fbfe3f1a56c9fc8e655696b6487f2e9962ea7"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP035-messaging.md",
+      "bytes": 5480,
+      "sha256": "1965cba0228acd037b82120987b9c90c1b3d89bd8311215b5013cd8b3aba7859"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP036-sms.md",
+      "bytes": 4747,
+      "sha256": "5874f75d9d55362202fef90e978360ba38250d185bfe5da5315bcddcf7d96907"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP037-ussd.md",
+      "bytes": 4822,
+      "sha256": "787d1208a40c0bcdbf505ae1cdeb7d96be342c240aac6d3ed58a81e0543cb73c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP038-budget.md",
+      "bytes": 5536,
+      "sha256": "f246fb60b68db954833cde4de56b3a484f76b029a28dcaacd74f44c7876b8ac6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP039-visionscale.md",
+      "bytes": 5268,
+      "sha256": "450bd0d1dd84a61b37f64374112d9644a93befcbf0ea3cde7beec13eb4881e70"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP040-catering.md",
+      "bytes": 5365,
+      "sha256": "a787082e130e81dcef44472deb6e49e06f710a4c1ffe6e6510150e6ec876ed61"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP041-locker.md",
+      "bytes": 5139,
+      "sha256": "13e593d186cb4b3f18d7c6ce5e985f846fe2adad0cd4c549afd8c33ce8e226c1"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP042-accessibility.md",
+      "bytes": 5783,
+      "sha256": "991a5f5c680c25be1f98904de7af56450eb3fbb27224cc509d7ab5bed43ff466"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP043-returns.md",
+      "bytes": 7410,
+      "sha256": "d7a79eb64db45d43a87d6de8e340c96f62606f5c3ba3719ac5aca75657b35445"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP044-video.md",
+      "bytes": 5073,
+      "sha256": "03cbe336cb23acd6116c40df1da7c57400638519782d61e2991a133acf01fecb"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP045-forecast.md",
+      "bytes": 5650,
+      "sha256": "8117c833cb8d3bf76897f841c6b648cbd1e4f0471c6a6680f8879be5a9928cf6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP046-expiry.md",
+      "bytes": 5543,
+      "sha256": "e5afe55564d270b6c041c889a6d8a102b3a00f295c1330ffb0dc0d405600bcc2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP047-contracts.md",
+      "bytes": 4749,
+      "sha256": "d971ebc64539c72bdbd5416aabfc1c99e5b386f4f8c5673dcef2e6b1549b4ebc"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP048-sop.md",
+      "bytes": 5414,
+      "sha256": "f38b1166fab24def35c312a661b741a38b1dacc05b456cea0c1d98b3919eef35"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP049-shift.md",
+      "bytes": 7851,
+      "sha256": "c518fc70693d6c6433dd73ca029a99118fc28b64ab297b93563c37b0220046b5"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP050-b2b.md",
+      "bytes": 5599,
+      "sha256": "d5b9f2217fe12f088117c89f6e1fbef3dbc3910891ae82d24bed7969a8e24449"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP051-supplierportal.md",
+      "bytes": 5278,
+      "sha256": "a193d4857e62abc56f4c228cd1fd4722d55bff4bc13f4750d542ca7a74eec7a2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP052-micro.md",
+      "bytes": 6850,
+      "sha256": "1f9b6db3933d553ef34667be03a56959d5a063b4897c3095e8a087d1780a8e42"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP053-manager.md",
+      "bytes": 5876,
+      "sha256": "abececb8b1fe9c40bf8499cb81b4e4c62132d813f18bccfee899cf4423311bf4"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP054-ripeness.md",
+      "bytes": 4107,
+      "sha256": "bf05f972d29c4edf8abb136dba188940f389c0360a884a16868e38d4aaf01d29"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP055-stockroom.md",
+      "bytes": 5303,
+      "sha256": "8a61861f1c6f76da39b49aef1926bdced752972fbafa75e77e856ca95782c483"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP056-simulation.md",
+      "bytes": 6633,
+      "sha256": "9123cab8c746729a5d5f1a6f4ecf6f454502355a0de9f46cbd0277f9e970c5a4"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP057-hrservice.md",
+      "bytes": 6416,
+      "sha256": "757f9b85c4a7049d9c4607d279f6bc9a9a9402b5abfc1ae77e6ec175737204a1"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP058-onboarding.md",
+      "bytes": 5396,
+      "sha256": "704b4b1be9da7a11d2a1fbea1dfa5096cf413e21f6841a936ef4b30e0d455c03"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP059-skills.md",
+      "bytes": 6379,
+      "sha256": "5d4f5033ea8fe45c2b38aa0da041c2f92175deb3b49e9411e3715a7dc4481d0a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP060-hiring.md",
+      "bytes": 4865,
+      "sha256": "e3de18c232316190a47d836d961c223894ed7ba42ff5be2294b7308baeb99ac2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP061-rfid.md",
+      "bytes": 5452,
+      "sha256": "6ec8c030043a4698c81e217e6aab0d2bbd600abae74c8049fa2e16b57a3931ce"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP062-picklight.md",
+      "bytes": 4971,
+      "sha256": "3ac283b1c3fdc765f4aacf332109249b39fbae5b9722c67b23043a97deb95581"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP063-routing.md",
+      "bytes": 4819,
+      "sha256": "727f0ce3a73d97aeff76395b8c693e84ad88453fec4900af9e0caee444739abb"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP064-warehouseauto.md",
+      "bytes": 5546,
+      "sha256": "a7122e4c7dd645d7324a5396490329a87e749dc72994911797406b63114617d6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP065-data.md",
+      "bytes": 6159,
+      "sha256": "eed8ab09f413b1787491b2db879e66d86562bbd6e7b2ea504528f5b001ffb422"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP066-coffee.md",
+      "bytes": 8393,
+      "sha256": "d3b94c67e774ffe18b392e540b9e134bc0b49d97866b0b3a78ccaf481ca36d04"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP067-popcorn.md",
+      "bytes": 8208,
+      "sha256": "119cd70202ab783e1f071bbce0a5109e3682ae56c731acd32d7cbfadcbe48970"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP068-snacks.md",
+      "bytes": 6649,
+      "sha256": "0c2a415ff6bd00548c3f8ebbe3ee32ba1c254d71c32c1899df6175bbc30442f1"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP069-orange.md",
+      "bytes": 5243,
+      "sha256": "9922486e09b4d8bf65b341d7c66a25a745d936999ec35cf5a4a7d636a0e7f66f"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP070-smoothie.md",
+      "bytes": 5029,
+      "sha256": "0e91ffb99fdd0c0e1e654163cfa8da7911c8dc70c769c505c5976a14ed1d8eff"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP071-icecream.md",
+      "bytes": 5180,
+      "sha256": "12c3363c93805e224889ee2519db99d39d905feddc5169c8545f413a659f6026"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP072-cotton.md",
+      "bytes": 5248,
+      "sha256": "040e833f7403c13140416c047bb5cf34e013a33aff82077a05f8afa69ac88ba5"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP073-pizza.md",
+      "bytes": 5841,
+      "sha256": "9081c29334032d1225c0efeacc40180fe49afe66b400706ddf6995c2e206df08"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP074-fries.md",
+      "bytes": 5378,
+      "sha256": "56226e8e2661b46741b4e43c6d18914a1dc851fa3c0a4d36f7640ba1608db5fd"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP075-otherfood.md",
+      "bytes": 5424,
+      "sha256": "a66f41ec367c0f96be42933784006d103f1f4a1c2a7679cb38a5e7dbf55b265e"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP076-water.md",
+      "bytes": 4824,
+      "sha256": "7f52a0459a66fbde7ea541c6da8cc244b66d3eac0c78228dfeb8e047fee4d955"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP077-procurement.md",
+      "bytes": 4915,
+      "sha256": "fcf66a632b7b2a29abdd0ce002296376a062ea1c8e4dc105f9b7a090f99adcf6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP078-drone.md",
+      "bytes": 4120,
+      "sha256": "04846586e36499a7e67821ab1289283a937df5155471dfb60e6f57f1fd5e518a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP079-truck.md",
+      "bytes": 4197,
+      "sha256": "6796eefe3a11aee45f49006322481ae3d1692f5ddd2d190dc6b7ea83923f1e0a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP080-repair.md",
+      "bytes": 4907,
+      "sha256": "2c220b61d77270c0d7598397701b4a78a0debadc511803a54247164c123e4ffb"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP081-robotsrestock.md",
+      "bytes": 4564,
+      "sha256": "8bb7527f1b3b30bc4baa6f612a7b80a11709ada10384d71b2c0951c35b6191f0"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP082-cashonline.md",
+      "bytes": 5005,
+      "sha256": "955a2d016c7b0b3fe4ffb12fd2f217cfd19c2cd7c64fa3f30dbf103423f4a3a8"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP083-rf_dish.md",
+      "bytes": 3976,
+      "sha256": "94e90cf986eb5353b135cb956e404177a7fa715b68e11bc8ff673f24847e4750"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP084-rf_laundry.md",
+      "bytes": 3963,
+      "sha256": "09707e752407a258de1f275a1a39ed9a98ecc9e42364752243acb61063f5febf"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP085-rf_surface.md",
+      "bytes": 3955,
+      "sha256": "e9d8e0014a169f7c05606ae7c2a3ee30846009d6f2f5a1054745bc8d5aa435bd"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP086-rf_softener.md",
+      "bytes": 4012,
+      "sha256": "e31214fc358530a6e76e7068d1931380b525e86546314014c5749caa717dccb5"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP087-rf_glass.md",
+      "bytes": 3917,
+      "sha256": "eb7e0e58f766784bb135a33c745c158846ec4ab11b78bd11f499f027073bdbc9"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP088-rf_hand.md",
+      "bytes": 3933,
+      "sha256": "ec7a006753d6707c60539cbfb4957ac6bebe045d030d3cc761fb25d4e08d0f2b"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP089-rf_body.md",
+      "bytes": 4041,
+      "sha256": "4337c577b914b1dbea261a3a3f10bf8561eccebb96cf1f4aabe65179c8cb3b36"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP090-rf_powder.md",
+      "bytes": 3922,
+      "sha256": "7f995f716ec9193170f8ec333334469714fd51bd08dcec19496e0d3823bcc28a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP091-rf_bottle.md",
+      "bytes": 3999,
+      "sha256": "02434802941041cf8fa27fc9c6d4d6653ec7298303c0ba3d5f8327e4c4c916b2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP092-rf_cap.md",
+      "bytes": 4015,
+      "sha256": "1d734837bc28888c588be5ed75ae142f6b3e3f70d1c3001d3b47a4d148cc4e66"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP093-rf_dose.md",
+      "bytes": 3969,
+      "sha256": "0503d68dd2fc73e2794fd2bf5a02d72440193036036fabb6b9231e562215e0e7"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP094-rf_carrier.md",
+      "bytes": 4056,
+      "sha256": "abc774257c1b07609d826b280e399763981b296146e2f546d1f36304f7d5133c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP095-rf_kitchenkit.md",
+      "bytes": 3986,
+      "sha256": "584320fdbd4bcbae41b1bde014432c4fcb1a785db1bf14a5bca09db9617ef194"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP096-rf_laundrykit.md",
+      "bytes": 3971,
+      "sha256": "ba1b9d36c8454ca0ebaec5f49fedc66776231d81c4dc598eb988d5aedd8e4ef6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP097-rf_exchange.md",
+      "bytes": 4019,
+      "sha256": "d1674181874643b8b453c98fb23b4c7ee628e04afd6bc5a48efdae9585bf77ec"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP098-rf_tablet.md",
+      "bytes": 4093,
+      "sha256": "b17baf59ee075d69a3ac48f2c3f7ea0bd51a5fe90221d622d898e186e90ccc4b"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP099-rf_solid.md",
+      "bytes": 3968,
+      "sha256": "fb242c8483ea8bcfb07d392364a5268e0cafd4278cb0f57c7e622881b7e531f0"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP100-rf_tissue.md",
+      "bytes": 4076,
+      "sha256": "4b95211cf1adf5e32039fc54e81d00b8f8c1785cdb9c981287f8a298b656500d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP101-rf_dryfood.md",
+      "bytes": 3986,
+      "sha256": "3f6a6d93e54e086ce6ee52b5999b914fd6bb697eb552e1fe5d479f81a3b1ca9b"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/BP102-rf_b2bpack.md",
+      "bytes": 4083,
+      "sha256": "86f2dd4cac7fc59303f5aebf8b33ca697cab2ac40445290b802d6a4ea73d379a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/projects/README.md",
+      "bytes": 8218,
+      "sha256": "c9eae86ef626a38da7180a5e429ca13a45f700238cb0a0d6f686c98d242b30fc"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/quality/SHA256.md",
+      "bytes": 88260,
+      "sha256": "4bd856f05e5559b17a6e9c3d7f785356139cc7838244a35ef422f2d7f176de60"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/quality/verification.md",
+      "bytes": 3159,
+      "sha256": "c7821543d17eaff2ca412ba51bd64d5cc892da5c6f38bc48e7cab6d82274cda7"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/quotes.md",
+      "bytes": 16347,
+      "sha256": "3e9b70eecb9966b84c23dd7a4b2d5009d34e45ae9d30010dc2a77cd8125e7acd"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/registers/README.md",
+      "bytes": 359,
+      "sha256": "6c676230ab11b0b50e1d7286d6a423db210a02a36518cca5a119a9dcc38cf708"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/registers/data.md",
+      "bytes": 191788,
+      "sha256": "6f9056b27e5b09aae7864f86e6b8e05315d5f67b4a38793bb7623d47255d758c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/README.md",
+      "bytes": 967,
+      "sha256": "2a30fdbf97ee0856eb4a017de9aaae408f1f09eef8683ee149b53e2bb1f9fc00"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP001.md",
+      "bytes": 1633,
+      "sha256": "5eb533a49cd2066f2664eafec6a763c0d5ff72e1a59c981b1358088d15cc1d13"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP002.md",
+      "bytes": 1695,
+      "sha256": "d2a38f9098a2fe88eca864d44a2d3f64557c1252a0f509abb91ea98beabbb939"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP003.md",
+      "bytes": 1596,
+      "sha256": "5d048463b60bc92a13d310c15195af4b85109c20f7b9b0b1dbbd4fa82048e385"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP004.md",
+      "bytes": 1874,
+      "sha256": "5ce1a3f6acc862356ab9540a90562cf4c54fff8a564eec0ae87d33095dd79cf9"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP005.md",
+      "bytes": 1667,
+      "sha256": "7ef42efd77dd8a84d3721a916766b5c05cbcf45cd71928da9c607eae23d036b4"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP006.md",
+      "bytes": 1733,
+      "sha256": "f75341fab9dd8dd11290061502c9fffe88e8d678e62fcb9eaae6e3439c7e31c4"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP007.md",
+      "bytes": 1497,
+      "sha256": "c2619ac335fe283431f4b735367b82189534fcc367a67d9e8ea8b847e7433c2f"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP008.md",
+      "bytes": 1716,
+      "sha256": "381cd9b6a7a238dd19a591c71ec94901b576941b6b225a4b8fdac155bcf64101"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP009.md",
+      "bytes": 1540,
+      "sha256": "43f4a5534effb0d7814355b763d149ed7cdac91aa73e4093335757a3055be3bd"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP010.md",
+      "bytes": 1472,
+      "sha256": "2a4a3139acad1a08542bf348bc5f83ea5420952f6c9693b3d7613b26cfbff0d3"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP011.md",
+      "bytes": 1660,
+      "sha256": "cdded4fb507bc9b257b05498adb05407cd0a36759dd27e5edbaab9c6ac8ed90e"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP012.md",
+      "bytes": 1528,
+      "sha256": "90183de3ed42b7161b0da2fa78f2feeadacd511706065664c99244a0708b4b34"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP013.md",
+      "bytes": 1857,
+      "sha256": "ade4acde3ccf14e55ec975c972e65ad316be3efb056ad8732da8ce876b282dc2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP014.md",
+      "bytes": 1751,
+      "sha256": "5d33f885b4c912da97b7ba691e58dce4d2fd9a1848f04232e0269fac8ddfeca2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/repositories/RP015.md",
+      "bytes": 1703,
+      "sha256": "bf4ce3458420d7ef87edb2214898d9705fb01b839dda67d7b98fc2807c825d1d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/rfq.md",
+      "bytes": 3161,
+      "sha256": "d62f51ece1849c6497b08c623d2e953ee6685aae7c8a525ac6d6d76b0490ff36"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS001.md",
+      "bytes": 3291,
+      "sha256": "e252fb4b0fbbe91211994bf5d2903f960c49fe2dc1988b880bd0d58f36e027dc"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS002.md",
+      "bytes": 3173,
+      "sha256": "9560814bed2b6050e5218b85a70e8350f1e35b8d1bbba463c89ed2eb2d006624"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS003.md",
+      "bytes": 1588,
+      "sha256": "a760fd01e61f76878b5cde6b359063317f47d1db24e7082144a754c4f10d03dc"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS004.md",
+      "bytes": 1791,
+      "sha256": "cb5ea66850bab3d134e722002e389360ac45d9ee2e8951aa7c70c83c7289771c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS005.md",
+      "bytes": 1562,
+      "sha256": "e07fc0c86748eb43f7a326ec3032b5fa2dcdb413fe79eca2908e9f7a722b3629"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS006.md",
+      "bytes": 1614,
+      "sha256": "513cb10c3bf17131868b5b775dbf2602d1dc28fea892ea3491fda7d8b118be51"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS007.md",
+      "bytes": 1586,
+      "sha256": "a02f9c8f6a5296e05eb0913fe252dbb60907ea742fd4ad700ecfe3b8e906deb8"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS008.md",
+      "bytes": 2181,
+      "sha256": "cee8aaf26345cf024b1d81f4fc666df91b07e4b383e588e2eaeba6345a9d1d26"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS009.md",
+      "bytes": 1651,
+      "sha256": "da0686b527a4daaf50afb6dd320d760d595d24543294fd57e724dd4fcc19ed11"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS010.md",
+      "bytes": 1540,
+      "sha256": "b92cbd4e25b99042f42dfa071413c12cc07c5767c94c106b2f1fcdde21af9ad3"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS011.md",
+      "bytes": 2113,
+      "sha256": "47e810ebae2670da8f192b99097d67a6cfab0d7fef4fba6a7bb6bde34cef6aac"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS012.md",
+      "bytes": 1847,
+      "sha256": "1ff19e9fbfc0a3bb2964182a1237000953df0bdd99cb750d340aa7de21184ff6"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS013.md",
+      "bytes": 1675,
+      "sha256": "6b4235002610ce9c067d44143d2b1beab0e610f3cf03d28a4b743a50ea2e31a2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS014.md",
+      "bytes": 1387,
+      "sha256": "036ad9699e57792f0b19332bda7494439c90f2fb48b948f777ac184cf3852a9f"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS015.md",
+      "bytes": 1642,
+      "sha256": "af57accfed962629a6531d107fa9bf83f2b89583bdb3819da255c238be2adee2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS016.md",
+      "bytes": 1235,
+      "sha256": "d7b6d1cc77cc17067fa2b0a07813693cc96f9f98719cdfbf62ad790e324ffa5c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS017.md",
+      "bytes": 1226,
+      "sha256": "5a47612018e79f4d77e44992690c036283665236444b9a6c3fd252c154dda2dd"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS018.md",
+      "bytes": 1284,
+      "sha256": "ef6cb16922647b927c6c9d97a5f2e64f0859de76a00271ee0f25a402fe424301"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS019.md",
+      "bytes": 1411,
+      "sha256": "c953f76dfe453cc9a179e09c27a359114407d28a0653ab2d0e4bf76c506d113c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS020.md",
+      "bytes": 1313,
+      "sha256": "065f6982c0c7a179fa317d2aad3ef3270cb52b21bf942999b1ff89df1a5eb7a1"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS021.md",
+      "bytes": 1205,
+      "sha256": "e980a8291784bc0b79640eb519002caf8a4f009a70d37b8872f2e96015d1f4a2"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS022.md",
+      "bytes": 1967,
+      "sha256": "5f1be6ba3280da6819d0d98cd4a2c8cc73a3cbdf97c6c7404e0ffdff08855159"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS023.md",
+      "bytes": 2192,
+      "sha256": "d1aeaccc620f35649e4eb24c70f8567a571e96c994f6b4223f969d1d5c478886"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS024.md",
+      "bytes": 1566,
+      "sha256": "11640be591388afbab3c976ebc5ed88e17eb710580a122e01b5f023b4d681357"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS025.md",
+      "bytes": 1668,
+      "sha256": "9a879636435b21be22487d12b783190c79c3c2b7258dd81c545e459f82e30388"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS026.md",
+      "bytes": 1835,
+      "sha256": "4d0a8ca40c6966da5ca7057840d63cdcfc95ab7f904880885b323bab1b44781d"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS027.md",
+      "bytes": 1993,
+      "sha256": "9ad6391729a5d1e385d2f0f5b6095cf66d84824dd4b6fa686f495dcb46d8da38"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS028.md",
+      "bytes": 1865,
+      "sha256": "7be20bf71b0caf002df4eb43c85179b709137b60a915da7ade8b367339dc3c54"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS029.md",
+      "bytes": 1649,
+      "sha256": "79fadb1ce3864881b73d3f588b987d98e798a010b40dce009995dbe6d69c3e49"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS030.md",
+      "bytes": 1743,
+      "sha256": "292976ac8be46341fbb0a8ea5edc70473a9d4cc2d9d1c761de1c0c5b37aaf2aa"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS031.md",
+      "bytes": 1894,
+      "sha256": "653a052e1ff240aaa9b3a9dc8a9432d3a08e2e390dc3567ff279938fecced901"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS032.md",
+      "bytes": 1173,
+      "sha256": "90741dcadb705db218ae8a4919904d6216a22e213937dfac69ba41715fb8932b"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS033.md",
+      "bytes": 1477,
+      "sha256": "d8fdae06c3d3f66010a7d0986632d9a24c11d23476d9393106ed79caf12d7a1a"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS034.md",
+      "bytes": 1293,
+      "sha256": "eae6af13ece531400e4e91eca63f2289eaaae61ef1921d6833ca394353b3adb0"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS035.md",
+      "bytes": 1193,
+      "sha256": "3c66300650274c3a64f661e29117216f1d7005bb635f56faaf46f060299a0b23"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS036.md",
+      "bytes": 1423,
+      "sha256": "7fb6595e6daec85b5f6ae77319ad709a2d172d2d752aa87b7132202eaa0f4842"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS037.md",
+      "bytes": 1300,
+      "sha256": "9f7d0d3ebbe337e04f6e442c2156015e1aadf7f90148294d15253c80dd6f7406"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS038.md",
+      "bytes": 1320,
+      "sha256": "e623105bcf4f4e245b156e53bd5e7f8a5b580c2050b9fa3782d598c945d346c5"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS039.md",
+      "bytes": 1916,
+      "sha256": "1a1116b38c59aaf2b16b2446be06d4bec00e7d9c76b286c7dff56b9454a7525c"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS040.md",
+      "bytes": 1697,
+      "sha256": "2146d43ae464171adb5f2496a0f1a002f3ff185426ef763cffe0836afb0caa10"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS041.md",
+      "bytes": 1748,
+      "sha256": "568f7de6a5450b949f3ae10510037a55ecaa9fdd5ed4ccec202b78e95cccb276"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS042.md",
+      "bytes": 1268,
+      "sha256": "22c571d74cd679318400884037d42620c380d7384c8c4630243f72b74c9a5f56"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS043.md",
+      "bytes": 1286,
+      "sha256": "41934382b6fbe22bc2c70de01f94cd4ebe276c094407a7622ae01a5910523699"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/PS044.md",
+      "bytes": 1254,
+      "sha256": "5bbbd54e109b92e0217c5918d39253d4280d6161e7ee083d69413b21a885290e"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/sources/README.md",
+      "bytes": 3103,
+      "sha256": "7f149d841332e3e16368857e6e3b6a5017d0981999835b6994e6554a1b73fd31"
+    },
+    {
+      "path": "public/knowledge/13-benchmarks-prices/tool-audit.md",
+      "bytes": 2501,
+      "sha256": "7260814b0871b1915e652bb475591ba5cfc45e715d28672006bf7c3a7b122ef3"
+    },
+    {
+      "path": "public/knowledge/90-registers/atlas-data.md",
+      "bytes": 190088,
+      "sha256": "3bcdf0f35d2a4d0cdc749f2e16ca59941be4db173c069f188b634846523f80a7"
+    },
+    {
+      "path": "public/knowledge/90-registers/legacy-preservation.md",
+      "bytes": 49039,
+      "sha256": "4277222893b9362669a6ff0782783ab03fdccefe27c86175961638c5fb405905"
+    },
+    {
+      "path": "public/knowledge/99-quality/integrity-sha256.md",
+      "bytes": 57214,
+      "sha256": "e57efa9a1ef5d42e1465be88ae24fd5b8b5248a853260a3acd6546be7bc86e42"
+    },
+    {
+      "path": "public/knowledge/99-quality/verification-report.md",
+      "bytes": 3771,
+      "sha256": "0af2336fdf2245f6e212726ea381e217e18a7f722ba3032fc29f89b677b0a4aa"
+    },
+    {
+      "path": "public/knowledge/EXECUTIVE-BRIEF.md",
+      "bytes": 16967,
+      "sha256": "ca3d2341e49aabd16f80b3865aba99c531dcf4a7174d01ec6b8f7d84af781add"
+    },
+    {
+      "path": "public/knowledge/INDEX.md",
+      "bytes": 24184,
+      "sha256": "99ecf36029338e52e6da97661083ea445098242dae039f35b6159dec99e4b534"
+    },
+    {
+      "path": "public/knowledge/MANIFEST-WITH-VENDING.md",
+      "bytes": 65962,
+      "sha256": "14c5a55ca388b5077a0c0c35f2349ed60cdbb297b7e37fd6607dfda5ba1fc429"
+    },
+    {
+      "path": "public/knowledge/MANIFEST.md",
+      "bytes": 66509,
+      "sha256": "33257b4f71be986fb6798a593c1e7cfa81fcb3f3eede5aa230aeeb336e4caba3"
+    },
+    {
+      "path": "public/knowledge/RAG-INCLUDE-WITH-VENDING.md",
+      "bytes": 13857,
+      "sha256": "a7c1b92c69fef5655db5cba1b8f99447a5ed41a134fca4534dcf43e33b7c7f15"
+    },
+    {
+      "path": "public/knowledge/RAG-INCLUDE.md",
+      "bytes": 11118,
+      "sha256": "e1ee74e13d4d11598d7636671bd5dde9c428c2656cbae238e23108dd7eb0e4a5"
+    },
+    {
+      "path": "public/knowledge/README.md",
+      "bytes": 4252,
+      "sha256": "9b0e2c2aed5c0c8e314973b9b032337e7ead5086fab73f5d3ef409267935c2f7"
+    },
+    {
+      "path": "public/knowledge/SHA256-WITH-VENDING.md",
+      "bytes": 61656,
+      "sha256": "fc485bbed85830d56415fffc1a90ceeb8cc4a586d6d4c6b12173d57d16549665"
+    },
+    {
+      "path": "public/knowledge/START-HERE-BENCHMARKS.md",
+      "bytes": 3891,
+      "sha256": "06dba5a4d96a6909f521b9f26f2acc0ec2172031724d56e7407b8272c5c0fb84"
+    },
+    {
+      "path": "public/knowledge/START-HERE-REFILL.md",
+      "bytes": 1366,
+      "sha256": "7c0fdb5e118046537bcf8abad5e928eb4df34674058a1ae5c6d13aca1693bab4"
+    },
+    {
+      "path": "public/knowledge/START-HERE-VENDING.md",
+      "bytes": 2483,
+      "sha256": "040b94dd3d891f00cd70563ebea71155985ef353d138f1efea7b7d31fa5f5014"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/00-scope-and-provenance.md",
+      "bytes": 3516,
+      "sha256": "774da2c9eab5a97a72916bc9a74ae33ef2a73b82fb25e85d841dd010f9b6971b"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/01-source-transcript.md",
+      "bytes": 34413,
+      "sha256": "34f3b60559521f46d154dd7ef9ea3a9a50e7f2a672d7c8a75ae21803c688dec2"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/02-page-map.md",
+      "bytes": 9233,
+      "sha256": "593a0b202df4c45ec49d209a00378bfa6e33a36731f5572b19644f397149a6ef"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/03-all-25-source-topics.md",
+      "bytes": 49422,
+      "sha256": "87b0ea994317d7eb10592764741c466e0020518bc948ec09cdb3087af2a5b2d8"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/04-executive-review.md",
+      "bytes": 4505,
+      "sha256": "410b2ee4a1409ef3a06b2dd606204d8eaa79dd66689e5ab6832a6f66f220053c"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/05-customer-view.md",
+      "bytes": 9795,
+      "sha256": "97f06b3f0fd17cb472400a413a55fcf233a54766aee0f8b8e56263bb127ff65f"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/06-employee-view.md",
+      "bytes": 9885,
+      "sha256": "99b9467d72b7a80ad5256baf24baeab930ad486a554f8223944c3a3b432daa87"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/07-management-view.md",
+      "bytes": 9624,
+      "sha256": "5b072126c459a15f1cbedfbc77225a55ca2cdc63363996884a92b3786f4ce3da"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/08-claims-and-ambiguities.md",
+      "bytes": 5849,
+      "sha256": "d28862481452da78712bfcb3091e924366408f6a1877b305e8b3419b8517ac56"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/09-employee-and-hr-additions.md",
+      "bytes": 3937,
+      "sha256": "0ddacd00ff1592e63a639f46557c8a6929fd7d8e9caf6e2ea53a0d2629368a8c"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/10-priorities-and-shared-workflows.md",
+      "bytes": 4709,
+      "sha256": "1f1b53f1ac7ddab43cf5c516380a4bab0172dae240eadf605356e96107ca235b"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/11-integration-ownership-and-economics.md",
+      "bytes": 3600,
+      "sha256": "eeea834bdaa8278c8152cb61980e6e25854d475893c5bab872d0002abfcaf726"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/12-manager-questions-and-response.md",
+      "bytes": 3379,
+      "sha256": "1c4dc5176aaba2c4be569db6af7eb817d80327d605ecf1e2336f3b972f0ddfec"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/13-comparison-to-previous-kb.md",
+      "bytes": 7751,
+      "sha256": "538019c9b353c1272b8ee66481d17e6cb33af53f4cce22ed5662d1b64e7984bc"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/14-verification.md",
+      "bytes": 2720,
+      "sha256": "0e3ae09e047fda2c37202c9e358f9f51af4eb19774ca89a6606f9f605a46dd2a"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/15-manifest-and-checksums.md",
+      "bytes": 4030,
+      "sha256": "fb728a5880c01f5a2bccf83f2738b2a98d4955e0b977bf55d5ca94fea06d7718"
+    },
+    {
+      "path": "public/knowledge/legacy/manager-review/HyperFamili_Manager_PDF_Review_2026-10-16/README.md",
+      "bytes": 3009,
+      "sha256": "dc40cc7b62b54551dd2866aff028950566def5f17793a97ef9ed906581ea3860"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/00-brief-and-provenance.md",
+      "bytes": 4393,
+      "sha256": "c411fab7bd7ef3cf46a446355937227ff7615769f74d5236d58eaa0774977d86"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/01-executive-reading.md",
+      "bytes": 3224,
+      "sha256": "0831e4bb644b57ea14dc094ce02ed9bd4c09e5903dc65f8b9921ac249fcdfb5f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/02-customer-view.md",
+      "bytes": 9252,
+      "sha256": "87265c35cd864654c496ce66ca33af70c91cac79291e8c45120c42c3d21f924e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/03-employee-view.md",
+      "bytes": 6563,
+      "sha256": "4de2d71bc4582a851bca5aee2da3921fe224af9a7f39a83892db3b8d0cd8d445"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/04-management-view.md",
+      "bytes": 8790,
+      "sha256": "be2ec81cb83f1319786870843d0cb80c7b5e2c0b9abce1827cfa342319e06583"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/05-all-30-initiatives-crosswalk.md",
+      "bytes": 14945,
+      "sha256": "3da92478c350aaea5dc93ce8c814f8148b363b51820c6ccc8658e792ee424380"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/06-shared-products-and-scenarios.md",
+      "bytes": 5554,
+      "sha256": "8b4e5c47d596fb032af20d17e45d1b3b0614c9c5ee35e6098dd3c6569ef5f513"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/07-hr-additions-not-in-original-30.md",
+      "bytes": 3611,
+      "sha256": "31fbd524240c8785f5156fe8028f7023ea67f4eac377e18dcda783a42f1ac336"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/08-first-stage-and-evaluation.md",
+      "bytes": 3467,
+      "sha256": "1b7bc63d8942a9c11d37d8a9536a78354625259eed7d59aff632a320efe1f4c4"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/09-project-card-template.md",
+      "bytes": 2450,
+      "sha256": "fa0d6f182cec94cf70461d76cf255659679b6f329c15ea28f7aace99920cf445"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/10-response-draft-for-manager.md",
+      "bytes": 1729,
+      "sha256": "a56aea5a5452dfef1205ba98aa188cb1c11368b99531c6545921c371a0f27b3d"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/11-verification.md",
+      "bytes": 2489,
+      "sha256": "131aebf81a7a5f02372bc94ee00d4b2ca8c9411b032b3f2bb6b77e0b53e1941e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/README.md",
+      "bytes": 2686,
+      "sha256": "6d65973aa04610e45921a7c60e42911855332e7bda7fe668491ea4d42d45b78e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/README.md",
+      "bytes": 1693,
+      "sha256": "9c93b19708279dd972b77eb90ddf0336bdf3c9d779a07962268aefa830f622d6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/agent-usage.md",
+      "bytes": 2757,
+      "sha256": "374ca6be0a552df4a3c4d4109161cc080961610c816ce34c0557fca78105ef38"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/change-log.md",
+      "bytes": 1995,
+      "sha256": "da1238236b6cd12f178dffdbf89a50c295c5c1e0ddc9ec0c5a93b8a8ecb9e9ad"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/evidence-status.md",
+      "bytes": 2299,
+      "sha256": "8123d68735992721c1fca0a6ac9b7762c0afc96a0173aaa5b62cdf7763aa7230"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/input-inventory.md",
+      "bytes": 2632,
+      "sha256": "aa512d067a64f647753ba913ac30bbf88a21eb4e8000ec1d575ce00c8b213eaa"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/input-map.md",
+      "bytes": 3363,
+      "sha256": "c8f28b30e5a52d77b89cf5c94413cba43d51fe1ddf5dfa43de7f9ac9922979ff"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/maintenance-and-continuation.md",
+      "bytes": 2373,
+      "sha256": "e89b19f173857d404f14bf9aa388bcf7c40704b7ae623b31016852a8fbd8ca4e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/missing-materials.md",
+      "bytes": 2434,
+      "sha256": "364aa11ed141426fa098885aceb31759b293f12a791caa9a0a2d223540445589"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/scope-and-provenance.md",
+      "bytes": 3328,
+      "sha256": "a6dfa5294edce4b2716ed88e5a1e77102c60c16ebe6ce1dedcac2d4d7f0d3ea2"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/00-governance/tool-and-transfer-audit.md",
+      "bytes": 2863,
+      "sha256": "025743f3ec08ebf28f4c1f70983ff7f1dfa9c6fa992e1baf1b387cbb40c8cfc5"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/01-research/README.md",
+      "bytes": 1131,
+      "sha256": "a82362d810bbe8031ecdab9d3649351cea5fc0e378b57f0069ad753ba301e33c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/01-research/document-context.md",
+      "bytes": 1007,
+      "sha256": "26f81f0c78ae9fb0f41da12f84960c64dd4e6d9b35e89716aaffe0112cce8578"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/01-research/executive-position.md",
+      "bytes": 2164,
+      "sha256": "d7efa4a342a8e650d9ec74a43e346b1b8387aa88b8c9633014ccbb3af415e5eb"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/01-research/method-and-access.md",
+      "bytes": 1939,
+      "sha256": "ed7cd946dc10d0dd209e4b241860a431fd1d3bcdd3f1ccb970f5c175812b05ea"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/01-research/priority-and-cost.md",
+      "bytes": 1646,
+      "sha256": "6465a69e5204da0e8db80ba68ff27f5885e2c0a34efabc1cd4c34037198843fd"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/01-research/report-title.md",
+      "bytes": 1012,
+      "sha256": "621e9d8d288f3f34d1354a85fdf5d03bc1561b8415672217083b2389d3be8d78"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/README.md",
+      "bytes": 6560,
+      "sha256": "4a131541008c7b0398248e1fc51e7627661f50251a34ccd37f75e0c8afb2a9e2"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/catalog-context.md",
+      "bytes": 988,
+      "sha256": "7fed40266fc3dd9c4de7fb55fa6fd57f1cf20a9536b69a60cec8ab2dee55b7fb"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/circular-economy/README.md",
+      "bytes": 910,
+      "sha256": "b555da453afa3a86d50b82515a17e00fa5c577aea9263150d6466ffecd46b2d1"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/circular-economy/i26.md",
+      "bytes": 3068,
+      "sha256": "fad787c0f9cc04c964ef58666d826906e1c97e7268c0b94a1aa5f83edbdf9f2f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/circular-economy/i27.md",
+      "bytes": 2751,
+      "sha256": "c1ffa599fa76624d26188051204e4752c7a2c42d24e1e794a1e593f3bcc7eb11"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/circular-economy/i28.md",
+      "bytes": 2624,
+      "sha256": "dd2fcaf1de044fc7e63f3c88135a57217013cbe97d14e0512cff08400efa609f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/commercial/README.md",
+      "bytes": 841,
+      "sha256": "39fd3ba7eb2602d176c62fd587ec5d14e7c5a147c744c82ed83a28b266839920"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/commercial/i17.md",
+      "bytes": 3166,
+      "sha256": "420052d9b6493658a29c78921bfc1d458cec153a9823e3f195d6d5d05126b043"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/commercial/i18.md",
+      "bytes": 2656,
+      "sha256": "fca95929930c510222747f5bb698ce5b0be54380087127dcd2a7b7633ca71d2c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/README.md",
+      "bytes": 1605,
+      "sha256": "16e237521ec8aebce5b1ad90915635a945e4231031dfb46530b97715d2be443d"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i01.md",
+      "bytes": 3221,
+      "sha256": "db399e4a5163fe7a020bab4430acab165bb76861db9d9ec002bb4927f349ea96"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i02.md",
+      "bytes": 3056,
+      "sha256": "ebbdf48bf4c450fa8e1e82a5d8e16917a1888b92f3ec1596349b7fc41bbde7af"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i03.md",
+      "bytes": 3374,
+      "sha256": "52146f1e8392d5291a54e8e18fbe1089e6a9b9fb1ee1d935fe94e468bfbe67af"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i04.md",
+      "bytes": 3216,
+      "sha256": "8a80a1bda3cbdd98532ffe3013406f0624b012d0939019a93ff29b5cad8fe89e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i05.md",
+      "bytes": 2736,
+      "sha256": "20d1b4707dbef76f17751c41bf6385d58ae9777ed1886ea293f9e0e414484589"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i06.md",
+      "bytes": 2911,
+      "sha256": "ffc7a094fa10d9f365d76b467b330eb6ad0a5b945e5d72c558a231816a421288"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i07.md",
+      "bytes": 3070,
+      "sha256": "67d34e8567c347e70e338d4a68f9ad032902a5200e926357688e0d2a93406269"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i08.md",
+      "bytes": 2929,
+      "sha256": "b57b0c4249158f1b2d9d214ce3cfd6846bac4f3e2be4dc2060739d40184b177b"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i09.md",
+      "bytes": 2758,
+      "sha256": "be6e9f80269eb22806f31b1499a60cf1857f1467172e5307029758ed36cd5f31"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/customer-experience/i10.md",
+      "bytes": 2862,
+      "sha256": "3bc265697c1ed1b3a88fe10b96ea266ef9053eff758cd070c5788a3a0e566ac8"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/new-revenue/README.md",
+      "bytes": 1036,
+      "sha256": "7272eb49d7dd02c62a3beaf8cc7b1a6ddf12a96ce7ee4bad4e109ae3316cd520"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/new-revenue/i21.md",
+      "bytes": 2957,
+      "sha256": "57331259498cd436d83a77dc198b095f7b504dd9ce8292f1c31bb491512b70e0"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/new-revenue/i22.md",
+      "bytes": 3376,
+      "sha256": "5923edb7556386e664337cf4e2989a6b6c56c396adb5f27bcdccf8a998aef5f2"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/new-revenue/i23.md",
+      "bytes": 2845,
+      "sha256": "46417d95009de027b9020981a31a9b9bafa436d96472b73eccc9e5ce11f14c6c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/new-revenue/i24.md",
+      "bytes": 2707,
+      "sha256": "7efead631b805e3ec1375c7bb3ee888ae3bdc559efbdf721a19feb36d49c1508"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/original-overview.md",
+      "bytes": 5104,
+      "sha256": "fe52c9edee8474cc7d0b86ac184d3375909c5fbc1bc095ddde1789a68b26e762"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/README.md",
+      "bytes": 1551,
+      "sha256": "84008d5607c94cf613f4777f7e4b68b711b5db15e8d79d2c513c0d5a8d9e1bb7"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i11.md",
+      "bytes": 2813,
+      "sha256": "18bd075388537c3605c95a11013158fdeba726542db7a0ff69d00c5ebea6f762"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i12.md",
+      "bytes": 2891,
+      "sha256": "930363edef9127a9c070e1aa484617ee48d831c2d22a4a6ca27e9b356df29592"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i13.md",
+      "bytes": 2913,
+      "sha256": "e76f633cad5f05ec966901695d54beb0a868ef750333a966703f0cb93a284c2e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i14.md",
+      "bytes": 3007,
+      "sha256": "9523762f6f61cb4a390905a5dbb8495e81b7938c495c5d0b597391b3fbca60f6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i15.md",
+      "bytes": 2826,
+      "sha256": "af97eede170a321025944ec98837f2863d73c06828bb15924279e5d2029365a6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i16.md",
+      "bytes": 3055,
+      "sha256": "cae55fb8c6d18984103e92b86fcf0c83fb6ae471a3860bd4814f72b8cb39f295"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i19.md",
+      "bytes": 3209,
+      "sha256": "23762bf23fcf2285a1d403f011ae7d31b1d765fbec37a480ceefd2f7a664a584"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i20.md",
+      "bytes": 2848,
+      "sha256": "24f93ee7b2bc96c4b28e7080deea46fa0f6c8f77cfec72befa647da9d05970f6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i25.md",
+      "bytes": 2969,
+      "sha256": "79391cde7b092b44f3a192500818e0d8dade2db25d26f5b5b67f02b1978c5f0c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/store-operations/i29.md",
+      "bytes": 2904,
+      "sha256": "5b107f14657e2d3b210f5fb899ebbae0216443d0ea5ca726a625e349df4baa23"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/strategy/README.md",
+      "bytes": 723,
+      "sha256": "40803ea7f5a5dc342ff8900b15603541e92a9a5dd7f0f517251ecb84cdc03b91"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/02-initiatives/strategy/i30.md",
+      "bytes": 2927,
+      "sha256": "3a624a1d4a22314ec4c5080aebcb64461eb78192e6db8cc0c815ff18410c732f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/README.md",
+      "bytes": 5471,
+      "sha256": "1e0ad99526bc6601bc66df7b48f1aec4c9b4bcab6ae15e6f889cc313da8ec9f8"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s01.md",
+      "bytes": 2007,
+      "sha256": "ff2f7179cb8f13db679d49974a37dd2e148c0db7b141b3f98903ecfaa1a6c4b4"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s02.md",
+      "bytes": 2011,
+      "sha256": "69674cc9cef171e14351897c99c619db99aa7ab659bf17b9d58924eab77f6b11"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s03.md",
+      "bytes": 2145,
+      "sha256": "233b37089a52dc01d13c38c36d5636d7518bf13d00e365629a0cc17e4a98f432"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s04.md",
+      "bytes": 1819,
+      "sha256": "0051c162fcce8213c987326ea117391bf9f3936073e6e8f1812cf83da05f74c7"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s05.md",
+      "bytes": 2145,
+      "sha256": "42ee214e459ecde89063dfa523b2a9874374891916477d2819364d03f130fb54"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s06.md",
+      "bytes": 2026,
+      "sha256": "b45dcfad2ed2957f7099ddbacbfda72b5dbbb5acde6ba81eb1bc9418bb4ca6bb"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s07.md",
+      "bytes": 1778,
+      "sha256": "04f085785a6093bce9f2b2f9fc69aed9b5ac515eb4a6081c5e72796a4a95ca3f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s08.md",
+      "bytes": 2142,
+      "sha256": "dbdddbf9a19192449e057fbe502ce42b29ead3b863aff09da9979827a3331035"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s09.md",
+      "bytes": 2046,
+      "sha256": "7a0917e79dc4ba2d26dbfdb332ed5ca3c17ed205a1b4c9c99bcf4a3939fd3848"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s10.md",
+      "bytes": 2085,
+      "sha256": "001e5031ffb3828a45bea26c0f8daef44718be6804628305b5c1e35d3dd5357b"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s11.md",
+      "bytes": 1990,
+      "sha256": "eb79a55fea82624f5265e3a5a727ae44dcf9db175e262f953e9edce41a806a4e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s12.md",
+      "bytes": 2185,
+      "sha256": "b234fb8fe86734e8618d46de6d20a01e6e25fa64a4026afb0c12d230857a274f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s13.md",
+      "bytes": 2072,
+      "sha256": "be67b204862ff5af3b1e2af5c6eebae1cebeb36ccf701556dd71ff8fc6583218"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s14.md",
+      "bytes": 1882,
+      "sha256": "61a4553ae065cb578cb940c5281bdd649bc4d38895bcf2abf463e79ee41f3379"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s15.md",
+      "bytes": 1743,
+      "sha256": "b913c50dfd2dce562cfabc846a8413c961fe4af461809f7a9b7d08cab8a28165"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s16.md",
+      "bytes": 1903,
+      "sha256": "144a6b46b59df1710d3e8c30528020a900cb0bceb4db50f94bd6b01d66ab5cca"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s17.md",
+      "bytes": 1950,
+      "sha256": "e1fe2a8d69ea2ed3d7c08da2072f8a3647dac358ab590fa2d27170f7cb5b3e29"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s18.md",
+      "bytes": 2036,
+      "sha256": "1c40d159e30ca6e4aeb583d18605f6fb26b9e3ab8b36ce7f85d23cfea4ece8f2"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s19.md",
+      "bytes": 2071,
+      "sha256": "0ced26843b3c34fd4d9077585df55677a6be564c918311169e8114e956e7d11e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s20.md",
+      "bytes": 1967,
+      "sha256": "6e968799c6d8c57cfc285b60a9b53c5d099ce4597be39536bf05ce83f02ea64c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s21.md",
+      "bytes": 2003,
+      "sha256": "df2afde8fef052a30787e4c2d36c5c9b4521ee90464b07c6359306a00164d0e6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s22.md",
+      "bytes": 1989,
+      "sha256": "459fd0255af35048c42ae80d88745f557151808aaefd547d5212474377d2f439"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s23.md",
+      "bytes": 1956,
+      "sha256": "0743047e0c11acf07b8b100d88a01217ce28c7e1ab46d835d32bd7ab9e69ff46"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s24.md",
+      "bytes": 2095,
+      "sha256": "5ee45f5f261073f0e9e3db13b1e30ca54fda2c8b51d73e31dde2a1993a984cba"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s25.md",
+      "bytes": 2216,
+      "sha256": "63637894cf961d88c9b731af997de81250a8853cb1fc6a894e54ac2b69ff865f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s26.md",
+      "bytes": 2194,
+      "sha256": "8a385e9e1bc8ca2effb37ba72b5c78d3139f6c0ab265287c41b3eb459ebcefaa"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s27.md",
+      "bytes": 2553,
+      "sha256": "cfef3afe6301d6711337fe5b73cdb63bbab14d9a563aa41d20e896afda299297"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s28.md",
+      "bytes": 1825,
+      "sha256": "9a8d37a45d6ba5dcf496ad92e4db222087c955212217c49674e98aa867f36677"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s29.md",
+      "bytes": 1956,
+      "sha256": "5dcf6415d2d44ef2077d77513be388affad50f413c6773fa4c7fa671bc2c9a50"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s30.md",
+      "bytes": 1882,
+      "sha256": "7be63cf73fc649349d78e840ccbb6d946179f0857264239d025fe6422d5c3cd8"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s31.md",
+      "bytes": 1883,
+      "sha256": "4735aeeab6f9609da099fd6caf47a82a87c6a3df15ab4ef8024330d5d6ef4a8c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s32.md",
+      "bytes": 1774,
+      "sha256": "7249c1788d41fded7d3a0f5a54d82f8546c24795195458063af1220c556861bf"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s33.md",
+      "bytes": 1908,
+      "sha256": "678ee7a47908bafa71797c832f685e62a4a4987d074f70736fb0a0d14dc5eca5"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s34.md",
+      "bytes": 1886,
+      "sha256": "f605906c52ecc16609264b01d9c3be2ecfbe718963ccc0d8124987cfcd2bafe4"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s35.md",
+      "bytes": 1908,
+      "sha256": "36d8bacbc8873edd190a482a62c316fbe31141148052fcf59dd24b7f15537d29"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/s36.md",
+      "bytes": 1904,
+      "sha256": "cfca6587af6b9b4e50bf01251669416935b812ea488aa78f27237268bff700b5"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/03-sources/source-section-context.md",
+      "bytes": 985,
+      "sha256": "4efe7eddbdb366355734ef16d7fca335de70e582d19d3f6e91f02dda85712654"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/04-pilots/README.md",
+      "bytes": 2503,
+      "sha256": "e8770f80850e8c96824b5ced530fcfc1317e3633c03c8f417784761173f9a3ab"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/04-pilots/pilot-a.md",
+      "bytes": 2370,
+      "sha256": "d182a40123d1c0791d04d53fd70cb125897e592a381d7e8bb5448d2f0bea455b"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/04-pilots/pilot-b.md",
+      "bytes": 2412,
+      "sha256": "e28c1851c6262fbe94a56641e3e004b9e9460dc3a5d68252bbb3d3cb93461304"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/04-pilots/pilot-c.md",
+      "bytes": 2340,
+      "sha256": "1781ebb6e876eeb60c511e2bf7c6ed8ede5db210ac95f61bf098483f4c05fee5"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/04-pilots/shared-conditions.md",
+      "bytes": 1100,
+      "sha256": "4a623a3aa2f6927a61e85c338f4dd1889aa1053267609bd09872a5cd2c7f2cad"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/04-pilots/twelve-week-sequence.md",
+      "bytes": 2248,
+      "sha256": "33317c7166b669bdb09b9b8e5eb6562fcd6f9b46ef367a40fcffe2523dca688a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/README.md",
+      "bytes": 1356,
+      "sha256": "afb6d4f37ba0035efa13741875810747712664a30854a7b68336139fc305b058"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/board-questions.md",
+      "bytes": 2461,
+      "sha256": "5117d3c80f6c2b250eb56a9075f6b8f2d46fd328b1fda8ae93958c75015dbeef"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/build-buy-partner.md",
+      "bytes": 2310,
+      "sha256": "61dbb77c1390a8a1859c722646eccd1aa81b5df87f6e96de5b697489b40609d8"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/economics-and-double-counting.md",
+      "bytes": 2783,
+      "sha256": "6a28f1a63420d7b04b3f3244d9ab15e1c1a35f8ff8e34ab3c3188a5d4148039c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/meeting-opening.md",
+      "bytes": 1427,
+      "sha256": "be15e1af277d6635dd414ebb36c792f8062c0fa6fdd34aaf2cc4cc37dc0f2565"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/minimum-architecture.md",
+      "bytes": 2605,
+      "sha256": "6139d461e86936ab2b61a9992ab1053aec4c5340e6c9926cc57c0a339f9d68be"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/proposed-resolution.md",
+      "bytes": 1403,
+      "sha256": "cc25f8ef1c2b03266dcac98ec7c2a0315827ff35f06ffc944612d6842fc253fd"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/05-delivery/vendor-questions.md",
+      "bytes": 1666,
+      "sha256": "7b6e14f1a009e68de66398a3bffa76478d744289854ca59a0d620150e826f806"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/README.md",
+      "bytes": 1440,
+      "sha256": "e6da403ba58191e4ae548c596d054f5c09bcca01a2ccdfed90b3df39dcd83f0a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/data-and-integration.md",
+      "bytes": 7829,
+      "sha256": "cf2402b7de706d7c48f797742e46d1a1d2fb07e056db10125975d4907b1070e2"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/hardware.md",
+      "bytes": 8611,
+      "sha256": "c17d503725246818ddcf9af9eb10290e9e4ee15cf14adb2290f1e74af8d03b9d"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/metrics.md",
+      "bytes": 8130,
+      "sha256": "86c916386cae01590bbadd3e4e2e387e1efd02dc49a6158421e20af3cdf8e4bb"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/owners-and-sourcing.md",
+      "bytes": 8701,
+      "sha256": "401dd021e923e41c3c0bf39718fa7be590f9c44af4b9f5af92c50717aa81cce9"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/priority-and-cost.md",
+      "bytes": 6642,
+      "sha256": "a6fef07bc2be05b96b5d0f929865a28961722613b6c92a42a0812e4da8927810"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/problem-register.md",
+      "bytes": 9612,
+      "sha256": "84a59cbd793f624fc2c933a4c717cca931467ebb9a37e3ca284ff2e82ae7e00a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/risk-register.md",
+      "bytes": 9457,
+      "sha256": "bf413ffc0063f2450cdacc53dcc8cbacb6e03655d766d9ee04fc7c146f68c1f8"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/software-and-smallest-version.md",
+      "bytes": 17083,
+      "sha256": "2e816a90cc8e9c98a9b10e1996249dfb3e7eca52d48619fa67d887e8e79cdd8a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/06-crossviews/source-to-initiative-map.md",
+      "bytes": 4837,
+      "sha256": "3ff02caa92067c2f1e0ce25282905d879885089cc579efb9bec3912df17ab234"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/07-media/README.md",
+      "bytes": 1451,
+      "sha256": "f432ca4ed7602c655e3230e1479f6fa78467b3bbc39a284d4ddc9a7a380ce869"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/07-media/s08.md",
+      "bytes": 1209,
+      "sha256": "18012be3a74adb0167932de1aac0b69c5aa59fce52b621001846b4b1e0ef35da"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/07-media/s31.md",
+      "bytes": 1097,
+      "sha256": "e11545c0eb47a46f06f09db617f8967f8a4e9a3336127a23b6f27de5de8c75c2"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/07-media/s32.md",
+      "bytes": 1012,
+      "sha256": "f86b33c50a6f91f2100085a777dcdad67fec0aa771589e1872cb4debf96a2d10"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/07-media/s33.md",
+      "bytes": 1141,
+      "sha256": "92393ac0c816c49ee8cd31c4c884a04d05bef22693e8342a278c6816e8bccd22"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/07-media/s34.md",
+      "bytes": 1119,
+      "sha256": "ac02738796a05cbb532add033d77365e43315c0cdbc6ad1345af11b99649773b"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/08-iran-candidates/README.md",
+      "bytes": 2009,
+      "sha256": "4bec6c542651f63991785091c8d8256132d3503a7c0a7fffac8e97ddba1cdf9e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/08-iran-candidates/s23.md",
+      "bytes": 1585,
+      "sha256": "9e9dbb00fcdf6e90290c44d409887a2f0bbab6864b8b1c5e51a513ab5d6172d8"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/08-iran-candidates/s24.md",
+      "bytes": 1579,
+      "sha256": "b645140a7c2f400539e5e40d02fce6b2cbeee7baf7041e6b505bca803e4f2977"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/08-iran-candidates/s25.md",
+      "bytes": 1432,
+      "sha256": "e4a182e2b7a8b9fe5fc7c6b8e8e908aa3ea35b583ef57b0cd4940a437cad5cba"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/08-iran-candidates/s26.md",
+      "bytes": 1428,
+      "sha256": "36fd2d71c50677f6751fa7d65aeb15b3d086c09bf89ac3f514812862b977aca6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/08-iran-candidates/s27.md",
+      "bytes": 1679,
+      "sha256": "b39e684e3e600777e5548279f97220da4fb383438df84e6a458f63850af83d5d"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/08-iran-candidates/s28.md",
+      "bytes": 1444,
+      "sha256": "28f959137ec1982cb2eea6a964a2d83d1ec6cff30b66ffaa8e7adf7eb3f43004"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/README.md",
+      "bytes": 1284,
+      "sha256": "aea3375a8737bbf620df31c6c0dc6a63edfa41dcd3e4a8f6a7c42bea62aced45"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/page-01.md",
+      "bytes": 3800,
+      "sha256": "26aa978241f7adc2582b07e48a753f04f0a1354b82e336a13aa7f72ffede79a6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/page-02.md",
+      "bytes": 6153,
+      "sha256": "5f22eb28d201455ced942dc2d0c115f64c98d8443bca8e2872f484f65be23490"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/page-03.md",
+      "bytes": 5768,
+      "sha256": "90f6db85ac20ac82eb4caa24c6b9c662ad54ee8f0386793674c1665c3783c04b"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/page-04.md",
+      "bytes": 6026,
+      "sha256": "73db6288cd6d7c38b03c879f3a665b32830ef4b5eb7cc7da653d6f82ac0340d3"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/page-05.md",
+      "bytes": 6800,
+      "sha256": "df89043475028d4684fb8ce65cdbbb26e6f30ecf1c28f7a5b33ce1b8a1b563bf"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/page-06.md",
+      "bytes": 4119,
+      "sha256": "11e7cbf8bcf7d8f1cadeb714b2bb229cc61123a1c5ed4e4a07e13b62ec6db442"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/09-board-pdf/page-07.md",
+      "bytes": 4440,
+      "sha256": "f4abf1cce8211af3bbbd8f8bfd7b013f8b31d85f32d5ee15528600fdb23be752"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/10-registers/README.md",
+      "bytes": 1053,
+      "sha256": "b00d2cf6de2f816fe254d4359b75aba371a9a169448e1877df47173a6b5a7868"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/10-registers/all-primitive-fields.md",
+      "bytes": 81833,
+      "sha256": "a8813c0dc30408cc2dea8e066b856fb1a3f00980973b9ee1b81dc5ef97f724a3"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/10-registers/content-relationships.md",
+      "bytes": 12897,
+      "sha256": "013690327d57744623106080c2d22cc7dd32f75affd510ea83ddd2f2db18ff81"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/10-registers/report-line-coverage.md",
+      "bytes": 12051,
+      "sha256": "72d36deb837bdee5ab0bbce37a57c6e6dc60719971647744306bc5accc57628a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/10-registers/structured-record-coverage.md",
+      "bytes": 11419,
+      "sha256": "75e902ac1636dfb2a0020ecf20e7b230b64ef972cfca021dda55401036a4bc95"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/11-conversation/README.md",
+      "bytes": 1054,
+      "sha256": "f40c5bfe501d4d7866ecacf5006f297c6b92e49ed6ff2adf2b592bccc8e59101"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/11-conversation/company-response.md",
+      "bytes": 15972,
+      "sha256": "dd1c984d030f2e4dd6c19ae218ded95c6f36528918070089a0f6514dce532880"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/11-conversation/innovation-response.md",
+      "bytes": 37185,
+      "sha256": "bbb88d947996b61b4d0d09590fed68221908d15a557c4faa2b375f2f1bf2ebb3"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/11-conversation/reference-reconciliation.md",
+      "bytes": 4065,
+      "sha256": "60a6f62f15f9c60d3261d6c57fedecc2bc9a6d04b449f2fa973bdd482f487dbf"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/12-discovery-trail/README.md",
+      "bytes": 1287,
+      "sha256": "91c08514ac4c1e23eda26bbd29e09aefb72aa885e56f9259e929ff81dd5c1d1a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/12-discovery-trail/additional-media-leads.md",
+      "bytes": 2819,
+      "sha256": "425070457dac62cbad1803fafbdaf70629fa4fc6dae6d3499663d157b44c8512"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/12-discovery-trail/filtered-and-unconfirmed.md",
+      "bytes": 3213,
+      "sha256": "48635d9eef3d58076d1cc27f65ec7a2dfd4662a0b5a94cd35ce1686071649a19"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/12-discovery-trail/product-hunt-leads.md",
+      "bytes": 3492,
+      "sha256": "9500021fbbdb931f5ca20b9f882dab2e53ea57eb62af3e31aa08cd2b3bacae00"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/12-discovery-trail/query-notes.md",
+      "bytes": 2343,
+      "sha256": "eb1bc242ced263adc9dd896bb14cbd7652e15e47aa313a8eaa2043e5a4408723"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/12-discovery-trail/rfid-and-inventory-leads.md",
+      "bytes": 2451,
+      "sha256": "e8db4cacfe212bb442b4db96ca2b21d3c1e52695f0830d1c5574e0da664048e1"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/README.md",
+      "bytes": 1477,
+      "sha256": "91f2a55df833b8374cad2030efd490a8c43c2a347787e5ce1634d72a523845d3"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/conversation/README.md",
+      "bytes": 881,
+      "sha256": "8eefb7bd6c9d5f2eb8a7e3b470424f060eca761033436433e4d694bc2e3e41e5"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/conversation/company-response-original.md",
+      "bytes": 15150,
+      "sha256": "e271ce48fb0a32001e35439c713674ab91ef53625ecfe14047cf8a90888a6c7e"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/conversation/innovation-response-original.md",
+      "bytes": 36950,
+      "sha256": "87b14891c29a56df80f80e81ff231d6262145a3c6cc7cde70ca81e9f8e344cfd"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/html-original.md",
+      "bytes": 111788,
+      "sha256": "fb7bf8e83e0b00b33d4c67b45019c1b5ce074dd14d2f37e55b4f9d2201e55913"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/html-readable-conversion.md",
+      "bytes": 99897,
+      "sha256": "bc7b9121705d69b6e0911eb99a881e294ad9a64333711a1d9e27814006fdd3c7"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/original-markdown/HyperFamili_Innovation_Research_FA.md",
+      "bytes": 99406,
+      "sha256": "f9234bb4f4bbc139af9fac35c2d102e09649c145ec4e95c4923d652309a5330f"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/original-markdown/Media_Links_and_Access_FA.md",
+      "bytes": 2710,
+      "sha256": "c8d469252227a41586481bcaa38b42d37b2be1adafe18aaf78c88eaaef2795c7"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/original-markdown/README.md",
+      "bytes": 981,
+      "sha256": "07770861b38a319cbe7bb3bfb51d809af8bbe2fb5eca2da691677e59beaba4f0"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/original-markdown/README_FA.md",
+      "bytes": 2343,
+      "sha256": "ec8f511dfa53fbf6df3dff55253ff543b135729784764983f2c2bb08a859b27b"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/pdf-original-payload.md",
+      "bytes": 75828,
+      "sha256": "dc238957841b96cacbe618b29dbfafd595f28c430c713be2457f41c9abf66293"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/research-brief-original.md",
+      "bytes": 50356,
+      "sha256": "b107f6a0eef5f6ed454ef88237cf512c56ea2fb9dc8ada8c5f5dcfc2c2ba7dcf"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/restore-original-files.md",
+      "bytes": 4690,
+      "sha256": "3af263fed1d421f7648ad70f0c328f1974cb45037e693d5db288f7d3732b0178"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/structured-originals/README.md",
+      "bytes": 843,
+      "sha256": "95eb4530cd68b80332e07d66089795fa3257776d3febae05573a91a6faf0ef6a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/structured-originals/quality_checks.md",
+      "bytes": 1900,
+      "sha256": "3ce62182896b80a49efa4011184202c03f9748b139074590a8b63ac5f0f85134"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/90-archive/structured-originals/research_register.md",
+      "bytes": 72417,
+      "sha256": "f07efdeeb4bf4deafc4738e323cdab13c5d5b263f59ed5e35602cbb199113977"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/99-quality/README.md",
+      "bytes": 965,
+      "sha256": "46f48d52fcf301ddff9ff325aaf0b5870f6600a33f419f4671d6a3a88ae95ab2"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/99-quality/checksum-policy.md",
+      "bytes": 1954,
+      "sha256": "e5164a8f38fe17eebac3e42559b10cb9a0fd83da06b6c7c40051e8d99377356b"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/99-quality/checksums.md",
+      "bytes": 20538,
+      "sha256": "7be590027b68842487333690edad607e3e7841bdfd5b9ed1266c20e6cab0860d"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/99-quality/machine-results.md",
+      "bytes": 2278,
+      "sha256": "ae31499046c06225aa41c816e32ce503086f96dc85225498d08d91bece93d35a"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/99-quality/verification-report.md",
+      "bytes": 3766,
+      "sha256": "5958dd79c04a2eec04a2333ae12fbd8c83f2d0a2bb6019a61a2418ab52f67c4c"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/INDEX.md",
+      "bytes": 19704,
+      "sha256": "85b3fb86b4ba379a8dcb6c0446f61582beda34592367af7706947e9aef286d98"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/MANIFEST.md",
+      "bytes": 29951,
+      "sha256": "6576883f4eb1ee8d573ab6a392a542b0811b31c644d4e7da78fa278696accfe6"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/RAG-INCLUDE.md",
+      "bytes": 13457,
+      "sha256": "6c48e5f9445aadb28e91102de7b8d4f0525ad110b595b4f55dfb01a3d062f6f7"
+    },
+    {
+      "path": "public/knowledge/legacy/three-perspectives/HyperFamili_Three_Perspectives_2026-10-16/baseline-kb/README.md",
+      "bytes": 4240,
+      "sha256": "0f8e7f36740bf0ab991323e28534eceb187b9d92fd7f69f3265f7fbe6c60bbbd"
+    },
+    {
+      "path": "public/knowledge/supplemental/AI Product Technical Design Document.md",
+      "bytes": 24463,
+      "sha256": "c87ba6992356c0cb07d8a43b3c8d48fcbc5aaffd6520b4b5046cc7b180cedc93"
+    },
+    {
+      "path": "public/knowledge/supplemental/AI Strategy for Iranian Retail2.md",
+      "bytes": 43823,
+      "sha256": "b1cead69fc20576a5d8ec28bfbb27b3c3ec449835d9991eed657ba7e59c3f5e0"
+    },
+    {
+      "path": "public/knowledge/supplemental/AI در خرده‌فروشی زنجیره‌ای ایران.md",
+      "bytes": 51327,
+      "sha256": "50a1e92f4d577c606a7fbb76ea1e9b914743f8c6b8cdf9e9c8dedb85c804aedd"
+    },
+    {
+      "path": "public/knowledge/supplemental/HyperFamili_Deep_Research_Mega_Prompt_FA(1).md",
+      "bytes": 50356,
+      "sha256": "b107f6a0eef5f6ed454ef88237cf512c56ea2fb9dc8ada8c5f5dcfc2c2ba7dcf"
+    },
+    {
+      "path": "public/knowledge/supplemental/M0_سند-مادر-و-منشور-برنامه.md",
+      "bytes": 64874,
+      "sha256": "e2342f46b34ca21d38471e29d26bb105418fc99bd4c58b6d81a703f9a24877c1"
+    },
+    {
+      "path": "public/knowledge/supplemental/M1_مگاماژول-فنی.md",
+      "bytes": 71730,
+      "sha256": "7051bcbb6f6dee91d1b80e5c2fc34bd9a1a6085a63a7cdbb3b10faea73a7841d"
+    },
+    {
+      "path": "public/knowledge/supplemental/M2_عملیات-و-پیاده‌سازی.md",
+      "bytes": 67166,
+      "sha256": "5fa827a9ae144d714160650e0f98bccc7a6098f4e5f7f8b84fc1d966a99be80e"
+    },
+    {
+      "path": "public/knowledge/supplemental/M3_کسب‌وکار-و-محصول.md",
+      "bytes": 66164,
+      "sha256": "f3beaf743e9b3572adc1deb453af31b5a4ea24716e96b6546296c0bca84d91de"
+    },
+    {
+      "path": "public/knowledge/supplemental/M4_قراردادی-و-حقوقی.md",
+      "bytes": 84914,
+      "sha256": "38ed23b077fdc6ac2d7c0aff6954c6aa7574fdfcd250443197fe6e82eb9d4911"
+    },
+    {
+      "path": "public/knowledge/supplemental/Retail AI Strategy for Iran.md",
+      "bytes": 41074,
+      "sha256": "f711a004ef18941b4523a109af438e710cde99e582d5f99b63eb94300fb12e3c"
+    },
+    {
+      "path": "public/knowledge/supplemental/compass_artifact_wf-8b42531c-c1f1-4c49-8b5b-4bde394ef507_text_markdown.md",
+      "bytes": 34791,
+      "sha256": "cefc3957e5014e4f2bdb055dff7a79343936c4a5609d2c4761aabc43435796b1"
+    },
+    {
+      "path": "public/knowledge/supplemental/compass_artifact_wf-9d1b9047-b96b-4643-953f-4b4cb9e4c18c_text_markdown.md",
+      "bytes": 60617,
+      "sha256": "f7aca61ca5d80e8412a79a444e7105833f79a636352d5b210ff40c35eb184d3b"
+    },
+    {
+      "path": "public/knowledge/supplemental/compass_artifact_wf-cabf9c32-a5ca-44fc-b428-208774a7e9b8_text_markdown.md",
+      "bytes": 15578,
+      "sha256": "c36c1fd75df04d22a6a82d356ca570993344e3f5e54585fa88d8cc4b774a4d17"
+    },
+    {
+      "path": "public/knowledge/supplemental/deep-research-report.md",
+      "bytes": 47780,
+      "sha256": "299db3a927aea56eec68001446ec70f5d46c27f50240e822d1e42375fefd0c2b"
+    },
+    {
+      "path": "public/knowledge/supplemental/doc0.js.md",
+      "bytes": 72446,
+      "sha256": "49abfef7321c1f29f91d631d676a919fe4251b97c923ed7ef64c8d7b5583aae0"
+    },
+    {
+      "path": "public/knowledge/supplemental/doc1.js.md",
+      "bytes": 78835,
+      "sha256": "934232fcc371d13311fe91e21dd03fa1aac07d770830b664c79ac06c22034dff"
+    },
+    {
+      "path": "public/knowledge/supplemental/doc6.js.md",
+      "bytes": 88156,
+      "sha256": "ad6e11577af3e58325b9f68b5d89668b18ed68a63adf1c1b02ce30832f5d095e"
+    },
+    {
+      "path": "public/knowledge/supplemental/manager.md",
+      "bytes": 32126,
+      "sha256": "20831f71134bd6505d335b34e6c144dc33f4cca3a0ded6f4ef2c72613a57ff3f"
+    },
+    {
+      "path": "public/knowledge/supplemental/rtl.js.md",
+      "bytes": 12447,
+      "sha256": "1bd682e4614663d3b00d24a10538e5445ebfd7a31b52744e4c953ec63f6c8bce"
+    },
+    {
+      "path": "public/knowledge/supplemental/تحقیق هایپر فمیلی.txt.md",
+      "bytes": 486,
+      "sha256": "d0e7a464434943d79d57211a86b1aa163d9df1199c1b7bd7d797c1c9cc93cd91"
+    },
+    {
+      "path": "public/knowledge/supplemental/ترکیب سند با جزئیات هوش مصنوعی گلرنگ.md",
+      "bytes": 40314,
+      "sha256": "0085c6ac583345964078059d32e95b2efa566a7c95ffbc5448c19115c7c3eb35"
+    },
+    {
+      "path": "public/knowledge/supplemental/سند جامع استراتژی و نقشه راه اجرایی هوش مصنوعی.md",
+      "bytes": 141811,
+      "sha256": "c766e325d9c42336680df37c40df909e3fb058871c54061fcfd72896bd59b108"
+    },
+    {
+      "path": "public/knowledge/supplemental/مگاپرامپت_حرفه_ای_تحقیق_و_پروپوزال_انبار_هوشمند_افق_کوروش.md",
+      "bytes": 49040,
+      "sha256": "65e5fd67effcb80bce84fc28dd86472a4e20c760409542966d7cc7d82697c4f7"
+    },
+    {
+      "path": "public/knowledge/supplemental/نقشه راه تحول هوشمند گلرنگ.md",
+      "bytes": 43082,
+      "sha256": "ba002f55770dfa66eef6153f1842fb83789386afa9563161cab7501bbd72aa1f"
+    },
+    {
+      "path": "public/knowledge/supplemental/پروپوزال_یکپارچه_انبار_هوشمند_افق_کوروش.md",
+      "bytes": 215343,
+      "sha256": "1d77caf507f6b9f174a79b0ba1ac08408d9a5d9618880e252737f17365ec89d8"
+    },
+    {
+      "path": "public/knowledge/supplemental/گزارش_جامع_300_صفحه_انبار_هوشمند_افق_کوروش.md",
+      "bytes": 324978,
+      "sha256": "85eeeed0bb61921ab399da9d1d8f46deeaf6a4ad21bc4012b3b8d681797aa05d"
+    },
+    {
+      "path": "public/library.js",
+      "bytes": 18857998,
+      "sha256": "e9e6e5df4cda180d58ebf4b13b1e6b786e88b3ea00c8a728ed7b9bd86ddc27cf"
+    },
+    {
+      "path": "public/media/brand-cafe.provenance.json",
+      "bytes": 3650,
+      "sha256": "f6c6fb1009003fec0ccabe7340e492196600d3d3a687aea407e986d0ce3e7e5b"
+    },
+    {
+      "path": "public/media/brand-cafe.webp",
+      "bytes": 238108,
+      "sha256": "39a63d2ea106b62808fdd3e838216e9294d517b1df35e5c07f1d3c9966241d99"
+    },
+    {
+      "path": "public/media/brand-identity.json",
+      "bytes": 645,
+      "sha256": "f1967a64e970c5f55bc3b30d3b7daa8edeea4ea3c9829f1a675b4460b1b95318"
+    },
+    {
+      "path": "public/media/brand-logo.png",
+      "bytes": 15034,
+      "sha256": "ba2ac989a0b1837e3196e17703bbc9303dc962bdbe4fc999f578d08ab98ba41f"
+    },
+    {
+      "path": "public/media/brand-market.provenance.json",
+      "bytes": 3829,
+      "sha256": "cdc31b2f607f85863dc7a790d499aaf6c48571f96d2b07e474b0818a4b2520ea"
+    },
+    {
+      "path": "public/media/brand-market.webp",
+      "bytes": 264272,
+      "sha256": "f8c59b8794ee71c3d6115734c147dcfa399a36f115fe49aec60c3024afbc0550"
+    },
+    {
+      "path": "public/media/brand-swatch.png",
+      "bytes": 6378,
+      "sha256": "44a4ed9039e4fa3bed27302d0856b2664157c6628b6c6cf9b7c71d5a1c01a7a7"
+    },
+    {
+      "path": "public/media/corrected/figure-05-03.webp",
+      "bytes": 81928,
+      "sha256": "c5985edbe6c3108edb789c3440d8fa2e70ec1426e2a12dde1d3f12a4db5fefdb"
+    },
+    {
+      "path": "public/media/corrected/figure-05-04.webp",
+      "bytes": 79280,
+      "sha256": "f394fe3bfa3e0f3ca8486016f7e34bc1631157bcfd2e182e2b0e9671c3dd2416"
+    },
+    {
+      "path": "public/media/corrected/figure-05-05.webp",
+      "bytes": 34906,
+      "sha256": "9a573ce342516b29898a18c4fd48e76495f79efadcddf5dead33c33894a18096"
+    },
+    {
+      "path": "public/media/corrected/figure-06-01.webp",
+      "bytes": 105368,
+      "sha256": "48880260faa67c80fd275ccfaa99887185527a940b40c0216fe8086cbf5a6d6e"
+    },
+    {
+      "path": "public/media/corrected/figure-07-01.webp",
+      "bytes": 109264,
+      "sha256": "e2903062cbb76cccde52c5b19fce7cdf84a5d53861df8ca128a7bb651ecaf669"
+    },
+    {
+      "path": "public/media/corrected/figure-08-01.webp",
+      "bytes": 129170,
+      "sha256": "e2cd1d0853bfa2cce0538cfbb8a7b8d26a8fa14db506d3c6ebed35fb59427006"
+    },
+    {
+      "path": "public/media/corrected/figure-13-01.webp",
+      "bytes": 96652,
+      "sha256": "e11d6868f4d1f4d97ab24a9fd14727858a40edb035acdb1b674207c75472b1a8"
+    },
+    {
+      "path": "public/media/corrected/figure-16-01.webp",
+      "bytes": 108788,
+      "sha256": "1f756886da4df18584675482479be5f695598a83de8e8bc38668961cf05fdcbf"
+    },
+    {
+      "path": "public/media/corrected/figure-16-02.webp",
+      "bytes": 137948,
+      "sha256": "82439abcf7b230920a20fad2823896d191e9f307023f520fc5ea4633d1f79089"
+    },
+    {
+      "path": "public/media/corrected/figure-17-01.webp",
+      "bytes": 81664,
+      "sha256": "4354c44759a664d4528f57397f244dd6bd4b5b9730706fae722fec1070786877"
+    },
+    {
+      "path": "public/media/corrected/figure-21-01.webp",
+      "bytes": 207968,
+      "sha256": "58a1d13c0eb230744e6102779afd5c6f8f8afa6887cabfe22158916f51d9105d"
+    },
+    {
+      "path": "public/media/corrected/figure-23-01.webp",
+      "bytes": 71224,
+      "sha256": "6fdfc0f0187bcba6825a2f9d767bed47f17ef77fc602938336a4d3cc4d8caea2"
+    },
+    {
+      "path": "public/media/corrected/figure-29-01.webp",
+      "bytes": 94874,
+      "sha256": "6c4a2057e6d3e6e16dc0b7973f0972922e0e14d7b3f15e1a2562ba860d4b91f4"
+    },
+    {
+      "path": "public/media/corrected/figure-31-01.webp",
+      "bytes": 66772,
+      "sha256": "380ee049350529b24032908bd6b7b25d19fdf42671f7b1a18f7d21026cd29745"
+    },
+    {
+      "path": "public/media/corrected/figure-32-00.webp",
+      "bytes": 62282,
+      "sha256": "c7798dfc6c8fce9e457b3054d54f8f5c00c1bcf7080abee8065c867db16562a3"
+    },
+    {
+      "path": "public/media/corrected/figure-32-02.webp",
+      "bytes": 39456,
+      "sha256": "455f7480c0feaf6bc92fdc7a894c14dde6c32a4f1f7e5af6a47da3f936b1539c"
+    },
+    {
+      "path": "public/media/corrected/page-05.webp",
+      "bytes": 114690,
+      "sha256": "0b7553262587bffd9217e7f6a3305a345027a01756c35fe480549d838a1b3341"
+    },
+    {
+      "path": "public/media/corrected/page-06.webp",
+      "bytes": 84636,
+      "sha256": "36fe6813a8631eb9d372258162298013324281b81e737b34b5ebcebdfeb2e111"
+    },
+    {
+      "path": "public/media/corrected/page-07.webp",
+      "bytes": 94104,
+      "sha256": "1603eb9f9a21b5be4ca1a878a12c1c4a8184bc1089835780beea9dcc428e7daf"
+    },
+    {
+      "path": "public/media/corrected/page-08.webp",
+      "bytes": 102372,
+      "sha256": "f6ac5ad7353cd6551bbda046d848186a74d76264d72809e39399b02ef2c17fe2"
+    },
+    {
+      "path": "public/media/corrected/page-13.webp",
+      "bytes": 174412,
+      "sha256": "eaaeb6b8f5e10106d13d5c4f3928e3e8b4428d60b46385742af9a204ddfc5637"
+    },
+    {
+      "path": "public/media/corrected/page-16.webp",
+      "bytes": 141118,
+      "sha256": "d01dbfbadff92830cb0d1921adc8d7a41ca0682bd388758ccc9e66c790a71ffc"
+    },
+    {
+      "path": "public/media/corrected/page-17.webp",
+      "bytes": 120046,
+      "sha256": "f2528607e53718cd5c29e6c54b2e1ab45a96adea9e100dcdadac5b34f2c4dc8d"
+    },
+    {
+      "path": "public/media/corrected/page-21.webp",
+      "bytes": 227752,
+      "sha256": "419fdd8b421ae224f45979ab009bb479f81a790d92fe2f5c93902e5f4d2e2035"
+    },
+    {
+      "path": "public/media/corrected/page-23.webp",
+      "bytes": 120830,
+      "sha256": "b1dd1c30bcd5a9606030a263e8c6f679996926f7c409d157dad291268ab2ceac"
+    },
+    {
+      "path": "public/media/corrected/page-29.webp",
+      "bytes": 173134,
+      "sha256": "e0642fe79b55d8dc746a5aca14470af95b3d37dac2cdead8b8ce1ed10e26fecb"
+    },
+    {
+      "path": "public/media/corrected/page-31.webp",
+      "bytes": 162136,
+      "sha256": "39f14aa27658af8a2bd05730d7594486d978e1e33ef4f9662f4a165aab971252"
+    },
+    {
+      "path": "public/media/corrected/page-32.webp",
+      "bytes": 135642,
+      "sha256": "9f0760370bb570542b1573cc9e337ebf858c0c693a8e4ccbd87918c67fed0932"
+    },
+    {
+      "path": "public/media/corrections.json",
+      "bytes": 12233,
+      "sha256": "608aa4a39700fa0ebf789a38d1cfa97eec1855e5852fc14347e64f95011bf4ca"
+    },
+    {
+      "path": "public/media/figure-04-01.webp",
+      "bytes": 40174,
+      "sha256": "fceaf48ac8ebbfc15ef0fa45aac0fc886e7afbe20b97789e6c99d46185c9b84a"
+    },
+    {
+      "path": "public/media/figure-04-02.webp",
+      "bytes": 56414,
+      "sha256": "63c050f4aa861c26214cd6ea77e552f03c5e7dc496083178dfa5976178a634dc"
+    },
+    {
+      "path": "public/media/figure-04-03.webp",
+      "bytes": 39650,
+      "sha256": "aca514070735f81ed153de1ebb83a48b91b57315d5c23a9c03f07db6d46b62dc"
+    },
+    {
+      "path": "public/media/figure-04-04.webp",
+      "bytes": 40402,
+      "sha256": "f8765768a8ad1111f94f0167030d44d83ed94b31c41deb8fc796d53026156819"
+    },
+    {
+      "path": "public/media/figure-05-01.webp",
+      "bytes": 5714,
+      "sha256": "59ec9bcff04e16d71c737fa05e9dd7bb82db493fe295794c2d1d9f91ab42a6da"
+    },
+    {
+      "path": "public/media/figure-05-02.webp",
+      "bytes": 44868,
+      "sha256": "467778110626dbbfa7ea209c867f5e33b46977df2ff89c54f3af041fc7fe8473"
+    },
+    {
+      "path": "public/media/figure-05-03.webp",
+      "bytes": 72630,
+      "sha256": "c150171360fcf79ddd146108d692e59b3e68151be37851a4d83bed146877be84"
+    },
+    {
+      "path": "public/media/figure-05-04.webp",
+      "bytes": 68418,
+      "sha256": "00f5404e1718609b7bce82b9cc1d6a3b96d07583d0c71744ca53a82587254c9f"
+    },
+    {
+      "path": "public/media/figure-05-05.webp",
+      "bytes": 26494,
+      "sha256": "4bd372fe7711076a59de526c47e5fb1237caad1630963163e3a331082f4229c5"
+    },
+    {
+      "path": "public/media/figure-06-01.webp",
+      "bytes": 94368,
+      "sha256": "c96abf131b2eb885591540b1f5518198a8889d75154fde82922c24f9c53de151"
+    },
+    {
+      "path": "public/media/figure-07-01.webp",
+      "bytes": 98720,
+      "sha256": "f6e070504815bd283b2692511df63acb907bfe4b1a28a17a921932917c709ad3"
+    },
+    {
+      "path": "public/media/figure-08-01.webp",
+      "bytes": 114744,
+      "sha256": "fb1806c335891c35fa6cf34d89e92cb57ec6730b74db5af47faca4279046faa1"
+    },
+    {
+      "path": "public/media/figure-10-01.webp",
+      "bytes": 63352,
+      "sha256": "452a818e9de5262d2637394c7c5fde95956bad605331731da33d699f3d459112"
+    },
+    {
+      "path": "public/media/figure-10-02.webp",
+      "bytes": 63522,
+      "sha256": "c452de13ae961c9ae60eecb73a5e2660ba69f5b897a539be94ffdd6ab2488117"
+    },
+    {
+      "path": "public/media/figure-11-01.webp",
+      "bytes": 47516,
+      "sha256": "032c307ea9a731fb36edc8318be0d2eb7d42e05ea924fbafa6a999ee3044f690"
+    },
+    {
+      "path": "public/media/figure-12-01.webp",
+      "bytes": 78466,
+      "sha256": "68ad19fa687910b3197373fc0aea5c620a3a36e0f406682a50bebc03df3932b0"
+    },
+    {
+      "path": "public/media/figure-12-02.webp",
+      "bytes": 78968,
+      "sha256": "69a4ebc0a885e36ab40689f131d2113b514aee80639fa8e1f36fade8a9793175"
+    },
+    {
+      "path": "public/media/figure-13-01.webp",
+      "bytes": 68448,
+      "sha256": "d7d5fc042b1fe0d663be9641d2c8f6797e6002f04bef8f4132b37010ffd1837f"
+    },
+    {
+      "path": "public/media/figure-14-01.webp",
+      "bytes": 63810,
+      "sha256": "276130304075c1320c14d67bb5ec777248aca267fa1801f85bc4a45d1143eae6"
+    },
+    {
+      "path": "public/media/figure-14-02.webp",
+      "bytes": 64442,
+      "sha256": "bbf07fb882cec673c95a7138c7f879a46c2385e8bb6d5c4078f0ccd85d3b3799"
+    },
+    {
+      "path": "public/media/figure-15-01.webp",
+      "bytes": 41670,
+      "sha256": "d8872c0f823c62194cf74b0b4043039e940e5887177f1dc4240c62706615ccbc"
+    },
+    {
+      "path": "public/media/figure-15-02.webp",
+      "bytes": 37130,
+      "sha256": "ada9cb36746ffa3c29c3257ab387c54eef86723e403b5f44783bd0c9998d269b"
+    },
+    {
+      "path": "public/media/figure-15-03.webp",
+      "bytes": 36162,
+      "sha256": "c233cfc2c012e1d9a164ce9cbecdc86ad35f780a96a197d1c2ff58ff438898a8"
+    },
+    {
+      "path": "public/media/figure-15-04.webp",
+      "bytes": 33170,
+      "sha256": "3da22f46c3ddbada8a69ee73532541c9ed32b506840013936402b8be00d97995"
+    },
+    {
+      "path": "public/media/figure-16-01.webp",
+      "bytes": 89598,
+      "sha256": "7d81d31ee8a1f474fdec2019ca45d3b7713cca72622d55226f2af3d332a3c50d"
+    },
+    {
+      "path": "public/media/figure-16-02.webp",
+      "bytes": 91584,
+      "sha256": "64dd95fd64cd6f6593f956377ee005971f05a7b40c965ca95f95618ecbd5a04c"
+    },
+    {
+      "path": "public/media/figure-17-01.webp",
+      "bytes": 56458,
+      "sha256": "ac8fdff52a2bc6eef4c4b4fe46392773c21c1147895c0709489b6a4640d6aa43"
+    },
+    {
+      "path": "public/media/figure-18-01.webp",
+      "bytes": 52192,
+      "sha256": "679b25e6544845eb2495e759b7e9b71b32d16434ab3eface33c2511d4fd3348d"
+    },
+    {
+      "path": "public/media/figure-19-00.webp",
+      "bytes": 55370,
+      "sha256": "ecf5e4992592ca8b2aa905938c0f5d51f202bcde029a7be8a89b4cc91d324a14"
+    },
+    {
+      "path": "public/media/figure-19-01.webp",
+      "bytes": 56288,
+      "sha256": "f4c890eb61274838aa2d3b81774d7ce71f4877d6f5e604487fd64c11bfba71cc"
+    },
+    {
+      "path": "public/media/figure-19-02.webp",
+      "bytes": 44268,
+      "sha256": "bf5d9db97932a8ec7af3842bdefeb8d6089153de639205d6925f1bd9091528ef"
+    },
+    {
+      "path": "public/media/figure-19-03.webp",
+      "bytes": 45048,
+      "sha256": "139c349118a4d5ff1cef0dda4949f22332f66f444cb6c0a08876a1ac922de408"
+    },
+    {
+      "path": "public/media/figure-21-01.webp",
+      "bytes": 167856,
+      "sha256": "bc9adc00c0d01a952dbc1f045af5bb77cfffc90290e9a73ee5be0df10b26ae9b"
+    },
+    {
+      "path": "public/media/figure-21-02.webp",
+      "bytes": 52650,
+      "sha256": "9b2d3f7b8a95ff57eef9157ee21612b9fc46345e8280be80e03b16b69f3d82a5"
+    },
+    {
+      "path": "public/media/figure-21-03.webp",
+      "bytes": 41868,
+      "sha256": "9c633f48eb621c3cd20afc062f9cdf589fa774749f3e618751eaff4955f2c05b"
+    },
+    {
+      "path": "public/media/figure-22-01.webp",
+      "bytes": 52464,
+      "sha256": "3cb93c092e72899e9ef73800812c155e46ea4c12e3a98def5fed2df3aa3be954"
+    },
+    {
+      "path": "public/media/figure-23-01.webp",
+      "bytes": 45480,
+      "sha256": "1635f3cf467ca659d70e1f7e4531e1a6564719e46e53ce5daf249cd0a0011f82"
+    },
+    {
+      "path": "public/media/figure-25-00.webp",
+      "bytes": 51646,
+      "sha256": "45837670f8fee3c444e5a4852057a105046399f4c11a3da9bd8b1163faa3c3d5"
+    },
+    {
+      "path": "public/media/figure-26-01.webp",
+      "bytes": 31758,
+      "sha256": "136971e1e18f370a0899cd363099cad2f36a0b9f11d2c9371ad34926e57b29da"
+    },
+    {
+      "path": "public/media/figure-26-02.webp",
+      "bytes": 51546,
+      "sha256": "8caf6ab03b1fa5b8efca3f351061d3253d16faa7c2620fb42facf8d95b441a33"
+    },
+    {
+      "path": "public/media/figure-27-00.webp",
+      "bytes": 51082,
+      "sha256": "f6da6558f3bb2e2b8a4b43e7dac028aab303c442dbfb18eaad88e9863bf31dcb"
+    },
+    {
+      "path": "public/media/figure-29-01.webp",
+      "bytes": 70782,
+      "sha256": "cf7b5d5b0c8641dac56bb1dee06fe9f0890cdd9cbca112077d05a9181f6e425c"
+    },
+    {
+      "path": "public/media/figure-31-01.webp",
+      "bytes": 43716,
+      "sha256": "eaebcec555dcacb1d27e840c3c5075b9fed72fe1cde75a9c3a279c3cb479b351"
+    },
+    {
+      "path": "public/media/figure-32-00.webp",
+      "bytes": 41534,
+      "sha256": "21c2ce7925a509f190c030b8528c2aa611fd61a94b37d0125ce0ab0e3ce77f54"
+    },
+    {
+      "path": "public/media/figure-32-02.webp",
+      "bytes": 24726,
+      "sha256": "cc0d460f251ab7cb9af227a6c8111c5690c924a94aa5b2caaf4f571d9952f81e"
+    },
+    {
+      "path": "public/media/figure-33-01.webp",
+      "bytes": 33804,
+      "sha256": "f114e6ff572381b7862e5a454bd5614b9af1b0a1fdf16048f41f7c1f6a9ad5bd"
+    },
+    {
+      "path": "public/media/page-01.webp",
+      "bytes": 25634,
+      "sha256": "8f3222557804687070d149d359a62d2d5e355d1e2c41bde72c3691b81b42eae5"
+    },
+    {
+      "path": "public/media/page-02.webp",
+      "bytes": 36424,
+      "sha256": "6fc332391696a4f63d3ebe6418aa3f0cdb2566466802b7e80b0163ce3d4fb60e"
+    },
+    {
+      "path": "public/media/page-03.webp",
+      "bytes": 48758,
+      "sha256": "04b26627503096418c86b9da0434f840268f2e0466fe6ab7a4b509fb24bf6000"
+    },
+    {
+      "path": "public/media/page-04.webp",
+      "bytes": 127652,
+      "sha256": "a79c714e40eb685ba8414331b203a1146f99acc52e126c09e777954fb436d474"
+    },
+    {
+      "path": "public/media/page-05.webp",
+      "bytes": 100728,
+      "sha256": "9b8d18321fdc23044ca26eaae1e589d73de05ec5bcef12eba6e4c77244101264"
+    },
+    {
+      "path": "public/media/page-06.webp",
+      "bytes": 74318,
+      "sha256": "9201478744885b68cdd279d910b8b4e09315df3836f3ec9dfc85aa093f07e9e7"
+    },
+    {
+      "path": "public/media/page-07.webp",
+      "bytes": 78710,
+      "sha256": "84e9f15e4bce231d4b26fc592941032a5227fc7bc10f94f1578ef347eba308a4"
+    },
+    {
+      "path": "public/media/page-08.webp",
+      "bytes": 86710,
+      "sha256": "e1274168309ebf840e519a758fe26e924b14227cade52c4a0173cb8c00089033"
+    },
+    {
+      "path": "public/media/page-09.webp",
+      "bytes": 83506,
+      "sha256": "a4616650a7a5d39a5039c70834f3be61cc117ad8af1764d1d9be6477d96dcab6"
+    },
+    {
+      "path": "public/media/page-10.webp",
+      "bytes": 117476,
+      "sha256": "9e3c163b738ed11f0b0a4c33b5896f5d9aaf1dfb6915face7f8fb0fd1bf5d863"
+    },
+    {
+      "path": "public/media/page-11.webp",
+      "bytes": 103454,
+      "sha256": "be2e7dbba3fa391868f320692d8fd67a7071dab8bf168bb5a65175dcfafbf870"
+    },
+    {
+      "path": "public/media/page-12.webp",
+      "bytes": 99892,
+      "sha256": "14576218a3b10b4b955c4cbb0ca11a06130ad2fa22d34d22f266b6b939432f76"
+    },
+    {
+      "path": "public/media/page-13.webp",
+      "bytes": 126304,
+      "sha256": "20281e653abd947ef75675e965080c326cc117a21cf3782bde47194ed1c27c77"
+    },
+    {
+      "path": "public/media/page-14.webp",
+      "bytes": 79920,
+      "sha256": "b0f3344663cd46254d7e8e434449f45fb198910990e6d03efeef61e2e6eb1123"
+    },
+    {
+      "path": "public/media/page-15.webp",
+      "bytes": 82278,
+      "sha256": "d9d691d5b72a7ac2a548212c7eb9c72205ffde73b727fadcdc6072042ea6af3f"
+    },
+    {
+      "path": "public/media/page-16.webp",
+      "bytes": 115762,
+      "sha256": "cdcd27e29a7ac4dd2be148c9791887489a3f827bd8e51726463e94ece35e11f8"
+    },
+    {
+      "path": "public/media/page-17.webp",
+      "bytes": 101994,
+      "sha256": "420a9abd04efb6e69e146190d898fbde240522d7dc105b2e170621b6caddcfac"
+    },
+    {
+      "path": "public/media/page-18.webp",
+      "bytes": 87100,
+      "sha256": "05cfc9f8aa0cded846b16c7d174e6ce5e516af18403094ba881ec406b11d8c88"
+    },
+    {
+      "path": "public/media/page-19.webp",
+      "bytes": 106566,
+      "sha256": "366c552676ffa09f4861019483a210d642b5664e62d00e1ab06a2018d8c6771b"
+    },
+    {
+      "path": "public/media/page-20.webp",
+      "bytes": 94752,
+      "sha256": "225c81a7ed4d2dcf9c4a820d7f08402c577f3292e124ea7931a62d77db517ed1"
+    },
+    {
+      "path": "public/media/page-21.webp",
+      "bytes": 172048,
+      "sha256": "b767c5c5370b66f7a4c8132cc43d2f508db04de0bedaf8a5068c4c1a7b1d7bc3"
+    },
+    {
+      "path": "public/media/page-22.webp",
+      "bytes": 132406,
+      "sha256": "acb434c365c38b782ad7c2148f9d78b118909541a15fc41888c1bf678fa2bfa8"
+    },
+    {
+      "path": "public/media/page-23.webp",
+      "bytes": 84394,
+      "sha256": "c9e0decd9b105ff7bd4aeab573f3001306d4b7c5d64320f761f10fd1a5ad9b7c"
+    },
+    {
+      "path": "public/media/page-24.webp",
+      "bytes": 47986,
+      "sha256": "2e4a4505089a0d46d7294694275a71f3c341ea5b81d0310647037222ae65585a"
+    },
+    {
+      "path": "public/media/page-25.webp",
+      "bytes": 95602,
+      "sha256": "582c6ec4aa9469c41e4dc4324a8f7c87be8258a186ca254b6106950782b84e10"
+    },
+    {
+      "path": "public/media/page-26.webp",
+      "bytes": 78436,
+      "sha256": "973f30de214ac23fd966b91108581f9f665e7c5fb2ae8085acae8e1b70bc9764"
+    },
+    {
+      "path": "public/media/page-27.webp",
+      "bytes": 85918,
+      "sha256": "cddde6c6dc4db5907096118aa071ede13befe8b16ba0002b31f064628420e287"
+    },
+    {
+      "path": "public/media/page-28.webp",
+      "bytes": 49342,
+      "sha256": "d918f2f1d0b83f306b3608e1892eac5f2a93e5bee7be339b5555f23374bb282d"
+    },
+    {
+      "path": "public/media/page-29.webp",
+      "bytes": 135978,
+      "sha256": "345dd6552892fbf4279544bb71fec91ff1b11f6f6d11f47bb1e3457c8501d03b"
+    },
+    {
+      "path": "public/media/page-30.webp",
+      "bytes": 51120,
+      "sha256": "0782c71a78bbe111a51245be628ed282bcbef4cb3bd11b890d4565c72a5863cd"
+    },
+    {
+      "path": "public/media/page-31.webp",
+      "bytes": 124340,
+      "sha256": "f2739378449b34af6073a069ab29e13a80cacb30b611840dc07cb3ac53daecf7"
+    },
+    {
+      "path": "public/media/page-32.webp",
+      "bytes": 100740,
+      "sha256": "ea8514f36654309af9f67ddefd6b97694da6b0d38e7fa063cc8f937b16e7fba7"
+    },
+    {
+      "path": "public/media/page-33.webp",
+      "bytes": 128936,
+      "sha256": "1a2a02739ea67e3d8bddf14c2251cdcd655887d4dd66688fb48633acec71ae39"
+    },
+    {
+      "path": "public/media/page-34.webp",
+      "bytes": 28884,
+      "sha256": "a3d680379c14488228535ac9fd8bb5ce2a56f1f0f0a8523bc1448099c81d7b95"
+    },
+    {
+      "path": "public/media/vision-cafe.provenance.json",
+      "bytes": 1807,
+      "sha256": "0196fc61e4f47b537d7f003522e0917ecc9a0057b095c154795cde80de32df84"
+    },
+    {
+      "path": "public/media/vision-cafe.webp",
+      "bytes": 212536,
+      "sha256": "9b5a96be2ad76e65a7da04afa401fcda6a74c247b633b10e1f8218dcdc804c28"
+    },
+    {
+      "path": "public/media/vision-market.provenance.json",
+      "bytes": 2026,
+      "sha256": "3d3156788e1670900a4dcb5220ccbf3ea0969f71e2fc0c5e9fa7c960dd3bd904"
+    },
+    {
+      "path": "public/media/vision-market.webp",
+      "bytes": 251336,
+      "sha256": "c962d32a9620a2bdedbad866815b0cedd2d27179c3b5afe633c12af9f02f2787"
+    },
+    {
+      "path": "public/vendor/react-dom.min.js",
+      "bytes": 102890,
+      "sha256": "c7a65157caebd9af7e108f1f1eb8b6e2c8fafb141d0f4c2a4d4dfd851c52ec9e"
+    },
+    {
+      "path": "public/vendor/react.min.js",
+      "bytes": 6588,
+      "sha256": "de59b0d4504aa0350c13775fec9b78859f3eda83dea21d60dded98bb7866d54a"
+    },
+    {
+      "path": "scripts/__pycache__/check_data.cpython-315.pyc",
+      "bytes": 12293,
+      "sha256": "34d54db68459a660a7bb6764726700a1eea99bcd66ad9e453c8016e63b30214a"
+    },
+    {
+      "path": "scripts/__pycache__/standalone.cpython-315.pyc",
+      "bytes": 5441,
+      "sha256": "10e44d6d4eeff0aaa30590df9068a12734c42a8a289c474a488695b316e1c775"
+    },
+    {
+      "path": "scripts/build.cjs",
+      "bytes": 3285,
+      "sha256": "9d1f61c2324c55d7938c1f11dcf1e6b84a9f12539cb8b4b353a7207fe46bda59"
+    },
+    {
+      "path": "scripts/check_data.py",
+      "bytes": 7262,
+      "sha256": "116f18684cf593f6fe9758f846c7810d0271c90032b8ff10869fcb209244afd5"
+    },
+    {
+      "path": "scripts/data.py",
+      "bytes": 11708,
+      "sha256": "42f60874c4e1b6cb7e23201c88ee622e16bf7c7d2db9e584a8cd40b6240866c1"
+    },
+    {
+      "path": "scripts/enrich.py",
+      "bytes": 18543,
+      "sha256": "c6e3fb693c133961fe9336b61a6dcdd1a3b4e5d2e575afe011c13525541ae7d6"
+    },
+    {
+      "path": "scripts/standalone.py",
+      "bytes": 2256,
+      "sha256": "b09aec2d6ca156146e15b8537266869f68c1a9e7bd64dcd9efb7d21085e3fb44"
+    },
+    {
+      "path": "src/00-core.jsx",
+      "bytes": 19279,
+      "sha256": "c846b72e5800c8a6ed5488f342f527b31d1950294f108ba6fe1f447e52643f70"
+    },
+    {
+      "path": "src/10-views.jsx",
+      "bytes": 25685,
+      "sha256": "9a7ae76d517748b6bbbfe8969c907218e2b53b9c3a0ed5957af695b1d198f6c9"
+    },
+    {
+      "path": "src/20-research.jsx",
+      "bytes": 22283,
+      "sha256": "c8b5c7e833af73aae714c7d836e600efef2de7d93fa7465484a76d5fa4b16261"
+    },
+    {
+      "path": "src/30-session.jsx",
+      "bytes": 12991,
+      "sha256": "1ca9ae72aba4e2129d3288b76e7fbbd2574bcd166fad0ae01b61b7bc3f668056"
+    },
+    {
+      "path": "src/35-motion.jsx",
+      "bytes": 10852,
+      "sha256": "867b4818e435a768ecbf47c92ee631e0b09893c5d1a0ae1ea490b9cf2a1fdbc8"
+    },
+    {
+      "path": "src/36-navigation.jsx",
+      "bytes": 8051,
+      "sha256": "473f8b8b6ac0b83fc6786591fb71378ae2c448332f1bc6b62042727e3e6bf0d3"
+    },
+    {
+      "path": "src/40-app.jsx",
+      "bytes": 12819,
+      "sha256": "bc2b02ad0f59d7d9d9296386c17231757327178031fa06150ca0750ec6bf88a7"
+    },
+    {
+      "path": "src/brand.css",
+      "bytes": 19312,
+      "sha256": "3fd1ee0cf50912bcc0deb0c21f82ca07cbf2ac53557ead6697f47609cbf4aa0a"
+    },
+    {
+      "path": "src/cinematic.css",
+      "bytes": 29642,
+      "sha256": "9d961e8cd9b6d033b61ad90060c66d3c2ba32cc6569dbc6c0c527773073ecfac"
+    },
+    {
+      "path": "src/motion.css",
+      "bytes": 4695,
+      "sha256": "e027a2783ade0804b0c1c8ed3e0844592ccc20de67107d7936d7de2e199c7db5"
+    },
+    {
+      "path": "src/navigation.css",
+      "bytes": 12054,
+      "sha256": "486645e273da7d2d64ed88e3b6887680788bd64d319590a668c251a18262d941"
+    },
+    {
+      "path": "src/style.css",
+      "bytes": 100667,
+      "sha256": "459ad11be54d8e9dfba448de6f68f8bdce57176d05ee8c402dc6732e6459d208"
+    },
+    {
+      "path": "src/world-paths.json",
+      "bytes": 126362,
+      "sha256": "15cc28698638b8eaf6a973ebe3192d9b2568c10776d3ec9bd17347893ee3476b"
+    }
+  ]
+}

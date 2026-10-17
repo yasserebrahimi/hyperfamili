@@ -1,0 +1,21 @@
+{
+  "iran_first": true,
+  "source_dialog": true,
+  "scenario_changed": true,
+  "scenario_text": "سناریوی پایین\n۸۰۰ میلیون تومان\nسناریوی بالا\n۱٫۶ میلیارد تومان",
+  "negative_rejected": true,
+  "markdown_loaded": true,
+  "raw_complete": true,
+  "manager_page": "صفحه کامل 13 از سند مدیر",
+  "manager_last": true,
+  "global_search": true,
+  "escape_modal": true,
+  "comparison_max_three": true,
+  "agenda_reorder": true,
+  "saved_serialization": true,
+  "export_valid": true,
+  "import_valid": true,
+  "invalid_import_rejected": true,
+  "runtime_errors": [],
+  "storage_test": "mock Storage serialization under about:blank; real file-origin persistence not accessible due browser policy"
+}

@@ -1,0 +1,412 @@
+{
+  "date": "2026-10-17",
+  "browser": "Isolated Google Chrome via Playwright",
+  "states": [
+    {
+      "width": 320,
+      "view": "home",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "projects",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "detail",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "atlas",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "prices",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "library",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "agenda",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "concepts",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 320,
+      "view": "compare",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "home",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "projects",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "detail",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "atlas",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "prices",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "library",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "agenda",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "concepts",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 390,
+      "view": "compare",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "home",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "projects",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "detail",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "atlas",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "prices",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "library",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "agenda",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "concepts",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 768,
+      "view": "compare",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "home",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "projects",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "detail",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "atlas",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "prices",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "library",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "agenda",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "concepts",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1024,
+      "view": "compare",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "home",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "projects",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "detail",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "atlas",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "prices",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "library",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "agenda",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "concepts",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1366,
+      "view": "compare",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "home",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "projects",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "detail",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "atlas",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "prices",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "library",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "agenda",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "concepts",
+      "overflow": false,
+      "font": true,
+      "error": false
+    },
+    {
+      "width": 1920,
+      "view": "compare",
+      "overflow": false,
+      "font": true,
+      "error": false
+    }
+  ],
+  "home": {
+    "photos": 25,
+    "allPhotosLoaded": true,
+    "generatedPhotos": [
+      "تجسم مفهومی فروشگاه آینده هایپرفامیلی با لوگوی برند و هویت فیروزه‌ای؛ ساخته‌شده با هوش مصنوعی",
+      "تجسم مفهومی کافه فروشگاهی فامیلی با لوگوی برند؛ ساخته‌شده با هوش مصنوعی",
+      "تصویر مفهومی کافهٔ خودخدمت ساخته‌شده با هوش مصنوعی"
+    ],
+    "sessionGraphic": {
+      "width": 85,
+      "height": 85
+    }
+  },
+  "mobileSession": {
+    "width": 57,
+    "height": 57
+  },
+  "offline": {
+    "projects": 102,
+    "allPhotosLoaded": true,
+    "allPhotosEmbedded": true,
+    "font": true,
+    "motionToggle": true,
+    "overflow": false
+  },
+  "errors": [],
+  "external": [],
+  "failed": []
+}

@@ -1,0 +1,14 @@
+{
+  "asset": "vision-market.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Use case: photorealistic-natural. Asset type: premium wide cinematic website hero photograph, landscape 16:9, for an aspirational retail innovation presentation. Scene: beautifully designed, realistic modern supermarket produce section with deep forest-green architecture, subtle lime-green accents, warm curved oak display islands, abundant richly coloured fresh vegetables and fruit. Main subject: a contemporary smart shopping cart in the LEFT foreground with a small plausible screen and a few fresh groceries, produce islands receding into a welcoming store. Wide architectural editorial photography, eye-level, refined composition, believable materials and natural detail. Concentrate attractive visual detail in the LEFT two thirds. The RIGHT third must be darker, uncluttered forest-green architectural wall/space with graceful soft shadows, suitable for overlaying a large Persian headline later. Warm daylight from the upper left, carefully balanced realistic interior lighting, sophisticated cinematic colour, rich but natural colour, inviting and beautiful. No people needed. No typography, no letters or numbers, no logos, no watermarks. No holograms or impossible sci-fi, no futuristic CGI aesthetic, no fake real brand claims. The result should feel like a high-end architectural magazine photograph, not a 3D render. Generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a148bf-ccfb-7612-a18c-73ea072c31b0/exec-c5063755-cf87-40ae-873d-7dd3d8e6603d.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1672,
+  "height": 941,
+  "sha256": "c962d32a9620a2bdedbad866815b0cedd2d27179c3b5afe633c12af9f02f2787",
+  "bytes": 251336
+}

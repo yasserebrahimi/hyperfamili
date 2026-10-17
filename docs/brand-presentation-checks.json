@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-17T07:42:49.731Z",
+  "browser": "Chrome via Playwright isolated context, reduced motion",
+  "method": "UI clicks for navigation and stage changes",
+  "states": [
+    {
+      "width": 390,
+      "step": 0,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 390,
+      "step": 1,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 390,
+      "step": 2,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 390,
+      "step": 3,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 390,
+      "step": 4,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 390,
+      "step": 5,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 768,
+      "step": 0,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 768,
+      "step": 1,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 768,
+      "step": 2,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 768,
+      "step": 3,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 768,
+      "step": 4,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 768,
+      "step": 5,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1366,
+      "step": 0,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1366,
+      "step": 1,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1366,
+      "step": 2,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1366,
+      "step": 3,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1366,
+      "step": 4,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1366,
+      "step": 5,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1920,
+      "step": 0,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1920,
+      "step": 1,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1920,
+      "step": 2,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1920,
+      "step": 3,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1920,
+      "step": 4,
+      "overflow": false,
+      "contentOverflow": false
+    },
+    {
+      "width": 1920,
+      "step": 5,
+      "overflow": false,
+      "contentOverflow": false
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,17 @@
+{
+  "original": "figure-13-01.webp",
+  "corrected": "corrected/figure-13-01.webp",
+  "generated_image": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-a2f4cc55-adfd-4b21-8a6a-2dc2a5271ab1.png",
+  "prompt": "Edit the existing first image ONLY as a precise English spelling repair. The second image is the spelling reference: its upper kiosk says correctly HyperFamili. In the FIRST image, ERASE the ENTIRE small English red/green brand wordmark on the kiosk's upper-front white panel above the circular green icons (currently HyperFamily). Replace that whole English line with a crisp, slightly larger readable red/green logo exactly HyperFamili. Letters H y p e r F a m i l i. The final letter MUST be a straight lowercase i with a dot above; no y descender at the end. Also replace any English Family on the tiny rear orange store fascia with Famili. Keep ALL Persian lettering including the large lower kiosk wordmark, all machines, shoppers, shelves, lighting, photo perspective and framing unchanged. Do not add new words or logos. Only the English Family -> Famili typography is to change. Final visible English brand must read HyperFamili.",
+  "references": [
+    "public/media/corrected/figure-13-01.webp (earlier rejected attempt)",
+    "public/media/corrected/page-13.webp (accepted spelling reference)"
+  ],
+  "sha256": "e11d6868f4d1f4d97ab24a9fd14727858a40edb035acdb1b674207c75472b1a8",
+  "original_sha256": "d7d5fc042b1fe0d663be9641d2c8f6797e6002f04bef8f4132b37010ffd1837f",
+  "dimensions": [
+    721,
+    515
+  ],
+  "verification": "Main kiosk and rear fascia read HyperFamili in Vision OCR and visual inspection. Lower Persian wordmark retained."
+}

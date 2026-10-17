@@ -1,0 +1,40 @@
+/* Motion is optional, short, and additive: layout/content never depend on it. */
+.page { animation: none; }
+.topbar { position: sticky; }
+.reading-progress { position: absolute; inset-inline: 0; bottom: 0; height: 2px; overflow: hidden; pointer-events: none; }
+.reading-progress>span { display: block; height: 100%; width: 100%; transform: scaleX(var(--reading-progress,0)); transform-origin: right center; background: linear-gradient(90deg,#ec2724,#02b1c5,#8ee6ee); }
+.motion-toggle { display: inline-flex; align-items: center; justify-content: center; gap: 7px; padding: 8px 10px; min-height: 36px; border: 1px solid #c6e8eb; border-radius: 10px; background: #f4fcfc; color: #12636d; font-family: inherit; font-size: .65rem; white-space: nowrap; cursor: pointer; transition: background .2s ease,border-color .2s ease; }
+.motion-toggle:hover { background: #e5f7f9; border-color: #8dced5; }
+.motion-toggle.is-paused { color: #788172; background: #f6f6f1; }
+.motion-toggle[aria-disabled=true] { cursor: default; }
+.motion-toggle:focus-visible { outline: 3px solid #02b1c5; outline-offset: 3px; }
+.hero [data-motion-parallax],.hero .hero-media>img { translate: var(--hero-pointer-x,0px) var(--hero-pointer-y,0px); scale: 1.035; transition: translate .65s cubic-bezier(.2,.7,.2,1); }
+.cinematic-hero .hero-media>img { transform: none; }
+.hero [data-motion-parallax="soft"] { translate: calc(var(--hero-pointer-x,0px) * -.5) calc(var(--hero-pointer-y,0px) * -.5); scale: 1; }
+.hero:not(.motion-in-view) [data-motion-parallax],.hero:not(.motion-in-view) .hero-media>img { animation-play-state: paused!important; transition: none!important; }
+.motion-paused *,.motion-paused *::before,.motion-paused *::after { animation: none!important; transition: none!important; }
+.motion-paused .hero-discovery:hover,.motion-paused .photo-perspective:hover,.motion-paused .photo-perspective:hover>img,.motion-paused .story-card:hover,.motion-paused .story-card:hover img,.motion-paused .card:hover,.motion-paused .card:hover .visual>img,.motion-paused .btn:hover { transform: none!important; }
+.motion-paused .hero [data-motion-parallax],.motion-paused .hero .hero-media>img,.reduce-motion .hero [data-motion-parallax],.reduce-motion .hero .hero-media>img { translate: none; scale: 1; transition: none; }
+@media (max-width:1200px) { .motion-toggle>span { display: none; } .motion-toggle { width: 36px; padding-inline: 0; } }
+@media (max-width:600px) { .topbar-actions { gap: 7px; } .motion-toggle { width: 32px; min-height: 34px; border-radius: 9px; } }
+@media (prefers-reduced-motion:reduce) { .hero [data-motion-parallax],.hero .hero-media>img { translate: none!important; scale: 1; transition: none!important; } }
+@media print { .reading-progress,.motion-toggle { display: none!important; } .hero [data-motion-parallax],.hero .hero-media>img { translate: none!important; scale: 1; } }
+
+/* Brand motion: a finite entrance and direct response to the reader's pointer. */
+.brand-hero-word { backface-visibility: hidden; }
+.brand-feature-photo { overflow: hidden; }
+.brand-feature-photo>img,.brand-feature-photo>picture>img { translate: var(--photo-pointer-x,0px) var(--photo-pointer-y,0px); transition: translate .7s cubic-bezier(.16,1,.3,1),transform 1s cubic-bezier(.16,1,.3,1),filter .7s ease; }
+@media (hover:hover) and (pointer:fine) {
+ .brand-feature-photo:hover>img,.brand-feature-photo:hover>picture>img { transform: scale(1.045); filter: saturate(1.08); }
+ .brand-experience .text-link svg,.brand-strip .text-link svg { transition: translate .3s cubic-bezier(.2,.7,.2,1); }
+ .brand-experience .text-link:hover svg,.brand-strip .text-link:hover svg { translate: -5px 0; }
+ .hero .actions .btn>svg { transition: rotate .35s ease,scale .35s ease; }
+ .hero .actions .btn:hover>svg { rotate: -8deg; scale: 1.1; }
+}
+.motion-paused .brand-feature-photo>img,.motion-paused .brand-feature-photo>picture>img,.reduce-motion .brand-feature-photo>img,.reduce-motion .brand-feature-photo>picture>img { translate: none!important; transform: none!important; }
+.motion-paused .hero .actions .btn>svg,.motion-paused .brand-experience .text-link svg,.motion-paused .brand-strip .text-link svg { rotate: none!important; scale: 1!important; translate: none!important; }
+@media (prefers-reduced-motion:reduce) {
+ .brand-feature-photo>img,.brand-feature-photo>picture>img { translate: none!important; transform: none!important; }
+ .hero .actions .btn>svg,.brand-experience .text-link svg,.brand-strip .text-link svg { rotate: none!important; scale: 1!important; translate: none!important; }
+}
+@media print { .brand-feature-photo>img,.brand-feature-photo>picture>img { translate: none!important; transform: none!important; } }

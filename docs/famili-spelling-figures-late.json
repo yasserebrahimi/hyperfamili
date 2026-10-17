@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-17",
+  "tool": "image_gen.imagegen (built-in)",
+  "use_case": "text-localization",
+  "request": "Replace in-image Family with Famili only.",
+  "format_conversion": "cwebp -q 95 -resize ORIGINAL_WIDTH ORIGINAL_HEIGHT; format conversion and resize only",
+  "assets": [
+    {
+      "filename": "figure-21-01.webp",
+      "input": "public/media/figure-21-01.webp",
+      "output": "public/media/corrected/figure-21-01.webp",
+      "tool_output": "/Users/yasser/.codex/generated_images/01a148d4-1b6a-7072-a99b-26bc80d17c94/exec-b269749f-01bb-4c68-bbaa-f1240e407f52.png",
+      "prompt": "Use case: text-localization. Surgical follow-up to the referenced edit target: the tiny purple overhead fascia at the very far upper-right still reads 'Hyper Family'. Replace that tiny purple sign's text ONLY with 'Hyper Famili' (exact final letters F-a-m-i-l-i, last i not y). Also ensure the angled turquoise side face to the left of the main turquoise sign has Famili if it contains English. Keep all already-correct Hyper Famili signs exactly as they are. Preserve the complete image composition, people, all surveillance overlays, Persian labels, heatmap, crop, lights and colors. Match tiny purple text's font, white color, perspective, scale and blur. Do not alter any other detail.",
+      "visual_review": "Accepted: Famili spelling and original composition preserved",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Input image is the edit target. Make an extremely surgical spelling correction only: replace every English instance of the brand words 'Hyper Family' with 'Hyper Famili' and 'HyperFamily' with 'HyperFamili', including the large turquoise overhead sign at upper left, red sign upper middle, blue sign upper right-middle, purple small sign far upper right, and any tiny/partly obscured duplicates. Exact last word letters: F-a-m-i-l-i (ends i, never y). Keep each sign's original font, size, case, alignment, color and perspective. Preserve the whole retail analytics image exactly: all people, positions, shelves, colors, crop, rounded corners, floor heatmap, overlays, technical labels, small writing and Persian text unchanged. No redesign, no added branding, no new objects, no watermark. Output the same full composition.",
+          "tool_output": "/Users/yasser/.codex/generated_images/01a148d4-1b6a-7072-a99b-26bc80d17c94/exec-dc39585a-d618-4af9-bab8-cff9a6e5e198.png",
+          "reason_retried": "Vision OCR identified Family remaining on tiny far-right purple sign"
+        }
+      ],
+      "input_sha256": "bc9adc00c0d01a952dbc1f045af5bb77cfffc90290e9a73ee5be0df10b26ae9b",
+      "input_bytes": 167856,
+      "input_dimensions": [
+        1109,
+        620
+      ],
+      "output_sha256": "58a1d13c0eb230744e6102779afd5c6f8f8afa6887cabfe22158916f51d9105d",
+      "output_bytes": 207968,
+      "output_dimensions": [
+        1109,
+        620
+      ],
+      "tool_output_sha256": "447def9550e7f0c1d4b80f08259bfb3bcea98ba0ff988efd97837e8e05a2b2b5",
+      "tool_output_bytes": 2320304,
+      "tool_output_dimensions": [
+        1677,
+        938
+      ],
+      "ocr_brand_text": [
+        "Hyper Famili",
+        "Hyper Famili",
+        "Hyper Famili",
+        "Hyper Famin"
+      ],
+      "ocr_family_remaining": [],
+      "ocr_limitation": "Tiny far-right purple sign is visually Famili; OCR reads Hyper Famin due to scale and perspective. Main three signs read Hyper Famili. No OCR Family remains."
+    },
+    {
+      "filename": "figure-23-01.webp",
+      "input": "public/media/figure-23-01.webp",
+      "output": "public/media/corrected/figure-23-01.webp",
+      "tool_output": "/Users/yasser/.codex/generated_images/01a148d4-1b6a-7072-a99b-26bc80d17c94/exec-2d6f47bc-d24c-4fda-9d14-478ede568cc1.png",
+      "prompt": "Use case: text-localization. Input image is the edit target. Change only the misspelled English store brand: every 'Family' must read 'Famili' (exact letters F-a-m-i-l-i), so every 'Hyper Family' becomes 'Hyper Famili'. Correct the blurred red overhead fascia sign near upper left-center and every duplicate on the turquoise column at the far left, including the cropped/blurred upper sign and lower sign. The last letter must be i, never y. Match all original perspective, blur, white lettering, size and placement. Preserve every other pixel-level subject and composition as closely as possible: same payment terminal, phone, hands, shelving, people, lighting, colors and crop. Leave all Persian text and payment details unchanged. No new logo, no redesign, no extra words or objects.",
+      "visual_review": "Accepted: Famili spelling and original composition preserved",
+      "input_sha256": "1635f3cf467ca659d70e1f7e4531e1a6564719e46e53ce5daf249cd0a0011f82",
+      "input_bytes": 45480,
+      "input_dimensions": [
+        723,
+        485
+      ],
+      "output_sha256": "6fdfc0f0187bcba6825a2f9d767bed47f17ef77fc602938336a4d3cc4d8caea2",
+      "output_bytes": 71224,
+      "output_dimensions": [
+        723,
+        485
+      ],
+      "tool_output_sha256": "a378be84f00660c3125276b68660de206b6012c9a82e25c5b0b591b352287e76",
+      "tool_output_bytes": 1833053,
+      "tool_output_dimensions": [
+        1532,
+        1026
+      ],
+      "ocr_brand_text": [
+        "Hyper Famili"
+      ],
+      "ocr_family_remaining": []
+    },
+    {
+      "filename": "figure-29-01.webp",
+      "input": "public/media/figure-29-01.webp",
+      "output": "public/media/corrected/figure-29-01.webp",
+      "tool_output": "/Users/yasser/.codex/generated_images/01a148d4-1b6a-7072-a99b-26bc80d17c94/exec-10f57315-38a6-49f6-9170-8c45a4253fd4.png",
+      "prompt": "Use case: text-localization. Edit target is the supplied photo. Correct only the English letters on the store building fascia near the upper-right roof line: change 'HyperFamily' to exactly 'HyperFamili' (last letters F-a-m-i-l-i, ending with i). Preserve joined spacing, red Hyper and turquoise Famili colors, exact original font, scale, baseline and perspective. Keep Persian brand lettering, building architecture, solar canopy, vehicles, chargers, people, mountains, lighting, colors, framing and all other details unchanged. Do not add or remove anything, no watermark.",
+      "visual_review": "Accepted: Famili spelling and original composition preserved",
+      "input_sha256": "cf7b5d5b0c8641dac56bb1dee06fe9f0890cdd9cbca112077d05a9181f6e425c",
+      "input_bytes": 70782,
+      "input_dimensions": [
+        685,
+        518
+      ],
+      "output_sha256": "6c4a2057e6d3e6e16dc0b7973f0972922e0e14d7b3f15e1a2562ba860d4b91f4",
+      "output_bytes": 94874,
+      "output_dimensions": [
+        685,
+        518
+      ],
+      "tool_output_sha256": "b1e782516465a88a47976d41a363615da4fdbece38ac1829a18c0075e0b32489",
+      "tool_output_bytes": 2073208,
+      "tool_output_dimensions": [
+        1442,
+        1091
+      ],
+      "ocr_brand_text": [
+        "HyperFamili | AoLåLa"
+      ],
+      "ocr_family_remaining": []
+    },
+    {
+      "filename": "figure-31-01.webp",
+      "input": "public/media/figure-31-01.webp",
+      "output": "public/media/corrected/figure-31-01.webp",
+      "tool_output": "/Users/yasser/.codex/generated_images/01a148d4-1b6a-7072-a99b-26bc80d17c94/exec-a085534f-5ad1-40a3-8555-64dee82b1cdb.png",
+      "prompt": "Use case: text-localization. The referenced photograph is the edit target. Change only the English store brand spelling wherever visible: on the phone's WhatsApp header at the top, replace 'Hyper Family' with exactly 'Hyper Famili'. Correct the blurred partly cropped turquoise overhead brand sign in the background upper-left too from Family to Famili. Exact last word F-a-m-i-l-i ending with i (not y). Keep English font, case, size, blur, baseline, placement and perspective. Preserve phone and hand, Persian brand and all Persian promotional copy/buttons, product package, colors, crop, store, people and lighting unchanged. No redesign, no additional objects or new branding.",
+      "visual_review": "Accepted: Famili spelling and original composition preserved",
+      "input_sha256": "eaebcec555dcacb1d27e840c3c5075b9fed72fe1cde75a9c3a279c3cb479b351",
+      "input_bytes": 43716,
+      "input_dimensions": [
+        501,
+        677
+      ],
+      "output_sha256": "380ee049350529b24032908bd6b7b25d19fdf42671f7b1a18f7d21026cd29745",
+      "output_bytes": 66772,
+      "output_dimensions": [
+        501,
+        677
+      ],
+      "tool_output_sha256": "02a1fdd1b288f61f778ab0a7e5439164743de706ce39c6d2add1d07f7ea8ac7c",
+      "tool_output_bytes": 1770385,
+      "tool_output_dimensions": [
+        1078,
+        1459
+      ],
+      "ocr_brand_text": [
+        "Hyper Famili | ulolala"
+      ],
+      "ocr_family_remaining": []
+    },
+    {
+      "filename": "figure-32-00.webp",
+      "input": "public/media/figure-32-00.webp",
+      "output": "public/media/corrected/figure-32-00.webp",
+      "tool_output": "/Users/yasser/.codex/generated_images/01a148d4-1b6a-7072-a99b-26bc80d17c94/exec-bf72480d-ca1a-4777-bcc0-cb47e41c433d.png",
+      "prompt": "Use case: text-localization. Input image 1 is the edit target, image 2 is a corrected spelling reference for the SAME notification photograph. In image 1 change ONLY English 'Hyper Family' on the phone notification card to exactly 'Hyper Famili' (H-y-p-e-r space F-a-m-i-l-i ending in i). Copy the corrected spelling appearance from image 2. Keep black font, size, baseline and location before vertical separator and Persian name. Preserve all Persian paragraphs at left, decorative gold arcs, page layout, card's Persian notification text, icon, phone, desk, screens, photo crop, lighting and colors unchanged. Output image 1's full composition, not image2. No redesign.",
+      "visual_review": "Accepted: Famili spelling and original composition preserved",
+      "input_sha256": "21c2ce7925a509f190c030b8528c2aa611fd61a94b37d0125ce0ab0e3ce77f54",
+      "input_bytes": 41534,
+      "input_dimensions": [
+        732,
+        621
+      ],
+      "output_sha256": "c7798dfc6c8fce9e457b3054d54f8f5c00c1bcf7080abee8065c867db16562a3",
+      "output_bytes": 62282,
+      "output_dimensions": [
+        732,
+        621
+      ],
+      "tool_output_sha256": "2287c969f552addc514ff20cd2230e519aae3d1e92697d4dfc13e535c76deb80",
+      "tool_output_bytes": 1543242,
+      "tool_output_dimensions": [
+        1362,
+        1155
+      ],
+      "ocr_brand_text": [
+        "Hyper Famili I cholåalø"
+      ],
+      "ocr_family_remaining": []
+    },
+    {
+      "filename": "figure-32-02.webp",
+      "input": "public/media/figure-32-02.webp",
+      "output": "public/media/corrected/figure-32-02.webp",
+      "tool_output": "/Users/yasser/.codex/generated_images/01a148d4-1b6a-7072-a99b-26bc80d17c94/exec-52de7739-d697-472f-891f-d909cd164845.png",
+      "prompt": "Use case: text-localization. The supplied image is the edit target. Correct only the English brand name in the phone notification floating card: replace 'Hyper Family' with exactly 'Hyper Famili'. Required exact letters: H-y-p-e-r [space] F-a-m-i-l-i. The brand must end in the letter i, not y. Keep the original black font, size, baseline and location just before the vertical separator and Persian brand name. All Persian notification text and emoji, icon, phone, desk, blurred dashboard screens, lighting, colors, crop and composition must remain unchanged. No redesign, no other text changes.",
+      "visual_review": "Accepted: Famili spelling and original composition preserved",
+      "input_sha256": "cc0d460f251ab7cb9af227a6c8111c5690c924a94aa5b2caaf4f571d9952f81e",
+      "input_bytes": 24726,
+      "input_dimensions": [
+        504,
+        544
+      ],
+      "output_sha256": "455f7480c0feaf6bc92fdc7a894c14dde6c32a4f1f7e5af6a47da3f936b1539c",
+      "output_bytes": 39456,
+      "output_dimensions": [
+        504,
+        544
+      ],
+      "tool_output_sha256": "e70b4b0199562b45d963de4a34c9c816eb2a8bb63de076065f7e5629a46d162d",
+      "tool_output_bytes": 1570198,
+      "tool_output_dimensions": [
+        1207,
+        1303
+      ],
+      "ocr_brand_text": [
+        "Hyper Famili | clolåyalo"
+      ],
+      "ocr_family_remaining": []
+    }
+  ]
+}

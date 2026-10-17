@@ -1,0 +1,7 @@
+node_modules/
+input-archives/
+.DS_Store
+*.zip
+.ceo-package/
+__pycache__/
+*.pyc

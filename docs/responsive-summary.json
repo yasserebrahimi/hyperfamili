@@ -1,0 +1,11 @@
+{
+  "viewports": [
+    390,
+    1366,
+    1920
+  ],
+  "checked_views": 17,
+  "horizontal_overflow_failures": [],
+  "runtime_errors": [],
+  "note": "Unloaded off-screen lazy images are not counted as broken. All 80 media assets were separately decoded successfully in media-library.json."
+}

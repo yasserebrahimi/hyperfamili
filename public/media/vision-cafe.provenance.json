@@ -1,0 +1,14 @@
+{
+  "asset": "vision-cafe.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation, product selection, or evidence of deployment.",
+  "prompt": "Use case: photorealistic-natural. Asset type: photographic thematic cover for an aspirational retail innovation app, wide landscape 3:2. Primary request: an exceptionally beautiful realistic self-service cafe corner inside a premium supermarket. A refined modern espresso vending machine and a simple unbranded paper coffee cup are the main visual focus, center-left. Warm walnut joinery and deep forest-green architectural accents, small understated pastries on the counter, realistic stainless steel and matte surfaces. The machine is an imagined plausible contemporary design, not a depiction of a named product. Sophisticated editorial interior/product photography with tactile material detail and warm amber natural-looking light. Elegant, inviting, cinematic but believable. Clean coherent composition with carefully restrained objects and a softly receding premium supermarket background. No people, no logos, no readable text or numbers, no watermarks, no brand names, no science-fiction or CGI look. This image is an AI-generated concept, not evidence of an installed store or product. Generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a148bf-ccfb-7612-a18c-73ea072c31b0/exec-1484d4ba-6c24-4aae-8e25-f8ec96e38d54.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1536,
+  "height": 1024,
+  "bytes": 212536,
+  "sha256": "9b5a96be2ad76e65a7da04afa401fcda6a74c247b633b10e1f8218dcdc804c28"
+}

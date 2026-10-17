@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-17",
+  "requested_repair": "Family -> Famili in every affected displayed picture",
+  "mode": "built-in image_gen edit with existing images",
+  "status": "AI-assisted presentation derivatives; original source files and downloadable research retained byte-for-byte",
+  "images_audited": 84,
+  "corrected_figures": 16,
+  "corrected_page_renders": 12,
+  "source_assets_verified_unchanged": 86,
+  "edits": [
+    {
+      "original": "figure-05-03.webp",
+      "corrected": "corrected/figure-05-03.webp",
+      "original_sha256": "c150171360fcf79ddd146108d692e59b3e68151be37851a4d83bed146877be84",
+      "sha256": "c5985edbe6c3108edb789c3440d8fa2e70ec1426e2a12dde1d3f12a4db5fefdb",
+      "bytes": 81928,
+      "dimensions": [
+        774,
+        425
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-05-04.webp",
+      "corrected": "corrected/figure-05-04.webp",
+      "original_sha256": "00f5404e1718609b7bce82b9cc1d6a3b96d07583d0c71744ca53a82587254c9f",
+      "sha256": "f394fe3bfa3e0f3ca8486016f7e34bc1631157bcfd2e182e2b0e9671c3dd2416",
+      "bytes": 79280,
+      "dimensions": [
+        691,
+        342
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-05-05.webp",
+      "corrected": "corrected/figure-05-05.webp",
+      "original_sha256": "4bd372fe7711076a59de526c47e5fb1237caad1630963163e3a331082f4229c5",
+      "sha256": "9a573ce342516b29898a18c4fd48e76495f79efadcddf5dead33c33894a18096",
+      "bytes": 34906,
+      "dimensions": [
+        456,
+        323
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-06-01.webp",
+      "corrected": "corrected/figure-06-01.webp",
+      "original_sha256": "c96abf131b2eb885591540b1f5518198a8889d75154fde82922c24f9c53de151",
+      "sha256": "48880260faa67c80fd275ccfaa99887185527a940b40c0216fe8086cbf5a6d6e",
+      "bytes": 105368,
+      "dimensions": [
+        762,
+        399
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-07-01.webp",
+      "corrected": "corrected/figure-07-01.webp",
+      "original_sha256": "f6e070504815bd283b2692511df63acb907bfe4b1a28a17a921932917c709ad3",
+      "sha256": "e2903062cbb76cccde52c5b19fce7cdf84a5d53861df8ca128a7bb651ecaf669",
+      "bytes": 109264,
+      "dimensions": [
+        840,
+        522
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-08-01.webp",
+      "corrected": "corrected/figure-08-01.webp",
+      "original_sha256": "fb1806c335891c35fa6cf34d89e92cb57ec6730b74db5af47faca4279046faa1",
+      "sha256": "e2cd1d0853bfa2cce0538cfbb8a7b8d26a8fa14db506d3c6ebed35fb59427006",
+      "bytes": 129170,
+      "dimensions": [
+        812,
+        522
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-13-01.webp",
+      "corrected": "corrected/figure-13-01.webp",
+      "original_sha256": "d7d5fc042b1fe0d663be9641d2c8f6797e6002f04bef8f4132b37010ffd1837f",
+      "sha256": "e11d6868f4d1f4d97ab24a9fd14727858a40edb035acdb1b674207c75472b1a8",
+      "bytes": 96652,
+      "dimensions": [
+        721,
+        515
+      ],
+      "provenance_report": "docs/famili-spelling-figure13-final.json"
+    },
+    {
+      "original": "figure-16-01.webp",
+      "corrected": "corrected/figure-16-01.webp",
+      "original_sha256": "7d81d31ee8a1f474fdec2019ca45d3b7713cca72622d55226f2af3d332a3c50d",
+      "sha256": "1f756886da4df18584675482479be5f695598a83de8e8bc38668961cf05fdcbf",
+      "bytes": 108788,
+      "dimensions": [
+        893,
+        597
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-16-02.webp",
+      "corrected": "corrected/figure-16-02.webp",
+      "original_sha256": "64dd95fd64cd6f6593f956377ee005971f05a7b40c965ca95f95618ecbd5a04c",
+      "sha256": "82439abcf7b230920a20fad2823896d191e9f307023f520fc5ea4633d1f79089",
+      "bytes": 137948,
+      "dimensions": [
+        810,
+        514
+      ],
+      "provenance_report": "docs/famili-spelling-figures-early.json"
+    },
+    {
+      "original": "figure-17-01.webp",
+      "corrected": "corrected/figure-17-01.webp",
+      "original_sha256": "ac8fdff52a2bc6eef4c4b4fe46392773c21c1147895c0709489b6a4640d6aa43",
+      "sha256": "4354c44759a664d4528f57397f244dd6bd4b5b9730706fae722fec1070786877",
+      "bytes": 81664,
+      "dimensions": [
+        510,
+        617
+      ],
+      "provenance_report": "docs/famili-spelling-figure17-final.json"
+    },
+    {
+      "original": "figure-21-01.webp",
+      "corrected": "corrected/figure-21-01.webp",
+      "original_sha256": "bc9adc00c0d01a952dbc1f045af5bb77cfffc90290e9a73ee5be0df10b26ae9b",
+      "sha256": "58a1d13c0eb230744e6102779afd5c6f8f8afa6887cabfe22158916f51d9105d",
+      "bytes": 207968,
+      "dimensions": [
+        1109,
+        620
+      ],
+      "provenance_report": "docs/famili-spelling-figures-late.json"
+    },
+    {
+      "original": "figure-23-01.webp",
+      "corrected": "corrected/figure-23-01.webp",
+      "original_sha256": "1635f3cf467ca659d70e1f7e4531e1a6564719e46e53ce5daf249cd0a0011f82",
+      "sha256": "6fdfc0f0187bcba6825a2f9d767bed47f17ef77fc602938336a4d3cc4d8caea2",
+      "bytes": 71224,
+      "dimensions": [
+        723,
+        485
+      ],
+      "provenance_report": "docs/famili-spelling-figures-late.json"
+    },
+    {
+      "original": "figure-29-01.webp",
+      "corrected": "corrected/figure-29-01.webp",
+      "original_sha256": "cf7b5d5b0c8641dac56bb1dee06fe9f0890cdd9cbca112077d05a9181f6e425c",
+      "sha256": "6c4a2057e6d3e6e16dc0b7973f0972922e0e14d7b3f15e1a2562ba860d4b91f4",
+      "bytes": 94874,
+      "dimensions": [
+        685,
+        518
+      ],
+      "provenance_report": "docs/famili-spelling-figures-late.json"
+    },
+    {
+      "original": "figure-31-01.webp",
+      "corrected": "corrected/figure-31-01.webp",
+      "original_sha256": "eaebcec555dcacb1d27e840c3c5075b9fed72fe1cde75a9c3a279c3cb479b351",
+      "sha256": "380ee049350529b24032908bd6b7b25d19fdf42671f7b1a18f7d21026cd29745",
+      "bytes": 66772,
+      "dimensions": [
+        501,
+        677
+      ],
+      "provenance_report": "docs/famili-spelling-figures-late.json"
+    },
+    {
+      "original": "figure-32-00.webp",
+      "corrected": "corrected/figure-32-00.webp",
+      "original_sha256": "21c2ce7925a509f190c030b8528c2aa611fd61a94b37d0125ce0ab0e3ce77f54",
+      "sha256": "c7798dfc6c8fce9e457b3054d54f8f5c00c1bcf7080abee8065c867db16562a3",
+      "bytes": 62282,
+      "dimensions": [
+        732,
+        621
+      ],
+      "provenance_report": "docs/famili-spelling-figures-late.json"
+    },
+    {
+      "original": "figure-32-02.webp",
+      "corrected": "corrected/figure-32-02.webp",
+      "original_sha256": "cc0d460f251ab7cb9af227a6c8111c5690c924a94aa5b2caaf4f571d9952f81e",
+      "sha256": "455f7480c0feaf6bc92fdc7a894c14dde6c32a4f1f7e5af6a47da3f936b1539c",
+      "bytes": 39456,
+      "dimensions": [
+        504,
+        544
+      ],
+      "provenance_report": "docs/famili-spelling-figures-late.json"
+    },
+    {
+      "original": "page-05.webp",
+      "corrected": "corrected/page-05.webp",
+      "original_sha256": "9b8d18321fdc23044ca26eaae1e589d73de05ec5bcef12eba6e4c77244101264",
+      "sha256": "0b7553262587bffd9217e7f6a3305a345027a01756c35fe480549d838a1b3341",
+      "bytes": 114690,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-early.json"
+    },
+    {
+      "original": "page-06.webp",
+      "corrected": "corrected/page-06.webp",
+      "original_sha256": "9201478744885b68cdd279d910b8b4e09315df3836f3ec9dfc85aa093f07e9e7",
+      "sha256": "36fe6813a8631eb9d372258162298013324281b81e737b34b5ebcebdfeb2e111",
+      "bytes": 84636,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-early.json"
+    },
+    {
+      "original": "page-07.webp",
+      "corrected": "corrected/page-07.webp",
+      "original_sha256": "84e9f15e4bce231d4b26fc592941032a5227fc7bc10f94f1578ef347eba308a4",
+      "sha256": "1603eb9f9a21b5be4ca1a878a12c1c4a8184bc1089835780beea9dcc428e7daf",
+      "bytes": 94104,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-early.json"
+    },
+    {
+      "original": "page-08.webp",
+      "corrected": "corrected/page-08.webp",
+      "original_sha256": "e1274168309ebf840e519a758fe26e924b14227cade52c4a0173cb8c00089033",
+      "sha256": "f6ac5ad7353cd6551bbda046d848186a74d76264d72809e39399b02ef2c17fe2",
+      "bytes": 102372,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-early.json"
+    },
+    {
+      "original": "page-13.webp",
+      "corrected": "corrected/page-13.webp",
+      "original_sha256": "20281e653abd947ef75675e965080c326cc117a21cf3782bde47194ed1c27c77",
+      "sha256": "eaaeb6b8f5e10106d13d5c4f3928e3e8b4428d60b46385742af9a204ddfc5637",
+      "bytes": 174412,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-page13-final.json"
+    },
+    {
+      "original": "page-16.webp",
+      "corrected": "corrected/page-16.webp",
+      "original_sha256": "cdcd27e29a7ac4dd2be148c9791887489a3f827bd8e51726463e94ece35e11f8",
+      "sha256": "d01dbfbadff92830cb0d1921adc8d7a41ca0682bd388758ccc9e66c790a71ffc",
+      "bytes": 141118,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-early.json"
+    },
+    {
+      "original": "page-17.webp",
+      "corrected": "corrected/page-17.webp",
+      "original_sha256": "420a9abd04efb6e69e146190d898fbde240522d7dc105b2e170621b6caddcfac",
+      "sha256": "f2528607e53718cd5c29e6c54b2e1ab45a96adea9e100dcdadac5b34f2c4dc8d",
+      "bytes": 120046,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-early.json"
+    },
+    {
+      "original": "page-21.webp",
+      "corrected": "corrected/page-21.webp",
+      "original_sha256": "b767c5c5370b66f7a4c8132cc43d2f508db04de0bedaf8a5068c4c1a7b1d7bc3",
+      "sha256": "419fdd8b421ae224f45979ab009bb479f81a790d92fe2f5c93902e5f4d2e2035",
+      "bytes": 227752,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-late.json"
+    },
+    {
+      "original": "page-23.webp",
+      "corrected": "corrected/page-23.webp",
+      "original_sha256": "c9e0decd9b105ff7bd4aeab573f3001306d4b7c5d64320f761f10fd1a5ad9b7c",
+      "sha256": "b1dd1c30bcd5a9606030a263e8c6f679996926f7c409d157dad291268ab2ceac",
+      "bytes": 120830,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-late.json"
+    },
+    {
+      "original": "page-29.webp",
+      "corrected": "corrected/page-29.webp",
+      "original_sha256": "345dd6552892fbf4279544bb71fec91ff1b11f6f6d11f47bb1e3457c8501d03b",
+      "sha256": "e0642fe79b55d8dc746a5aca14470af95b3d37dac2cdead8b8ce1ed10e26fecb",
+      "bytes": 173134,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-late.json"
+    },
+    {
+      "original": "page-31.webp",
+      "corrected": "corrected/page-31.webp",
+      "original_sha256": "f2739378449b34af6073a069ab29e13a80cacb30b611840dc07cb3ac53daecf7",
+      "sha256": "39f14aa27658af8a2bd05730d7594486d978e1e33ef4f9662f4a165aab971252",
+      "bytes": 162136,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-late.json"
+    },
+    {
+      "original": "page-32.webp",
+      "corrected": "corrected/page-32.webp",
+      "original_sha256": "ea8514f36654309af9f67ddefd6b97694da6b0d38e7fa063cc8f937b16e7fba7",
+      "sha256": "9f0760370bb570542b1573cc9e337ebf858c0c693a8e4ccbd87918c67fed0932",
+      "bytes": 135642,
+      "dimensions": [
+        1440,
+        810
+      ],
+      "provenance_report": "docs/famili-spelling-pages-late.json"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-17",
+  "scope": "10 early figure assets",
+  "status": "final",
+  "edits": [
+    {
+      "original": "figure-05-03.webp",
+      "corrected": "corrected/figure-05-03.webp",
+      "original_sha256": "c150171360fcf79ddd146108d692e59b3e68151be37851a4d83bed146877be84",
+      "sha256": "c5985edbe6c3108edb789c3440d8fa2e70ec1426e2a12dde1d3f12a4db5fefdb",
+      "dimensions": [
+        774,
+        425
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-05-04.webp",
+      "corrected": "corrected/figure-05-04.webp",
+      "original_sha256": "00f5404e1718609b7bce82b9cc1d6a3b96d07583d0c71744ca53a82587254c9f",
+      "sha256": "f394fe3bfa3e0f3ca8486016f7e34bc1631157bcfd2e182e2b0e9671c3dd2416",
+      "dimensions": [
+        691,
+        342
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-05-05.webp",
+      "corrected": "corrected/figure-05-05.webp",
+      "original_sha256": "4bd372fe7711076a59de526c47e5fb1237caad1630963163e3a331082f4229c5",
+      "sha256": "9a573ce342516b29898a18c4fd48e76495f79efadcddf5dead33c33894a18096",
+      "dimensions": [
+        456,
+        323
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-06-01.webp",
+      "corrected": "corrected/figure-06-01.webp",
+      "original_sha256": "c96abf131b2eb885591540b1f5518198a8889d75154fde82922c24f9c53de151",
+      "sha256": "48880260faa67c80fd275ccfaa99887185527a940b40c0216fe8086cbf5a6d6e",
+      "dimensions": [
+        762,
+        399
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-07-01.webp",
+      "corrected": "corrected/figure-07-01.webp",
+      "original_sha256": "f6e070504815bd283b2692511df63acb907bfe4b1a28a17a921932917c709ad3",
+      "sha256": "e2903062cbb76cccde52c5b19fce7cdf84a5d53861df8ca128a7bb651ecaf669",
+      "dimensions": [
+        840,
+        522
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-08-01.webp",
+      "corrected": "corrected/figure-08-01.webp",
+      "original_sha256": "fb1806c335891c35fa6cf34d89e92cb57ec6730b74db5af47faca4279046faa1",
+      "sha256": "e2cd1d0853bfa2cce0538cfbb8a7b8d26a8fa14db506d3c6ebed35fb59427006",
+      "dimensions": [
+        812,
+        522
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-13-01.webp",
+      "corrected": "corrected/figure-13-01.webp",
+      "original_sha256": "d7d5fc042b1fe0d663be9641d2c8f6797e6002f04bef8f4132b37010ffd1837f",
+      "sha256": "e11d6868f4d1f4d97ab24a9fd14727858a40edb035acdb1b674207c75472b1a8",
+      "dimensions": [
+        721,
+        515
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-16-01.webp",
+      "corrected": "corrected/figure-16-01.webp",
+      "original_sha256": "7d81d31ee8a1f474fdec2019ca45d3b7713cca72622d55226f2af3d332a3c50d",
+      "sha256": "d83683a38b356e908fbc01ecd10aadbf637c68423178d576a27d1c8fd9931914",
+      "dimensions": [
+        893,
+        597
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-16-02.webp",
+      "corrected": "corrected/figure-16-02.webp",
+      "original_sha256": "64dd95fd64cd6f6593f956377ee005971f05a7b40c965ca95f95618ecbd5a04c",
+      "sha256": "82439abcf7b230920a20fad2823896d191e9f307023f520fc5ea4633d1f79089",
+      "dimensions": [
+        810,
+        514
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    },
+    {
+      "original": "figure-17-01.webp",
+      "corrected": "corrected/figure-17-01.webp",
+      "original_sha256": "ac8fdff52a2bc6eef4c4b4fe46392773c21c1147895c0709489b6a4640d6aa43",
+      "sha256": "4354c44759a664d4528f57397f244dd6bd4b5b9730706fae722fec1070786877",
+      "dimensions": [
+        510,
+        617
+      ],
+      "verification": "Vision OCR plus direct visual inspection; all readable English brand occurrences use Famili.",
+      "prompt": "Built-in image_gen localized text edit: preserve the supplied image and all non-brand details; replace every English Family/HyperFamily occurrence with exact Famili/HyperFamili, ending in dotted i."
+    }
+  ]
+}

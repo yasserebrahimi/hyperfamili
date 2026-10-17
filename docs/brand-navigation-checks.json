@@ -1,0 +1,377 @@
+{
+  "date": "2026-10-17",
+  "implementation": "Brand masthead, numbered chapter rail and photographic full-screen menu",
+  "focusAndResponsive": [
+    {
+      "width": 320,
+      "scroll": 320,
+      "client": 320,
+      "focus": "بستن فهرست",
+      "inert": true,
+      "links": 8,
+      "wrapLast": true,
+      "wrapFirst": true,
+      "restore": true,
+      "navigate": true,
+      "search": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "client": 390,
+      "focus": "بستن فهرست",
+      "inert": true,
+      "links": 8,
+      "wrapLast": true,
+      "wrapFirst": true,
+      "restore": true,
+      "navigate": true,
+      "search": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "client": 768,
+      "focus": "بستن فهرست",
+      "inert": true,
+      "links": 8,
+      "wrapLast": true,
+      "wrapFirst": true,
+      "restore": true,
+      "navigate": true,
+      "search": true,
+      "errors": []
+    },
+    {
+      "width": 1366,
+      "scroll": 1366,
+      "client": 1366,
+      "focus": "بستن فهرست",
+      "inert": true,
+      "links": 8,
+      "wrapLast": true,
+      "wrapFirst": true,
+      "restore": true,
+      "navigate": true,
+      "search": true,
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "scroll": 1920,
+      "client": 1920,
+      "focus": "بستن فهرست",
+      "inert": true,
+      "links": 8,
+      "wrapLast": true,
+      "wrapFirst": true,
+      "restore": true,
+      "navigate": true,
+      "search": true,
+      "errors": []
+    }
+  ],
+  "liveRoutesAndTools": [
+    {
+      "width": 320,
+      "routes": [
+        {
+          "view": "home",
+          "focus": "content"
+        },
+        {
+          "view": "projects",
+          "focus": "content"
+        },
+        {
+          "view": "atlas",
+          "focus": "content"
+        },
+        {
+          "view": "prices",
+          "focus": "content"
+        },
+        {
+          "view": "library",
+          "focus": "content"
+        },
+        {
+          "view": "agenda",
+          "focus": "content"
+        },
+        {
+          "view": "compare",
+          "focus": "content"
+        },
+        {
+          "view": "concepts",
+          "focus": "content"
+        }
+      ],
+      "tools": [
+        {
+          "label": "سند تصویری مدیر",
+          "type": "manager",
+          "modal": "manager",
+          "nav": false,
+          "inert": false
+        },
+        {
+          "label": "تنظیمات و راهنما",
+          "type": "settings",
+          "modal": "settings",
+          "nav": false,
+          "inert": false
+        },
+        {
+          "label": "جست‌وجوی شواهد",
+          "type": "search",
+          "modal": "search",
+          "nav": false,
+          "inert": false
+        }
+      ],
+      "scrollLocked": true,
+      "scrollRestored": true,
+      "rail": [
+        {
+          "view": "home",
+          "current": 1
+        },
+        {
+          "view": "projects",
+          "current": 1
+        },
+        {
+          "view": "atlas",
+          "current": 1
+        },
+        {
+          "view": "prices",
+          "current": 1
+        },
+        {
+          "view": "library",
+          "current": 1
+        },
+        {
+          "view": "agenda",
+          "current": 1
+        }
+      ],
+      "errors": [],
+      "scrollEvidence": {
+        "width": 320,
+        "before": 600,
+        "open": 600,
+        "after": 600,
+        "scrollLocked": true,
+        "scrollRestored": true
+      }
+    },
+    {
+      "width": 390,
+      "routes": [
+        {
+          "view": "home",
+          "focus": "content"
+        },
+        {
+          "view": "projects",
+          "focus": "content"
+        },
+        {
+          "view": "atlas",
+          "focus": "content"
+        },
+        {
+          "view": "prices",
+          "focus": "content"
+        },
+        {
+          "view": "library",
+          "focus": "content"
+        },
+        {
+          "view": "agenda",
+          "focus": "content"
+        },
+        {
+          "view": "compare",
+          "focus": "content"
+        },
+        {
+          "view": "concepts",
+          "focus": "content"
+        }
+      ],
+      "tools": [
+        {
+          "label": "سند تصویری مدیر",
+          "type": "manager",
+          "modal": "manager",
+          "nav": false,
+          "inert": false
+        },
+        {
+          "label": "تنظیمات و راهنما",
+          "type": "settings",
+          "modal": "settings",
+          "nav": false,
+          "inert": false
+        },
+        {
+          "label": "جست‌وجوی شواهد",
+          "type": "search",
+          "modal": "search",
+          "nav": false,
+          "inert": false
+        }
+      ],
+      "scrollLocked": true,
+      "scrollRestored": true,
+      "rail": [
+        {
+          "view": "home",
+          "current": 1
+        },
+        {
+          "view": "projects",
+          "current": 1
+        },
+        {
+          "view": "atlas",
+          "current": 1
+        },
+        {
+          "view": "prices",
+          "current": 1
+        },
+        {
+          "view": "library",
+          "current": 1
+        },
+        {
+          "view": "agenda",
+          "current": 1
+        }
+      ],
+      "errors": [],
+      "scrollEvidence": {
+        "width": 390,
+        "before": 600,
+        "open": 600,
+        "after": 600,
+        "scrollLocked": true,
+        "scrollRestored": true
+      }
+    },
+    {
+      "width": 1366,
+      "routes": [
+        {
+          "view": "home",
+          "focus": "content"
+        },
+        {
+          "view": "projects",
+          "focus": "content"
+        },
+        {
+          "view": "atlas",
+          "focus": "content"
+        },
+        {
+          "view": "prices",
+          "focus": "content"
+        },
+        {
+          "view": "library",
+          "focus": "content"
+        },
+        {
+          "view": "agenda",
+          "focus": "content"
+        },
+        {
+          "view": "compare",
+          "focus": "content"
+        },
+        {
+          "view": "concepts",
+          "focus": "content"
+        }
+      ],
+      "tools": [
+        {
+          "label": "سند تصویری مدیر",
+          "type": "manager",
+          "modal": "manager",
+          "nav": false,
+          "inert": false
+        },
+        {
+          "label": "تنظیمات و راهنما",
+          "type": "settings",
+          "modal": "settings",
+          "nav": false,
+          "inert": false
+        },
+        {
+          "label": "جست‌وجوی شواهد",
+          "type": "search",
+          "modal": "search",
+          "nav": false,
+          "inert": false
+        }
+      ],
+      "scrollLocked": true,
+      "scrollRestored": true,
+      "rail": [
+        {
+          "view": "home",
+          "current": 1
+        },
+        {
+          "view": "projects",
+          "current": 1
+        },
+        {
+          "view": "atlas",
+          "current": 1
+        },
+        {
+          "view": "prices",
+          "current": 1
+        },
+        {
+          "view": "library",
+          "current": 1
+        },
+        {
+          "view": "agenda",
+          "current": 1
+        }
+      ],
+      "errors": [],
+      "scrollEvidence": {
+        "width": 1366,
+        "before": 600,
+        "open": 600,
+        "after": 600,
+        "scrollLocked": true,
+        "scrollRestored": true
+      }
+    }
+  ],
+  "notes": [
+    "Focused responsive checks compiled current sources into browser responses without editing build outputs; all-route/tools checks used integrated public build.",
+    "Scroll lock test uses direct pointer click on visible sticky trigger; Playwright locator auto-scroll is excluded from product behavior."
+  ],
+  "screenshots": [
+    "brand-menu-1366.png",
+    "brand-menu-390.png"
+  ]
+}

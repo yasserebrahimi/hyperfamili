@@ -1,0 +1,675 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "visual": {
+    "date": "2026-10-17",
+    "browser": "Chrome via Playwright, isolated contexts",
+    "measurements": [
+      {
+        "width": 390,
+        "view": "home",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "projects",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "detail",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "atlas",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "prices",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "library",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "agenda",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "concepts",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 390,
+        "view": "compare",
+        "document": 390,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "home",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "projects",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "detail",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "atlas",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "prices",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "library",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "agenda",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "concepts",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 768,
+        "view": "compare",
+        "document": 768,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "home",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "projects",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "detail",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "atlas",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "prices",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "library",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "agenda",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "concepts",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1024,
+        "view": "compare",
+        "document": 1024,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "home",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "projects",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "detail",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "atlas",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "prices",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "library",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "agenda",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "concepts",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1366,
+        "view": "compare",
+        "document": 1366,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "home",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "projects",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "detail",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "atlas",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "prices",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "library",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "agenda",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "concepts",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      },
+      {
+        "width": 1920,
+        "view": "compare",
+        "document": 1920,
+        "overflow": false,
+        "font": true,
+        "error": false
+      }
+    ],
+    "zoom": {
+      "width": 390,
+      "document": 390,
+      "overflow": false
+    },
+    "standalone": {
+      "title": "فامیلی فردا | اتاق ارائه هیئت‌مدیره",
+      "projects": 102,
+      "font": true,
+      "fontFaces": [
+        {
+          "family": "Vazirmatn",
+          "status": "loaded"
+        }
+      ],
+      "images": true,
+      "heading": "آیندهٔ خرید،\nاز سه نگاه.",
+      "error": false
+    },
+    "errors": [],
+    "externalRequests": []
+  },
+  "presentation": {
+    "states": [
+      {
+        "width": 390,
+        "step": 0,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 390,
+        "step": 1,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 390,
+        "step": 2,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 390,
+        "step": 3,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 390,
+        "step": 4,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 390,
+        "step": 5,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 768,
+        "step": 0,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 768,
+        "step": 1,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 768,
+        "step": 2,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 768,
+        "step": 3,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 768,
+        "step": 4,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 768,
+        "step": 5,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1366,
+        "step": 0,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1366,
+        "step": 1,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1366,
+        "step": 2,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1366,
+        "step": 3,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1366,
+        "step": 4,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1366,
+        "step": 5,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1920,
+        "step": 0,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1920,
+        "step": 1,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1920,
+        "step": 2,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1920,
+        "step": 3,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1920,
+        "step": 4,
+        "overflow": false,
+        "contentOverflow": false
+      },
+      {
+        "width": 1920,
+        "step": 5,
+        "overflow": false,
+        "contentOverflow": false
+      }
+    ],
+    "errors": []
+  },
+  "functional": {
+    "date": "2026-10-17T07:20:24.138Z",
+    "browser": "Chrome headless isolated fresh context",
+    "baseURL": "http://127.0.0.1:8080",
+    "results": [
+      {
+        "name": "initial home and clean isolated storage",
+        "status": "pass",
+        "detail": {
+          "title": "فامیلی فردا | اتاق ارائه هیئت‌مدیره"
+        }
+      },
+      {
+        "name": "all main views load from navigation",
+        "status": "pass",
+        "detail": [
+          "projects",
+          "atlas",
+          "prices",
+          "library",
+          "agenda"
+        ]
+      },
+      {
+        "name": "catalogue Persian search, empty state and category filter",
+        "status": "pass",
+        "detail": {
+          "categoryCount": 13,
+          "priceCount": 31
+        }
+      },
+      {
+        "name": "favorite and agenda membership survive refresh",
+        "status": "pass",
+        "detail": {
+          "id": "BP001",
+          "agendaAdded": true
+        }
+      },
+      {
+        "name": "comparison accepts three and rejects fourth",
+        "status": "pass",
+        "detail": {
+          "selectedIds": [
+            "BP001",
+            "BP002",
+            "BP003"
+          ]
+        }
+      },
+      {
+        "name": "project opens and all five detail tabs work",
+        "status": "pass",
+        "detail": [
+          "طرح و ارزش",
+          "ایران و جهان",
+          "قیمت و هزینه",
+          "اجرا و ریسک",
+          "اسناد و رسانه"
+        ]
+      },
+      {
+        "name": "global search modal, focus trap, Escape and restoration",
+        "status": "pass",
+        "detail": {
+          "focusableCount": 5
+        }
+      },
+      {
+        "name": "manager dialog and Markdown reader load",
+        "status": "pass",
+        "detail": {
+          "readerReady": true
+        }
+      },
+      {
+        "name": "presentation all six steps and keyboard navigation",
+        "status": "pass",
+        "detail": [
+          "سبد خرید در سقف بودجه",
+          "یک طرح، سه ذی‌نفع.",
+          "چه کسی، چه چیزی را آزموده است؟",
+          "قیمت را با دامنه‌اش بخوانیم.",
+          "کوچک شروع کنیم؛ نتیجه را بسنجیم.",
+          "تصمیم این مرحله چیست؟"
+        ]
+      },
+      {
+        "name": "mobile drawer, route, backdrop, Escape, presentation exit",
+        "status": "pass",
+        "detail": {
+          "viewport": 390
+        }
+      }
+    ],
+    "runtimeErrors": [],
+    "focusRegression": [
+      {
+        "name": "Control+k open; Escape after 0ms",
+        "status": "pass",
+        "detail": {
+          "active": "search-trigger",
+          "dialogCount": 0
+        }
+      },
+      {
+        "name": "Control+k open; Escape after 50ms",
+        "status": "pass",
+        "detail": {
+          "active": "search-trigger",
+          "dialogCount": 0
+        }
+      },
+      {
+        "name": "click open; Escape after 0ms",
+        "status": "pass",
+        "detail": {
+          "active": "search-trigger",
+          "dialogCount": 0
+        }
+      },
+      {
+        "name": "click open; Escape after 50ms",
+        "status": "pass",
+        "detail": {
+          "active": "search-trigger",
+          "dialogCount": 0
+        }
+      },
+      {
+        "name": "click open; close button",
+        "status": "pass"
+      }
+    ]
+  }
+}

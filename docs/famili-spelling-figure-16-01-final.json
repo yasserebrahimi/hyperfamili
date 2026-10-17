@@ -1,0 +1,12 @@
+{
+  "original": "figure-16-01.webp",
+  "corrected": "corrected/figure-16-01.webp",
+  "generated_image": "/Users/yasser/.codex/generated_images/01a148d4-0770-7d43-bc01-4853caea80cd/exec-c8a87dac-02ce-4915-b55f-4d4101a7c52e.png",
+  "dimensions": [
+    893,
+    597
+  ],
+  "sha256": "d83683a38b356e908fbc01ecd10aadbf637c68423178d576a27d1c8fd9931914",
+  "original_sha256": "7d81d31ee8a1f474fdec2019ca45d3b7713cca72622d55226f2af3d332a3c50d",
+  "verification": "Vision OCR and visual inspection confirm every readable English brand occurrence uses Famili; source framing retained."
+}

@@ -1,0 +1,64 @@
+{
+  "states": [
+    {
+      "view": "home",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "projects",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "detail",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "atlas",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "prices",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "library",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "agenda",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "concepts",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    },
+    {
+      "view": "compare",
+      "width": 320,
+      "scale": 1.25,
+      "overflow": false
+    }
+  ],
+  "menu": {
+    "width": 320,
+    "scrollWidth": 320,
+    "overflow": false,
+    "buttons": 8
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "asset": "brand-cafe.webp",
+  "type": "AI-generated branded photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Use case: compositing\nAsset type: premium landscape photograph for the HyperFamily cafe and snack future-retail concept, 3:2 landscape.\nInput image 1 is the EDIT TARGET coffee station concept. Input image 2 is the EXACT supplied HyperFamily Persian logo to insert. Input image 3 is the corporate turquoise swatch.\nUpgrade the image into an exceptionally beautiful HyperFamily in-store cafe concept. Preserve the close photographic composition, real espresso machine at left-center, paper cup under flowing coffee, fresh croissants behind a glass dome, warm wood counter, stone countertop, plants, subtle golden lighting, and grocery interior background.\nChange the forest-green architecture into corporate turquoise matching input 3; use richer dark turquoise behind machine with bright turquoise small architectural accents. Keep the stainless steel machine polished black/chrome, with a slim turquoise side trim. The mood remains warm and photoreal.\nOn a clean cream-white plaque mounted to the wall above/behind the machine (enlarge the visible upper wall area enough to fit), place the EXACT supplied image 2 logo: red emblem at left, turquoise Persian wordmark, gray small Persian line above. Copy the reference graphic faithfully with original letterform and proportions, not retyped or reinvented. Main word stays فامیلی. Add the same supplied logo small and crisp on the white paper coffee cup in the foreground; the cup becomes off-white, with turquoise bottom rim. Do not invent any additional slogans, Latin words, packaging brands or other text.\nCompose an editorial commercial interior photograph with appetizing pastries, tactile warm materials, soft depth of field, luxurious realistic lighting, high detail, no neon, no futuristic holograms, no people, no web UI, no borders or watermark. This is a branded concept rendering, not documentary proof of an existing HyperFamily cafe.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a148ca-c736-7123-8b8c-f3e550e96fdb/exec-efc921f8-7ba2-4b75-b514-0bb5ff5a5a15.png",
+  "original_generated_sha256": "8807e192269fd90ec1257b60387900a97c0f7023e3d11eb3301c210b79530703",
+  "references": [
+    {
+      "path": "public/media/vision-cafe.webp",
+      "bytes": 212536,
+      "sha256": "9b5a96be2ad76e65a7da04afa401fcda6a74c247b633b10e1f8218dcdc804c28"
+    },
+    {
+      "path": "/var/folders/j9/0v6h71rn08193f8ggv_x6cc00000gn/T/codex-clipboard-212a378c-1ee9-4f13-8c07-76f895d81db5.png",
+      "bytes": 15034,
+      "sha256": "ba2ac989a0b1837e3196e17703bbc9303dc962bdbe4fc999f578d08ab98ba41f"
+    },
+    {
+      "path": "/var/folders/j9/0v6h71rn08193f8ggv_x6cc00000gn/T/codex-clipboard-0e21e0ec-3bc1-47af-8d27-249efbf35d6c.png",
+      "bytes": 6378,
+      "sha256": "44a4ed9039e4fa3bed27302d0856b2664157c6628b6c6cf9b7c71d5a1c01a7a7"
+    }
+  ],
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "39a63d2ea106b62808fdd3e838216e9294d517b1df35e5c07f1d3c9966241d99",
+  "bytes": 238108,
+  "visual_review": "Logo reference applied as physical signage and secondary product branding; turquoise architecture, natural photographic light, Persian wordmark visually legible. Generated lettering is not a pixel-identical replacement for the original supplied logo, which must remain the UI identity asset."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "famili-farda-boardroom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Persian RTL offline React research presentation",
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "serve": "python3 -m http.server 8080 --bind 127.0.0.1 --directory public"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}

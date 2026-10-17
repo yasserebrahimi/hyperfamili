@@ -1,0 +1,18 @@
+{
+  "original": "figure-17-01.webp",
+  "corrected": "corrected/figure-17-01.webp",
+  "generated_image": "/Users/yasser/.codex/generated_images/01a148d4-0770-7d43-bc01-4853caea80cd/exec-8344dadd-1e13-45da-a1e2-26234beec2a9.png",
+  "prompt_provenance": "docs/famili-spelling-figures-early.json",
+  "selection": "Early-agent PNG selected after independent review; root alternative rejected because two labels omitted l.",
+  "rejected_root_attempt": {
+    "rejected_png": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-3ede3dfc-2367-455e-a9cd-897e55d33f5c.png",
+    "rejected_prompt": "Precise localized spelling repair of the existing photo. Keep framing, Persian text and shoppers unchanged. Replace EVERY English occurrence of HyperFamily with HyperFamili (H y p e r F a m i l i), with final dotted i and no final y descender. There are repeated English brand labels: the upper front white panel of the reverse-vending recycling machine at right; the large distant TURQUOISE horizontal store fascia at upper-left; the narrow vertical hanging banner at upper-left; and any tiny brand line on the orange/red rear fascia in the middle. ERASE each ENTIRE incorrect English brand wordmark and retype the correct one exactly HyperFamili, clean and slightly sharper if necessary, matching its original color, angle and perspective. Do not merely restyle the old Family letters. The final correct suffix is Famili, not Family. Preserve the large Persian brand on the lower-front machine, all other Persian lettering, recycling symbols, green machine design, woman in black clothing, bottle, store shelving, lighting, and image composition. Change only English brand spelling."
+  },
+  "dimensions": [
+    510,
+    617
+  ],
+  "sha256": "4354c44759a664d4528f57397f244dd6bd4b5b9730706fae722fec1070786877",
+  "original_sha256": "ac8fdff52a2bc6eef4c4b4fe46392773c21c1147895c0709489b6a4640d6aa43",
+  "verification": "Three independent visual inspections confirm Famili on kiosk and signs. Vision OCR reads main machine and horizontal fascia HyperFamili; rotated banner is OCR-ambiguous."
+}

@@ -1,0 +1,132 @@
+{
+  "time": "2026-10-17T07:42:06.900Z",
+  "target": "http://127.0.0.1:8080/#v=home",
+  "checks": [
+    {
+      "name": "initial hero image zoom is active",
+      "pass": true
+    },
+    {
+      "name": "brand headline reveal is active",
+      "pass": true
+    },
+    {
+      "name": "brand orbit entrance is active and finite",
+      "pass": true
+    },
+    {
+      "name": "hero animations do not loop",
+      "pass": true
+    },
+    {
+      "name": "motion toggle mounted",
+      "pass": true
+    },
+    {
+      "name": "fine pointer parallax updates hero",
+      "pass": true
+    },
+    {
+      "name": "brand headline finishes fully readable",
+      "pass": true
+    },
+    {
+      "name": "offscreen hero cancels image motion",
+      "pass": true
+    },
+    {
+      "name": "editorial experience gets distinct reveal",
+      "pass": true
+    },
+    {
+      "name": "brand feature photo responds to pointer",
+      "pass": true
+    },
+    {
+      "name": "photo pointer position resets when leaving",
+      "pass": true
+    },
+    {
+      "name": "pause saved",
+      "pass": true
+    },
+    {
+      "name": "pause cancels all controller effects",
+      "pass": true
+    },
+    {
+      "name": "paused photo hover has no displacement",
+      "pass": true
+    },
+    {
+      "name": "paused modal remains visible",
+      "pass": true
+    },
+    {
+      "name": "paused route remains visible",
+      "pass": true
+    },
+    {
+      "name": "pause restored on reload",
+      "pass": true
+    },
+    {
+      "name": "unpause reenables motion",
+      "pass": true
+    },
+    {
+      "name": "OS preference overrides saved motion",
+      "pass": true
+    },
+    {
+      "name": "OS reduced route has no active effects",
+      "pass": true
+    },
+    {
+      "name": "OS reduction disables brand photo response",
+      "pass": true
+    },
+    {
+      "name": "OS change reenables permitted motion",
+      "pass": true
+    },
+    {
+      "name": "reading progress follows document",
+      "pass": true
+    },
+    {
+      "name": "keyboard focus finishes enclosing reveal",
+      "pass": true
+    },
+    {
+      "name": "simulated hidden document cancels effects and pointers",
+      "pass": true
+    },
+    {
+      "name": "visible document restores allowed motion",
+      "pass": true
+    },
+    {
+      "name": "missing observer and Web Animations fail open",
+      "pass": true
+    },
+    {
+      "name": "fallback headline remains visible",
+      "pass": true
+    },
+    {
+      "name": "390px mobile no document overflow",
+      "pass": true
+    },
+    {
+      "name": "1440px desktop no document overflow",
+      "pass": true
+    },
+    {
+      "name": "zero runtime errors",
+      "pass": true,
+      "details": []
+    }
+  ],
+  "errors": []
+}

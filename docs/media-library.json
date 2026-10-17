@@ -1,0 +1,12 @@
+{
+  "images": {
+    "checked": 80,
+    "failed": []
+  },
+  "library_total": true,
+  "fulltext_search": true,
+  "map_keyboard_filter": true,
+  "modal_back_available": true,
+  "modal_back_works": true,
+  "runtime_errors": []
+}

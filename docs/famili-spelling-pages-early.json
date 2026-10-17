@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-17T07:59:52.595Z",
+  "purpose": "Correct English Family to Famili in AI-generated photo regions; originals retained.",
+  "mode": "builtin image_gen",
+  "conversion": "cwebp -q 92 -resize 1440 810; format/size only",
+  "assets": [
+    {
+      "page": "05",
+      "prompt": "Use case: text-localization. Edit target: the single attached full Persian presentation slide (page 05). Make ONLY an English brand spelling repair inside its existing store photographs. Replace every occurrence of 'Family' with 'Famili', including 'Hyper Family' -> 'Hyper Famili' and 'HyperFamily' -> 'HyperFamili'. Spell final word exactly F-a-m-i-l-i (no y). In particular both turquoise fascia signs behind the phone in the lower-right photo must read 'Hyper Famili'. Inspect all tiny repeated phone-screen/background insets and all other photos for this spelling. Keep original typography color, location, perspective, material and lighting. Strict invariants: preserve the entire 1440x810 slide canvas, ALL Persian writing character-for-character, logos, upper/lower margins, background white and pale-blue/red/beige design, exact layout, all photos and people. No redesign, no crop, no new objects, no other text changes. Only replace the incorrect final y in the in-photo English brand name with i.",
+      "tool": "image_gen.imagegen",
+      "source": "public/media/page-05.webp",
+      "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-e90cdd2f-4145-4907-b0c2-f36ba013dab4.png",
+      "output": "public/media/corrected/page-05.webp",
+      "review": "Verified Hyper Famili on prominent turquoise fascia; full slide layout and Persian body retained.",
+      "status": "visually_reviewed",
+      "source_sha256": "9b8d18321fdc23044ca26eaae1e589d73de05ec5bcef12eba6e4c77244101264",
+      "source_bytes": 100728,
+      "source_dimensions": [
+        1440,
+        810
+      ],
+      "generated_sha256": "e253d300316465431a03b18157741398f0cfd823d55696a4ea3035a9824f0a7d",
+      "generated_bytes": 1558544,
+      "generated_dimensions": [
+        1672,
+        941
+      ],
+      "output_sha256": "0b7553262587bffd9217e7f6a3305a345027a01756c35fe480549d838a1b3341",
+      "output_bytes": 114690,
+      "output_dimensions": [
+        1440,
+        810
+      ]
+    },
+    {
+      "page": "06",
+      "prompt": "Use case: text-localization. Edit target is the single full Persian presentation slide page 06. Repair ONLY the English brand spelling inside the supermarket photo on the RIGHT half. There are multiple repeated English small brand labels on the turquoise endcap: top of front panel under Persian wordmark, top of right side panel, and bottom corners of those two panels. Change ALL instances of 'HyperFamily' to exactly 'HyperFamili', or 'Hyper Family' to exactly 'Hyper Famili'. Famili ends with i; F-a-m-i-l-i. Preserve typography, positions, perspective and sign material. Strict invariants: preserve all Persian text verbatim, the left title and five bullet points, photo scene and people, white-blue-red-beige slide design, bottom-left logo, complete 1440x810 composition. Do not redraw or reflow the slide, crop, add text, change other labels, change colors or remove anything. Make the smallest localized letter correction.",
+      "tool": "image_gen.imagegen",
+      "source": "public/media/page-06.webp",
+      "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-2d927751-477e-4b6a-8eec-a72a8d3acb3d.png",
+      "output": "public/media/corrected/page-06.webp",
+      "review": "Verified corrected HyperFamili on four endcap labels; full slide layout and Persian body retained.",
+      "status": "visually_reviewed",
+      "source_sha256": "9201478744885b68cdd279d910b8b4e09315df3836f3ec9dfc85aa093f07e9e7",
+      "source_bytes": 74318,
+      "source_dimensions": [
+        1440,
+        810
+      ],
+      "generated_sha256": "99ba0a15722189672609203c02aba63589969efc460aeb675109d5dcfe4a751d",
+      "generated_bytes": 1377293,
+      "generated_dimensions": [
+        1672,
+        941
+      ],
+      "output_sha256": "36fe6813a8631eb9d372258162298013324281b81e737b34b5ebcebdfeb2e111",
+      "output_bytes": 84636,
+      "output_dimensions": [
+        1440,
+        810
+      ]
+    },
+    {
+      "page": "07",
+      "prompt": "Use case: text-localization. Edit ONLY English spelling in the attached full page 07 slide. Inside the photo on the right, change all English supermarket brand occurrences: far rear white fascia 'Hyper Family' -> 'Hyper Famili'; large white fascia on upper right 'Hyper Family' -> 'Hyper Famili'; vertical orange hanging column English 'Hyper Family' -> 'Hyper Famili'. If any more 'Family' letters appear inside this photo, correct them to Famili too. Exact spelling: F a m i l i, final i not y. Keep original lettering style, colors, size and realistic perspective. Preserve the COMPLETE original 1440x810 slide: all Persian text letter-for-letter, title, four bullets, people, devices, shapes, white/pale-blue/red/beige margins, bottom-left logo and photo crop. Do not translate Persian, redraw faces, move, add or remove anything. Only localized English final-letter replacement.",
+      "tool": "image_gen.imagegen",
+      "source": "public/media/page-07.webp",
+      "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-678e2bad-45a6-493f-95ac-cea6ef5f7197.png",
+      "output": "public/media/corrected/page-07.webp",
+      "review": "Verified two white fascia labels and orange hanging banner read Hyper Famili; full slide layout and Persian body retained.",
+      "status": "visually_reviewed",
+      "source_sha256": "84e9f15e4bce231d4b26fc592941032a5227fc7bc10f94f1578ef347eba308a4",
+      "source_bytes": 78710,
+      "source_dimensions": [
+        1440,
+        810
+      ],
+      "generated_sha256": "51323b6882f32d54d3aa59df3df6f97b9e4d75acbec61fdeb050f952ed151462",
+      "generated_bytes": 1408965,
+      "generated_dimensions": [
+        1672,
+        941
+      ],
+      "output_sha256": "1603eb9f9a21b5be4ca1a878a12c1c4a8184bc1089835780beea9dcc428e7daf",
+      "output_bytes": 94104,
+      "output_dimensions": [
+        1440,
+        810
+      ]
+    },
+    {
+      "page": "08",
+      "prompt": "Use case: text-localization. Edit target: entire page 08 Persian presentation slide. Inside the store-event photograph on the RIGHT, inspect all English brand labels including tiny lettering on the tall narrow white/turquoise hanging banner just left of the escalator, and any rear fascia or stage brand labels. Wherever the existing English word reads 'Family', replace only that word with 'Famili'; thus 'HyperFamily' becomes 'HyperFamili' and 'Hyper Family' becomes 'Hyper Famili'. Correct final y to i, spell F-a-m-i-l-i. Do NOT invent new English text where none exists. Preserve complete 1440x810 slide layout exactly, all Persian letters and bullet sentences unchanged, crowds/faces/event/stage/escalator/photo crop, pale blue frame red left stripe beige polygon and bottom-left logo. This is only a tiny brand spelling correction, no redesign, additions, crop, color changes or text reflow.",
+      "tool": "image_gen.imagegen",
+      "source": "public/media/page-08.webp",
+      "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-e6fcee6f-c6ed-46e9-8063-52e3022bdb49.png",
+      "output": "public/media/corrected/page-08.webp",
+      "review": "Second pass: tiny banner HyperFamili; Persian stage branding, slide body and complete layout retained visually.",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Edit target: entire page 08 Persian presentation slide. Inside the store-event photograph on the RIGHT, inspect all English brand labels including tiny lettering on the tall narrow white/turquoise hanging banner just left of the escalator, and any rear fascia or stage brand labels. Wherever the existing English word reads 'Family', replace only that word with 'Famili'; thus 'HyperFamily' becomes 'HyperFamili' and 'Hyper Family' becomes 'Hyper Famili'. Correct final y to i, spell F-a-m-i-l-i. Do NOT invent new English text where none exists. Preserve complete 1440x810 slide layout exactly, all Persian letters and bullet sentences unchanged, crowds/faces/event/stage/escalator/photo crop, pale blue frame red left stripe beige polygon and bottom-left logo. This is only a tiny brand spelling correction, no redesign, additions, crop, color changes or text reflow.",
+          "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-7cb6bfc8-a165-4148-bf3e-4330c15d7691.png",
+          "result": "Rejected: stage Persian branding replaced with English.",
+          "generated_sha256": "4a393327b39011aa60e12c35b8e45f5b58ee5f2baa3eb11dee1e9fd31b1b2f2e",
+          "generated_bytes": 1462043,
+          "input": "public/media/page-08.webp",
+          "input_sha256": "e1274168309ebf840e519a758fe26e924b14227cade52c4a0173cb8c00089033",
+          "input_bytes": 86710
+        }
+      ],
+      "finalPrompt": "Use case text-localization. Use this ORIGINAL attached slide as immutable layout/text reference. Only one tiny English label needs repair: INSIDE THE PHOTO, at bottom of tall narrow white hanging banner just LEFT of the escalator (near x=1015,y=350 on1440x810), find small English 'HyperFamily' and replace with 'HyperFamili' ending lowercase i. Change no other lettering. The big pink stage screen has PERSIAN branding 'هایپرفامیلی' at its top: KEEP this exact Persian lettering unchanged, do NOT replace it with English. The red front stage skirts also have Persian writing: KEEP that unchanged, no English replacements. All Persian body text/title/4bullets, entire crowded store photograph, white margins pale-blue/red/beige design, bottom-left logo, and full canvas must remain identical. No new English labels anywhere. Only final y->i in existing tiny banner English brand. Do not redesign or reflow.",
+      "status": "visually_reviewed",
+      "source_sha256": "e1274168309ebf840e519a758fe26e924b14227cade52c4a0173cb8c00089033",
+      "source_bytes": 86710,
+      "source_dimensions": [
+        1440,
+        810
+      ],
+      "generated_sha256": "1ca2d33b7b158c0f39dc2cac9cf7f345fef23596df9e2cb3405ff68d88082df2",
+      "generated_bytes": 1471955,
+      "generated_dimensions": [
+        1672,
+        941
+      ],
+      "output_sha256": "f6ac5ad7353cd6551bbda046d848186a74d76264d72809e39399b02ef2c17fe2",
+      "output_bytes": 102372,
+      "output_dimensions": [
+        1440,
+        810
+      ]
+    },
+    {
+      "page": "13",
+      "prompt": "Use case: text-localization. Target: the full attached ECO-REFILL KIOSK slide, page 13. Correct only English brand spelling inside the photo at upper left. On the kiosk upper front left, the small English 'HyperFamily' must be 'HyperFamili'. On the red rear wall sign, the tiny English 'Hyper & ...' / 'Hyper Family' store brand must read 'Hyper Famili'. Any other English Family word inside this photo becomes Famili (final i, not y). Keep the same small lettering, colors, perspective, location, crop and photo realism. LOCK everything else: the heading ECO-REFILL KIOSK, all Persian body paragraphs character-for-character and exact line placement, margins, gold top band/left stripe, red circle arcs, blue lower-left shape, bottom-left it logo, woman and kiosk. Maintain full slide 1440x810 aspect and composition. Do not redesign, retype, reflow, translate, add new labels, crop or change objects. Only the existing English in-photo brand typo.",
+      "tool": "image_gen.imagegen",
+      "source": "public/media/page-13.webp",
+      "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-ca94348d-231c-4524-b737-774ad5785158.png",
+      "output": "public/media/corrected/page-13.webp",
+      "review": "First two attempts rejected: upper kiosk word still Family. Root produced final page13 separately; this entry retains rejected early-generation provenance.",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Target: the full attached ECO-REFILL KIOSK slide, page 13. Correct only English brand spelling inside the photo at upper left. On the kiosk upper front left, the small English 'HyperFamily' must be 'HyperFamili'. On the red rear wall sign, the tiny English 'Hyper & ...' / 'Hyper Family' store brand must read 'Hyper Famili'. Any other English Family word inside this photo becomes Famili (final i, not y). Keep the same small lettering, colors, perspective, location, crop and photo realism. LOCK everything else: the heading ECO-REFILL KIOSK, all Persian body paragraphs character-for-character and exact line placement, margins, gold top band/left stripe, red circle arcs, blue lower-left shape, bottom-left it logo, woman and kiosk. Maintain full slide 1440x810 aspect and composition. Do not redesign, retype, reflow, translate, add new labels, crop or change objects. Only the existing English in-photo brand typo.",
+          "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-1c6ffb7d-a288-4817-8e83-40456e0aa373.png",
+          "result": "Rejected: upper kiosk still read Family; lower wordmark corrected.",
+          "generated_sha256": "64f209855dc9b4804ac195cb0ad6f5c214aa7abcdd3df841b44fe063687a49b8",
+          "generated_bytes": 1684022,
+          "input": "public/media/page-13.webp",
+          "input_sha256": "20281e653abd947ef75675e965080c326cc117a21cf3782bde47194ed1c27c77",
+          "input_bytes": 126304
+        }
+      ],
+      "finalPrompt": "Single localized correction to this exact slide only. In the PHOTO at left, the UPPER front kiosk wordmark just below the turquoise header (above four green round icons, left of the touchscreen) still says 'Hyper Family' in green/red. Replace this upper wordmark with exact 'Hyper Famili', F-a-m-i-l-i, final i not y. Keep its existing green Hyper and red Famili coloring. The LOWER kiosk wordmark and distant red wall already say Hyper Famili and must stay unchanged. Lock every other pixel as closely as possible, especially all Persian body text, ECO-REFILL KIOSK heading, complete slide composition, logo and photo details. No other modifications, translations, new words, reflow, crop or redesign. Final upper word is Famili, NEVER Family.",
+      "status": "replaced_by_root",
+      "source_sha256": "20281e653abd947ef75675e965080c326cc117a21cf3782bde47194ed1c27c77",
+      "source_bytes": 126304,
+      "source_dimensions": [
+        1440,
+        810
+      ],
+      "generated_sha256": "b1b1d95e318010b3635561ece5e437a78590f78b14ff8b7eae71266ec6a70e8a",
+      "generated_bytes": 1921646,
+      "generated_dimensions": [
+        1671,
+        941
+      ],
+      "output_sha256": "eaaeb6b8f5e10106d13d5c4f3928e3e8b4428d60b46385742af9a204ddfc5637",
+      "output_bytes": 174412,
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "final_input": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-1c6ffb7d-a288-4817-8e83-40456e0aa373.png",
+      "final_input_sha256": "64f209855dc9b4804ac195cb0ad6f5c214aa7abcdd3df841b44fe063687a49b8",
+      "final_input_bytes": 1684022,
+      "final_input_dimensions": [
+        1672,
+        941
+      ],
+      "final_provenance": "docs/famili-spelling-page13-final.json",
+      "generated_result": "rejected early attempt; final output supplied by root under final_provenance"
+    },
+    {
+      "page": "16",
+      "prompt": "Use case: text-localization. Exact edit to attached full PHOTO KIOSK slide, page 16. In the photo on LEFT half replace every English Family brand spelling with Famili: (1) hanging green banner says Hyper Family -> Hyper Famili, (2) small red hanging banner behind it same, (3) upper right side panel of photo booth says Hyper Family -> Hyper Famili, (4) lower front black panel beneath photo print slot says Hyper Family -> Hyper Famili. Inspect other little in-photo labels too. Every final word is F-a-m-i-l-i ending i, no y. Retain same colors, line breaks, typography, size, position and perspective of each label. Preserve entire original 1440x810 slide: PHOTO KIOSK heading, all Persian paragraph text VERBATIM with same lines and punctuation, photo crop, family members, kiosk, gold border, red arcs, blue shape, bottom-left it logo. Do not modify Persian words, reflow body text, move photos, change people, add new logos or objects. Small English typo repair only.",
+      "tool": "image_gen.imagegen",
+      "source": "public/media/page-16.webp",
+      "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-19965564-308c-4e09-93be-0a061caf504e.png",
+      "output": "public/media/corrected/page-16.webp",
+      "review": "Verified booth upper side/lower front and two hanging banners spell Hyper Famili; full slide layout and Persian body retained.",
+      "status": "visually_reviewed",
+      "source_sha256": "cdcd27e29a7ac4dd2be148c9791887489a3f827bd8e51726463e94ece35e11f8",
+      "source_bytes": 115762,
+      "source_dimensions": [
+        1440,
+        810
+      ],
+      "generated_sha256": "3e0f15668a3a88ba2071ecef1d26b5a876069fed0fa6a45010ea03719d87baa8",
+      "generated_bytes": 1661960,
+      "generated_dimensions": [
+        1672,
+        941
+      ],
+      "output_sha256": "d01dbfbadff92830cb0d1921adc8d7a41ca0682bd388758ccc9e66c790a71ffc",
+      "output_bytes": 141118,
+      "output_dimensions": [
+        1440,
+        810
+      ]
+    },
+    {
+      "page": "17",
+      "prompt": "Use case: text-localization. Edit target full REVERSE VENDING MACHINE (RVM) slide page 17. In the store photo on the RIGHT, correct all English Family brand words to Famili: top front left of recycling kiosk currently HyperFamily -> HyperFamili; large turquoise rear wall sign says HyperFamily -> HyperFamili; tiny rear red wall sign says Hyper & ... brand -> Hyper Famili only if currently spelled Family. Exact final spelling F-a-m-i-l-i with final i, never y. Keep lettering color, style, physical location, perspective and scale. Preserve the full 1440x810 slide exactly including heading REVERSE VENDING MACHINE (RVM), every Persian body sentence/line/number verbatim, the white slide background and corner red arcs, lower-left it logo, woman recycling bottle, machine, photograph crop and margins. Do not redesign, retype body, translate, move, crop, add or remove objects. Only correct this English spelling.",
+      "tool": "image_gen.imagegen",
+      "source": "public/media/page-17.webp",
+      "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-a2dd9fe1-ef0f-473e-8d6c-4e19ddfe90b1.png",
+      "output": "public/media/corrected/page-17.webp",
+      "review": "Final fourth pass: three photo signs spell HyperFamili, body parenthetical restored to Green Retail. Persian body and complete layout retained visually.",
+      "attempts": [
+        {
+          "prompt": "Use case: text-localization. Edit target full REVERSE VENDING MACHINE (RVM) slide page 17. In the store photo on the RIGHT, correct all English Family brand words to Famili: top front left of recycling kiosk currently HyperFamily -> HyperFamili; large turquoise rear wall sign says HyperFamily -> HyperFamili; tiny rear red wall sign says Hyper & ... brand -> Hyper Famili only if currently spelled Family. Exact final spelling F-a-m-i-l-i with final i, never y. Keep lettering color, style, physical location, perspective and scale. Preserve the full 1440x810 slide exactly including heading REVERSE VENDING MACHINE (RVM), every Persian body sentence/line/number verbatim, the white slide background and corner red arcs, lower-left it logo, woman recycling bottle, machine, photograph crop and margins. Do not redesign, retype body, translate, move, crop, add or remove objects. Only correct this English spelling.",
+          "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-3817d5c5-44e5-4a89-99e4-4995f1f1f41f.png",
+          "result": "Rejected: English names still read Family.",
+          "generated_sha256": "db2e697f1829a41cc8e123d072e5e161ea2c34548b40ef43d02348fa1d1fb1b4",
+          "generated_bytes": 1540241,
+          "input": "public/media/page-17.webp",
+          "input_sha256": "420a9abd04efb6e69e146190d898fbde240522d7dc105b2e170621b6caddcfac",
+          "input_bytes": 101994
+        },
+        {
+          "prompt": "TEXT REPAIR, EXACT LATIN WORD. In this slide's photograph on right, ERASE THE EXISTING ENGLISH BRAND LETTERING at these two places and PRINT CORRECT replacement: white-green front machine upper wordmark x=1380,y=350 in1440x810 coordinates, replace with 'HyperFamili'; large turquoise background sign x=1098,y=380 replace with 'HyperFamili'. The last character must be a straight lowercase i with dot. The wrong word has a descending y; REMOVE that descending y. New word is H y p e r F a m i l i. It must say HyperFamili. Also correct any tiny redrearwallbrand Family similarly. Keep same fontcolor, size, physical panel andperspective. Change ONLY this English lettering; all Persian paragraphs, REVERSE VENDING MACHINE (RVM) heading, graphic arcs, full slide canvas, photograph and all humans unchanged. It is CRITICAL that no English occurrence of Family remains. HyperFamili, NOT HyperFamily. No additional text, crop or layout change.",
+          "input": "public/media/page-17.webp",
+          "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-eed7d3cd-0ca9-4d67-ae86-0eb8f7c2648b.png",
+          "result": "Rejected: English brands still read Family.",
+          "generated_sha256": "522bf29b5efb727f2b3a337391316dfabd23de963af179b2145202647888d460",
+          "generated_bytes": 1547312,
+          "input_sha256": "420a9abd04efb6e69e146190d898fbde240522d7dc105b2e170621b6caddcfac",
+          "input_bytes": 101994
+        },
+        {
+          "prompt": "Use case: text-localization/compositing. Image1 is the EDIT TARGET: full Persian presentation slide page17. Image2 is the same photo at larger scale with CORRECTED English brand names. Your job is to fix Image1's photograph to exactly match Image2's correct spelling. Preserve Image1 full1440x810 slide outside photograph exactly, all Persian body paragraph letters/lines/punctuation, REVERSE VENDING MACHINE (RVM) heading, red arcs, lower-leftlogo. Within Image1 photo at right, REPLACE all old English wordmarks using Image2: the large turquoise rear sign, vertical turquoise hanging banner, and white machine upper wordmark must all spell exactly 'HyperFamili'. Entire wordmark may be erased and reprinted slightly larger for clarity, using same locations/colors/perspective. Final letters are F a m i l i, a dotted i with no descending y. Image2 is authoritative letter reference. Do not leave any Family word. Do not insert Image2 as extra picture, do not alter photo position,crop,woman,lighting or otherobjects. Only repair those3 existing English brand words, preserve ALL other Persian writing.",
+          "inputs": [
+            "public/media/page-17.webp",
+            "/Users/yasser/.codex/generated_images/01a148d4-0770-7d43-bc01-4853caea80cd/exec-8344dadd-1e13-45da-a1e2-26234beec2a9.png"
+          ],
+          "generated": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-8ff6b849-73db-4ba9-b40d-cc2b5919b956.png",
+          "result": "Rejected: spelling correct on signs, but Green Retail in body was corrupted to Green Ramili.",
+          "generated_sha256": "74318a056d4f3151eb5a4b4e37582bb6dfde91c08924d0e9d3e0a06929fb2906",
+          "generated_bytes": 1546145,
+          "input_sha256": [
+            "420a9abd04efb6e69e146190d898fbde240522d7dc105b2e170621b6caddcfac",
+            "d72691b05b72b6f6dd6a792dc83dcc05d3fbf4b7930326878202b4f8715df7f4"
+          ]
+        }
+      ],
+      "finalPrompt": "A SINGLE text repair in the attached slide. On the LEFT body paragraph, line 2, the black English parenthetical is currently wrong 'Green Ramili'. Replace exactly that parenthetical with '(Green Retail)' in identical black serif font, size, baseline and same place. Exact word is R-e-t-a-i-l. The right-hand store photograph already has the correct 'HyperFamili' brand on its3signs; DO NOT touch any part of the photo or any brand word. Do NOT replace Retail with Famili. Lock entire slide layout, all Persian sentences, heading REVERSE VENDING MACHINE (RVM), photo, graphics and margins. Only the black English phrase in line 2 body text becomes '(Green Retail)'. No other changes.",
+      "status": "visually_reviewed",
+      "source_sha256": "420a9abd04efb6e69e146190d898fbde240522d7dc105b2e170621b6caddcfac",
+      "source_bytes": 101994,
+      "source_dimensions": [
+        1440,
+        810
+      ],
+      "generated_sha256": "99eec5df11566f926538966db7891563063ef4bff442421bdfc86886c7ed5922",
+      "generated_bytes": 1821374,
+      "generated_dimensions": [
+        1672,
+        941
+      ],
+      "output_sha256": "f2528607e53718cd5c29e6c54b2e1ab45a96adea9e100dcdadac5b34f2c4dc8d",
+      "output_bytes": 120046,
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "final_input": "/Users/yasser/.codex/generated_images/01a148d5-b03b-73b1-b67d-64365bd7d55e/exec-8ff6b849-73db-4ba9-b40d-cc2b5919b956.png",
+      "final_input_sha256": "74318a056d4f3151eb5a4b4e37582bb6dfde91c08924d0e9d3e0a06929fb2906",
+      "final_input_bytes": 1546145,
+      "final_input_dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}

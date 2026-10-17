@@ -1,0 +1,1055 @@
+{
+  "reviewed_at_utc": "2026-10-17T08:16:00+00:00",
+  "method": "macOS Vision accurate English OCR with language correction disabled, direct visual inspection, exact dimensions, SHA-256 and browser display checks. No source images modified.",
+  "scope": "28 final corrected WebP assets",
+  "status": "PASS",
+  "summary": {
+    "reviewed": 28,
+    "verified": 28,
+    "failed": 0,
+    "needs_review": 0,
+    "expected_total": 28
+  },
+  "assets": [
+    {
+      "asset": "public/media/corrected/figure-05-03.webp",
+      "sha256_at_review": "c5985edbe6c3108edb789c3440d8fa2e70ec1426e2a12dde1d3f12a4db5fefdb",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.8113695083462532,
+            0.15962441342723,
+            0.06976744186046513,
+            0.028169014084507005
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        774,
+        425
+      ],
+      "original_dimensions": [
+        774,
+        425
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-05-04.webp",
+      "sha256_at_review": "f394fe3bfa3e0f3ca8486016f7e34bc1631157bcfd2e182e2b0e9671c3dd2416",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        691,
+        342
+      ],
+      "original_dimensions": [
+        691,
+        342
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-05-05.webp",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "sha256_at_review": "9a573ce342516b29898a18c4fd48e76495f79efadcddf5dead33c33894a18096",
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.16666666573464914,
+            0.6790123461419753,
+            0.08333333333333331,
+            0.03703703703703709
+          ],
+          "confidence": 1,
+          "text": "Hyper Fan"
+        },
+        {
+          "box": [
+            0.6628249360019931,
+            0.7453816318862932,
+            0.13244334438390892,
+            0.09272776709662545
+          ],
+          "confidence": 1,
+          "text": "Hiper Famili i"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        456,
+        323
+      ],
+      "original_dimensions": [
+        456,
+        323
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-06-01.webp",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "sha256_at_review": "48880260faa67c80fd275ccfaa99887185527a940b40c0216fe8086cbf5a6d6e",
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.5365637003110006,
+            0.638923077214054,
+            0.06876640119577648,
+            0.04969230651855483
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        },
+        {
+          "box": [
+            0.6456692904199475,
+            0.6600000005833333,
+            0.06036745406824151,
+            0.03499999999999992
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        762,
+        399
+      ],
+      "original_dimensions": [
+        762,
+        399
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-07-01.webp",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "sha256_at_review": "e2903062cbb76cccde52c5b19fce7cdf84a5d53861df8ca128a7bb651ecaf669",
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.11649427779389027,
+            0.6229616036141432,
+            0.12891620454334077,
+            0.04143311511511083
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.5714285633452311,
+            0.747126438505747,
+            0.023809538568769217,
+            0.24137931034482774
+          ],
+          "confidence": 1,
+          "text": "Hyper Famiii"
+        },
+        {
+          "box": [
+            0.667529620069684,
+            0.687279352498031,
+            0.2904865991501582,
+            0.1466312043054807
+          ],
+          "confidence": 0.5,
+          "text": "Der Famili / wluoLåju Lo"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        840,
+        522
+      ],
+      "original_dimensions": [
+        840,
+        522
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-08-01.webp",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "sha256_at_review": "e2cd1d0853bfa2cce0538cfbb8a7b8d26a8fa14db506d3c6ebed35fb59427006",
+      "ocr_brand_observations": [],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        812,
+        522
+      ],
+      "original_dimensions": [
+        812,
+        522
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-13-01.webp",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "sha256_at_review": "e11d6868f4d1f4d97ab24a9fd14727858a40edb035acdb1b674207c75472b1a8",
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.09972299153585718,
+            0.6279069767944301,
+            0.08310249307479226,
+            0.027131782945736482
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        },
+        {
+          "box": [
+            0.5015760864546684,
+            0.6310735585843655,
+            0.1408333606667136,
+            0.09095674706983936
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "notes": "Fresh final revision independently inspected at generated PNG and final WebP resolution: main kiosk and rear fascia both clearly read HyperFamili.",
+      "output_dimensions": [
+        721,
+        515
+      ],
+      "original_dimensions": [
+        721,
+        515
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-17-01.webp",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "notes": "Independently inspected generated PNG and final WebP: turquoise rear fascia, hanging banner and machine top read HyperFamili. Tiny rear red sign is blurred and partially obscured by the person; no readable Family remains.",
+      "sha256_at_review": "4354c44759a664d4528f57397f244dd6bd4b5b9730706fae722fec1070786877",
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.09398859659320635,
+            0.6047073663586705,
+            0.18849339204676013,
+            0.03653996044763852
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        },
+        {
+          "box": [
+            0.800784309530923,
+            0.6543689305585116,
+            0.1843137404497932,
+            0.08867314409669547
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        510,
+        617
+      ],
+      "original_dimensions": [
+        510,
+        617
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-21-01.webp",
+      "sha256_at_review": "58a1d13c0eb230744e6102779afd5c6f8f8afa6887cabfe22158916f51d9105d",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.21948360296279393,
+            0.8163080847860223,
+            0.15190633138020834,
+            0.058275954954085774
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.5297297290990991,
+            0.8258064519086021,
+            0.07567567567567568,
+            0.03548387096774197
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.6360360358901759,
+            0.8193548387788019,
+            0.06486486486486476,
+            0.029032258064516148
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.8198198197347347,
+            0.8129032258870967,
+            0.03423423423423422,
+            0.029032258064516148
+          ],
+          "confidence": 0.30000001192092896,
+          "text": "Hyper Famin"
+        }
+      ],
+      "ocr_family_matches": [],
+      "notes": "Tiny far-right purple sign has constrained scale/perspective. Visual spelling reviewed as Famili; figure OCR reads Hyper Famin. The three main fascia signs clearly read Hyper Famili.",
+      "output_dimensions": [
+        1109,
+        620
+      ],
+      "original_dimensions": [
+        1109,
+        620
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-23-01.webp",
+      "sha256_at_review": "6fdfc0f0187bcba6825a2f9d767bed47f17ef77fc602938336a4d3cc4d8caea2",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.21327988036617637,
+            0.807688448491607,
+            0.14536450844443308,
+            0.10614273086987402
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        723,
+        485
+      ],
+      "original_dimensions": [
+        723,
+        485
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-29-01.webp",
+      "sha256_at_review": "6c4a2057e6d3e6e16dc0b7973f0972922e0e14d7b3f15e1a2562ba860d4b91f4",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.6263074264089336,
+            0.6297696678358757,
+            0.3667558052797011,
+            0.20127280982764983
+          ],
+          "confidence": 1,
+          "text": "HyperFamili | AoLåLa"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        685,
+        518
+      ],
+      "original_dimensions": [
+        685,
+        518
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-31-01.webp",
+      "sha256_at_review": "380ee049350529b24032908bd6b7b25d19fdf42671f7b1a18f7d21026cd29745",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.4621513942263205,
+            0.8171091445594253,
+            0.25099601593625503,
+            0.020648967551622377
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili | ulolala"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        501,
+        677
+      ],
+      "original_dimensions": [
+        501,
+        677
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-32-00.webp",
+      "sha256_at_review": "c7798dfc6c8fce9e457b3054d54f8f5c00c1bcf7080abee8065c867db16562a3",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.4754098358992635,
+            0.446945337643879,
+            0.22950819672131156,
+            0.032154340836012874
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili I cholåalø"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        732,
+        621
+      ],
+      "original_dimensions": [
+        732,
+        621
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/figure-32-02.webp",
+      "sha256_at_review": "455f7480c0feaf6bc92fdc7a894c14dde6c32a4f1f7e5af6a47da3f936b1539c",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.23809523980158726,
+            0.5110294121323529,
+            0.32936507936507936,
+            0.03676470588235303
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili | clolåyalo"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        504,
+        544
+      ],
+      "original_dimensions": [
+        504,
+        544
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-05.webp",
+      "sha256_at_review": "0b7553262587bffd9217e7f6a3305a345027a01756c35fe480549d838a1b3341",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.5106941730582174,
+            0.22443659779806657,
+            0.0527304437425401,
+            0.05668544062861691
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-06.webp",
+      "sha256_at_review": "36fe6813a8631eb9d372258162298013324281b81e737b34b5ebcebdfeb2e111",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-07.webp",
+      "sha256_at_review": "1603eb9f9a21b5be4ca1a878a12c1c4a8184bc1089835780beea9dcc428e7daf",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.5436046517820023,
+            0.5245478034652267,
+            0.055232556660970045,
+            0.01866207299409095
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-08.webp",
+      "sha256_at_review": "f6ac5ad7353cd6551bbda046d848186a74d76264d72809e39399b02ef2c17fe2",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-13.webp",
+      "sha256_at_review": "eaaeb6b8f5e10106d13d5c4f3928e3e8b4428d60b46385742af9a204ddfc5637",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.24192094533285513,
+            0.5970657073054222,
+            0.04985367986891004,
+            0.03007474828649448
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        },
+        {
+          "box": [
+            0.08283084996426224,
+            0.5889803359861849,
+            0.04509411387973361,
+            0.015837777691122934
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "notes": "Fresh final revision independently inspected: front kiosk and rear fascia both read HyperFamili; OCR agrees exactly on both. Persian lower kiosk wordmark retained.",
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-16.webp",
+      "sha256_at_review": "d01dbfbadff92830cb0d1921adc8d7a41ca0682bd388758ccc9e66c790a71ffc",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.1933139530481462,
+            0.5684754521496012,
+            0.023255814446343337,
+            0.02067183506341619
+          ],
+          "confidence": 1,
+          "text": "Hyper"
+        },
+        {
+          "box": [
+            0.19476744213754127,
+            0.5581395348486349,
+            0.020348836316002733,
+            0.015503876297562225
+          ],
+          "confidence": 1,
+          "text": "Famili"
+        },
+        {
+          "box": [
+            0.3619186048797894,
+            0.29715762277836943,
+            0.020348836316002705,
+            0.0206718350634163
+          ],
+          "confidence": 1,
+          "text": "Hyper"
+        },
+        {
+          "box": [
+            0.36015085034870836,
+            0.27955862826560085,
+            0.023845063315497517,
+            0.027027026517891573
+          ],
+          "confidence": 1,
+          "text": "Famili"
+        },
+        {
+          "box": [
+            0.4030062415221391,
+            0.49647066236801596,
+            0.031179094314575218,
+            0.02744690106238845
+          ],
+          "confidence": 1,
+          "text": "Hyper Famii"
+        },
+        {
+          "box": [
+            0.4127906974686625,
+            0.33333333328070414,
+            0.01598837243186102,
+            0.023255814446343392
+          ],
+          "confidence": 0.30000001192092896,
+          "text": "Famir"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-17.webp",
+      "sha256_at_review": "f2528607e53718cd5c29e6c54b2e1ab45a96adea9e100dcdadac5b34f2c4dc8d",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.7586754049032556,
+            0.5215500651563036,
+            0.05096314218309195,
+            0.01891537419071898
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        },
+        {
+          "box": [
+            0.9447674420324261,
+            0.5436692506164907,
+            0.05043604638841426,
+            0.05193798394850746
+          ],
+          "confidence": 1,
+          "text": "HyperFamili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true,
+      "notes": "Final revision independently inspected. Rear turquoise fascia, vertical hanging sign and machine top read HyperFamili. OCR recognizes two main wordmarks exactly HyperFamili; no readable Family remains."
+    },
+    {
+      "asset": "public/media/corrected/page-21.webp",
+      "sha256_at_review": "419fdd8b421ae224f45979ab009bb479f81a790d92fe2f5c93902e5f4d2e2035",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.17005813850176904,
+            0.671604937876578,
+            0.08720930417378742,
+            0.03123743975604021
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.3459022734076633,
+            0.6742179537585892,
+            0.046567545996771875,
+            0.021073136506257195
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.4098837211347891,
+            0.674074074367896,
+            0.03633720874786378,
+            0.016049382716049387
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "notes": "Tiny far-right purple sign has constrained scale/perspective. Visual spelling reviewed as Famili; figure OCR reads Hyper Famin. The three main fascia signs clearly read Hyper Famili.",
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-23.webp",
+      "sha256_at_review": "b1dd1c30bcd5a9606030a263e8c6f679996926f7c409d157dad291268ab2ceac",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.12282664551706265,
+            0.44203571929385266,
+            0.056459082497490765,
+            0.045586447068202696
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.04069767474183272,
+            0.3074935398972325,
+            0.024709301524692112,
+            0.0206718350634163
+          ],
+          "confidence": 1,
+          "text": "Hyper"
+        },
+        {
+          "box": [
+            0.041495901729631274,
+            0.2927309678334098,
+            0.02617470688290066,
+            0.021328422169626493
+          ],
+          "confidence": 1,
+          "text": "Famili"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-29.webp",
+      "sha256_at_review": "e0642fe79b55d8dc746a5aca14470af95b3d37dac2cdead8b8ce1ed10e26fecb",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.3109610163019747,
+            0.3926128617512632,
+            0.1317544407314724,
+            0.09560723010404604
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili / uloLå La"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-31.webp",
+      "sha256_at_review": "39f14aa27658af8a2bd05730d7594486d978e1e33ef4f9662f4a165aab971252",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.13495297591336938,
+            0.7447499230107618,
+            0.06007865799797907,
+            0.021140067960009112
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili"
+        },
+        {
+          "box": [
+            0.24563953410355915,
+            0.6537467698857795,
+            0.06976744333902996,
+            0.015503876297562336
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili I laldla"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    },
+    {
+      "asset": "public/media/corrected/page-32.webp",
+      "sha256_at_review": "9f0760370bb570542b1573cc9e337ebf858c0c693a8e4ccbd87918c67fed0932",
+      "status": "verified",
+      "visual_review": true,
+      "issues": [],
+      "ocr_brand_observations": [
+        {
+          "box": [
+            0.7992307736487224,
+            0.2500975415873583,
+            0.11808089150322809,
+            0.029140232227466645
+          ],
+          "confidence": 1,
+          "text": "Hyper Famili | uholò polo"
+        }
+      ],
+      "ocr_family_matches": [],
+      "output_dimensions": [
+        1440,
+        810
+      ],
+      "original_dimensions": [
+        1440,
+        810
+      ],
+      "dimensions_match_original": true
+    }
+  ],
+  "final_assets": [
+    {
+      "file": "figure-05-03.webp",
+      "sha256": "c5985edbe6c3108edb789c3440d8fa2e70ec1426e2a12dde1d3f12a4db5fefdb"
+    },
+    {
+      "file": "figure-05-04.webp",
+      "sha256": "f394fe3bfa3e0f3ca8486016f7e34bc1631157bcfd2e182e2b0e9671c3dd2416"
+    },
+    {
+      "file": "figure-05-05.webp",
+      "sha256": "9a573ce342516b29898a18c4fd48e76495f79efadcddf5dead33c33894a18096"
+    },
+    {
+      "file": "figure-06-01.webp",
+      "sha256": "48880260faa67c80fd275ccfaa99887185527a940b40c0216fe8086cbf5a6d6e"
+    },
+    {
+      "file": "figure-07-01.webp",
+      "sha256": "e2903062cbb76cccde52c5b19fce7cdf84a5d53861df8ca128a7bb651ecaf669"
+    },
+    {
+      "file": "figure-08-01.webp",
+      "sha256": "e2cd1d0853bfa2cce0538cfbb8a7b8d26a8fa14db506d3c6ebed35fb59427006"
+    },
+    {
+      "file": "figure-13-01.webp",
+      "sha256": "e11d6868f4d1f4d97ab24a9fd14727858a40edb035acdb1b674207c75472b1a8"
+    },
+    {
+      "file": "figure-16-01.webp",
+      "sha256": "1f756886da4df18584675482479be5f695598a83de8e8bc38668961cf05fdcbf"
+    },
+    {
+      "file": "figure-16-02.webp",
+      "sha256": "82439abcf7b230920a20fad2823896d191e9f307023f520fc5ea4633d1f79089"
+    },
+    {
+      "file": "figure-17-01.webp",
+      "sha256": "4354c44759a664d4528f57397f244dd6bd4b5b9730706fae722fec1070786877"
+    },
+    {
+      "file": "figure-21-01.webp",
+      "sha256": "58a1d13c0eb230744e6102779afd5c6f8f8afa6887cabfe22158916f51d9105d"
+    },
+    {
+      "file": "figure-23-01.webp",
+      "sha256": "6fdfc0f0187bcba6825a2f9d767bed47f17ef77fc602938336a4d3cc4d8caea2"
+    },
+    {
+      "file": "figure-29-01.webp",
+      "sha256": "6c4a2057e6d3e6e16dc0b7973f0972922e0e14d7b3f15e1a2562ba860d4b91f4"
+    },
+    {
+      "file": "figure-31-01.webp",
+      "sha256": "380ee049350529b24032908bd6b7b25d19fdf42671f7b1a18f7d21026cd29745"
+    },
+    {
+      "file": "figure-32-00.webp",
+      "sha256": "c7798dfc6c8fce9e457b3054d54f8f5c00c1bcf7080abee8065c867db16562a3"
+    },
+    {
+      "file": "figure-32-02.webp",
+      "sha256": "455f7480c0feaf6bc92fdc7a894c14dde6c32a4f1f7e5af6a47da3f936b1539c"
+    },
+    {
+      "file": "page-05.webp",
+      "sha256": "0b7553262587bffd9217e7f6a3305a345027a01756c35fe480549d838a1b3341"
+    },
+    {
+      "file": "page-06.webp",
+      "sha256": "36fe6813a8631eb9d372258162298013324281b81e737b34b5ebcebdfeb2e111"
+    },
+    {
+      "file": "page-07.webp",
+      "sha256": "1603eb9f9a21b5be4ca1a878a12c1c4a8184bc1089835780beea9dcc428e7daf"
+    },
+    {
+      "file": "page-08.webp",
+      "sha256": "f6ac5ad7353cd6551bbda046d848186a74d76264d72809e39399b02ef2c17fe2"
+    },
+    {
+      "file": "page-13.webp",
+      "sha256": "eaaeb6b8f5e10106d13d5c4f3928e3e8b4428d60b46385742af9a204ddfc5637"
+    },
+    {
+      "file": "page-16.webp",
+      "sha256": "d01dbfbadff92830cb0d1921adc8d7a41ca0682bd388758ccc9e66c790a71ffc"
+    },
+    {
+      "file": "page-17.webp",
+      "sha256": "f2528607e53718cd5c29e6c54b2e1ab45a96adea9e100dcdadac5b34f2c4dc8d"
+    },
+    {
+      "file": "page-21.webp",
+      "sha256": "419fdd8b421ae224f45979ab009bb479f81a790d92fe2f5c93902e5f4d2e2035"
+    },
+    {
+      "file": "page-23.webp",
+      "sha256": "b1dd1c30bcd5a9606030a263e8c6f679996926f7c409d157dad291268ab2ceac"
+    },
+    {
+      "file": "page-29.webp",
+      "sha256": "e0642fe79b55d8dc746a5aca14470af95b3d37dac2cdead8b8ce1ed10e26fecb"
+    },
+    {
+      "file": "page-31.webp",
+      "sha256": "39f14aa27658af8a2bd05730d7594486d978e1e33ef4f9662f4a165aab971252"
+    },
+    {
+      "file": "page-32.webp",
+      "sha256": "9f0760370bb570542b1573cc9e337ebf858c0c693a8e4ccbd87918c67fed0932"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+/* The chapter navigation is deliberately separate from the content and session model. */
+const CHAPTER_ART={
+ home:['brand-market.webp','از امروز، به فردای فامیلی','تصویر مفهومی برای هایپرفامیلی'],
+ projects:['figure-11-01.webp','ایده‌ها را از نزدیک ببینید','تصویر از سند مدیر · نمونه معرفی'],
+ atlas:['figure-19-01.webp','یک جهان، هزار امکان','تصویر از سند مدیر · نمونه معرفی'],
+ prices:['figure-13-01.webp','از ایده، تا برآورد','تصویر از سند مدیر · نمونه معرفی'],
+ library:['figure-06-01.webp','هر تصمیم، یک پشتوانه','تصویر از سند مدیر · نمونه معرفی'],
+ agenda:['brand-cafe.webp','فردا را با هم بسازیم','تصویر مفهومی برای هایپرفامیلی'],
+ compare:['figure-21-01.webp','انتخاب، با نگاه دقیق‌تر','تصویر از سند مدیر · نمونه معرفی'],
+ concepts:['brand-market.webp','آینده، از ترکیب ایده‌ها','تصویر مفهومی برای هایپرفامیلی']
+};
+const chapterSelected=(view,key)=>view===key||(key==='projects'&&view==='detail');
+function BrandNavigation({a}){let s=a.state;return <header className="brand-navigation">
+ <div className="brand-masthead">
+  <button className="masthead-brand" aria-label="فامیلی فردا؛ نمای کلی" onClick={()=>a.go('home')}><BrandLogo className="masthead-logo"/><span className="masthead-brand-title"><strong>فامیلی فردا</strong><small>چشم‌انداز نوآوری</small></span></button>
+  <div className="masthead-editorial" aria-hidden="true"><span>فردای بهتر، از امروز.</span><small>FAMILI / TOMORROW</small></div>
+  <div className="masthead-tools"><MotionToggle a={a}/><button className="masthead-search" aria-label="جست‌وجوی شواهد" title="جست‌وجوی شواهد — ⌘ K" onClick={()=>a.modal({type:'search'})}><I name="search" size={21}/></button><button className="masthead-present" onClick={()=>a.present()}><I name="play" size={17}/><span>حالت ارائه</span></button><button className="chapter-menu-trigger" aria-label="بازکردن فهرست" aria-haspopup="dialog" aria-expanded={s.mobileNav} aria-controls="chapter-menu" onClick={()=>a.set({mobileNav:true})}><span>نقشهٔ فردا</span><span className="menu-lines" aria-hidden="true"><i/><i/></span></button></div>
+ </div>
+ <div className="chapter-rail-wrap"><nav className="chapter-rail" aria-label="ناوبری اصلی">{NAV.map(([key,title],index)=><button key={key} className={cx('chapter-link',chapterSelected(s.view,key)&&'selected')} aria-current={chapterSelected(s.view,key)?'page':undefined} aria-label={title} onClick={()=>a.go(key)}><span className="chapter-number" aria-hidden="true">{fa(index+1).padStart(2,'۰')}</span><span>{title}</span>{key==='agenda'&&<b>{fa(s.agenda.length)}</b>}</button>)}</nav><span className="rail-caption">اتاق ارائه هیئت‌مدیره <span className="rail-dot"/></span></div>
+ <div className="reading-progress" aria-hidden="true"><span/></div>
+ </header>}
+class ChapterMenu extends React.Component{
+ constructor(props){super(props);this.state={preview:props.a.state.view==='detail'?'projects':props.a.state.view};this.onKey=e=>this.key(e)}
+ componentDidMount(){this.returnFocus=document.activeElement;this.previousOverflow=document.body.style.overflow;document.body.style.overflow='hidden';this.background=document.querySelector('.shell');if(this.background){this.oldInert=this.background.inert;this.oldHidden=this.background.getAttribute('aria-hidden');this.background.inert=true;this.background.setAttribute('aria-hidden','true')}document.addEventListener('keydown',this.onKey,true);this.closeButton?.focus({preventScroll:true})}
+ componentWillUnmount(){document.removeEventListener('keydown',this.onKey,true);document.body.style.overflow=this.previousOverflow;if(this.background){this.background.inert=this.oldInert;if(this.oldHidden===null)this.background.removeAttribute('aria-hidden');else this.background.setAttribute('aria-hidden',this.oldHidden)}if(this.returnFocus?.isConnected)this.returnFocus.focus({preventScroll:true});if(this.navigating)requestAnimationFrame(()=>document.getElementById('content')?.focus({preventScroll:true}))}
+ key(e){if(e.key==='Escape'){e.preventDefault();e.stopImmediatePropagation();this.props.a.set({mobileNav:false});return}if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();e.stopImmediatePropagation();this.action(()=>this.props.a.modal({type:'search'}));return}if(e.key==='Tab'){let list=Array.from(this.el.querySelectorAll('button:not([disabled]),a[href],input,select,textarea,[tabindex="0"]')).filter(el=>el.getClientRects().length);let first=list[0],last=list[list.length-1];if(e.shiftKey&&(document.activeElement===first||!this.el.contains(document.activeElement))){e.preventDefault();last?.focus()}else if(!e.shiftKey&&(document.activeElement===last||!this.el.contains(document.activeElement))){e.preventDefault();first?.focus()}}}
+ action(fn){this.props.a.setState({mobileNav:false},fn)}
+ navigate(view){this.navigating=true;this.props.a.go(view)}
+ render(){let a=this.props.a,s=a.state,items=NAV.concat([['compare','مقایسه طرح‌ها','compare'],['concepts','مفهوم‌های ترکیبی','sparkles']]),preview=CHAPTER_ART[this.state.preview]||CHAPTER_ART.home;return <section id="chapter-menu" ref={el=>this.el=el} className="chapter-menu" role="dialog" aria-modal="true" aria-labelledby="chapter-menu-title">
+  <header className="chapter-menu-header"><BrandLogo className="menu-brand-logo"/><span className="menu-header-note">یک قدم نزدیک‌تر به آینده</span><button className="chapter-menu-close" ref={el=>this.closeButton=el} onClick={()=>a.set({mobileNav:false})} aria-label="بستن فهرست"><span>بازگشت</span><I name="close" size={23}/></button></header>
+  <div className="chapter-menu-content"><div className="chapter-menu-links"><div className="menu-overline"><span>مسیر خود را انتخاب کنید</span><small dir="ltr">EXPLORE / 08</small></div><h2 id="chapter-menu-title">نقشهٔ <em>فردا</em></h2><nav aria-label="فهرست تصویری">{items.map(([key,title,icon],index)=><button key={key} style={{'--chapter-index':index}} className={cx('menu-chapter',chapterSelected(s.view,key)&&'is-current',this.state.preview===key&&'is-preview')} aria-current={chapterSelected(s.view,key)?'page':undefined} onMouseEnter={()=>this.setState({preview:key})} onFocus={()=>this.setState({preview:key})} onClick={()=>this.navigate(key)}><span className="menu-chapter-number" aria-hidden="true">{fa(index+1).padStart(2,'۰')}</span><strong>{title}</strong><small>{key==='projects'?fa(projects.length)+' طرح':key==='atlas'?fa(cases.length)+' نمونه':key==='agenda'?fa(s.agenda.length)+' طرح':key==='compare'?fa(s.compare.length)+'/۳':key==='concepts'?'۱۰ مفهوم':''}</small><I name="arrow" size={22}/></button>)}</nav></div>
+   <figure className="chapter-menu-art"><img key={preview[0]} src={media(preview[0])} alt=""/><div className="menu-art-shade"/><span className="menu-art-word" aria-hidden="true">فـردا</span><figcaption><span>{preview[2]}</span><strong>{preview[1]}</strong><span className="menu-art-line"/></figcaption></figure>
+  </div>
+  <footer className="chapter-menu-footer"><div><button onClick={()=>this.action(()=>a.modal({type:'manager',page:1}))}><I name="file" size={18}/>سند تصویری مدیر<span>۳۴ صفحه</span></button><button onClick={()=>this.action(()=>a.modal({type:'settings'}))}><I name="settings" size={18}/>تنظیمات و راهنما</button><button onClick={()=>this.action(()=>a.modal({type:'search'}))}><I name="search" size={18}/>جست‌وجوی شواهد</button></div><span>فامیلی فردا · از تجربه و شواهد، تا تصمیم</span></footer>
+ </section>}
+}

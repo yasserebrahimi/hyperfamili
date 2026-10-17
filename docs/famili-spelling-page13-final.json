@@ -1,0 +1,24 @@
+{
+  "original": "page-13.webp",
+  "corrected": "corrected/page-13.webp",
+  "generated_image": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-1ab6ecce-7d60-4a12-9d20-7e6cb1fdbb34.png",
+  "attempts": [
+    {
+      "file": "page-13.webp",
+      "prompt": "Edit this existing ECO-REFILL KIOSK slide with ONE spelling correction only. In the photo, immediately ABOVE the dispensing nozzles and below the large turquoise Persian sign, the kiosk has a small English wordmark \"HyperFamily\" alongside Persian. Erase and retype only this small English wordmark as EXACTLY \"HyperFamili\": H-y-p-e-r-F-a-m-i-l-i, ending in an i with dot and no descender. Also make any tiny English Family in the rear LEFT orange store sign read Famili. Crucial preservation: the large Persian هایپرفامیلی wordmark on the LOWER FRONT of the kiosk must remain the original Persian text, do NOT turn it into English. Every other Persian sign, all Persian slide paragraphs, the ECO-REFILL KIOSK heading, logo, entire page layout, photo composition, customer, colors, crop and dispensing machine must stay as in the supplied original. Do not add any English wordmarks where there was Persian. Only the English letter y in Family is being corrected to i.",
+      "iteration": 3
+    },
+    {
+      "file": "page-13.webp",
+      "iteration": 4,
+      "prompt": "Localized typography correction on this EXISTING page. Preserve the exact page layout, Persian paragraphs and Persian wordmarks, entire photo and all objects. The small ENGLISH logo on the UPPER FRONT of the green refill kiosk, between the top turquoise header and the green circular icons, still incorrectly says HyperFamily. ERASE that ENTIRE English line including the final y, and typeset a NEW clean red and green wordmark exactly: HyperFamili . Spell it H y p e r F a m i l i, ending in a short lowercase i with a dot, NO y descender. Make this particular English logo a little larger and sharper so the correct spelling is readable. Correct the distant orange fascia English wordmark to exactly HyperFamili too if necessary. Retain the big LOWER Persian brand on the kiosk as Persian, do NOT replace it with English. Only modify these English wordmarks. Keep the title ECO-REFILL KIOSK, Persian text, decorative border, colors, camera perspective and shopping scene intact. The key requirement is both English logos say HyperFamili, no Family anywhere."
+    }
+  ],
+  "sha256": "eaaeb6b8f5e10106d13d5c4f3928e3e8b4428d60b46385742af9a204ddfc5637",
+  "original_sha256": "20281e653abd947ef75675e965080c326cc117a21cf3782bde47194ed1c27c77",
+  "dimensions": [
+    1440,
+    810
+  ],
+  "verification": "Vision OCR reads both English wordmarks HyperFamili. Visually reviewed; lower Persian brand retained. Earlier whole-page failed attempts are recorded in the early-page report."
+}

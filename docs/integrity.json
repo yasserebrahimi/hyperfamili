@@ -1,0 +1,33 @@
+{
+  "spelling_corrected_display_images": 28,
+  "spelling_corrections_embedded": true,
+  "brand_identity_originals_unchanged": true,
+  "brand_identity_standalone_embedded": true,
+  "status": "PASS",
+  "projects": 102,
+  "cases": 76,
+  "quotes": 67,
+  "documents": 749,
+  "original_archive_files_byte_identical": 723,
+  "images_and_page_renders": 84,
+  "original_images_and_page_renders": 80,
+  "generated_concept_images_with_provenance": 4,
+  "price_fields_unchanged": true,
+  "reference_integrity": true,
+  "markdown_sha256_verified": true,
+  "wbs_arithmetic": true,
+  "font_files_bundled": true,
+  "font": {
+    "family": "Vazirmatn",
+    "version": "33.003",
+    "file": "fonts/Vazirmatn.woff2",
+    "sha256": "4e3fa217d38fdafc1fea4414ceb58ca5e662cf0ab5fa735a8c8c20e8b42cad92",
+    "license": "SIL Open Font License 1.1",
+    "license_file": "fonts/OFL.txt",
+    "authors_file": "fonts/AUTHORS.txt",
+    "source": "https://github.com/rastikerdar/vazirmatn/tree/v33.003",
+    "standalone_byte_identical": true,
+    "standalone_license_embedded": true,
+    "standalone_font_network_requests_required": false
+  }
+}

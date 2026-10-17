@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-17",
+  "edits": [
+    {
+      "file": "page-21.webp",
+      "prompt": "Use case: text-localization. Edit the supplied existing 1440x810 presentation page as a precise spelling repair, preserving the exact full canvas, all Persian body text, English slide title RETAIL AI VISION & ANALYTICS, diagrams, margins, photo frames, people, store shelves, heatmap, analytics overlays, logos, color, lighting, and composition. Only change the English brand spelling inside the LARGE supermarket photo on the LEFT: replace EVERY occurrence of \"Family\" with \"Famili\" (F-a-m-i-l-i), so ALL overhead signs say \"Hyper Famili\". Include the large turquoise fascia near photo upper-left, the red fascia near center, blue fascia further right, purple fascia far right, and any small/vertical repeating English brand signs. Preserve original capitalization, spaces, font style, size, perspective, and print colors. Do not translate or retype any Persian. Do not add or remove anything else. The corrected exact word is \"Famili\", never \"Family\". Keep this a faithful localized edit of this existing page.",
+      "generated_path": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-07a640f0-babd-4f89-bba1-1d57279d792d.png",
+      "source": "public/media/page-21.webp",
+      "output": "public/media/corrected/page-21.webp",
+      "dimensions": [
+        1440,
+        810
+      ],
+      "source_sha256": "b767c5c5370b66f7a4c8132cc43d2f508db04de0bedaf8a5068c4c1a7b1d7bc3",
+      "sha256": "419fdd8b421ae224f45979ab009bb479f81a790d92fe2f5c93902e5f4d2e2035",
+      "bytes": 227752,
+      "tool": "built-in image_gen; cwebp format conversion and original canvas size",
+      "status": "Spelling-corrected display derivative; Concept visualization, not deployment evidence"
+    },
+    {
+      "file": "page-23.webp",
+      "prompt": "Use case: text-localization. This is a precise single-word spelling repair of an existing presentation page, not a redesign. Preserve exact full canvas and aspect ratio, all Persian body text VERBATIM, all headings, original page design, diagrams, logos, photo crop, people, colors, lighting and objects. Change only visible English retail brand spelling inside the embedded photo: \"Family\" becomes \"Famili\" (F-a-m-i-l-i, final letter i, no y). Preserve spaces and capitalization, so \"Hyper Family\" becomes \"Hyper Famili\", and \"HyperFamily\" becomes \"HyperFamili\". Match the existing font, perspective and background. No additional editing. Target ALL blurred retail signage within the bottom-left NFC payment photo: top central red store fascia behind the smartphone, and the turquoise pillar at the left edge (tiny labels near its top and middle). Correct every Family brand occurrence, including partly blurred ones. Keep NFC PAYMENT and ALL Persian paragraphs, logos, card terminal/phone screens and diagram shapes exactly as supplied.",
+      "generated_path": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-009f5a2c-24d2-499e-80c5-e1fb5998fc06.png",
+      "source": "public/media/page-23.webp",
+      "output": "public/media/corrected/page-23.webp",
+      "dimensions": [
+        1440,
+        810
+      ],
+      "source_sha256": "c9e0decd9b105ff7bd4aeab573f3001306d4b7c5d64320f761f10fd1a5ad9b7c",
+      "sha256": "b1dd1c30bcd5a9606030a263e8c6f679996926f7c409d157dad291268ab2ceac",
+      "bytes": 120830,
+      "tool": "built-in image_gen; cwebp format conversion and original canvas size",
+      "status": "Spelling-corrected display derivative; Concept visualization, not deployment evidence"
+    },
+    {
+      "file": "page-29.webp",
+      "prompt": "Use case: text-localization. This is a precise single-word spelling repair of an existing presentation page, not a redesign. Preserve exact full canvas and aspect ratio, all Persian body text VERBATIM, all headings, original page design, diagrams, logos, photo crop, people, colors, lighting and objects. Change only visible English retail brand spelling inside the embedded photo: \"Family\" becomes \"Famili\" (F-a-m-i-l-i, final letter i, no y). Preserve spaces and capitalization, so \"Hyper Family\" becomes \"Hyper Famili\", and \"HyperFamily\" becomes \"HyperFamili\". Match the existing font, perspective and background. No additional editing. Target the building roof sign at the upper-right area of the bottom-left electric vehicle charging photo. Change \"HyperFamily\" to \"HyperFamili\", preserving red Hyper and turquoise Famili and the adjacent Persian word untouched. Keep all Persian paragraphs and title, solar canopy, cars, charge units, framing and logos exactly as supplied.",
+      "generated_path": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-2db5e3eb-f743-4c71-8ff6-e855322229d5.png",
+      "source": "public/media/page-29.webp",
+      "output": "public/media/corrected/page-29.webp",
+      "dimensions": [
+        1440,
+        810
+      ],
+      "source_sha256": "345dd6552892fbf4279544bb71fec91ff1b11f6f6d11f47bb1e3457c8501d03b",
+      "sha256": "e0642fe79b55d8dc746a5aca14470af95b3d37dac2cdead8b8ce1ed10e26fecb",
+      "bytes": 173134,
+      "tool": "built-in image_gen; cwebp format conversion and original canvas size",
+      "status": "Spelling-corrected display derivative; Concept visualization, not deployment evidence"
+    },
+    {
+      "file": "page-31.webp",
+      "prompt": "Use case: text-localization. Precisely repair the English brand spelling inside the supplied 1440x810 presentation page. Preserve the complete page, all Persian paragraphs and words VERBATIM, original headings/footer/logo/diagrams, margins/layout, original photo/crop, skin, fingers, lighting, objects and all colors. Change ONLY the in-photo English brand spelling, replacing every \"Family\" with \"Famili\" spelled F-a-m-i-l-i (no final y), keeping original capitalization, font, size, spaces and perspective. Thus \"Hyper Family\" must read exactly \"Hyper Famili\". Do not redesign, translate or add anything. Inside the phone photo on the left, correct the WhatsApp chat title at the top of the smartphone display from \"Hyper Family\" to \"Hyper Famili\". Also correct the blurred turquoise background hanging brand sign near the photo TOP LEFT. Keep MESSENGERS COMMUNICATION heading and all Persian slide paragraphs, screen Persian messages and UI exactly unchanged.",
+      "generated_path": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-449449ae-0f70-4121-8808-8fe5fffef9bd.png",
+      "source": "public/media/page-31.webp",
+      "output": "public/media/corrected/page-31.webp",
+      "dimensions": [
+        1440,
+        810
+      ],
+      "source_sha256": "f2739378449b34af6073a069ab29e13a80cacb30b611840dc07cb3ac53daecf7",
+      "sha256": "39f14aa27658af8a2bd05730d7594486d978e1e33ef4f9662f4a165aab971252",
+      "bytes": 162136,
+      "tool": "built-in image_gen; cwebp format conversion and original canvas size",
+      "status": "Spelling-corrected display derivative; Concept visualization, not deployment evidence"
+    },
+    {
+      "file": "page-32.webp",
+      "prompt": "Edit the supplied slide. At lower RIGHT in the photo, there is a grey SMS notification bubble with an H app icon. ERASE THE ENTIRE FIRST LINE OF THAT NOTIFICATION and typeset a new first line saying exactly: \"Hyper Famili | هایپرفامیلی\". The English word MUST be FAMILI / Famili, ending with the letter i, never a y. Make this new header slightly larger and sharper so the final i and its dot are clearly visible. There must be zero English occurrences of \"Family\" anywhere in the final image. Preserve the other two notification lines and keep the notification at the same location and size. Preserve every other part of the slide: SMS SERVICES title, all Persian paragraphs, the entire page design/layout and phone/background photo. This is a localized brand spelling correction only. Do not reproduce the incorrect old English header.",
+      "generated_path": "/Users/yasser/.codex/generated_images/01a148b4-d8c7-7ea0-842a-301fe41db73e/exec-4436fd89-769c-431a-a879-663c7a717d88.png",
+      "source": "public/media/page-32.webp",
+      "output": "public/media/corrected/page-32.webp",
+      "dimensions": [
+        1440,
+        810
+      ],
+      "source_sha256": "ea8514f36654309af9f67ddefd6b97694da6b0d38e7fa063cc8f937b16e7fba7",
+      "sha256": "9f0760370bb570542b1573cc9e337ebf858c0c693a8e4ccbd87918c67fed0932",
+      "bytes": 135642,
+      "tool": "built-in image_gen; cwebp format conversion and original canvas size",
+      "status": "Spelling-corrected display derivative; Concept visualization, not deployment evidence",
+      "attempts": [
+        {
+          "file": "page-32.webp",
+          "prompt": "Use case: text-localization. Precisely repair the English brand spelling inside the supplied 1440x810 presentation page. Preserve the complete page, all Persian paragraphs and words VERBATIM, original headings/footer/logo/diagrams, margins/layout, original photo/crop, skin, fingers, lighting, objects and all colors. Change ONLY the in-photo English brand spelling, replacing every \"Family\" with \"Famili\" spelled F-a-m-i-l-i (no final y), keeping original capitalization, font, size, spaces and perspective. Thus \"Hyper Family\" must read exactly \"Hyper Famili\". Do not redesign, translate or add anything. Inside the photo at the lower RIGHT, the translucent SMS notification has a header reading \"Hyper Family | هایپرفامیلی\". Correct only its English header to \"Hyper Famili | هایپرفامیلی\". Keep the adjacent Persian, notification body, now label, original H app icon, phone, background screens and every Persian paragraph on the full slide unchanged. Keep the original SMS SERVICES heading."
+        },
+        {
+          "file": "page-32.webp",
+          "prompt": "Use case: text-localization. Correct ONE typo in the supplied SMS SERVICES presentation slide. In the SMALL GREY NOTIFICATION BOX over the phone photo at LOWER RIGHT, the top header currently says \"Hyper Family\". The letter y at the very end of Family MUST be removed and replaced with a lower-case i with a dot. Render the header EXACTLY \"Hyper Famili\" (letters H y p e r, space, F a m i l i). No \"Family\" anywhere. This requested change is crucial and must be clearly accomplished, even though it is small. Keep the adjacent Persian brand text, notification body, app icon, photo, slide title, all large Persian paragraphs, page layout, colors and full canvas untouched. Keep the same small black sans-serif header font and same location. Make the final i visibly distinct from a y: upright stem plus dot, NO DESCENDER. Do not alter any other text. Do not add a caption or watermark.",
+          "iteration": 2
+        },
+        {
+          "file": "page-32.webp",
+          "prompt": "Edit the supplied slide. At lower RIGHT in the photo, there is a grey SMS notification bubble with an H app icon. ERASE THE ENTIRE FIRST LINE OF THAT NOTIFICATION and typeset a new first line saying exactly: \"Hyper Famili | هایپرفامیلی\". The English word MUST be FAMILI / Famili, ending with the letter i, never a y. Make this new header slightly larger and sharper so the final i and its dot are clearly visible. There must be zero English occurrences of \"Family\" anywhere in the final image. Preserve the other two notification lines and keep the notification at the same location and size. Preserve every other part of the slide: SMS SERVICES title, all Persian paragraphs, the entire page design/layout and phone/background photo. This is a localized brand spelling correction only. Do not reproduce the incorrect old English header.",
+          "iteration": 3
+        }
+      ],
+      "verification": "Visually checked; macOS Vision detects Hyper Famili without Family; header slightly sharpened after two rejected attempts"
+    }
+  ]
+}
