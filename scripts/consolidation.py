@@ -167,7 +167,7 @@ def consolidate_catalog(data, docs, library, knowledge_root=None):
             "docs": _unique([path] + old_docs), "definition": f"یک پروندهٔ ترکیبی برای {title} که چند واحد نزدیک را برای ارائهٔ مدیریتی در یک کارت جمع می‌کند.",
         }
         if group_id == "VEND":
-            p["image"] = None
+            p["image"] = "vending-neutral.webp"
             p["imagePage"] = None
             p["definition"] = "یک کارت واحد برای همهٔ وندینگ‌ماشین‌های خوراکی و نوشیدنی؛ جزئیات هر دستگاه در آرشیو فرعی باقی است."
         if group_id == "M09":

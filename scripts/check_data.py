@@ -46,7 +46,7 @@ media=list((P/'media').glob('*.webp'))
 original_media=[m for m in media if m.name.startswith(('page-','figure-'))]
 assert len(original_media)==80
 concept_media=[m for m in media if m not in original_media]
-assert {m.name for m in concept_media}=={'vision-market.webp','vision-cafe.webp','brand-market.webp','brand-cafe.webp'}
+assert {m.name for m in concept_media}=={'vision-market.webp','vision-cafe.webp','brand-market.webp','brand-cafe.webp','vending-neutral.webp'}
 for asset in concept_media:
  provenance=json.loads(asset.with_suffix('.provenance.json').read_text())
  assert provenance['asset']==asset.name

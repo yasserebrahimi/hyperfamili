@@ -80,13 +80,14 @@ function Lens({ a }) { return React.createElement("div", { className: "lenses", 
     v.label))); }
 // Topic illustrations enrich unpictured dossiers without changing source evidence.
 const TOPIC_ART = { advertising: ['figure-04-02.webp', 4], automation: ['figure-21-01.webp', 21], 'self-service': ['figure-13-01.webp', 13], energy: ['figure-27-00.webp', 27], 'ev-services': ['figure-29-01.webp', 29], 'customer-outside': ['figure-31-01.webp', 31] };
+const VENDING_ART = 'vending-neutral.webp';
 function BrandLogo({ className = '', decorative = false }) { return React.createElement("img", { className: cx('brand-logo', className), src: media('brand-logo.png'), alt: decorative ? '' : 'فروشگاه‌های زنجیره‌ای فامیلی', width: "300", height: "103" }); }
 function BrandStamp() { return React.createElement("span", { className: "brand-stamp", "aria-hidden": "true" },
     React.createElement(BrandLogo, { decorative: true })); }
 function Visual({ p, big = false, a }) {
-    let f = D.families[p.family], icon = ['popcorn', 'icecream', 'pizza'].includes(p.key) ? p.key : f.icon, topic = !p.image && TOPIC_ART[p.family], generated = !p.image && (p.id === 'VEND' || p.key === 'vending'), photo = p.image || (topic && topic[0]) || (generated && 'brand-cafe.webp'), page = p.imagePage || (topic && topic[1]);
+    let f = D.families[p.family], icon = ['popcorn', 'icecream', 'pizza'].includes(p.key) ? p.key : f.icon, generated = p.id === 'VEND' || p.key === 'vending', topic = !p.image && !generated && TOPIC_ART[p.family], photo = p.image || (generated && VENDING_ART) || (topic && topic[0]), page = p.imagePage || (topic && topic[1]);
     return React.createElement("div", { className: cx('visual', big && 'big', !photo && 'concept', topic && 'topic-visual') },
-        photo ? React.createElement("img", { src: media(photo), loading: "lazy", alt: generated ? 'تصویر مفهومی وندینگ‌ماشین؛ مدل تجهیز انتخاب نشده' : (topic ? 'تصویر موضوعی مرتبط با ' + f.title : 'تصویر معرفی در سند مدیر برای ' + p.title) + '؛ صفحه ' + fa(page) }) : React.createElement("div", { className: "concept-art" },
+        photo ? React.createElement("img", { src: media(photo), loading: "lazy", alt: generated ? 'تصویر مفهومی خنثی از وندینگ‌ماشین خوراکی و نوشیدنی؛ مدل تجهیز انتخاب نشده' : (topic ? 'تصویر موضوعی مرتبط با ' + f.title : 'تصویر معرفی در سند مدیر برای ' + p.title) + '؛ صفحه ' + fa(page) }) : React.createElement("div", { className: "concept-art" },
             React.createElement("div", { className: "rings" }),
             React.createElement("span", null,
                 React.createElement(I, { name: icon, size: big ? 88 : 55 })),

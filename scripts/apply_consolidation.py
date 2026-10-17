@@ -19,6 +19,10 @@ def load(path, prefix):
 
 catalog = load(PUBLIC / "catalog.js", "window.FAMILI_DATA=")
 library = load(PUBLIC / "library.js", "window.FAMILI_LIBRARY=")
+# Re-running the generator must start from the preserved 102-unit archive,
+# not from the already-consolidated 26-card public view.
+if catalog.get("projectArchive"):
+    catalog["projects"] = catalog["projectArchive"]
 catalog = consolidate_catalog(catalog, catalog["docs"], library, PUBLIC / "knowledge")
 (PUBLIC / "catalog.js").write_text("window.FAMILI_DATA=" + json.dumps(catalog, ensure_ascii=False, separators=(",", ":")) + ";")
 (PUBLIC / "library.js").write_text("window.FAMILI_LIBRARY=" + json.dumps(library, ensure_ascii=False, separators=(",", ":")) + ";")

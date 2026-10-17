@@ -1,0 +1,14 @@
+{
+  "asset": "vending-neutral.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation, product selection, or evidence of deployment.",
+  "prompt": "Use case: photorealistic-natural. Asset type: square catalogue card image for a retail innovation project. Primary request: a neutral, multi-purpose food-and-beverage vending machine concept inside a premium supermarket. Show one cohesive modern self-service vending unit with several visible product zones: bottled water and canned drinks, packaged snacks, popcorn, and a small hot-food compartment. The machine should clearly read as a vending machine, with a glass product display, payment screen, dispensing bay, and clean modular construction. No logos, brand names, readable text, prices, people, specific manufacturer, coffee-only cafe counter, espresso machine, refill station, science-fiction or holograms. This is a conceptual illustration, not evidence of an installed machine.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14935-7077-7082-b51a-0d82087166f0/exec-cb096168-d43b-4c85-95c3-0e153e987aab.png",
+  "processing": "Format conversion only: PNG to WebP, quality 90; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 239734,
+  "sha256": "b0b3cf289fcad6e7e94e61427dbabf2c958e317fdfb64ebbd64b3ad87acdb7f7"
+}

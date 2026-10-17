@@ -6,6 +6,6 @@
 - محتویات: `START-HERE.html` مستقل، راهنمای فارسی، `NOTICE.md` و `SHA256SUM.txt`.
 - فونت Vazirmatn داخل خود HTML به‌صورت WOFF2 و Base64 تعبیه شده و نصب جداگانه یا اینترنت لازم نیست.
 - روش اجرا: Extract/Unzip، سپس بازکردن `START-HERE.html` با Chrome یا Edge.
-- SHA-256 فایل ZIP: `29a4bc2bec08ce453f5d58025678dd095424d29123c50fab47a3b5cf7ca81c91`
+- SHA-256 فایل ZIP: `12cbbc4c753d13803b32cafdd48faae217175ceefe0eaf6da8bf484dee57994d`
 
 آزمون بسته: آرشیو با `unzip -t` بررسی شد؛ فایل مستقل قبلاً با حالت `file://` و شبکهٔ قطع، بارگذاری آفلاین، تصاویر و فونت بررسی شده است.
