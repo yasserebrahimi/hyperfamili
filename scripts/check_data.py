@@ -5,6 +5,7 @@ R=Path(__file__).resolve().parents[1];P=R/'public'
 def load(name,prefix):return json.loads((P/name).read_text().removeprefix(prefix).removesuffix(';'))
 D=load('catalog.js','window.FAMILI_DATA=');L=load('library.js','window.FAMILI_LIBRARY=')
 assert len(D['projects'])==44 and len(D['projectArchive'])==102 and len(D['cases'])==76 and len(D['quotes'])==67
+assert all(p.get('card_blurb') for p in D['projects'])
 assert len(D['docs'])==len(L)==793
 assert len(D['families'])==6 and list(D['families'])==['advertising','automation','self-service','energy','ev-services','customer-outside']
 assert set(D['projectMapping'])==set(x for p in D['projects'] for x in p['variant_ids'])
