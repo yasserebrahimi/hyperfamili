@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad05.webp",
+  "catalogue_id": "AD05",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: in-store audio advertising speakers in a modern grocery aisle — two elegant compact ceiling-mounted speaker pods and one discreet wall speaker, clearly visible among warm ceiling details and produce shelving, with no people and no visible brand marks. Add subtle turquoise and coral accent lighting only, with deep teal, charcoal, warm cream, and natural wood surfaces. Make the speakers look realistic, installed, and useful for ambient announcements. Editorial commercial photography, believable acoustics hardware, soft depth of field, natural reflections, no words, no readable text, no logos, no watermark, no borders, no UI screenshot, no sci-fi styling, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-26d698df-573a-459d-9143-110f61b7bc39.png",
+  "original_generated_sha256": "91fd965184d2bdd0d46d0dee4a6ce295e4f6360edff95ddbbc362d2b5ce177ce",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "92dd072b83dcf82f49f5b9673be28a1938de49a54bdb6ed07fc0db2cabc74cf6",
+  "bytes": 220832,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

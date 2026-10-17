@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad01.webp",
+  "catalogue_id": "AD01",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: a smart retail display in a modern grocery aisle — an elegant freestanding digital shelf display beside neatly stocked products, showing abstract color blocks only with no words, no readable text, no logos. Use a restrained premium palette of deep teal, turquoise, warm cream, charcoal, and small coral accents, with realistic supermarket lighting, tactile materials, natural perspective, subtle depth of field, believable reflections, and a calm editorial commercial photography style. No people, no branding, no watermark, no borders, no UI screenshot, no futuristic sci-fi styling, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-e91e20eb-8110-4880-8989-730e3319ad2f.png",
+  "original_generated_sha256": "d8a2b352feab76ea6bb4227029a9200e28ecd7591016afb8c473e66b2d482c9b",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "b9b6af4f11a0066337106d18b685402e17fa3df9a54df137531b458170694c64",
+  "bytes": 223718,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad02.webp",
+  "catalogue_id": "AD02",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: a digital signage content management setup in a supermarket — a slim wall-mounted display and a small discreet control tablet on a clean counter, the screens showing abstract color tiles and simple geometric blocks only, absolutely no words, no readable text, no logos. Surrounding grocery aisle is softly visible with realistic shelves and produce. Use deep teal, turquoise, warm cream, charcoal, and tiny coral accents for a premium cohesive palette. Editorial commercial photography, natural overhead light, believable glass reflections, high detail, calm and practical technology, no people, no watermark, no borders, no UI screenshot, no sci-fi styling, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-c8e67550-7597-43aa-b323-f9c0c6320b3a.png",
+  "original_generated_sha256": "72208e2e7dab6aab0a98ebc635fea130594a0b90bbcacfcf414ff1b8820c8de3",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "0199dd6c4017f23dcb0cc9313441149efe1fc591bda15e757553ef41d07dd01d",
+  "bytes": 201532,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

@@ -22,12 +22,33 @@ FAMILIES = {
 }
 
 
-GROUPS = [
-    ("M01", "رسانه و نمایش هوشمند تبلیغات", "advertising", ["BP001", "BP002", "BP003", "BP004", "BP005", "BP006"]),
-    ("M02", "بازاریابی تجربه‌محور", "advertising", ["BP007", "BP008", "BP009"]),
-    ("M03", "تبلیغات محیطی و چاپی", "advertising", ["BP010"]),
-    ("M04", "بازاریابی دیجیتال و اینفلوئنسری", "advertising", ["BP011", "BP044"]),
-    ("M05", "طراحی و اجرای کمپین‌های بازاریابی", "advertising", ["BP012"]),
+MARKETING_GROUPS = [
+    ("AD01", "نمایشگرهای هوشمند", "advertising", ["BP002"]),
+    ("AD02", "دیجیتال ساینیج", "advertising", ["BP001"]),
+    ("AD03", "پنل LED شفاف", "advertising", ["BP003"]),
+    ("AD04", "فن هولوگرافیک سه‌بعدی", "advertising", ["BP004"]),
+    ("AD05", "تبلیغات صوتی", "advertising", ["BP005"]),
+    ("AD06", "لوگو پروژکتور", "advertising", ["BP006"]),
+    ("AD07", "پخش رایحه متمرکز", "advertising", ["BP007"]),
+    ("AD08", "لوگوپروژکتور تعاملی", "advertising", ["PDF-AD08"]),
+    ("AD09", "گیم‌بار", "advertising", ["BP008"]),
+    ("AD10", "واقعیت افزوده برای تجربه خرید متفاوت", "advertising", ["BP009"]),
+    ("AD11", "استاپر، استند و سازه‌های تبلیغاتی", "advertising", ["BP010"]),
+    ("AD12", "چاپ پوستر، بنر و اقلام تبلیغاتی", "advertising", ["PDF-AD12"]),
+    ("AD13", "ابزارهای تبلیغاتی داخل فروشگاه", "advertising", ["PDF-AD13"]),
+    ("AD14", "تابلوهای نوردار داخلی", "advertising", ["PDF-AD14"]),
+    ("AD15", "شلف، هدر، شلف‌تاکر و اقلام قفسه", "advertising", ["PDF-AD15"]),
+    ("AD16", "تبلیغات در شبکه‌های اجتماعی", "advertising", ["PDF-AD16"]),
+    ("AD17", "همکاری با بلاگرها و اینفلوئنسرها", "advertising", ["BP011"]),
+    ("AD18", "تولید محتوای تبلیغاتی", "advertising", ["BP044"]),
+    ("AD19", "تبلیغات آنلاین و انتشار کمپین در فضای مجازی", "advertising", ["PDF-AD19"]),
+    ("AD20", "طراحی و اجرای کمپین‌های فروش و معرفی محصول", "advertising", ["BP012"]),
+    ("AD21", "مسابقات و قرعه‌کشی‌های تبلیغاتی", "advertising", ["PDF-AD21"]),
+    ("AD22", "پروموشن و برنامه‌های تشویقی مشتریان", "advertising", ["PDF-AD22"]),
+    ("AD23", "هماهنگی تأمین‌کنندگان، مجریان و شرکای اجرایی", "advertising", ["PDF-AD23"]),
+]
+
+OTHER_GROUPS = [
     ("M06", "لیبل الکترونیکی قیمت (ESL)", "automation", ["BP013"]),
     ("M07", "ترولی هوشمند", "automation", ["BP014", "BP038"]),
     ("M08", "خودپرداخت فروشگاهی (Self-Checkout)", "self-service", ["BP015"]),
@@ -50,6 +71,29 @@ GROUPS = [
     ("M25", "درگاه تعاملی USSD", "customer-outside", ["BP037"]),
     ("VEND", "وندینگ‌ماشین‌های خوراکی و نوشیدنی", "self-service", [f"BP{i:03d}" for i in range(66, 76)]),
 ]
+
+GROUPS = MARKETING_GROUPS + OTHER_GROUPS
+
+MARKETING_PAGES = {
+    **{f"AD{i:02d}": 4 for i in range(1, 7)},
+    **{f"AD{i:02d}": 5 for i in range(7, 11)},
+    **{f"AD{i:02d}": 6 for i in range(11, 16)},
+    **{f"AD{i:02d}": 7 for i in range(16, 20)},
+    **{f"AD{i:02d}": 8 for i in range(20, 24)},
+}
+
+SYNTHETIC_MARKETING = {
+    "PDF-AD08": ("BP008", "لوگوپروژکتور تعاملی"),
+    "PDF-AD12": ("BP010", "چاپ پوستر، بنر و اقلام تبلیغاتی"),
+    "PDF-AD13": ("BP010", "ابزارهای تبلیغاتی داخل فروشگاه"),
+    "PDF-AD14": ("BP010", "تابلوهای نوردار داخلی"),
+    "PDF-AD15": ("BP010", "شلف، هدر، شلف‌تاکر و اقلام قفسه"),
+    "PDF-AD16": ("BP011", "تبلیغات در شبکه‌های اجتماعی"),
+    "PDF-AD19": ("BP044", "تبلیغات آنلاین و انتشار کمپین در فضای مجازی"),
+    "PDF-AD21": ("BP012", "مسابقات و قرعه‌کشی‌های تبلیغاتی"),
+    "PDF-AD22": ("BP012", "پروموشن و برنامه‌های تشویقی مشتریان"),
+    "PDF-AD23": ("BP012", "هماهنگی تأمین‌کنندگان، مجریان و شرکای اجرایی"),
+}
 
 
 GROUP_NOTES = {
@@ -118,9 +162,16 @@ def _ensure_doc(path, raw, docs, library, knowledge_root):
 
 
 def consolidate_catalog(data, docs, library, knowledge_root=None):
-    """Return data with 26 visible aggregate cards and the original register archived."""
+    """Return data with 44 visible cards, including 23 PDF marketing items, and the original register archived."""
     archive = deepcopy(data["projects"])
     by_id = {p["id"]: p for p in archive}
+    for synthetic_id, (source_id, title) in SYNTHETIC_MARKETING.items():
+        source = deepcopy(by_id[source_id])
+        source["id"] = synthetic_id
+        source["title"] = title
+        source["key"] = synthetic_id.lower().replace("-", "_")
+        source["original"] = [source_id]
+        by_id[synthetic_id] = source
     mapping = {}
     active = []
     topic_pages = {t["id"]: int(t["page"]) for t in data.get("topics", []) if str(t.get("page", "")).isdigit()}
@@ -144,7 +195,7 @@ def consolidate_catalog(data, docs, library, knowledge_root=None):
         repos = _unique(item for p in children for item in p.get("repos", []))
         old_docs = _unique(item for p in children for item in p.get("docs", []))
         originals = [group_id] if group_id != "VEND" else ["VEND"]
-        page_list = [topic_pages[group_id]] if group_id in topic_pages else _unique(item for p in children for item in p.get("pages", []))
+        page_list = [MARKETING_PAGES[group_id]] if group_id in MARKETING_PAGES else ([topic_pages[group_id]] if group_id in topic_pages else _unique(item for p in children for item in p.get("pages", [])))
         notes = GROUP_NOTES[family]
         path = f"13-benchmarks-prices/active/{group_id}.md"
         raw = _make_doc(group_id, title, family, child_ids, children)
@@ -166,6 +217,11 @@ def consolidate_catalog(data, docs, library, knowledge_root=None):
             "search": " ".join([title, group_id, FAMILIES[family]["title"]] + [f"{x.get('id')} {x.get('title')} {x.get('key')}" for x in children]),
             "docs": _unique([path] + old_docs), "definition": f"یک پروندهٔ ترکیبی برای {title} که چند واحد نزدیک را برای ارائهٔ مدیریتی در یک کارت جمع می‌کند.",
         }
+        if group_id in MARKETING_PAGES:
+            p["image"] = f"ad-{group_id.lower()}.webp"
+            p["imagePage"] = MARKETING_PAGES[group_id]
+            p["imageKind"] = "concept"
+            p["definition"] = f"یک کارت مستقل برای قلم صفحهٔ {MARKETING_PAGES[group_id]} سند مدیر؛ متن و تصویر برای تصمیم‌گیری اولیه خلاصه شده است."
         if group_id == "VEND":
             p["image"] = "vending-neutral.webp"
             p["imagePage"] = None
@@ -186,5 +242,15 @@ def consolidate_catalog(data, docs, library, knowledge_root=None):
     data["families"] = deepcopy(FAMILIES)
     data["activeProjectCount"] = len(active)
     data["archiveProjectCount"] = len(archive)
+    active_paths = {f"13-benchmarks-prices/active/{p['id']}.md" for p in active}
+    stale = [d["path"] for d in docs if d["path"].startswith("13-benchmarks-prices/active/") and d["path"] not in active_paths]
+    if stale:
+        docs[:] = [d for d in docs if d["path"] not in stale]
+        for path in stale:
+            library.pop(path, None)
+            if knowledge_root is not None:
+                target = Path(knowledge_root) / path
+                if target.exists():
+                    target.unlink()
     return data
 

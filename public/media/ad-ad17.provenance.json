@@ -1,0 +1,14 @@
+{
+  "asset": "ad-ad17.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation, product selection, or evidence of deployment.",
+  "prompt": "Use case: photorealistic-natural. Asset type: square catalogue card image for a premium supermarket innovation deck. Primary request: collaboration with bloggers and influencers in a supermarket aisle. No brand logos, no readable text or numbers, no watermark, no CGI, no named brands.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14935-7077-7082-b51a-0d82087166f0/exec-fd54ba2f-4062-4f97-8daa-1708622ee279.png",
+  "processing": "Format conversion only: PNG to WebP, quality 90; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 234732,
+  "sha256": "a5cc4a57efb14f79454439c9ae787fca83d916684f0e1137154e244cfcdcdd32"
+}

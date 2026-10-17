@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad04.webp",
+  "catalogue_id": "AD04",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: a 3D holographic fan display in a grocery store, a compact black four-blade LED fan mounted on a slim stand with a floating volumetric abstract turquoise and coral ring shape appearing above the hub, like a real retail holographic fan demonstration. Keep the holographic form simple and clean with no letters, no readable text, no logos. Place it near a premium produce aisle with warm cream, deep teal, charcoal and turquoise accents, realistic motion-light trails, natural store lighting, authentic reflections, editorial commercial photography. No people, no watermark, no borders, no sci-fi laboratory, no UI screenshot, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-295451c3-2afb-4e18-bac2-96cca7049a7b.png",
+  "original_generated_sha256": "b6ae5d8df62ea7d2269ca49666547e6a191303b244b6d1e11e400cd6f757ab64",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "43e22006343c78788e801bf30402222a059394a98e0f742f15153b9b1a01f78f",
+  "bytes": 256418,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

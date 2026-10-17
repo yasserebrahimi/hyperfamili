@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad03.webp",
+  "catalogue_id": "AD03",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: a transparent LED panel installed in a modern grocery store, a nearly clear glass-like LED mesh panel standing in front of a softly visible produce display so the shelves and greens can be seen through the panel, with subtle luminous turquoise and deep teal geometric light shapes only, no words, no readable text, no logos. Use warm cream architecture, charcoal framing, soft coral highlight, premium supermarket ambience, realistic LED transparency, natural reflections, believable perspective, and editorial commercial photography. No people, no watermark, no borders, no sci-fi holograms, no UI screenshot, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-c46403ca-1fab-41f2-a55c-af00e6630d46.png",
+  "original_generated_sha256": "a08c85140a4e83d1cc1098226a3bf5526a8a46d75e533f3f42bd1d098df95415",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "c193e9d07a76cc16334ac2de4e4c5117f4d64b3226903b653d701e28d74d5c1c",
+  "bytes": 352324,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

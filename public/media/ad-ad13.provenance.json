@@ -1,0 +1,14 @@
+{
+  "asset": "ad-ad13.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Square catalogue photograph for retail advertising technology. Photorealistic natural documentary/editorial photography inside a premium modern supermarket aisle. Main subject: a coordinated set of in-store advertising tools used together near a beverage and snacks aisle—small shelf flags, tasteful endcap sign, hanging aisle blade, product riser, and a compact digital display, all blank with abstract color blocks only and absolutely no readable text or logos. Warm natural daylight mixed with soft ceiling lights, deep forest-green and muted lime accents with warm oak and neutral shelving, realistic shoppers softly out of focus in background. Eye-level 1:1 composition, crisp believable materials, subtle depth of field, premium catalogue aesthetic, no holograms, no sci-fi, no CGI look, no watermarks, no branding, no letters or numbers. Generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14975-0d5c-7a51-ac9c-8c00f90573b1/exec-fe97fdc5-7277-45cb-9563-a33a66d5445c.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "f7ea93c476befdd339419c99f35ad3fd6f101ffb70c96fc44f8be5ef1d94d208",
+  "bytes": 217930
+}

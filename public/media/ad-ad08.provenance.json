@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad08.webp",
+  "catalogue_id": "AD08",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: an interactive logo projector installation in a premium supermarket foyer — a compact charcoal projector with a small motion sensor and a nearby slim touch pedestal, projecting a clean abstract circular emblem made only from turquoise, deep teal and coral shapes onto a warm cream wall. The projected emblem must be generic and contain no letters, no readable text, no recognizable brand logo. Show realistic projection edges, subtle touch glow, polished floor, natural grocery setting in soft focus, premium editorial commercial photography. No people, no watermark, no borders, no UI screenshot, no sci-fi styling, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-802333e2-a082-4f18-a5f6-8abae73ac980.png",
+  "original_generated_sha256": "10adb5abd424e2fb993f7ed183921cbb64de61ffc1cdea123611e4c5ab27b6cd",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "7d75d2d9e0e1aa0c360e52999ee2309dc87d9e1c401df9368b53ad2a6c7b4c78",
+  "bytes": 179018,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

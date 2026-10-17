@@ -1,0 +1,14 @@
+{
+  "asset": "ad-ad14.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Square catalogue photograph of an illuminated indoor retail sign. Photorealistic natural documentary/editorial photography inside a premium modern supermarket, eye-level aisle view. Main subject: a tasteful freestanding and overhead illuminated sign structure at an aisle entrance, softly glowing warm white and pale lime panels with abstract geometric color fields only, completely blank with no readable text, letters, numbers, logos, or symbols. Realistic shelves of groceries and a few blurred shoppers around it, deep forest-green architecture, warm oak, neutral polished floor, natural daylight mixing with subtle practical lighting, believable material detail, calm premium atmosphere. 1:1 composition, refined merchandising photography, no holograms, no sci-fi, no CGI look, no watermarks, no branding. Generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14975-0d5c-7a51-ac9c-8c00f90573b1/exec-0a4058f7-b58c-432f-a047-0e648d2483f5.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "e62e6a8601ffef0cd41dd6d34f7d3d46766f37ee650c91cf631ac3d25367fc18",
+  "bytes": 256788
+}

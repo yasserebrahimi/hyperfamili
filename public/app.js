@@ -85,9 +85,9 @@ function BrandLogo({ className = '', decorative = false }) { return React.create
 function BrandStamp() { return React.createElement("span", { className: "brand-stamp", "aria-hidden": "true" },
     React.createElement(BrandLogo, { decorative: true })); }
 function Visual({ p, big = false, a }) {
-    let f = D.families[p.family], icon = ['popcorn', 'icecream', 'pizza'].includes(p.key) ? p.key : f.icon, generated = p.id === 'VEND' || p.key === 'vending', topic = !p.image && !generated && TOPIC_ART[p.family], photo = p.image || (generated && VENDING_ART) || (topic && topic[0]), page = p.imagePage || (topic && topic[1]);
+    let f = D.families[p.family], icon = ['popcorn', 'icecream', 'pizza'].includes(p.key) ? p.key : f.icon, generated = p.id === 'VEND' || p.key === 'vending' || p.imageKind === 'concept', topic = !p.image && !generated && TOPIC_ART[p.family], photo = p.image || (generated && VENDING_ART) || (topic && topic[0]), page = p.imagePage || (topic && topic[1]);
     return React.createElement("div", { className: cx('visual', big && 'big', !photo && 'concept', topic && 'topic-visual') },
-        photo ? React.createElement("img", { src: media(photo), loading: "lazy", alt: generated ? 'تصویر مفهومی خنثی از وندینگ‌ماشین خوراکی و نوشیدنی؛ مدل تجهیز انتخاب نشده' : (topic ? 'تصویر موضوعی مرتبط با ' + f.title : 'تصویر معرفی در سند مدیر برای ' + p.title) + '؛ صفحه ' + fa(page) }) : React.createElement("div", { className: "concept-art" },
+        photo ? React.createElement("img", { src: media(photo), loading: "lazy", alt: generated ? (p.id === 'VEND' ? 'تصویر مفهومی خنثی از وندینگ‌ماشین خوراکی و نوشیدنی؛ مدل تجهیز انتخاب نشده' : 'تصویر مفهومی مرتبط با ' + p.title + '؛ مدل تجهیز انتخاب نشده') : (topic ? 'تصویر موضوعی مرتبط با ' + f.title : 'تصویر معرفی در سند مدیر برای ' + p.title) + '؛ صفحه ' + fa(page) }) : React.createElement("div", { className: "concept-art" },
             React.createElement("div", { className: "rings" }),
             React.createElement("span", null,
                 React.createElement(I, { name: icon, size: big ? 88 : 55 })),
@@ -449,7 +449,7 @@ function Home({ a }) {
                         "\u0686\u06CC\u062F\u0646 \u0641\u0647\u0631\u0633\u062A \u062C\u0644\u0633\u0647 ",
                         React.createElement(I, { name: "arrow", size: 17 }))))));
 }
-function Catalogue({ a }) { const s = a.state; const ps = projects.filter(p => (!s.query || norm(p.search).includes(norm(s.query))) && (!s.family || p.family === s.family) && (!s.onlyPrice || p.quotes.length) && (!s.onlyManager || p.original.some(x => x.startsWith('M'))) && (!s.onlyFav || s.favorites.includes(p.id)) && (!s.onlyLead || p.lead === s.lens)); return React.createElement("div", { className: "page" },
+function Catalogue({ a }) { const s = a.state; const ps = projects.filter(p => { var _a; return (!s.query || norm(p.search).includes(norm(s.query))) && (!s.family || p.family === s.family) && (!s.onlyPrice || p.quotes.length) && (!s.onlyManager || (((_a = p.pages) === null || _a === void 0 ? void 0 : _a.length) || p.original.some(x => x.startsWith('M')))) && (!s.onlyFav || s.favorites.includes(p.id)) && (!s.onlyLead || p.lead === s.lens); }); return React.createElement("div", { className: "page" },
     React.createElement("div", { className: "page-heading" },
         React.createElement("div", null,
             React.createElement("h1", null, "\u06A9\u0627\u062A\u0627\u0644\u0648\u06AF \u0627\u0635\u0644\u06CC\u060C \u06CC\u06A9\u200C\u062C\u0627."),

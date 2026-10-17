@@ -1,0 +1,14 @@
+{
+  "asset": "ad-ad09.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Square catalogue photograph of an interactive game bar in a premium modern supermarket. Photorealistic natural documentary/editorial retail photography: an inviting interactive floor and wall game installation at the end of an aisle, with a large LED wall showing abstract colorful circles and a matching floor game grid, no readable text, letters, numbers, logos, or symbols. Realistic polished floor, warm oak fixtures, deep forest-green architecture, muted lime accents, a few shoppers softly blurred in the background, natural daylight and gentle ceiling lighting, believable scale and materials, calm premium atmosphere. 1:1 composition, no holograms, no watermarks, no CGI look, no fake brand. Generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14975-51ca-7bf1-a14d-cde21afc7ec8/exec-6eeea3db-e10f-41d4-9331-be811f1a2261.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "63ed67190256c6ac6187844765f5754abc3acb47d24984e76928dc98cd9d958f",
+  "bytes": 263492
+}

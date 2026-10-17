@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad07.webp",
+  "catalogue_id": "AD07",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: a focused scent diffuser in a grocery store, a small elegant matte charcoal aroma diffuser mounted discreetly near a fresh bakery and produce zone, with a very subtle visible soft mist plume directed toward the aisle, conveying localized scent without looking theatrical. Include warm cream walls, deep teal and turquoise details, natural wood shelving, fresh herbs and bread shapes without readable packaging. No people, no words, no readable text, no logos, no watermark, no borders, no medical claims, no sci-fi styling. Photorealistic editorial commercial lighting, believable scale, clean premium retail atmosphere, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-37633115-c02c-4ec1-9342-1450ea2234a7.png",
+  "original_generated_sha256": "24d661dcbc6565d2698b144af4a148e267b01078f35912d29142dd1b8f8a38f2",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "e1006eec4d906d10f39d1ec6d4b1edcfeb082fe96483968caf840dbf581c7b76",
+  "bytes": 194424,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

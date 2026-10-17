@@ -1,0 +1,17 @@
+{
+  "asset": "ad-ad06.webp",
+  "catalogue_id": "AD06",
+  "type": "AI-generated photorealistic catalogue concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Generate one dedicated square (1:1) photorealistic natural catalogue photograph for a premium supermarket media catalogue. Subject: a compact logo projector in a premium supermarket entrance, a small matte charcoal floor or counter projector aimed at a cream wall and casting a crisp abstract circular geometric light mark made of turquoise and coral shapes; the projection must contain no letters, no readable text, no brand logo. Show believable lens, cable, soft light spill, polished stone and warm wood, deep teal accents, realistic retail environment, calm editorial commercial photography. No people, no watermark, no borders, no UI screenshot, no sci-fi styling, no obvious AI artifacts. Return only the image.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14974-ec00-77c1-af8b-8651dc96c197/exec-f7e14ed4-9c57-4053-96de-5687fe0ce6b7.png",
+  "original_generated_sha256": "f61f0397a2c30e2d0cb33929d3e2a46481313ec80cd73a80cb6aa01d9a668db1",
+  "processing": "cwebp -q 88 -m 6; format conversion only, no further image manipulation",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "f3584215a0f02c21f41eba5808ac7702ea8082580ef82734b0b34ce6c12a3a4e",
+  "bytes": 220578,
+  "visual_review": "Inspected after generation; subject, premium supermarket palette, square composition, and absence of readable text/logos/watermarks visually checked."
+}

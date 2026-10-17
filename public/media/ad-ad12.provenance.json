@@ -1,0 +1,14 @@
+{
+  "asset": "ad-ad12.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Square catalogue photograph of printed poster, banner, and promotional materials staged in a premium supermarket. Photorealistic natural documentary/editorial retail photography: a small merchandising table with rolled printed banners and mounted poster panels in forest-green, warm cream, muted terracotta and olive abstract botanical shapes, completely blank with no readable text, letters, numbers, logos, or symbols. Aisle and produce section softly visible behind, natural window light and warm interior lighting, realistic paper, fabric, wood, and print textures, refined catalogue styling, no watermarks, no CGI look, no branding. 1:1 composition, generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14975-51ca-7bf1-a14d-cde21afc7ec8/exec-2eca51fc-7d0e-4de1-81db-9380a86f3d63.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "b5b548e1979cf72a3b6c1860caa62eff7df172220769366a49808656066b5abc",
+  "bytes": 353180
+}

@@ -4,8 +4,8 @@ import base64,hashlib,json,re,zipfile
 R=Path(__file__).resolve().parents[1];P=R/'public'
 def load(name,prefix):return json.loads((P/name).read_text().removeprefix(prefix).removesuffix(';'))
 D=load('catalog.js','window.FAMILI_DATA=');L=load('library.js','window.FAMILI_LIBRARY=')
-assert len(D['projects'])==26 and len(D['projectArchive'])==102 and len(D['cases'])==76 and len(D['quotes'])==67
-assert len(D['docs'])==len(L)==775
+assert len(D['projects'])==44 and len(D['projectArchive'])==102 and len(D['cases'])==76 and len(D['quotes'])==67
+assert len(D['docs'])==len(L)==793
 assert len(D['families'])==6 and list(D['families'])==['advertising','automation','self-service','energy','ev-services','customer-outside']
 assert set(D['projectMapping'])==set(x for p in D['projects'] for x in p['variant_ids'])
 assert set(D['projectMapping'].values())==set(p['id'] for p in D['projects'])
@@ -46,7 +46,7 @@ media=list((P/'media').glob('*.webp'))
 original_media=[m for m in media if m.name.startswith(('page-','figure-'))]
 assert len(original_media)==80
 concept_media=[m for m in media if m not in original_media]
-assert {m.name for m in concept_media}=={'vision-market.webp','vision-cafe.webp','brand-market.webp','brand-cafe.webp','vending-neutral.webp'}
+assert {m.name for m in concept_media}==({'vision-market.webp','vision-cafe.webp','brand-market.webp','brand-cafe.webp','vending-neutral.webp'} | {f'ad-ad{i:02d}.webp' for i in range(1,24)})
 for asset in concept_media:
  provenance=json.loads(asset.with_suffix('.provenance.json').read_text())
  assert provenance['asset']==asset.name

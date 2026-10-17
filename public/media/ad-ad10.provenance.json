@@ -1,0 +1,14 @@
+{
+  "asset": "ad-ad10.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Square catalogue photograph of an augmented-reality product preview in a premium supermarket aisle. Photorealistic natural documentary/editorial over-the-shoulder scene: a shopper holds a modern smartphone toward a grocery shelf, and the phone display shows a tasteful translucent 3D product pack preview aligned with the real shelf, with only abstract blank color panels and no readable text, letters, numbers, logos, or symbols. Warm natural daylight, forest-green and muted lime accents, realistic shelving and groceries, believable hands and device proportions, soft depth of field, premium retail technology catalogue aesthetic. No holograms outside the phone, no watermarks, no CGI look, no branding. 1:1 composition, generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14975-51ca-7bf1-a14d-cde21afc7ec8/exec-e37355cb-4c2e-44ca-b996-3fab826a9b1b.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "e0c88d3a71971d3abe89ca1460efa7b22aa2c4139833bf294a3652367b559e08",
+  "bytes": 148052
+}

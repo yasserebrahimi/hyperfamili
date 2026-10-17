@@ -1,0 +1,14 @@
+{
+  "asset": "ad-ad16.webp",
+  "type": "AI-generated photographic concept",
+  "tool": "built-in image_gen.imagegen",
+  "generated_on": "2026-10-17",
+  "status": "Concept visualization; not a photograph of a real installation or evidence of deployment.",
+  "prompt": "Square catalogue photograph showing social media advertising in a supermarket. Photorealistic natural documentary/editorial retail photography, eye-level over-the-shoulder view of a shopper holding a modern smartphone in portrait orientation, recording a tasteful short-form product video of a colorful supermarket endcap and display. Phone screen shows only an abstract clean product scene with no readable text, logos, letters, numbers, or faces; the display itself uses blank forest-green, muted lime and warm cream panels. Premium supermarket aisle with realistic groceries, warm oak, soft daylight and ceiling light, a second shopper softly blurred, believable hands and device proportions, natural skin and materials. 1:1 composition, sophisticated catalogue photography, no holograms, no CGI look, no watermarks, no branding, no fake UI text. Generate one image only.",
+  "original_generated_path": "/Users/yasser/.codex/generated_images/01a14975-0d5c-7a51-ac9c-8c00f90573b1/exec-1e63a90c-7cc2-4d7d-840e-6ce970100d87.png",
+  "processing": "Format conversion only: PNG to WebP, quality 88; unchanged composition and dimensions.",
+  "width": 1254,
+  "height": 1254,
+  "sha256": "5fddb6a5c9f2226e216da56b57f9865c01694f8c4bfab6ca5cc4e8cdf3c87dc6",
+  "bytes": 157880
+}
