@@ -166,6 +166,15 @@ def _unique(values):
     return out
 
 
+def _items(value):
+    """Treat a scalar source field as one item instead of iterating its text."""
+    if value is None:
+        return []
+    if isinstance(value, (list, tuple, set)):
+        return value
+    return [value]
+
+
 def _simple_html(raw):
     """Small safe renderer for generated catalogue notes."""
     parts = []
@@ -258,7 +267,7 @@ def consolidate_catalog(data, docs, library, knowledge_root=None):
             "case_ids": case_ids, "iran_refs": _unique(item for p in children for item in p.get("iran_refs", [])),
             "quote_keys": quote_keys, "scope": f"دامنهٔ بررسی اولیه برای «{title}» باید در یک یا چند شعبه با مالک و معیار توقف روشن تعریف شود.",
             "risk": notes[1], "effort": effort, "concept_ids": _unique(item for p in children for item in p.get("concept_ids", [])),
-            "iran_match": _unique(item for p in children for item in p.get("iran_match", [])), "foreign_refs": foreign_refs,
+            "iran_match": _unique(item for p in children for item in _items(p.get("iran_match"))), "foreign_refs": foreign_refs,
             "price_status": "جزئیات قیمت در شاهدهای مرتبط و آرشیو هر واحد آمده است", "low_hours": None, "high_hours": None,
             "illustrative_low_m_toman": None, "illustrative_high_m_toman": None, "path": path,
             "perspectives": {"customer": CARD_CUSTOMER_COPY.get(group_id, notes[0]), "employee": "مسئولیت، آموزش، نگهداری و مسیر رسیدگی باید برای همین دامنه مشخص شود.", "management": "این کارت برای تصمیم دربارهٔ مسئله، دامنه، شواهد و مرحلهٔ بعد خلاصه شده است؛ هزینه و نتیجهٔ قطعی از آن استنتاج نمی‌شود."},

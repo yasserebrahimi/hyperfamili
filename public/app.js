@@ -517,8 +517,8 @@ function BenchmarkSummary({ p }) { const linked = p.case_ids.map(id => CC[id]).f
         React.createElement("span", null,
             "\u0645\u0631\u062C\u0639 \u067E\u0698\u0648\u0647\u0634: ",
             React.createElement("b", null, D.date || 'ثبت نشده')))); }
-function Iran({ p, a }) { const local = p.case_ids.map(id => CC[id]).filter(c => (c === null || c === void 0 ? void 0 : c.region) === 'iran'); return React.createElement("section", null,
-    React.createElement(Heading, { title: "\u0627\u0628\u062A\u062F\u0627 \u0627\u06CC\u0631\u0627\u0646", text: p.iran_match || 'منابع ایرانی، عرضه یا نمونه مرتبط را نشان می‌دهند؛ نصب در فامیلی از آن نتیجه نمی‌شود.' }),
+function Iran({ p, a }) { const local = p.case_ids.map(id => CC[id]).filter(c => (c === null || c === void 0 ? void 0 : c.region) === 'iran'), match = Array.isArray(p.iran_match) ? p.iran_match.filter(Boolean).join(' · ') : p.iran_match; return React.createElement("section", null,
+    React.createElement(Heading, { title: "\u0627\u0628\u062A\u062F\u0627 \u0627\u06CC\u0631\u0627\u0646", text: match || 'منابع ایرانی، عرضه یا نمونه مرتبط را نشان می‌دهند؛ نصب در فامیلی از آن نتیجه نمی‌شود.' }),
     !p.iran.length && !local.length ? React.createElement(Note, null, "\u0646\u0645\u0648\u0646\u0647 \u0627\u06CC\u0631\u0627\u0646\u06CC \u0647\u0645\u200C\u062F\u0627\u0645\u0646\u0647 \u062F\u0631 \u0627\u06CC\u0646 \u062B\u0628\u062A \u0627\u062D\u0631\u0627\u0632 \u0646\u0634\u062F\u0647 \u0627\u0633\u062A. \u0627\u06CC\u0646 \u0646\u062A\u06CC\u062C\u0647 \u0628\u0647 \u0645\u0639\u0646\u06CC \u0646\u0628\u0648\u062F \u0645\u062D\u0635\u0648\u0644 \u062F\u0631 \u0627\u06CC\u0631\u0627\u0646 \u0646\u06CC\u0633\u062A.") : React.createElement("div", { className: "iran-list" },
         p.iran.map(id => { let s = SS[id]; return React.createElement("article", { key: id },
             React.createElement("div", null,
