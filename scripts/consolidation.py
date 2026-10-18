@@ -266,19 +266,33 @@ def consolidate_catalog(data, docs, library, knowledge_root=None):
             "ideas": ideas, "quotes": quotes, "iran": iran, "foreign": foreign, "papers": papers, "repos": repos, "pages": page_list,
             "image": first.get("image"), "imagePage": first.get("imagePage"), "lead": FAMILIES[family]["lead"],
             "search": " ".join([title, group_id, FAMILIES[family]["title"]] + [f"{x.get('id')} {x.get('title')} {x.get('key')}" for x in children]),
-            "docs": _unique([path] + old_docs), "definition": f"یک پروندهٔ ترکیبی برای {title} که چند واحد نزدیک را برای ارائهٔ مدیریتی در یک کارت جمع می‌کند.",
+            "docs": _unique([path] + old_docs), "definition": (
+                f"{CARD_CUSTOMER_COPY.get(group_id, notes[0])} "
+                f"این پروندهٔ مدیریتی {len(child_ids)} واحد نزدیک را در یک کارت جمع می‌کند؛ "
+                "دامنه، مالک اجرا، معیار موفقیت و هزینهٔ کامل باید پیش از تصمیم نهایی جداگانه مشخص شوند."
+            ),
         }
         if group_id in MARKETING_PAGES:
             p["image"] = f"ad-{group_id.lower()}.webp"
             p["imagePage"] = MARKETING_PAGES[group_id]
             p["imageKind"] = "concept"
-            p["definition"] = f"یک کارت مستقل برای قلم صفحهٔ {MARKETING_PAGES[group_id]} سند مدیر؛ متن و تصویر برای تصمیم‌گیری اولیه خلاصه شده است."
+            p["definition"] = (
+                f"{CARD_CUSTOMER_COPY[group_id]} این کارت مستقل از صفحهٔ "
+                f"{MARKETING_PAGES[group_id]} سند مدیر استخراج شده است؛ "
+                "تصویر و متن برای تصمیم اولیه‌اند و به‌تنهایی نصب، خرید یا نتیجهٔ قطعی را ثابت نمی‌کنند."
+            )
         if group_id == "VEND":
             p["image"] = "vending-neutral.webp"
             p["imagePage"] = None
-            p["definition"] = "یک کارت واحد برای همهٔ وندینگ‌ماشین‌های خوراکی و نوشیدنی؛ جزئیات هر دستگاه در آرشیو فرعی باقی است."
+            p["definition"] = (
+                f"{CARD_CUSTOMER_COPY['VEND']} این کارت واحد، {len(child_ids)} مدل یا واحد اولیهٔ وندینگ را جمع می‌کند؛ "
+                "قیمت هر مدل، ظرفیت، مواد مصرفی، خدمات و شرایط نگهداری باید جداگانه استعلام شود."
+            )
         if group_id == "M09":
-            p["definition"] = "یک کارت واحد برای ایستگاه ریفیل، ظرف چندبارمصرف و همهٔ اقلام قابل‌پرکردن مرتبط."
+            p["definition"] = (
+                f"{CARD_CUSTOMER_COPY['M09']} این کارت واحد، ایستگاه، ظرف چندبارمصرف و اقلام قابل‌پرکردن را کنار هم می‌بیند؛ "
+                "نوع محصول، بهداشت، وزن‌کشی، برچسب‌گذاری و تسویه باید در پایلوت مشخص شوند."
+            )
         active.append(p)
 
     for collection in (data.get("cases", []), data.get("quotes", [])):
