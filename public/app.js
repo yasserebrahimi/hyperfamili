@@ -36,6 +36,15 @@ const maturityTone = c => /توقف|شکست|تعطیل|تغییر/.test(c.matur
 const metric = p => baseIdea(p).kpi || p.case_ids.map(id => { var _a; return (_a = CC[id]) === null || _a === void 0 ? void 0 : _a.metric; }).filter(Boolean)[0] || 'خط پایه، کیفیت خدمت، زمان رسیدگی و هزینه کامل در دامنه منتخب باید تعریف شوند.';
 const reason = p => baseIdea(p).problem || p.perspectives.management;
 const evidenceLabel = p => { var _a, _b, _c; const casesCount = ((_a = p.case_ids) === null || _a === void 0 ? void 0 : _a.length) || 0, sourcesCount = (((_b = p.iran) === null || _b === void 0 ? void 0 : _b.length) || 0) + (((_c = p.foreign) === null || _c === void 0 ? void 0 : _c.length) || 0); return casesCount || sourcesCount ? [casesCount && fa(casesCount) + ' پرونده', sourcesCount && fa(sourcesCount) + ' منبع'].filter(Boolean).join(' · ') : 'بنچ‌مارک متصل نشده'; };
+const FAMILY_DETAIL = {
+    advertising: { scenario: 'در نقطه‌ای از مسیر خرید، محتوای مصوب نمایش یا پخش می‌شود؛ زمان، مکان، مالک محتوا و مجوز باید از ابتدا مشخص باشد.', output: 'خروجی قابل تحویل شامل جایگاه رسانه، برنامه محتوا، گزارش اجرا و سنجش اثر روی مراجعه یا فروش است.', requirements: 'مکان نصب، برق و شبکه، مجوز محتوا، برنامه نگهداری و خط پایه فروش باید بررسی شود.', metric: 'پخش موفق، تعامل یا مراجعه، درآمد/فروش افزایشی و شکایت مشتری.' },
+    automation: { scenario: 'تجهیز یا نرم‌افزار یک کار تکراری را در شعبه ثبت می‌کند و در صورت نیاز به سامانه مسئول متصل می‌شود.', output: 'خروجی قابل تحویل شامل جریان کاری ثبت‌شده، داده قابل گزارش، مسئول رسیدگی و مسیر خطا است.', requirements: 'اتصال به POS/WMS/ERP در صورت نیاز، شناسه کالا یا مکان، ایمنی و پذیرش کارکنان باید مشخص شود.', metric: 'زمان خدمت، خطا یا خرابی، کیفیت داده و پذیرش کارکنان.' },
+    'self-service': { scenario: 'مشتری بخشی از خرید یا خدمت را با راهنمایی و کنترل لازم خودش انجام می‌دهد.', output: 'خروجی قابل تحویل شامل خدمت ثبت‌شده، رسید یا تأیید و مسیر پشتیبانی است.', requirements: 'پرداخت، دسترسی‌پذیری، ایمنی، نظافت، نگهداشت و مسیر پشتیبانی باید آماده باشد.', metric: 'زمان تکمیل، نرخ موفقیت، خطای تراکنش و رضایت مشتری.' },
+    energy: { scenario: 'مصرف، دما یا وضعیت یک ناحیه و تجهیز اندازه‌گیری می‌شود و برای اقدام عملیاتی به مسئول گزارش می‌رسد.', output: 'خروجی قابل تحویل شامل خط پایه، داشبورد یا هشدار و فهرست اقدام اصلاحی است.', requirements: 'کنتور یا سنسور، شبکه، مالک انرژی، خط پایه و برنامه نگهداری لازم است.', metric: 'مصرف به ازای متر یا فروش، خرابی، هشدار معتبر و هزینه خدمت.' },
+    'ev-services': { scenario: 'فضای پارک یا شارژ وسیله نقلیه در کنار خرید با ظرفیت، رزرو، پرداخت و ایمنی مدیریت می‌شود.', output: 'خروجی قابل تحویل شامل ظرفیت قابل رزرو، شارژ ثبت‌شده، صورتحساب و گزارش استفاده است.', requirements: 'ظرفیت برق، مجوز، ایمنی، محل، تعرفه و مسئول نگهداری باید تثبیت شود.', metric: 'نرخ استفاده، زمان توقف، انرژی تحویلی، خرابی و حاشیه خدمت.' },
+    'customer-outside': { scenario: 'پس از خروج مشتری، پیام یا پاسخ در کانال مورد رضایت او ارسال و پیگیری می‌شود.', output: 'خروجی قابل تحویل شامل رضایت ثبت‌شده، پیام قابل ردیابی، پاسخ و مسیر رسیدگی است.', requirements: 'رضایت و لغو دریافت، مالک محتوا، اتصال CRM یا پیام‌رسان و قواعد حریم خصوصی لازم است.', metric: 'تحویل پیام، پاسخ، تبدیل یا بازگشت، شکایت و لغو دریافت.' }
+};
+const detailFields = p => { const idea = baseIdea(p), d = FAMILY_DETAIL[p.family] || FAMILY_DETAIL.automation, units = (p.children || []).map(x => x.title).filter(Boolean), unitText = units.length > 1 ? `این کارت ${fa(units.length)} واحد اولیه را زیر یک عنوان جمع می‌کند: ${units.slice(0, 6).join('، ')}${units.length > 6 ? ' و موارد بیشتر در آرشیو' : ''}.` : units.length === 1 ? `واحد اصلی این کارت: ${units[0]}.` : ''; return { what: p.card_blurb || p.definition, scenario: idea.flow || `برای «${p.title}»، ${d.scenario}`, output: idea.mvp || `برای این طرح، ${d.output}`, requirements: [idea.hardware, idea.data].filter(Boolean).join(' ') || `${d.requirements} دامنه این کارت باید در یک یا چند شعبه تثبیت شود.`, metric: idea.kpi || `${d.metric} این معیارها باید در پایلوت اندازه‌گیری شوند.`, coverage: [unitText, p.scope].filter(Boolean).join(' ') }; };
 const docFor = id => { var _a; return (_a = D.docs.find(d => d.path.split('/').pop().toLowerCase().startsWith(id.toLowerCase()))) === null || _a === void 0 ? void 0 : _a.path; };
 function download(name, content, type = 'text/plain;charset=utf-8') { const u = URL.createObjectURL(new Blob([content], { type })), a = document.createElement('a'); a.href = u; a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(u), 4000); }
 function original(name) { var _a; if ((_a = window.FAMILI_FILES) === null || _a === void 0 ? void 0 : _a[name]) {
@@ -538,11 +547,39 @@ function Global({ p, a }) { const foreign = p.case_ids.map(id => CC[id]).filter(
     foreign.length ? React.createElement("div", { className: "case-grid" }, foreign.map(c => React.createElement(CaseCard, { key: c.id, c: c, a: a }))) : !p.foreign.length ? React.createElement(Note, null, "\u0646\u0645\u0648\u0646\u0647 \u062E\u0627\u0631\u062C\u06CC \u0647\u0645\u200C\u062F\u0627\u0645\u0646\u0647 \u0628\u0647 \u0627\u06CC\u0646 \u06A9\u0627\u0631\u062A \u0645\u062A\u0635\u0644 \u0646\u0634\u062F\u0647\u061B \u0645\u062C\u0647\u0648\u0644 \u0631\u0627 \u0646\u062A\u06CC\u062C\u0647 \u0645\u0646\u0641\u06CC \u06CC\u0627 \u0627\u062B\u0628\u0627\u062A \u0646\u0628\u0648\u062F \u0645\u062D\u0635\u0648\u0644 \u0646\u0645\u06CC\u200C\u0646\u0627\u0645\u06CC\u0645.") : null,
     p.foreign.length > 0 && React.createElement("div", { className: "source-chips" }, p.foreign.map(id => React.createElement(Source, { key: id, id: id, a: a }))),
     p.foreign.length > 0 && React.createElement("p", { className: "caption" }, "\u0645\u0646\u0627\u0628\u0639 \u0628\u0627\u0644\u0627 \u0645\u0645\u06A9\u0646 \u0627\u0633\u062A \u0645\u0639\u0631\u0641\u06CC \u0645\u062D\u0635\u0648\u0644 \u0628\u0627\u0634\u0646\u062F\u060C \u0646\u0647 \u0645\u062D\u0644 \u0646\u0635\u0628 \u0646\u0627\u0645\u200C\u062F\u0627\u0631. \u0633\u0637\u062D \u0645\u0634\u0627\u0647\u062F\u0647 \u062F\u0631 \u067E\u0631\u0648\u0646\u062F\u0647 \u0645\u0646\u0628\u0639 \u0622\u0645\u062F\u0647 \u0627\u0633\u062A.")); }
+function DetailBrief({ p }) { let d = detailFields(p); return React.createElement("section", { className: "detail-brief" },
+    React.createElement(Heading, { title: "\u0634\u0631\u062D \u0627\u062C\u0631\u0627\u06CC\u06CC \u0648 \u0642\u0627\u0628\u0644 \u0627\u0631\u0627\u0626\u0647", text: "\u0627\u06CC\u0646 \u0628\u062E\u0634 \u0645\u06CC\u200C\u06AF\u0648\u06CC\u062F \u0637\u0631\u062D \u062F\u0631 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647 \u0686\u0647 \u0645\u06CC\u200C\u06A9\u0646\u062F\u060C \u0686\u0647 \u0686\u06CC\u0632\u06CC \u062A\u062D\u0648\u06CC\u0644 \u0645\u06CC\u200C\u062F\u0647\u062F \u0648 \u0642\u0628\u0644 \u0627\u0632 \u062A\u0635\u0645\u06CC\u0645 \u0686\u0647 \u0686\u06CC\u0632\u0647\u0627\u06CC\u06CC \u0628\u0627\u06CC\u062F \u0631\u0648\u0634\u0646 \u0634\u0648\u062F." }),
+    React.createElement("div", { className: "detail-brief-grid" },
+        React.createElement("section", null,
+            React.createElement("span", { className: "eyebrow" }, "\u06A9\u0627\u0631\u06A9\u0631\u062F \u0637\u0631\u062D"),
+            React.createElement("h3", null, "\u0686\u0647 \u06A9\u0627\u0631\u06CC \u0627\u0646\u062C\u0627\u0645 \u0645\u06CC\u200C\u062F\u0647\u062F\u061F"),
+            React.createElement("p", null, d.what)),
+        React.createElement("section", null,
+            React.createElement("span", { className: "eyebrow" }, "\u0633\u0646\u0627\u0631\u06CC\u0648\u06CC \u0627\u0633\u062A\u0641\u0627\u062F\u0647"),
+            React.createElement("h3", null, "\u062F\u0631 \u0641\u0631\u0648\u0634\u06AF\u0627\u0647 \u0686\u06AF\u0648\u0646\u0647 \u062F\u06CC\u062F\u0647 \u0645\u06CC\u200C\u0634\u0648\u062F\u061F"),
+            React.createElement("p", null, d.scenario)),
+        React.createElement("section", null,
+            React.createElement("span", { className: "eyebrow" }, "\u062E\u0631\u0648\u062C\u06CC \u0645\u0648\u0631\u062F \u0627\u0646\u062A\u0638\u0627\u0631"),
+            React.createElement("h3", null, "\u0686\u0647 \u0686\u06CC\u0632\u06CC \u062A\u062D\u0648\u06CC\u0644 \u0645\u06CC\u200C\u06AF\u06CC\u0631\u06CC\u0645\u061F"),
+            React.createElement("p", null, d.output)),
+        React.createElement("section", null,
+            React.createElement("span", { className: "eyebrow" }, "\u067E\u06CC\u0634\u200C\u0646\u06CC\u0627\u0632 \u0627\u062C\u0631\u0627"),
+            React.createElement("h3", null, "\u0686\u0647 \u0686\u06CC\u0632\u0647\u0627\u06CC\u06CC \u0628\u0627\u06CC\u062F \u0622\u0645\u0627\u062F\u0647 \u0628\u0627\u0634\u062F\u061F"),
+            React.createElement("p", null, d.requirements)),
+        React.createElement("section", null,
+            React.createElement("span", { className: "eyebrow" }, "\u0645\u0639\u06CC\u0627\u0631 \u0633\u0646\u062C\u0634"),
+            React.createElement("h3", null, "\u0645\u0648\u0641\u0642\u06CC\u062A \u0631\u0627 \u0628\u0627 \u0686\u0647 \u0645\u06CC\u200C\u0633\u0646\u062C\u06CC\u0645\u061F"),
+            React.createElement("p", null, d.metric)),
+        React.createElement("section", null,
+            React.createElement("span", { className: "eyebrow" }, "\u062F\u0627\u0645\u0646\u0647 \u0648 \u0648\u0627\u062D\u062F\u0647\u0627\u06CC \u067E\u0648\u0634\u0634\u200C\u062F\u0627\u062F\u0647\u200C\u0634\u062F\u0647"),
+            React.createElement("h3", null, "\u0627\u06CC\u0646 \u06A9\u0627\u0631\u062A \u062A\u0627 \u06A9\u062C\u0627 \u0631\u0627 \u067E\u0648\u0634\u0634 \u0645\u06CC\u200C\u062F\u0647\u062F\u061F"),
+            React.createElement("p", null, d.coverage)))); }
 function Proposal({ p, a }) { let idea = baseIdea(p); return React.createElement("div", { className: "detail-content" },
     React.createElement("section", { className: "definition" },
         React.createElement("small", null, "\u062A\u0648\u0636\u06CC\u062D \u062A\u062D\u0644\u06CC\u0644\u06CC \u0628\u0631\u0627\u06CC \u0627\u0631\u0627\u0626\u0647\u061B \u0646\u0647 \u0645\u0634\u062E\u0635\u0627\u062A \u0645\u0635\u0648\u0628 \u062E\u0631\u06CC\u062F"),
         React.createElement("h2", null, "\u0627\u06CC\u0646 \u0637\u0631\u062D \u062F\u0642\u06CC\u0642\u0627\u064B \u0686\u06CC\u0633\u062A\u061F"),
         React.createElement("p", null, p.definition)),
+    React.createElement(DetailBrief, { p: p }),
     React.createElement("div", { className: "two" },
         React.createElement("section", null,
             React.createElement("span", { className: "eyebrow" }, "\u0645\u0633\u0626\u0644\u0647 \u0648 \u0686\u0631\u0627\u06CC\u06CC"),
